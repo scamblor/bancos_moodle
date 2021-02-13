@@ -1,0 +1,3726 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<quiz>
+<!-- question: 0  -->
+  <question type="category">
+    <category>
+      <text>$course$/top/Valor por defecto para Tecnología 4º ESO</text>
+    </category>
+    <info format="moodle_auto_format">
+      <text>Categoría por defecto para preguntas compartidas en el contexto Tecnología 4º ESO.</text>
+    </info>
+    <idnumber></idnumber>
+  </question>
+
+<!-- question: 0  -->
+  <question type="category">
+    <category>
+      <text>$course$/top/Valor por defecto para Tecnología 4º ESO/neumatica</text>
+    </category>
+    <info format="moodle_auto_format">
+      <text></text>
+    </info>
+    <idnumber></idnumber>
+  </question>
+
+<!-- question: 12065  -->
+  <question type="calculated">
+    <name>
+      <text>ejer pascal</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[Si un cilindro neumático de {a}cm de radio es accionado con una presión de {b}kg/cm<sup>2 </sup>,¿Cuánto peso puede levantar?]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.1000000</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <synchronize>0</synchronize>
+    <single>0</single>
+    <answernumbering>abc</answernumbering>
+    <shuffleanswers>0</shuffleanswers>
+    <correctfeedback>
+      <text></text>
+    </correctfeedback>
+    <partiallycorrectfeedback>
+      <text></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback>
+      <text></text>
+    </incorrectfeedback>
+<answer fraction="100">
+    <text>+pi()*pow({a},2)*{b}</text>
+    <tolerance>0.3</tolerance>
+    <tolerancetype>1</tolerancetype>
+    <correctanswerformat>1</correctanswerformat>
+    <correctanswerlength>1</correctanswerlength>
+    <feedback format="html">
+<text></text>
+    </feedback>
+</answer>
+    <unitgradingtype>0</unitgradingtype>
+    <unitpenalty>0.1000000</unitpenalty>
+    <showunits>0</showunits>
+    <unitsleft>0</unitsleft>
+<units>
+  <unit>
+    <multiplier>1</multiplier>
+    <unit_name>Kg</unit_name>
+  </unit>
+</units>
+<dataset_definitions>
+<dataset_definition>
+    <status><text>private</text>
+</status>
+    <name><text>b</text>
+</name>
+    <type>calculated</type>
+    <distribution><text>uniform</text>
+</distribution>
+    <minimum><text>1.0</text>
+</minimum>
+    <maximum><text>10.0</text>
+</maximum>
+    <decimals><text>1</text>
+</decimals>
+    <itemcount>10</itemcount>
+    <dataset_items>
+        <dataset_item>
+           <number>1</number>
+           <value>3.3</value>
+        </dataset_item>
+        <dataset_item>
+           <number>2</number>
+           <value>3.9</value>
+        </dataset_item>
+        <dataset_item>
+           <number>3</number>
+           <value>9.1</value>
+        </dataset_item>
+        <dataset_item>
+           <number>4</number>
+           <value>7.2</value>
+        </dataset_item>
+        <dataset_item>
+           <number>5</number>
+           <value>4.4</value>
+        </dataset_item>
+        <dataset_item>
+           <number>6</number>
+           <value>9.4</value>
+        </dataset_item>
+        <dataset_item>
+           <number>7</number>
+           <value>2.2</value>
+        </dataset_item>
+        <dataset_item>
+           <number>8</number>
+           <value>1.4</value>
+        </dataset_item>
+        <dataset_item>
+           <number>9</number>
+           <value>4.3</value>
+        </dataset_item>
+        <dataset_item>
+           <number>10</number>
+           <value>9.2</value>
+        </dataset_item>
+    </dataset_items>
+    <number_of_items>10</number_of_items>
+</dataset_definition>
+<dataset_definition>
+    <status><text>private</text>
+</status>
+    <name><text>a</text>
+</name>
+    <type>calculated</type>
+    <distribution><text>uniform</text>
+</distribution>
+    <minimum><text>1.0</text>
+</minimum>
+    <maximum><text>10.0</text>
+</maximum>
+    <decimals><text>1</text>
+</decimals>
+    <itemcount>10</itemcount>
+    <dataset_items>
+        <dataset_item>
+           <number>1</number>
+           <value>4.0</value>
+        </dataset_item>
+        <dataset_item>
+           <number>2</number>
+           <value>5.0</value>
+        </dataset_item>
+        <dataset_item>
+           <number>3</number>
+           <value>4.1</value>
+        </dataset_item>
+        <dataset_item>
+           <number>4</number>
+           <value>5.1</value>
+        </dataset_item>
+        <dataset_item>
+           <number>5</number>
+           <value>4.4</value>
+        </dataset_item>
+        <dataset_item>
+           <number>6</number>
+           <value>3.4</value>
+        </dataset_item>
+        <dataset_item>
+           <number>7</number>
+           <value>9.4</value>
+        </dataset_item>
+        <dataset_item>
+           <number>8</number>
+           <value>6.7</value>
+        </dataset_item>
+        <dataset_item>
+           <number>9</number>
+           <value>2.6</value>
+        </dataset_item>
+        <dataset_item>
+           <number>10</number>
+           <value>7.0</value>
+        </dataset_item>
+    </dataset_items>
+    <number_of_items>10</number_of_items>
+</dataset_definition>
+</dataset_definitions>
+  </question>
+
+<!-- question: 12073  -->
+  <question type="description">
+    <name>
+      <text>interpretación y diseño</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[El examen incluirá preguntas de interpretación de circuitos neumáticos similares a las de los <a href="http://ibersia.com.es/av/mod/resource/view.php?inpopup=true&id=1021" target="_blank">ejercicios</a> y ejercicios de diseño que puedes preparar con <a href="http://www.pinotolosa.net/4eso/neumatica/ejercicios/dis.html" target="_blank">estos otros</a> ejercicios]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>0.0000000</defaultgrade>
+    <penalty>0.0000000</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+  </question>
+
+<!-- question: 12077  -->
+  <question type="matching">
+    <name>
+      <text>comparación aceite, agua, aire</text>
+    </name>
+    <questiontext format="html">
+      <text>Empareja</text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>2.0000000</defaultgrade>
+    <penalty>0.1000000</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <shuffleanswers>true</shuffleanswers>
+    <correctfeedback format="html">
+      <text></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text></text>
+    </incorrectfeedback>
+    <subquestion format="html">
+      <text>El aceite es...viscoso que el agua</text>
+      <answer>
+        <text>más</text>
+      </answer>
+    </subquestion>
+    <subquestion format="html">
+      <text>El aceite es...denso que el agua</text>
+      <answer>
+        <text>menos</text>
+      </answer>
+    </subquestion>
+    <subquestion format="html">
+      <text>El aire es...denso que el agua</text>
+      <answer>
+        <text>menos</text>
+      </answer>
+    </subquestion>
+    <subquestion format="html">
+      <text>El aceite es...viscoso que el aire</text>
+      <answer>
+        <text>más</text>
+      </answer>
+    </subquestion>
+    <subquestion format="html">
+      <text>El aire es...compresible que el agua</text>
+      <answer>
+        <text>más</text>
+      </answer>
+    </subquestion>
+  </question>
+
+<!-- question: 12069  -->
+  <question type="matching">
+    <name>
+      <text>comparación aceite, agua, aire</text>
+    </name>
+    <questiontext format="html">
+      <text>Empareja</text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>2.0000000</defaultgrade>
+    <penalty>0.5000000</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <shuffleanswers>true</shuffleanswers>
+    <correctfeedback format="html">
+      <text></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text></text>
+    </incorrectfeedback>
+    <subquestion format="html">
+      <text>El aceite es...viscoso que el agua</text>
+      <answer>
+        <text>más</text>
+      </answer>
+    </subquestion>
+    <subquestion format="html">
+      <text>El aceite es...denso que el agua</text>
+      <answer>
+        <text>menos</text>
+      </answer>
+    </subquestion>
+    <subquestion format="html">
+      <text>El aire es...denso que el agua</text>
+      <answer>
+        <text>menos</text>
+      </answer>
+    </subquestion>
+    <subquestion format="html">
+      <text>El aceite es...viscoso que el aire</text>
+      <answer>
+        <text>más</text>
+      </answer>
+    </subquestion>
+    <subquestion format="html">
+      <text>El aire es...compresible que el agua</text>
+      <answer>
+        <text>más</text>
+      </answer>
+    </subquestion>
+  </question>
+
+<!-- question: 12064  -->
+  <question type="matching">
+    <name>
+      <text>comparación neu-oleo</text>
+    </name>
+    <questiontext format="html">
+      <text>Compara la neumática y la oleohidráulica</text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>3.0000000</defaultgrade>
+    <penalty>0.1000000</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <shuffleanswers>true</shuffleanswers>
+    <correctfeedback format="html">
+      <text></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text></text>
+    </incorrectfeedback>
+    <subquestion format="html">
+      <text>Es mas barata</text>
+      <answer>
+        <text>neumática</text>
+      </answer>
+    </subquestion>
+    <subquestion format="html">
+      <text>Es más precisa</text>
+      <answer>
+        <text>oleohidráulica</text>
+      </answer>
+    </subquestion>
+    <subquestion format="html">
+      <text>Es más rápida</text>
+      <answer>
+        <text>oleohidráulica</text>
+      </answer>
+    </subquestion>
+    <subquestion format="html">
+      <text>Permite amplificar las fuerzas fácilmente</text>
+      <answer>
+        <text>las dos</text>
+      </answer>
+    </subquestion>
+    <subquestion format="html">
+      <text>Permite cambiar la direción de las fuerzas</text>
+      <answer>
+        <text>las dos</text>
+      </answer>
+    </subquestion>
+    <subquestion format="html">
+      <text>Necesita circuito de retorno</text>
+      <answer>
+        <text>oleohidráulica</text>
+      </answer>
+    </subquestion>
+  </question>
+
+<!-- question: 12075  -->
+  <question type="multichoice">
+    <name>
+      <text>cilindro dentro</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<img src="https://ibersia.ovh/tec/neumatica/simbolos/c1ef-f1.gif" alt="s" title="s" width="378" vspace="0" hspace="0" height="117" border="0" /><br /><br />Este elemento...]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>1.0000000</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <correctfeedback format="html">
+      <text></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text></text>
+    </incorrectfeedback>
+    <answer fraction="0" format="html">
+      <text>hace fuerza al salir</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text>hace fuerza al entrar</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>hace fuerza al salir y al entrar</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+  </question>
+
+<!-- question: 12076  -->
+  <question type="multichoice">
+    <name>
+      <text>cilindro doble fuerza</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<img src="https://ibersia.ovh/tec/neumatica/simbolos/c2eff1.gif" alt="s" title="s" width="378" vspace="0" hspace="0" height="117" border="0" /><br /><br />Este elemento...]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>1.0000000</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <correctfeedback format="html">
+      <text></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text></text>
+    </incorrectfeedback>
+    <answer fraction="0" format="html">
+      <text>hace fuerza al salir</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>hace fuerza al entrar</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text>hace fuerza al salir y al entrar</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+  </question>
+
+<!-- question: 12074  -->
+  <question type="multichoice">
+    <name>
+      <text>cilindro fuera</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<img src="https://ibersia.ovh/tec/neumatica/simbolos/c1ef-d1.gif" alt="s" title="s" width="382" vspace="0" hspace="0" height="117" border="0" /><br /><br />Este elemento...]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>1.0000000</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <correctfeedback format="html">
+      <text></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text></text>
+    </incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text>hace fuerza al salir</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>hace fuerza al entrar</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>hace fuerza al salir y al entrar</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+  </question>
+
+<!-- question: 12066  -->
+  <question type="shortanswer">
+    <name>
+      <text>compresibilidad</text>
+    </name>
+    <questiontext format="html">
+      <text>¿Qué propiedad de los fluídos es la que le quita la rapidez y la precisión a la neumática?</text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.1000000</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <usecase>0</usecase>
+    <answer fraction="100" format="plain_text">
+      <text>la compresibilidad</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="plain_text">
+      <text>compresibilidad</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+  </question>
+
+<!-- question: 12067  -->
+  <question type="shortanswer">
+    <name>
+      <text>compresibilidad 2</text>
+    </name>
+    <questiontext format="html">
+      <text>¿Cómo se llama la propiedad de los fluidos que les hace disminuir su volumen cuando está sometidos a presión?</text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.1000000</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <usecase>0</usecase>
+    <answer fraction="100" format="plain_text">
+      <text>la compresibilidad</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="plain_text">
+      <text>compresibilidad</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+  </question>
+
+<!-- question: 12071  -->
+  <question type="shortanswer">
+    <name>
+      <text>estrangulador</text>
+    </name>
+    <questiontext format="html">
+      <text>¿Cómo se llama el elemento que permite regular la velocidad del paso de fluido?</text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.1000000</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <usecase>0</usecase>
+    <answer fraction="100" format="plain_text">
+      <text>estrangulador</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="plain_text">
+      <text>estrangulamiento</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+  </question>
+
+<!-- question: 12070  -->
+  <question type="shortanswer">
+    <name>
+      <text>valvula1</text>
+    </name>
+    <questiontext format="html">
+      <text>¿Cómo se llaman los elementos de maniobra en la neumática?</text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.1000000</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <usecase>0</usecase>
+    <answer fraction="100" format="plain_text">
+      <text>válvulas</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+  </question>
+
+<!-- question: 12072  -->
+  <question type="shortanswer">
+    <name>
+      <text>valvula antiretorno</text>
+    </name>
+    <questiontext format="html">
+      <text>¿Cómo se llama el elemento que pernite el movimiento de un fluido en una sola dirección?</text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.1000000</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <usecase>0</usecase>
+    <answer fraction="100" format="plain_text">
+      <text>Válvula antirretorno</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+  </question>
+
+<!-- question: 12068  -->
+  <question type="shortanswer">
+    <name>
+      <text>Viscosidad</text>
+    </name>
+    <questiontext format="html">
+      <text>¿Qué propiedad de los fluidos es la que hace que cueste trabajo deformarlos?</text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.1000000</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <usecase>0</usecase>
+    <answer fraction="100" format="plain_text">
+      <text>La viscosidad</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="plain_text">
+      <text>viscosidad</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+  </question>
+
+<!-- question: 0  -->
+  <question type="category">
+    <category>
+      <text>$course$/top/Valor por defecto para Tecnología 4º ESO/neumatica/simbolos</text>
+    </category>
+    <info format="moodle_auto_format">
+      <text></text>
+    </info>
+    <idnumber></idnumber>
+  </question>
+
+<!-- question: 12098  -->
+  <question type="shortanswer">
+    <name>
+      <text>antirretorno</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<span class="Apple-style-span" style="font-family: 'times new roman'; "><div style="background-color: rgb(255, 255, 255); font-family: 'trebuchet ms', verdana, arial, helvetica, sans-serif; direction: ltr; ">¿Cómo se llama este elemento?</div><div style="background-color: rgb(255, 255, 255); font-family: 'trebuchet ms', verdana, arial, helvetica, sans-serif; direction: ltr; "><span class="Apple-style-span" style="background-color: rgb(255, 255, 255); "><img src="https://ibersia.ovh/tec/neumatica/s11.gif" alt="s" title="s" border="0" hspace="0" vspace="0" width="58" height="42" /><br /></span></div><div style="background-color: rgb(255, 255, 255); font-family: 'trebuchet ms', verdana, arial, helvetica, sans-serif; direction: ltr; "><span class="Apple-style-span" style="background-color: rgb(255, 255, 255); "><br /></span></div></span>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.1000000</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <usecase>0</usecase>
+    <answer fraction="100" format="plain_text">
+      <text>Válvula antirretorno</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+  </question>
+
+<!-- question: 12103  -->
+  <question type="shortanswer">
+    <name>
+      <text>cilindro 1</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[¿Cómo se llama este elemento?<br /><img hspace="0" height="113" width="372" vspace="0" border="0" title="s" alt="s" src="https://ibersia.ovh/tec/neumatica/s8.gif" /><br />]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.1000000</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <usecase>0</usecase>
+    <answer fraction="100" format="plain_text">
+      <text>cilindro de efecto simple con vástago fuera en reposo</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+  </question>
+
+<!-- question: 12104  -->
+  <question type="shortanswer">
+    <name>
+      <text>cilindro 2</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[¿Cómo se llama este elemento?<br /><img hspace="0" height="93" width="181" vspace="0" border="0" title="s" alt="s" src="https://ibersia.ovh/tec/neumatica/s9.gif" /><br />]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.1000000</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <usecase>0</usecase>
+    <answer fraction="100" format="plain_text">
+      <text>cilindro de efecto doble</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="plain_text">
+      <text>cilindro de doble efecto</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+  </question>
+
+<!-- question: 12105  -->
+  <question type="shortanswer">
+    <name>
+      <text>cilindro 3</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[¿Cómo se llama este elemento?<br /><img hspace="0" height="143" width="220" vspace="0" border="0" title="s" alt="s" src="https://ibersia.ovh/tec/neumatica/s6.gif" /><br />]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.1000000</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <usecase>0</usecase>
+    <answer fraction="100" format="plain_text">
+      <text>cilindro de efecto simple con vástago dentro en reposo</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+  </question>
+
+<!-- question: 12100  -->
+  <question type="shortanswer">
+    <name>
+      <text>compresor</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<img src="https://ibersia.ovh/tec/neumatica/simbolos/n2.gif" alt="s" title="s" border="0" /><br /><br />El dibujo representa ...<br />]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.5000000</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <usecase>0</usecase>
+    <answer fraction="100" format="plain_text">
+      <text>un compresor</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="plain_text">
+      <text>una fuente de presión</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+  </question>
+
+<!-- question: 12102  -->
+  <question type="shortanswer">
+    <name>
+      <text>compresor 2</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<img src="https://ibersia.ovh/tec/neumatica/simbolos/n1.gif" alt="s" title="s" width="87" vspace="0" hspace="0" height="83" border="0" /><br /><br />El dibujo representa ...<br />]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.5000000</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <usecase>0</usecase>
+    <answer fraction="100" format="plain_text">
+      <text>un compresor</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="plain_text">
+      <text>una fuente de presión</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+  </question>
+
+<!-- question: 12101  -->
+  <question type="shortanswer">
+    <name>
+      <text>escape</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<img src="https://ibersia.ovh/tec/neumatica/simbolos/n23.gif" alt="s" title="s" width="83" vspace="0" hspace="0" height="151" border="0" /><br /><br />El dibujo representa un...<br />]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.5000000</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <usecase>0</usecase>
+    <answer fraction="100" format="plain_text">
+      <text>escape</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+  </question>
+
+<!-- question: 12096  -->
+  <question type="shortanswer">
+    <name>
+      <text>estran</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[¿Cómo se llama este elemento?<br /><img hspace="0" height="55" width="72" vspace="0" border="0" title="s" alt="s" src="https://ibersia.ovh/tec/neumatica/s4.gif" />]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.1000000</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <usecase>0</usecase>
+    <answer fraction="100" format="plain_text">
+      <text>estrangulador</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="plain_text">
+      <text>Estrangulamiento</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+  </question>
+
+<!-- question: 12097  -->
+  <question type="shortanswer">
+    <name>
+      <text>presión</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[¿Cómo se llama este simbolo?<br /><img hspace="0" height="72" width="78" vspace="0" border="0" title="s" alt="s" src="https://ibersia.ovh/tec/neumatica/s10.gif" /><br />]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.1000000</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <usecase>0</usecase>
+    <answer fraction="100" format="plain_text">
+      <text>toma de presión</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="plain_text">
+      <text>Compresor</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+  </question>
+
+<!-- question: 12111  -->
+  <question type="shortanswer">
+    <name>
+      <text>rodillo</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[¿Cómo se llama este elemento?<div><span class="Apple-style-span" style="background-color: rgb(255, 255, 255); "><img src="https://ibersia.ovh/tec/neumatica/s14.gif" alt="s" title="s" border="0" hspace="0" vspace="0" width="56" height="54" /><br /></span></div>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.1000000</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <usecase>0</usecase>
+    <answer fraction="100" format="plain_text">
+      <text>Pulsador de rodillo</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+  </question>
+
+<!-- question: 12112  -->
+  <question type="shortanswer">
+    <name>
+      <text>rodillo escamoteable</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[¿Cómo se llama este elemento?<div><span class="Apple-style-span" style="background-color: rgb(255, 255, 255); "><img src="https://ibersia.ovh/tec/neumatica/s15.gif" alt="s" title="s" border="0" hspace="0" vspace="0" width="61" height="78" /><br /></span></div>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.1000000</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <usecase>0</usecase>
+    <answer fraction="100" format="plain_text">
+      <text>rodillo escamoteable</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+  </question>
+
+<!-- question: 12106  -->
+  <question type="shortanswer">
+    <name>
+      <text>v1</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<img src="https://ibersia.ovh/tec/neumatica/s1.gif" alt="s" title="s" border="0" hspace="0" vspace="0" width="221" height="120" />]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.1000000</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <usecase>0</usecase>
+    <answer fraction="100" format="plain_text">
+      <text>Válvula 2/2 con pulsador de seta y retorno de rodillo escamoteable</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+  </question>
+
+<!-- question: 12107  -->
+  <question type="shortanswer">
+    <name>
+      <text>v2</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<span class="Apple-style-span" style="font-family: 'times new roman'; "><div style="background-color: rgb(255, 255, 255); font-family: 'trebuchet ms', verdana, arial, helvetica, sans-serif; direction: ltr; ">¿Cómo se llama este elemento?</div><div style="background-color: rgb(255, 255, 255); font-family: 'trebuchet ms', verdana, arial, helvetica, sans-serif; direction: ltr; "><span class="Apple-style-span" style="background-color: rgb(255, 255, 255); "><img src="https://ibersia.ovh/tec/neumatica/s2.gif" alt="s" title="s" border="0" hspace="0" vspace="0" width="204" height="110" /><br /></span></div></span>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.1000000</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <usecase>0</usecase>
+    <answer fraction="100" format="plain_text">
+      <text>Válvula 4/2 con pulsador de palanca y retorno de rodillo</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+  </question>
+
+<!-- question: 12108  -->
+  <question type="shortanswer">
+    <name>
+      <text>v3</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<span class="Apple-style-span" style="font-family: 'times new roman'; "><div style="background-color: rgb(255, 255, 255); font-family: 'trebuchet ms', verdana, arial, helvetica, sans-serif; direction: ltr; "><span class="Apple-style-span" style="font-family: 'times new roman'; "><div style="background-color: rgb(255, 255, 255); font-family: 'trebuchet ms', verdana, arial, helvetica, sans-serif; direction: ltr; ">¿Cómo se llama este elemento?</div><div style="background-color: rgb(255, 255, 255); font-family: 'trebuchet ms', verdana, arial, helvetica, sans-serif; direction: ltr; "><span class="Apple-style-span" style="background-color: rgb(255, 255, 255); "><img src="https://ibersia.ovh/tec/neumatica/s3.gif" alt="s" title="s" border="0" hspace="0" vspace="0" width="191" height="92" /><br /></span></div></span></div></span>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.1000000</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <usecase>0</usecase>
+    <answer fraction="100" format="plain_text">
+      <text>Válvula 5/2 con pulsador de pedal y retorno de muelle</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+  </question>
+
+<!-- question: 12110  -->
+  <question type="shortanswer">
+    <name>
+      <text>V4</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[¿Cómo se llama este elemento?<div><span class="Apple-style-span" style="background-color: rgb(255, 255, 255); "><img src="https://ibersia.ovh/tec/neumatica/s13.gif" alt="s" title="s" border="0" hspace="0" vspace="0" width="177" height="62" /><br /></span></div>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.1000000</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <usecase>0</usecase>
+    <answer fraction="100" format="plain_text">
+      <text>Válvula 3/2 con pulsador de seta y retorno de muelle</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+  </question>
+
+<!-- question: 12109  -->
+  <question type="shortanswer">
+    <name>
+      <text>v7</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[¿Cómo se llama este elemento?<div><span class="Apple-style-span" style="background-color: rgb(255, 255, 255); "><img src="https://ibersia.ovh/tec/neumatica/s7.gif" alt="s" title="s" border="0" hspace="0" vspace="0" width="258" height="120" /><br /></span></div>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.1000000</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <usecase>0</usecase>
+    <answer fraction="100" format="plain_text">
+      <text>Válvula 4/3 con pulsador de seta y retorno electropilotado</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+  </question>
+
+<!-- question: 0  -->
+  <question type="category">
+    <category>
+      <text>$course$/top/Valor por defecto para Tecnología 4º ESO/neumatica/interpretación</text>
+    </category>
+    <info format="moodle_auto_format">
+      <text></text>
+    </info>
+    <idnumber></idnumber>
+  </question>
+
+<!-- question: 12223  -->
+  <question type="essay">
+    <name>
+      <text>interpretacion 16</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<span class="Apple-style-span" style="font-family: arial, helvetica, sans-serif; font-size: 16px; ">Describe el funcionamiento  del siguiente circuito (donde están los actuadores en reposo –sin pulsar nada- y qué sucede al pulsar y soltar cada uno de los pulsadores).</span><br /><div><img src="https://ibersia.ovh/tec/neumatica/circuitos/circuito16.JPG" alt="c" title="c" border="0" hspace="0" vspace="0" width="393" height="303" /><br /></div>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>4.0000000</defaultgrade>
+    <penalty>0.0000000</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <responseformat>editor</responseformat>
+    <responserequired>1</responserequired>
+    <responsefieldlines>15</responsefieldlines>
+    <attachments>0</attachments>
+    <attachmentsrequired>0</attachmentsrequired>
+    <graderinfo format="html">
+      <text></text>
+    </graderinfo>
+    <responsetemplate format="html">
+      <text></text>
+    </responsetemplate>
+  </question>
+
+<!-- question: 12224  -->
+  <question type="essay">
+    <name>
+      <text>interpretación 18</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<span class="Apple-style-span" style="font-family: arial, helvetica, sans-serif; font-size: 15px; ">Describe el funcionamiento  del siguiente circuito (donde están los actuadores en reposo –sin pulsar nada- y qué sucede al pulsar y soltar cada uno de los pulsadores).</span><div><span class="Apple-style-span" style="font-family: arial, helvetica, sans-serif; font-size: 15px; "><img src="https://ibersia.ovh/tec/neumatica/circuitos/circuito18.JPG" alt="c" title="c" border="0" hspace="0" vspace="0" width="216" height="276" /><br /></span></div>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>3.0000000</defaultgrade>
+    <penalty>0.0000000</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <responseformat>editor</responseformat>
+    <responserequired>1</responserequired>
+    <responsefieldlines>15</responsefieldlines>
+    <attachments>0</attachments>
+    <attachmentsrequired>0</attachmentsrequired>
+    <graderinfo format="html">
+      <text></text>
+    </graderinfo>
+    <responsetemplate format="html">
+      <text></text>
+    </responsetemplate>
+  </question>
+
+<!-- question: 0  -->
+  <question type="category">
+    <category>
+      <text>$course$/top/Valor por defecto para Tecnología 4º ESO/neumatica/disenno</text>
+    </category>
+    <info format="moodle_auto_format">
+      <text></text>
+    </info>
+    <idnumber></idnumber>
+  </question>
+
+<!-- question: 12225  -->
+  <question type="essay">
+    <name>
+      <text>disenno 1 cilindro doble</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[Modifica el siguiente esquema para que la salida del vástago sea lenta, pero la entrada rápida. La respuesta es el dibujo del esquema en papel, con nombre.<div><img src="https://ibersia.ovh/tec/neumatica/circuitos/circuito6.JPG" alt="c" title="c" border="0" hspace="0" vspace="0" width="282" height="399" /><br /></div>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>2.0000000</defaultgrade>
+    <penalty>0.0000000</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <responseformat>editor</responseformat>
+    <responserequired>1</responserequired>
+    <responsefieldlines>15</responsefieldlines>
+    <attachments>0</attachments>
+    <attachmentsrequired>0</attachmentsrequired>
+    <graderinfo format="html">
+      <text></text>
+    </graderinfo>
+    <responsetemplate format="html">
+      <text></text>
+    </responsetemplate>
+  </question>
+
+<!-- question: 0  -->
+  <question type="category">
+    <category>
+      <text>$course$/top/Valor por defecto para Tecnología 4º ESO/neumatica/ensayos neumatica</text>
+    </category>
+    <info format="moodle_auto_format">
+      <text></text>
+    </info>
+    <idnumber></idnumber>
+  </question>
+
+<!-- question: 12427  -->
+  <question type="essay">
+    <name>
+      <text>manual/mecánico</text>
+    </name>
+    <questiontext format="html">
+      <text>¿Qué diferencia hay entre los pulsadores manuales y los mecánicos?</text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.0000000</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <responseformat>editor</responseformat>
+    <responserequired>1</responserequired>
+    <responsefieldlines>15</responsefieldlines>
+    <attachments>0</attachments>
+    <attachmentsrequired>0</attachmentsrequired>
+    <graderinfo format="html">
+      <text></text>
+    </graderinfo>
+    <responsetemplate format="html">
+      <text></text>
+    </responsetemplate>
+  </question>
+
+<!-- question: 12428  -->
+  <question type="essay">
+    <name>
+      <text>pascal</text>
+    </name>
+    <questiontext format="html">
+      <text>Enuncia el principio de Pascal</text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.0000000</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <responseformat>editor</responseformat>
+    <responserequired>1</responserequired>
+    <responsefieldlines>15</responsefieldlines>
+    <attachments>0</attachments>
+    <attachmentsrequired>0</attachmentsrequired>
+    <graderinfo format="html">
+      <text></text>
+    </graderinfo>
+    <responsetemplate format="html">
+      <text></text>
+    </responsetemplate>
+  </question>
+
+<!-- question: 12429  -->
+  <question type="essay">
+    <name>
+      <text>pascal2</text>
+    </name>
+    <questiontext format="html">
+      <text>El principio de Pascal permite que las máquinas hidráulicas y neumáticas tengan dos efectos muy interesantes, ¿cuáles?</text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>2.0000000</defaultgrade>
+    <penalty>0.0000000</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <responseformat>editor</responseformat>
+    <responserequired>1</responserequired>
+    <responsefieldlines>15</responsefieldlines>
+    <attachments>0</attachments>
+    <attachmentsrequired>0</attachmentsrequired>
+    <graderinfo format="html">
+      <text></text>
+    </graderinfo>
+    <responsetemplate format="html">
+      <text></text>
+    </responsetemplate>
+  </question>
+
+<!-- question: 12426  -->
+  <question type="essay">
+    <name>
+      <text>rodillo2</text>
+    </name>
+    <questiontext format="html">
+      <text>¿Qué diferencia existe en el funcionamiento de un pulsador mecánico normal y uno de rodillo?</text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.0000000</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <responseformat>editor</responseformat>
+    <responserequired>1</responserequired>
+    <responsefieldlines>15</responsefieldlines>
+    <attachments>0</attachments>
+    <attachmentsrequired>0</attachmentsrequired>
+    <graderinfo format="html">
+      <text></text>
+    </graderinfo>
+    <responsetemplate format="html">
+      <text></text>
+    </responsetemplate>
+  </question>
+
+<!-- question: 12425  -->
+  <question type="essay">
+    <name>
+      <text>rodillos</text>
+    </name>
+    <questiontext format="html">
+      <text>¿Qué diferencia  de funcionamiento hay entre un pulsador de rodillo y uno de rodillo escamoteable?</text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.0000000</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <responseformat>editor</responseformat>
+    <responserequired>1</responserequired>
+    <responsefieldlines>15</responsefieldlines>
+    <attachments>0</attachments>
+    <attachmentsrequired>0</attachmentsrequired>
+    <graderinfo format="html">
+      <text></text>
+    </graderinfo>
+    <responsetemplate format="html">
+      <text></text>
+    </responsetemplate>
+  </question>
+
+<!-- question: 12431  -->
+  <question type="shortanswer">
+    <name>
+      <text>pascal</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[Enuncia el principio de pascal<div>Esta es una posible pregunta de ensayo. Da igual lo que contestes en el cuestionario de práctica, te lo pondrá mal. Necesita corrección manual y esa sólo se realizará en el examen</div>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.1000000</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <usecase>0</usecase>
+    <answer fraction="100" format="plain_text">
+      <text>*</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+  </question>
+
+<!-- question: 12432  -->
+  <question type="shortanswer">
+    <name>
+      <text>pascal2</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[El principio de Pascal permite que las máquinas hidráulicas y neumáticas tengan dos efectos muy interesantes, ¿cuáles?<div><br /></div><div>Esta es una posible pregunta de ensayo. Da igual lo que contestes en el cuestionario de práctica, te lo pondrá mal. Necesita corrección manual y esa sólo se realizará en el examen</div>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.1000000</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <usecase>0</usecase>
+    <answer fraction="100" format="plain_text">
+      <text>*</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+  </question>
+
+<!-- question: 12430  -->
+  <question type="shortanswer">
+    <name>
+      <text>pulsadores manuales/mecánicos</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[¿Qué diferencia hay entre los pulsadores manuales y los mecánicos?<br />
+ <div>Esta es una posible pregunta de ensayo. Da igual lo que contestes en el cuestionario de práctica, te lo pondrá mal. Necesita corrección manual y esa sólo se realizará en el examen</div>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.1000000</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <usecase>0</usecase>
+    <answer fraction="100" format="plain_text">
+      <text>*</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+  </question>
+
+<!-- question: 12433  -->
+  <question type="shortanswer">
+    <name>
+      <text>rodillos</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[¿Qué diferencia  de funcionamiento hay entre un pulsador de rodillo y uno de rodillo escamoteable?<div><div><br /></div><div>Esta es una posible pregunta de ensayo. Da igual lo que contestes en el cuestionario de práctica, te lo pondrá mal. Necesita corrección manual y esa sólo se realizará en el examen</div></div>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.1000000</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <usecase>0</usecase>
+    <answer fraction="100" format="plain_text">
+      <text>*</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+  </question>
+
+<!-- question: 12434  -->
+  <question type="shortanswer">
+    <name>
+      <text>rodillos 2</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<div>La siguiente es una posible pregunta que no tiene corrección automática. Da igual lo que pongas, te la pondrá mal, pero en el examen, si sale, se corregirá a mano.</div><div><br /></div>¿Qué diferencia existe en el funcionamiento de un pulsador mecánico normal y uno de rodillo?<br />
+ <div><br /></div>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>0.0000000</defaultgrade>
+    <penalty>0.1000000</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <usecase>0</usecase>
+    <answer fraction="100" format="plain_text">
+      <text>*</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+  </question>
+
+<!-- question: 0  -->
+  <question type="category">
+    <category>
+      <text>$course$/top/Valor por defecto para Tecnología 4º ESO/neumatica/simbolos/valvulas 1</text>
+    </category>
+    <info format="moodle_auto_format">
+      <text>sin pulsadores</text>
+    </info>
+    <idnumber></idnumber>
+  </question>
+
+<!-- question: 13358  -->
+  <question type="shortanswer">
+    <name>
+      <text>2/2</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[¿Cómo se llama este elemento?<br /><img src="https://ibersia.ovh/tec/neumatica/simbolos/d5.gif" alt="e" title="e" width="231" vspace="0" hspace="0" height="117" border="0" /><br />]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.5000000</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <usecase>0</usecase>
+    <answer fraction="100" format="plain_text">
+      <text>válvula 2/2</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+  </question>
+
+<!-- question: 13359  -->
+  <question type="shortanswer">
+    <name>
+      <text>3/2</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[¿Cómo se llama este elemento?<br /><img src="https://ibersia.ovh/tec/neumatica/simbolos/d6.gif" alt="e" title="e" width="231" vspace="0" hspace="0" height="119" border="0" /><br />]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.5000000</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <usecase>0</usecase>
+    <answer fraction="100" format="plain_text">
+      <text>válvula 3/2</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+  </question>
+
+<!-- question: 13360  -->
+  <question type="shortanswer">
+    <name>
+      <text>3/3</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[¿Cómo se llama este elemento?<br /><img src="https://ibersia.ovh/tec/neumatica/simbolos/d2.gif" alt="e" title="e" width="344" vspace="0" hspace="0" height="119" border="0" /><br />]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.5000000</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <usecase>0</usecase>
+    <answer fraction="100" format="plain_text">
+      <text>válvula 3/3</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+  </question>
+
+<!-- question: 13361  -->
+  <question type="shortanswer">
+    <name>
+      <text>4/2</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[¿Cómo se llama este elemento?<br /><img src="https://ibersia.ovh/tec/neumatica/simbolos/d7.gif" alt="e" title="e" width="231" vspace="0" hspace="0" height="117" border="0" /><br />]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.5000000</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <usecase>0</usecase>
+    <answer fraction="100" format="plain_text">
+      <text>válvula 4/2</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+  </question>
+
+<!-- question: 13363  -->
+  <question type="shortanswer">
+    <name>
+      <text>4/3</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[¿Cómo se llama este elemento?<br /><img src="https://ibersia.ovh/tec/neumatica/simbolos/d1.gif" alt="e" title="e" width="344" vspace="0" hspace="0" height="117" border="0" /><br />]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.5000000</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <usecase>0</usecase>
+    <answer fraction="100" format="plain_text">
+      <text>válvula 4/3</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+  </question>
+
+<!-- question: 13362  -->
+  <question type="shortanswer">
+    <name>
+      <text>5/2</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[¿Cómo se llama este elemento?<br /><img src="https://ibersia.ovh/tec/neumatica/simbolos/d4.gif" alt="e" title="e" width="231" vspace="0" hspace="0" height="121" border="0" /><br />]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.5000000</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <usecase>0</usecase>
+    <answer fraction="100" format="plain_text">
+      <text>válvula 5/2</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+  </question>
+
+<!-- question: 13364  -->
+  <question type="shortanswer">
+    <name>
+      <text>5/4 2</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[¿Cómo se llama este elemento?<br /><img src="https://ibersia.ovh/tec/neumatica/simbolos/d3.gif" alt="e" title="e" width="457" vspace="0" hspace="0" height="123" border="0" /><br />]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.5000000</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <usecase>0</usecase>
+    <answer fraction="100" format="plain_text">
+      <text>válvula 5/4</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+  </question>
+
+<!-- question: 0  -->
+  <question type="category">
+    <category>
+      <text>$course$/top/Valor por defecto para Tecnología 4º ESO/neumatica/simbolos/valvulas 2</text>
+    </category>
+    <info format="moodle_auto_format">
+      <text>rellenando huecos</text>
+    </info>
+    <idnumber></idnumber>
+  </question>
+
+<!-- question: 13368  -->
+  <question type="cloze">
+    <name>
+      <text>2/2 1</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[¿Qué elemento representa este símbolo?<br /><img height="117" width="346" vspace="0" hspace="0" border="0" src="https://ibersia.ovh/tec/neumatica/simbolos/e1.gif" alt="s" title="s" /><br /><br />{1:SA:=válvula} {1:SA:=2} / {1:SA:=2} con pulsador de <br />{1:SA:=seta} y retorno de {1:SA:=muelle} <br /><br />]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <penalty>0.5000000</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+  </question>
+
+<!-- question: 13372  -->
+  <question type="cloze">
+    <name>
+      <text>3/2 2</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[¿Qué elemento representa este símbolo?<br /><br /><img height="119" width="310" vspace="0" hspace="0" border="0" src="https://ibersia.ovh/tec/neumatica/simbolos/e2.gif" alt="s" title="s" /><br />{1:SA:=válvula} {1:SA:=3} / {1:SA:=2} con pulsador de <br />{1:SA:=pedal} y retorno de {1:SA:=muelle} <br /><br />]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <penalty>0.5000000</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+  </question>
+
+<!-- question: 13373  -->
+  <question type="cloze">
+    <name>
+      <text>3/2 3</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[¿Qué elemento representa este símbolo?<br /><br /><img height="119" width="363" vspace="0" hspace="0" border="0" src="https://ibersia.ovh/tec/neumatica/simbolos/e3.gif" alt="s" title="s" /><br />{1:SA:=válvula} {1:SA:=3} / {1:SA:=2} con pulsador de <br />{1:SA:=rodillo} y retorno de {1:SA:=muelle} <br /><br />]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <penalty>0.5000000</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+  </question>
+
+<!-- question: 13374  -->
+  <question type="cloze">
+    <name>
+      <text>3/2 4</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[¿Qué elemento representa este símbolo?<br /><br /><img height="119" width="314" vspace="0" hspace="0" border="0" src="https://ibersia.ovh/tec/neumatica/simbolos/e4.gif" alt="s" title="s" /><br />{1:SA:=válvula} {1:SA:=3} / {1:SA:=2} con pulsador de <br />{1:SA:=palanca} y retorno de {1:SA:=muelle} <br /><br />]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <penalty>0.5000000</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+  </question>
+
+<!-- question: 13375  -->
+  <question type="cloze">
+    <name>
+      <text>3/2 5</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[¿Qué elemento representa este símbolo?<br /><br /><img vspace="0" hspace="0" border="0" src="https://ibersia.ovh/tec/neumatica/simbolos/e5.gif" alt="s" title="s" /><br />{1:SA:=válvula} {1:SA:=3} / {1:SA:=2} con pulsador <br />{1:SA:=eléctrico} y retorno de {1:SA:=muelle} <br /><br />]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <penalty>0.5000000</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+  </question>
+
+<!-- question: 13376  -->
+  <question type="cloze">
+    <name>
+      <text>3/2 6</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[¿Qué elemento representa este símbolo?<br /><br /><img vspace="0" hspace="0" border="0" title="s" alt="s" src="https://ibersia.ovh/tec/neumatica/simbolos/e6.gif" /><br />{1:SA:=válvula} {1:SA:=3} / {1:SA:=2} con pulsador de <br />{1:SA:=rodillo escamoteable} y retorno {1:SA:=neumático} <br /><br />]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <penalty>0.5000000</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+  </question>
+
+<!-- question: 13377  -->
+  <question type="cloze">
+    <name>
+      <text>3/3 1</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[¿Qué elemento representa este símbolo?<br /><br /><img vspace="0" hspace="0" border="0" src="https://ibersia.ovh/tec/neumatica/simbolos/e7.gif" alt="s" title="s" /><br />{1:SA:=válvula} {1:SA:=4} / {1:SA:=3} con pulsador <br />{1:SA:=mecánico} y retorno de {1:SA:=muelle} <br /><br />]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <penalty>0.5000000</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+  </question>
+
+<!-- question: 13378  -->
+  <question type="cloze">
+    <name>
+      <text>3/3 2</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[¿Qué elemento representa este símbolo?<br /><br /><img vspace="0" hspace="0" border="0" src="https://ibersia.ovh/tec/neumatica/simbolos/e8.gif" alt="s" title="s" /><br />{1:SA:=válvula} {1:SA:=4} / {1:SA:=3} con pulsador <br />{1:SA:=neumático} y retorno de {1:SA:=muelle} <br /><br />]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <penalty>0.5000000</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+  </question>
+
+<!-- question: 13370  -->
+  <question type="cloze">
+    <name>
+      <text>4/2 1</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[¿Qué elemento representa este símbolo?<br /><br /><img width="310" vspace="0" hspace="0" border="0" height="117" title="s" alt="s" src="https://ibersia.ovh/tec/neumatica/simbolos/e11.gif" /><br />{1:SA:=válvula} {1:SA:=4} / {1:SA:=2} con pulsador de <br />{1:SA:=palanca} y retorno {1:SA:=eléctrico} <br /><br />]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <penalty>0.5000000</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+  </question>
+
+<!-- question: 13371  -->
+  <question type="cloze">
+    <name>
+      <text>4/2 2</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[¿Qué elemento representa este símbolo?<br /><br /><img width="335" vspace="0" hspace="0" border="0" height="117" title="2" alt="2" src="https://ibersia.ovh/tec/neumatica/simbolos/e12.gif" /><br />{1:SA:=válvula} {1:SA:=4} / {1:SA:=2} con pulsador de <br />{1:SA:=seta} y retorno {1:SA:=neumático} <br /><br />]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <penalty>0.5000000</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+  </question>
+
+<!-- question: 13369  -->
+  <question type="cloze">
+    <name>
+      <text>4/3 1</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[¿Qué elemento representa este símbolo?<br /><br /><img src="https://ibersia.ovh/tec/neumatica/simbolos/e10.gif" alt="s" title="s" width="491" vspace="0" hspace="0" height="129" border="0" /><br />{1:SA:=válvula} {1:SA:=4} / {1:SA:=3} con pulsador de <br />{1:SA:=palanca~= rodillo escamoteable} y retorno de {1:SA:=rodillo escamoteable~=palanca} <br /><br />]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <penalty>0.5000000</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+  </question>
+
+<!-- question: 13379  -->
+  <question type="cloze">
+    <name>
+      <text>4/3 2</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[¿Qué elemento representa este símbolo?<br /><br /><img vspace="0" hspace="0" border="0" title="s" alt="s" src="https://ibersia.ovh/tec/neumatica/simbolos/e9.gif" /><br />{1:SA:=válvula} {1:SA:=4} / {1:SA:=3} con pulsador de <br />{1:SA:=rodillo} y retorno de {1:SA:=muelle} <br /><br />]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <penalty>0.5000000</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+  </question>
+
+<!-- question: 0  -->
+  <question type="category">
+    <category>
+      <text>$course$/top/Valor por defecto para Tecnología 4º ESO/neumatica/simbolos/cilindros 1</text>
+    </category>
+    <info format="moodle_auto_format">
+      <text></text>
+    </info>
+    <idnumber></idnumber>
+  </question>
+
+<!-- question: 13443  -->
+  <question type="cloze">
+    <name>
+      <text>cilindro efecto doble</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<br /><img width="378" vspace="0" border="0" hspace="0" height="117" title="s" alt="s" src="https://ibersia.ovh/tec/neumatica/simbolos/c2eff1.gif" /><br /><br />Este símbolo representa un {1:SA:=cilindro} de efecto {1:SA:=doble} <br /><br />]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <penalty>0.5000000</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+  </question>
+
+<!-- question: 13444  -->
+  <question type="cloze">
+    <name>
+      <text>cilindro efecto simple dentro</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<br /><img width="382" vspace="0" border="0" hspace="0" height="117" src="https://ibersia.ovh/tec/neumatica/simbolos/c1ef-d1.gif" alt="s" title="s" /><br /><br />Este símbolo representa un {1:SA:=cilindro} de efecto {1:SA:=simple} con {1:SA:= vástago} {1:SA:= dentro} en reposo<br /><br />]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <penalty>0.5000000</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+  </question>
+
+<!-- question: 13445  -->
+  <question type="cloze">
+    <name>
+      <text>cilindro efecto simple fuera</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<br /><img width="378" vspace="0" border="0" hspace="0" height="117" title="s" alt="s" src="https://ibersia.ovh/tec/neumatica/simbolos/c1ef-f1.gif" /><br /><br />Este símbolo representa un {1:SA:=cilindro} de efecto {1:SA:=simple} con {1:SA:= vástago} {1:SA:= fuera} en reposo<br /><br />]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <penalty>0.5000000</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+  </question>
+
+<!-- question: 0  -->
+  <question type="category">
+    <category>
+      <text>$course$/top/Valor por defecto para Tecnología 4º ESO/neumatica/simbolos/cilindros 2</text>
+    </category>
+    <info format="moodle_auto_format">
+      <text></text>
+    </info>
+    <idnumber></idnumber>
+  </question>
+
+<!-- question: 13459  -->
+  <question type="shortanswer">
+    <name>
+      <text>cilindro doble</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<img src="https://ibersia.ovh/tec/neumatica/simbolos/c2eff1.gif" alt="s" title="s" width="378" vspace="0" hspace="0" height="117" border="0" /><br /><br />Este smbolo representa un...]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.1000000</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <usecase>0</usecase>
+    <answer fraction="100" format="plain_text">
+      <text>cilindro de efecto doble</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+  </question>
+
+<!-- question: 13457  -->
+  <question type="shortanswer">
+    <name>
+      <text>cilindro simple dentro</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<img src="https://ibersia.ovh/tec/neumatica/simbolos/c1ef-d1.gif" alt="s" title="s" width="382" vspace="0" hspace="0" height="117" border="0" /><br /><br />Este smbolo representa un...]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.1000000</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <usecase>0</usecase>
+    <answer fraction="100" format="plain_text">
+      <text>cilindro de efecto simple con vástago dentro en reposo</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+  </question>
+
+<!-- question: 13458  -->
+  <question type="shortanswer">
+    <name>
+      <text>cilindro simple fuera</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<img src="https://ibersia.ovh/tec/neumatica/simbolos/c1ef-f1.gif" alt="s" title="s" width="378" vspace="0" hspace="0" height="117" border="0" /><br /><br />Este símbolo representa un...]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.1000000</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <usecase>0</usecase>
+    <answer fraction="100" format="plain_text">
+      <text>cilindro de efecto simple con vástago fuera en reposo</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+  </question>
+
+<!-- question: 0  -->
+  <question type="category">
+    <category>
+      <text>$course$/top/Valor por defecto para Tecnología 4º ESO/neumatica/simbolos/pulsadores</text>
+    </category>
+    <info format="moodle_auto_format">
+      <text></text>
+    </info>
+    <idnumber></idnumber>
+  </question>
+
+<!-- question: 13467  -->
+  <question type="shortanswer">
+    <name>
+      <text>palanca</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<img border="0" title="s" alt="s" src="https://ibersia.ovh/tec/neumatica/simbolos/n8.gif" /><br /><br />El dibujo representa un...<br />]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.5000000</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <usecase>0</usecase>
+    <answer fraction="100" format="plain_text">
+      <text>pulsador de palanca</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="plain_text">
+      <text>pulsador manual de seta</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+  </question>
+
+<!-- question: 13468  -->
+  <question type="shortanswer">
+    <name>
+      <text>pedal</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<img border="0" title="s" alt="s" src="https://ibersia.ovh/tec/neumatica/simbolos/n9.gif" /><br /><br />El dibujo representa un...<br />]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.5000000</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <usecase>0</usecase>
+    <answer fraction="100" format="plain_text">
+      <text>pulsador de pedal</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="plain_text">
+      <text>pulsador manual de seta</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+  </question>
+
+<!-- question: 13465  -->
+  <question type="shortanswer">
+    <name>
+      <text>p eléctrico</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<img border="0" title="s" alt="s" src="https://ibersia.ovh/tec/neumatica/simbolos/n14.gif" /><br /><br />El dibujo representa un...<br />]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.5000000</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <usecase>0</usecase>
+    <answer fraction="100" format="plain_text">
+      <text>pulsador eléctrico</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="plain_text">
+      <text>pulsador manual de seta</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+  </question>
+
+<!-- question: 13466  -->
+  <question type="shortanswer">
+    <name>
+      <text>p mecánico</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<img width="70" vspace="0" border="0" hspace="0" height="42" title="s" alt="s" src="https://ibersia.ovh/tec/neumatica/simbolos/n7.gif" /><br /><br />El dibujo representa un...<br />]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.5000000</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <usecase>0</usecase>
+    <answer fraction="100" format="plain_text">
+      <text>pulsador mecánico</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="plain_text">
+      <text>pulsador mecánico genérico</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+  </question>
+
+<!-- question: 13464  -->
+  <question type="shortanswer">
+    <name>
+      <text>p neumático</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<img src="https://ibersia.ovh/tec/neumatica/simbolos/n13.gif" alt="s" title="s" width="42" vspace="0" hspace="0" height="42" border="0" /><br /><br />El dibujo representa un...<br />]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.5000000</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <usecase>0</usecase>
+    <answer fraction="100" format="plain_text">
+      <text>pulsador neumático</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+  </question>
+
+<!-- question: 13461  -->
+  <question type="shortanswer">
+    <name>
+      <text>rodillo</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[¿Cómo se llama este elemento?<div><span class="Apple-style-span" style="background-color: rgb(255, 255, 255); "><img src="https://ibersia.ovh/tec/neumatica/s14.gif" alt="s" title="s" border="0" hspace="0" vspace="0" width="56" height="54" /><br /></span></div>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.1000000</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <usecase>0</usecase>
+    <answer fraction="100" format="plain_text">
+      <text>Pulsador de rodillo</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+  </question>
+
+<!-- question: 13462  -->
+  <question type="shortanswer">
+    <name>
+      <text>rodillo escamoteable</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[¿Cómo se llama este elemento? <div><span style="background-color: rgb(255, 255, 255);" class="Apple-style-span"><img width="61" vspace="0" border="0" hspace="0" height="78" title="s" alt="s" src="https://ibersia.ovh/tec/neumatica/s15.gif" /><br /></span></div>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.1000000</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <usecase>0</usecase>
+    <answer fraction="100" format="plain_text">
+      <text>rodillo escamoteable</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="plain_text">
+      <text>pulsador de rodillo escamoteable</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+  </question>
+
+<!-- question: 13463  -->
+  <question type="shortanswer">
+    <name>
+      <text>seta</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<img src="https://ibersia.ovh/tec/neumatica/simbolos/n12.gif" alt="s" title="s" width="78" vspace="0" hspace="0" height="76" border="0" /><br /><br />El dibujo representa un...<br />]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.5000000</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <usecase>0</usecase>
+    <answer fraction="100" format="plain_text">
+      <text>pulsador de seta</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="plain_text">
+      <text>pulsador manual de seta</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+  </question>
+
+<!-- question: 0  -->
+  <question type="category">
+    <category>
+      <text>$course$/top/Valor por defecto para Tecnología 4º ESO/neumatica/circuitos 1</text>
+    </category>
+    <info format="moodle_auto_format">
+      <text></text>
+    </info>
+    <idnumber></idnumber>
+  </question>
+
+<!-- question: 13471  -->
+  <question type="multichoice">
+    <name>
+      <text>c1 1</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<img src="https://ibersia.ovh/tec/neumatica/circuitos/c1.gif" alt="s" title="s" width="361" vspace="0" hspace="0" height="393" border="0" /><br /><br />En reposo...<br />]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>1.0000000</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <correctfeedback format="html">
+      <text></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text></text>
+    </incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text>el vástago está fuera</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>el vástago está dentro</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+  </question>
+
+<!-- question: 13472  -->
+  <question type="multichoice">
+    <name>
+      <text>c1 2</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<img src="https://ibersia.ovh/tec/neumatica/circuitos/c1.gif" alt="s" title="s" width="361" vspace="0" hspace="0" height="393" border="0" /><br />Al pulsar<br />]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>1.0000000</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <correctfeedback format="html">
+      <text></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text></text>
+    </incorrectfeedback>
+    <answer fraction="0" format="html">
+      <text>el vástago está fuera</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text>el vástago está dentro</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+  </question>
+
+<!-- question: 13473  -->
+  <question type="multichoice">
+    <name>
+      <text>c2 1</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<img src="https://ibersia.ovh/tec/neumatica/circuitos/c2.gif" alt="circuito" title="circuito" width="475" vspace="0" hspace="0" height="393" border="0" /><br /><br />Al pulsar...<br />]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>1.0000000</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <correctfeedback format="html">
+      <text></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text></text>
+    </incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text>el vástago está fuera</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>el vástago está dentro</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+  </question>
+
+<!-- question: 13476  -->
+  <question type="multichoice">
+    <name>
+      <text>c2 2</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<img src="https://ibersia.ovh/tec/neumatica/circuitos/c2.gif" alt="circuito" title="circuito" width="475" vspace="0" hspace="0" height="393" border="0" /><br /><br />Al pulsar y soltar...<br />]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>1.0000000</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <correctfeedback format="html">
+      <text></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text></text>
+    </incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text>el vástago está fuera</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>el vástago está dentro</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+  </question>
+
+<!-- question: 13474  -->
+  <question type="multichoice">
+    <name>
+      <text>c3 1</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<img src="https://ibersia.ovh/tec/neumatica/circuitos/c3.gif" alt="circuito" title="circuito" width="456" vspace="0" hspace="0" height="393" border="0" /><br /><br />Al pulsar...<br />]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>1.0000000</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <correctfeedback format="html">
+      <text></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text></text>
+    </incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text>el vástago está fuera</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>el vástago está dentro</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+  </question>
+
+<!-- question: 13475  -->
+  <question type="multichoice">
+    <name>
+      <text>c3 2</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<img src="https://ibersia.ovh/tec/neumatica/circuitos/c3.gif" alt="circuito" title="circuito" width="456" vspace="0" hspace="0" height="393" border="0" /><br /><br />En reposo...<br />]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>1.0000000</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <correctfeedback format="html">
+      <text></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text></text>
+    </incorrectfeedback>
+    <answer fraction="0" format="html">
+      <text>el vástago está fuera</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text>el vástago está dentro</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+  </question>
+
+<!-- question: 13477  -->
+  <question type="multichoice">
+    <name>
+      <text>c3 3</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<img src="https://ibersia.ovh/tec/neumatica/circuitos/c3.gif" alt="circuito" title="circuito" width="456" vspace="0" hspace="0" height="393" border="0" /><br /><br />Al pulsar y soltar...<br />]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>1.0000000</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <correctfeedback format="html">
+      <text></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text></text>
+    </incorrectfeedback>
+    <answer fraction="0" format="html">
+      <text>el vástago está fuera</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text>el vástago está dentro</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+  </question>
+
+<!-- question: 13479  -->
+  <question type="multichoice">
+    <name>
+      <text>c4 3/2 pulsar</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<img src="https://ibersia.ovh/tec/neumatica/circuitos/c4.gif" alt="circuito" title="circuito" width="359" vspace="0" hspace="0" height="393" border="0" /><br /><br />Al pulsar...<br />]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>1.0000000</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <correctfeedback format="html">
+      <text></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text></text>
+    </incorrectfeedback>
+    <answer fraction="0" format="html">
+      <text>el vástago está fuera</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text>el vástago está dentro</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+  </question>
+
+<!-- question: 13480  -->
+  <question type="multichoice">
+    <name>
+      <text>c4 3/2 pulsar y soltar</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<img src="https://ibersia.ovh/tec/neumatica/circuitos/c4.gif" alt="circuito" title="circuito" width="359" vspace="0" hspace="0" height="393" border="0" /><br /><br />Al pulsar y soltar...<br />]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>1.0000000</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <correctfeedback format="html">
+      <text></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text></text>
+    </incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text>el vástago está fuera</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>el vástago está dentro</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+  </question>
+
+<!-- question: 13478  -->
+  <question type="multichoice">
+    <name>
+      <text>c4 3/2 reposo</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<img src="https://ibersia.ovh/tec/neumatica/circuitos/c4.gif" alt="circuito" title="circuito" width="359" vspace="0" hspace="0" height="393" border="0" /><br /><br />En reposo...<br />]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>1.0000000</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <correctfeedback format="html">
+      <text></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text></text>
+    </incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text>el vástago está fuera</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>el vástago está dentro</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+  </question>
+
+<!-- question: 13483  -->
+  <question type="multichoice">
+    <name>
+      <text>c5 3/2 pulsar</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<img src="https://ibersia.ovh/tec/neumatica/circuitos/c5.gif" alt="circuito" title="circuito" width="346" vspace="0" hspace="0" height="393" border="0" /><br /><br />Al pulsar ...<br />]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>1.0000000</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <correctfeedback format="html">
+      <text></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text></text>
+    </incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text>el vástago está fuera</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>el vástago está dentro</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+  </question>
+
+<!-- question: 13482  -->
+  <question type="multichoice">
+    <name>
+      <text>c5 3/2 pulsar y soltar</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<img src="https://ibersia.ovh/tec/neumatica/circuitos/c5.gif" alt="circuito" title="circuito" width="346" vspace="0" hspace="0" height="393" border="0" /><br /><br />Al pulsar y soltar...<br />]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>1.0000000</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <correctfeedback format="html">
+      <text></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text></text>
+    </incorrectfeedback>
+    <answer fraction="0" format="html">
+      <text>el vástago está fuera</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text>el vástago está dentro</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+  </question>
+
+<!-- question: 13481  -->
+  <question type="multichoice">
+    <name>
+      <text>c5 3/2 reposo</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<img src="https://ibersia.ovh/tec/neumatica/circuitos/c5.gif" alt="circuito" title="circuito" width="346" vspace="0" hspace="0" height="393" border="0" /><br /><br />En reposo...<br />]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>1.0000000</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <correctfeedback format="html">
+      <text></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text></text>
+    </incorrectfeedback>
+    <answer fraction="0" format="html">
+      <text>el vástago está fuera</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text>el vástago está dentro</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+  </question>
+
+<!-- question: 13485  -->
+  <question type="multichoice">
+    <name>
+      <text>c7 4/2 pulsar</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<img src="https://ibersia.ovh/tec/neumatica/circuitos/c7.gif" alt="circuito" title="circuito" width="346" vspace="0" hspace="0" height="454" border="0" /><br /><br />Al pulsar...<br />]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>1.0000000</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <correctfeedback format="html">
+      <text></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text></text>
+    </incorrectfeedback>
+    <answer fraction="0" format="html">
+      <text>el vástago está fuera</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text>el vástago está dentro</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+  </question>
+
+<!-- question: 13484  -->
+  <question type="multichoice">
+    <name>
+      <text>c7 4/2 reposo</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<img src="https://ibersia.ovh/tec/neumatica/circuitos/c7.gif" alt="circuito" title="circuito" width="346" vspace="0" hspace="0" height="454" border="0" /><br /><br />En reposo...<br />]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>1.0000000</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <correctfeedback format="html">
+      <text></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text></text>
+    </incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text>el vástago está fuera</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>el vástago está dentro</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+  </question>
+
+<!-- question: 13487  -->
+  <question type="multichoice">
+    <name>
+      <text>c8 4/2 pulsar</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<img src="https://ibersia.ovh/tec/neumatica/circuitos/c8.gif" alt="circuito" title="circuito" width="346" vspace="0" hspace="0" height="454" border="0" /><br /><br />Al pulsar...<br />]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>1.0000000</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <correctfeedback format="html">
+      <text></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text></text>
+    </incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text>el vástago está fuera</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>el vástago está dentro</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+  </question>
+
+<!-- question: 13486  -->
+  <question type="multichoice">
+    <name>
+      <text>c8 4/2 reposo</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<img src="https://ibersia.ovh/tec/neumatica/circuitos/c8.gif" alt="circuito" title="circuito" width="346" vspace="0" hspace="0" height="454" border="0" /><br /><br />En reposo...<br />]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>1.0000000</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <correctfeedback format="html">
+      <text></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text></text>
+    </incorrectfeedback>
+    <answer fraction="0" format="html">
+      <text>el vástago está fuera</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text>el vástago está dentro</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+  </question>
+
+<!-- question: 0  -->
+  <question type="category">
+    <category>
+      <text>$course$/top/Valor por defecto para Tecnología 4º ESO/neumatica/circuitos 2</text>
+    </category>
+    <info format="moodle_auto_format">
+      <text></text>
+    </info>
+    <idnumber></idnumber>
+  </question>
+
+<!-- question: 13495  -->
+  <question type="multichoice">
+    <name>
+      <text>c10 3/2  estrangulador pulsar</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<img src="https://ibersia.ovh/tec/neumatica/circuitos/c10.gif" alt="circuito" title="circuito" width="346" vspace="0" hspace="0" height="571" border="0" /><br /><br />Al pulsar...<br />]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>1.0000000</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <correctfeedback format="html">
+      <text></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text></text>
+    </incorrectfeedback>
+    <answer fraction="0" format="html">
+      <text>el vástago sale lentamente</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text>el vástago sale rápidamente</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>el vástago entra lentamente</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>el vástago entra rápidamente</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+  </question>
+
+<!-- question: 13496  -->
+  <question type="multichoice">
+    <name>
+      <text>c10 3/2  estrangulador pulsar y soltar</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<img src="https://ibersia.ovh/tec/neumatica/circuitos/c10.gif" alt="circuito" title="circuito" width="346" vspace="0" hspace="0" height="571" border="0" /><br /><br />Al pulsar y soltar...<br />]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>1.0000000</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <correctfeedback format="html">
+      <text></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text></text>
+    </incorrectfeedback>
+    <answer fraction="0" format="html">
+      <text>el vástago sale lentamente</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>el vástago sale rápidamente</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text>el vástago entra lentamente</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>el vástago entra rápidamente</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+  </question>
+
+<!-- question: 13497  -->
+  <question type="multichoice">
+    <name>
+      <text>c11 3/2  estrangulador pulsar</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<img src="https://ibersia.ovh/tec/neumatica/circuitos/c11.gif" alt="circuito" title="circuito" width="388" vspace="0" hspace="0" height="575" border="0" /><br /><br />Al pulsar...<br />]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>1.0000000</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <correctfeedback format="html">
+      <text></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text></text>
+    </incorrectfeedback>
+    <answer fraction="0" format="html">
+      <text>el vástago sale lentamente</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>el vástago sale rápidamente</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>el vástago entra lentamente</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text>el vástago entra rápidamente</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+  </question>
+
+<!-- question: 13498  -->
+  <question type="multichoice">
+    <name>
+      <text>c11 3/2  estrangulador pulsar y soltar</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<img src="https://ibersia.ovh/tec/neumatica/circuitos/c11.gif" alt="circuito" title="circuito" width="388" vspace="0" hspace="0" height="575" border="0" /><br /><br />Al pulsar y soltar...<br />]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>1.0000000</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <correctfeedback format="html">
+      <text></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text></text>
+    </incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text>el vástago sale lentamente</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>el vástago sale rápidamente</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>el vástago entra lentamente</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>el vástago entra rápidamente</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+  </question>
+
+<!-- question: 13499  -->
+  <question type="multichoice">
+    <name>
+      <text>c12 3/2  estrangulador pulsar</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<img src="https://ibersia.ovh/tec/neumatica/circuitos/c12.gif" alt="circuito" title="circuito" width="388" vspace="0" hspace="0" height="575" border="0" /><br /><br />Al pulsar...<br />]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>1.0000000</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <correctfeedback format="html">
+      <text></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text></text>
+    </incorrectfeedback>
+    <answer fraction="0" format="html">
+      <text>el vástago sale lentamente</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>el vástago sale rápidamente</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text>el vástago entra lentamente</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>el vástago entra rápidamente</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+  </question>
+
+<!-- question: 13500  -->
+  <question type="multichoice">
+    <name>
+      <text>c12 3/2  estrangulador pulsar y soltar</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<img src="https://ibersia.ovh/tec/neumatica/circuitos/c12.gif" alt="circuito" title="circuito" width="388" vspace="0" hspace="0" height="575" border="0" /><br /><br />Al pulsar y soltar...<br />]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>1.0000000</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <correctfeedback format="html">
+      <text></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text></text>
+    </incorrectfeedback>
+    <answer fraction="0" format="html">
+      <text>el vástago sale lentamente</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text>el vástago sale rápidamente</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>el vástago entra lentamente</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>el vástago entra rápidamente</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+  </question>
+
+<!-- question: 13501  -->
+  <question type="multichoice">
+    <name>
+      <text>c13 4/2  estrangulador pulsar</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<img width="368" vspace="0" hspace="0" border="0" height="575" title="circuito" alt="circuito" src="https://ibersia.ovh/tec/neumatica/circuitos/c13.gif" /><br /><br />Al pulsar...<br />]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>1.0000000</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <correctfeedback format="html">
+      <text></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text></text>
+    </incorrectfeedback>
+    <answer fraction="0" format="html">
+      <text>el vástago sale lentamente</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>el vástago sale rápidamente</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>el vástago entra lentamente</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text>el vástago entra rápidamente</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+  </question>
+
+<!-- question: 13502  -->
+  <question type="multichoice">
+    <name>
+      <text>c13 4/2  estrangulador pulsar y soltar</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<img width="368" vspace="0" hspace="0" border="0" height="575" title="circuito" alt="circuito" src="https://ibersia.ovh/tec/neumatica/circuitos/c13.gif" /><br /><br />Al pulsar y soltar...<br />]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>1.0000000</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <correctfeedback format="html">
+      <text></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text></text>
+    </incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text>el vástago sale lentamente</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>el vástago sale rápidamente</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>el vástago entra lentamente</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>el vástago entra rápidamente</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+  </question>
+
+<!-- question: 13503  -->
+  <question type="multichoice">
+    <name>
+      <text>c14 4/2  estrangulador pulsar</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<img src="https://ibersia.ovh/tec/neumatica/circuitos/c14.gif" alt="circuito" title="circuito" width="350" vspace="0" hspace="0" height="575" border="0" /><br /><br />Al pulsar...<br />]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>1.0000000</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <correctfeedback format="html">
+      <text></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text></text>
+    </incorrectfeedback>
+    <answer fraction="0" format="html">
+      <text>el vástago sale lentamente</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>el vástago sale rápidamente</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text>el vástago entra lentamente</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>el vástago entra rápidamente</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+  </question>
+
+<!-- question: 13504  -->
+  <question type="multichoice">
+    <name>
+      <text>c14 4/2  estrangulador pulsar y soltar</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<img src="https://ibersia.ovh/tec/neumatica/circuitos/c14.gif" alt="circuito" title="circuito" width="350" vspace="0" hspace="0" height="575" border="0" /><br /><br />Al pulsar y soltar...<br />]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>1.0000000</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <correctfeedback format="html">
+      <text></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text></text>
+    </incorrectfeedback>
+    <answer fraction="0" format="html">
+      <text>el vástago sale lentamente</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text>el vástago sale rápidamente</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>el vástago entra lentamente</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>el vástago entra rápidamente</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+  </question>
+
+<!-- question: 13505  -->
+  <question type="multichoice">
+    <name>
+      <text>c15 4/2  estrangulador pulsar</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<img src="https://ibersia.ovh/tec/neumatica/circuitos/c15.gif" alt="circuito" title="circuito" width="350" vspace="0" hspace="0" height="575" border="0" /><br /><br />Al pulsar...<br />]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>1.0000000</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <correctfeedback format="html">
+      <text></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text></text>
+    </incorrectfeedback>
+    <answer fraction="0" format="html">
+      <text>el vástago sale lentamente</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>el vástago sale rápidamente</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>el vástago entra lentamente</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text>el vástago entra rápidamente</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+  </question>
+
+<!-- question: 13506  -->
+  <question type="multichoice">
+    <name>
+      <text>c15 4/2  estrangulador pulsar y soltar</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<img src="https://ibersia.ovh/tec/neumatica/circuitos/c15.gif" alt="circuito" title="circuito" width="350" vspace="0" hspace="0" height="575" border="0" /><br /><br />Al pulsar y soltar...<br />]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>1.0000000</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <correctfeedback format="html">
+      <text></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text></text>
+    </incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text>el vástago sale lentamente</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>el vástago sale rápidamente</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>el vástago entra lentamente</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>el vástago entra rápidamente</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+  </question>
+
+<!-- question: 13493  -->
+  <question type="multichoice">
+    <name>
+      <text>c9 3/2  estrangulador pulsar</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<img src="https://ibersia.ovh/tec/neumatica/circuitos/c9.gif" alt="circuito" title="circuito" width="346" vspace="0" hspace="0" height="571" border="0" /><br /><br />Al pulsar...<br />]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>1.0000000</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <correctfeedback format="html">
+      <text></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text></text>
+    </incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text>el vástago sale lentamente</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>el vástago sale rápidamente</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>el vástago entra lentamente</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>el vástago entra rápidamente</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+  </question>
+
+<!-- question: 13494  -->
+  <question type="multichoice">
+    <name>
+      <text>c9 3/2  estrangulador pulsar y soltar</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<img src="https://ibersia.ovh/tec/neumatica/circuitos/c9.gif" alt="circuito" title="circuito" width="346" vspace="0" hspace="0" height="571" border="0" /><br /><br />Al pulsar y luego soltar...<br />]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>1.0000000</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <correctfeedback format="html">
+      <text></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text></text>
+    </incorrectfeedback>
+    <answer fraction="0" format="html">
+      <text>el vástago sale lentamente</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>el vástago sale rápidamente</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>el vástago entra lentamente</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text>el vástago entra rápidamente</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+  </question>
+
+</quiz>
