@@ -1,0 +1,6834 @@
+<?xml version="1.0" encoding="utf-8"?>
+<quiz>
+  <!-- question: 0  -->
+  <question type="category">
+    <category>
+      <text>$course$/mecanismos/cálculos engranajes</text>
+    </category>
+  </question>
+  <!-- question: 64590  -->
+  <question type="calculated">
+    <name>
+      <text>cálculo engranaje 10/20 velocidad (1)</text>
+    </name>
+    <questiontext format="html">
+      <text>
+<![CDATA[<p>Si el engranaje verde da {a} vueltas ¿Cuantas vueltas da el engranaje rojo?</p>
+<p><img title="e" alt="e" src="https://ibersia.ovh/tec/mecanismos/ej_mec/eng_10_20.gif" /></p>]]>
+      </text>
+    </questiontext>
+    <image></image>
+    <generalfeedback>
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1</defaultgrade>
+    <penalty>0.1</penalty>
+    <hidden>0</hidden>
+    <shuffleanswers>0</shuffleanswers>
+    <answer fraction="100">
+      <text>{a}*2</text>
+      <tolerance>0.05</tolerance>
+      <tolerancetype>1</tolerancetype>
+      <correctanswerformat>2</correctanswerformat>
+      <correctanswerlength>2</correctanswerlength>
+      <feedback>
+        <text></text>
+      </feedback>
+    </answer>
+    <units>
+      <unit>
+        <multiplier>1</multiplier>
+        <unit_name>vueltas</unit_name>
+      </unit>
+    </units>
+    <dataset_definitions>
+      <dataset_definition>
+        <status>
+          <text>private</text>
+        </status>
+        <name>
+          <text>a</text>
+        </name>
+        <type>calculated</type>
+        <distribution>
+          <text>uniform</text>
+        </distribution>
+        <minimum>
+          <text>1.0</text>
+        </minimum>
+        <maximum>
+          <text>10.0</text>
+        </maximum>
+        <decimals>
+          <text>0</text>
+        </decimals>
+        <itemcount>10</itemcount>
+        <dataset_items>
+          <dataset_item>
+            <number>1</number>
+            <value>7</value>
+          </dataset_item>
+          <dataset_item>
+            <number>2</number>
+            <value>3</value>
+          </dataset_item>
+          <dataset_item>
+            <number>3</number>
+            <value>9</value>
+          </dataset_item>
+          <dataset_item>
+            <number>4</number>
+            <value>8</value>
+          </dataset_item>
+          <dataset_item>
+            <number>5</number>
+            <value>6</value>
+          </dataset_item>
+          <dataset_item>
+            <number>6</number>
+            <value>10</value>
+          </dataset_item>
+          <dataset_item>
+            <number>7</number>
+            <value>8</value>
+          </dataset_item>
+          <dataset_item>
+            <number>8</number>
+            <value>7</value>
+          </dataset_item>
+          <dataset_item>
+            <number>9</number>
+            <value>8</value>
+          </dataset_item>
+          <dataset_item>
+            <number>10</number>
+            <value>5</value>
+          </dataset_item>
+        </dataset_items>
+        <number_of_items>10</number_of_items>
+      </dataset_definition>
+    </dataset_definitions>
+  </question>
+  <!-- question: 64592  -->
+  <question type="calculated">
+    <name>
+      <text>cálculo engranaje 10/30fuerza (1)</text>
+    </name>
+    <questiontext format="html">
+      <text>
+<![CDATA[<p>Si el engranaje rojo puede levantar {a} Kg ¿Cuánto puede levantar el verde?</p>
+<p><img title="e" alt="e" src="https://ibersia.ovh/tec/mecanismos/ej_mec/eng_10_30.gif" /></p>]]>
+      </text>
+    </questiontext>
+    <image></image>
+    <generalfeedback>
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1</defaultgrade>
+    <penalty>0.1</penalty>
+    <hidden>0</hidden>
+    <shuffleanswers>0</shuffleanswers>
+    <answer fraction="100">
+      <text>{a}*30/10*2</text>
+      <tolerance>0.05</tolerance>
+      <tolerancetype>1</tolerancetype>
+      <correctanswerformat>2</correctanswerformat>
+      <correctanswerlength>2</correctanswerlength>
+      <feedback>
+        <text></text>
+      </feedback>
+    </answer>
+    <units>
+      <unit>
+        <multiplier>0.5</multiplier>
+        <unit_name>Kg</unit_name>
+      </unit>
+    </units>
+    <dataset_definitions>
+      <dataset_definition>
+        <status>
+          <text>private</text>
+        </status>
+        <name>
+          <text>a</text>
+        </name>
+        <type>calculated</type>
+        <distribution>
+          <text>uniform</text>
+        </distribution>
+        <minimum>
+          <text>1.0</text>
+        </minimum>
+        <maximum>
+          <text>10.0</text>
+        </maximum>
+        <decimals>
+          <text>0</text>
+        </decimals>
+        <itemcount>10</itemcount>
+        <dataset_items>
+          <dataset_item>
+            <number>1</number>
+            <value>7</value>
+          </dataset_item>
+          <dataset_item>
+            <number>2</number>
+            <value>3</value>
+          </dataset_item>
+          <dataset_item>
+            <number>3</number>
+            <value>9</value>
+          </dataset_item>
+          <dataset_item>
+            <number>4</number>
+            <value>8</value>
+          </dataset_item>
+          <dataset_item>
+            <number>5</number>
+            <value>6</value>
+          </dataset_item>
+          <dataset_item>
+            <number>6</number>
+            <value>10</value>
+          </dataset_item>
+          <dataset_item>
+            <number>7</number>
+            <value>8</value>
+          </dataset_item>
+          <dataset_item>
+            <number>8</number>
+            <value>7</value>
+          </dataset_item>
+          <dataset_item>
+            <number>9</number>
+            <value>8</value>
+          </dataset_item>
+          <dataset_item>
+            <number>10</number>
+            <value>5</value>
+          </dataset_item>
+        </dataset_items>
+        <number_of_items>10</number_of_items>
+      </dataset_definition>
+    </dataset_definitions>
+  </question>
+  <!-- question: 64593  -->
+  <question type="calculated">
+    <name>
+      <text>cálculo engranaje 10/30fuerza (2)</text>
+    </name>
+    <questiontext format="html">
+      <text>
+<![CDATA[<p>Si el engranaje verde puede levantar {a} Kg ¿Cuánto puede levantar el rojo?</p>
+<p><img title="e" alt="e" src="https://ibersia.ovh/tec/mecanismos/ej_mec/eng_10_30.gif" /></p>]]>
+      </text>
+    </questiontext>
+    <image></image>
+    <generalfeedback>
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1</defaultgrade>
+    <penalty>0.1</penalty>
+    <hidden>0</hidden>
+    <shuffleanswers>0</shuffleanswers>
+    <answer fraction="100">
+      <text>{a}*10/30*2</text>
+      <tolerance>0.05</tolerance>
+      <tolerancetype>1</tolerancetype>
+      <correctanswerformat>2</correctanswerformat>
+      <correctanswerlength>2</correctanswerlength>
+      <feedback>
+        <text></text>
+      </feedback>
+    </answer>
+    <units>
+      <unit>
+        <multiplier>0.5</multiplier>
+        <unit_name>Kg</unit_name>
+      </unit>
+    </units>
+    <dataset_definitions>
+      <dataset_definition>
+        <status>
+          <text>shared</text>
+        </status>
+        <name>
+          <text>a</text>
+        </name>
+        <type>calculated</type>
+        <distribution>
+          <text>uniform</text>
+        </distribution>
+        <minimum>
+          <text>9</text>
+        </minimum>
+        <maximum>
+          <text>27</text>
+        </maximum>
+        <decimals>
+          <text>0</text>
+        </decimals>
+        <itemcount>10</itemcount>
+        <dataset_items>
+          <dataset_item>
+            <number>1</number>
+            <value>9</value>
+          </dataset_item>
+          <dataset_item>
+            <number>2</number>
+            <value>17</value>
+          </dataset_item>
+          <dataset_item>
+            <number>3</number>
+            <value>20</value>
+          </dataset_item>
+          <dataset_item>
+            <number>4</number>
+            <value>20</value>
+          </dataset_item>
+          <dataset_item>
+            <number>5</number>
+            <value>19</value>
+          </dataset_item>
+          <dataset_item>
+            <number>6</number>
+            <value>15</value>
+          </dataset_item>
+          <dataset_item>
+            <number>7</number>
+            <value>21</value>
+          </dataset_item>
+          <dataset_item>
+            <number>8</number>
+            <value>22</value>
+          </dataset_item>
+          <dataset_item>
+            <number>9</number>
+            <value>23</value>
+          </dataset_item>
+          <dataset_item>
+            <number>10</number>
+            <value>12</value>
+          </dataset_item>
+        </dataset_items>
+        <number_of_items>10</number_of_items>
+      </dataset_definition>
+    </dataset_definitions>
+  </question>
+  <!-- question: 64594  -->
+  <question type="calculated">
+    <name>
+      <text>cálculo engranaje 12/36 fuerza (1)</text>
+    </name>
+    <questiontext format="html">
+      <text>
+<![CDATA[<p>Si el engranaje rojo (36 dientes) puede levantar {a} Kg ¿Cuánto puede levantar el verde (12 dientes)?</p>
+<p><img title="e" alt="e" src="https://ibersia.ovh/tec/mecanismos/ej_mec/eng_12_36.gif" /></p>]]>
+      </text>
+    </questiontext>
+    <image></image>
+    <generalfeedback>
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1</defaultgrade>
+    <penalty>0.1</penalty>
+    <hidden>0</hidden>
+    <shuffleanswers>0</shuffleanswers>
+    <answer fraction="100">
+      <text>{a}*12/36*2</text>
+      <tolerance>0.05</tolerance>
+      <tolerancetype>1</tolerancetype>
+      <correctanswerformat>2</correctanswerformat>
+      <correctanswerlength>2</correctanswerlength>
+      <feedback>
+        <text></text>
+      </feedback>
+    </answer>
+    <units>
+      <unit>
+        <multiplier>0.5</multiplier>
+        <unit_name>Kg</unit_name>
+      </unit>
+    </units>
+    <dataset_definitions>
+      <dataset_definition>
+        <status>
+          <text>private</text>
+        </status>
+        <name>
+          <text>a</text>
+        </name>
+        <type>calculated</type>
+        <distribution>
+          <text>uniform</text>
+        </distribution>
+        <minimum>
+          <text>1.0</text>
+        </minimum>
+        <maximum>
+          <text>10.0</text>
+        </maximum>
+        <decimals>
+          <text>0</text>
+        </decimals>
+        <itemcount>10</itemcount>
+        <dataset_items>
+          <dataset_item>
+            <number>1</number>
+            <value>7</value>
+          </dataset_item>
+          <dataset_item>
+            <number>2</number>
+            <value>3</value>
+          </dataset_item>
+          <dataset_item>
+            <number>3</number>
+            <value>9</value>
+          </dataset_item>
+          <dataset_item>
+            <number>4</number>
+            <value>8</value>
+          </dataset_item>
+          <dataset_item>
+            <number>5</number>
+            <value>6</value>
+          </dataset_item>
+          <dataset_item>
+            <number>6</number>
+            <value>10</value>
+          </dataset_item>
+          <dataset_item>
+            <number>7</number>
+            <value>8</value>
+          </dataset_item>
+          <dataset_item>
+            <number>8</number>
+            <value>7</value>
+          </dataset_item>
+          <dataset_item>
+            <number>9</number>
+            <value>8</value>
+          </dataset_item>
+          <dataset_item>
+            <number>10</number>
+            <value>5</value>
+          </dataset_item>
+        </dataset_items>
+        <number_of_items>10</number_of_items>
+      </dataset_definition>
+    </dataset_definitions>
+  </question>
+  <!-- question: 64595  -->
+  <question type="calculated">
+    <name>
+      <text>cálculo engranaje 12/36 fuerza (2)</text>
+    </name>
+    <questiontext format="html">
+      <text>
+<![CDATA[<p>Si el engranaje verde (12 dientes) puede levantar {a} Kg ¿Cuánto puede levantar el rojo (36 dientes)?</p>
+<p><img title="e" alt="e" src="https://ibersia.ovh/tec/mecanismos/ej_mec/eng_12_36.gif" /></p>]]>
+      </text>
+    </questiontext>
+    <image></image>
+    <generalfeedback>
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1</defaultgrade>
+    <penalty>0.1</penalty>
+    <hidden>0</hidden>
+    <shuffleanswers>0</shuffleanswers>
+    <answer fraction="100">
+      <text>{a}*36/12*2</text>
+      <tolerance>0.05</tolerance>
+      <tolerancetype>1</tolerancetype>
+      <correctanswerformat>2</correctanswerformat>
+      <correctanswerlength>2</correctanswerlength>
+      <feedback>
+        <text></text>
+      </feedback>
+    </answer>
+    <units>
+      <unit>
+        <multiplier>0.5</multiplier>
+        <unit_name>Kg</unit_name>
+      </unit>
+    </units>
+    <dataset_definitions>
+      <dataset_definition>
+        <status>
+          <text>private</text>
+        </status>
+        <name>
+          <text>a</text>
+        </name>
+        <type>calculated</type>
+        <distribution>
+          <text>uniform</text>
+        </distribution>
+        <minimum>
+          <text>1.0</text>
+        </minimum>
+        <maximum>
+          <text>10.0</text>
+        </maximum>
+        <decimals>
+          <text>0</text>
+        </decimals>
+        <itemcount>10</itemcount>
+        <dataset_items>
+          <dataset_item>
+            <number>1</number>
+            <value>7</value>
+          </dataset_item>
+          <dataset_item>
+            <number>2</number>
+            <value>3</value>
+          </dataset_item>
+          <dataset_item>
+            <number>3</number>
+            <value>9</value>
+          </dataset_item>
+          <dataset_item>
+            <number>4</number>
+            <value>8</value>
+          </dataset_item>
+          <dataset_item>
+            <number>5</number>
+            <value>6</value>
+          </dataset_item>
+          <dataset_item>
+            <number>6</number>
+            <value>10</value>
+          </dataset_item>
+          <dataset_item>
+            <number>7</number>
+            <value>8</value>
+          </dataset_item>
+          <dataset_item>
+            <number>8</number>
+            <value>7</value>
+          </dataset_item>
+          <dataset_item>
+            <number>9</number>
+            <value>8</value>
+          </dataset_item>
+          <dataset_item>
+            <number>10</number>
+            <value>5</value>
+          </dataset_item>
+        </dataset_items>
+        <number_of_items>10</number_of_items>
+      </dataset_definition>
+    </dataset_definitions>
+  </question>
+  <!-- question: 64591  -->
+  <question type="calculated">
+    <name>
+      <text>cálculo engranaje 16/24 velocidad (1)</text>
+    </name>
+    <questiontext format="html">
+      <text>
+<![CDATA[<p>Si el engranaje verde da {a} vueltas ¿Cuantas vueltas da el engranaje rojo?</p>
+<p><img title="e" alt="e" src="https://ibersia.ovh/tec/mecanismos/ej_mec/eng_16_24.gif" /></p>]]>
+      </text>
+    </questiontext>
+    <image></image>
+    <generalfeedback>
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1</defaultgrade>
+    <penalty>0.1</penalty>
+    <hidden>0</hidden>
+    <shuffleanswers>0</shuffleanswers>
+    <answer fraction="100">
+      <text>{a}*16/24</text>
+      <tolerance>0.05</tolerance>
+      <tolerancetype>1</tolerancetype>
+      <correctanswerformat>2</correctanswerformat>
+      <correctanswerlength>2</correctanswerlength>
+      <feedback>
+        <text></text>
+      </feedback>
+    </answer>
+    <units>
+      <unit>
+        <multiplier>1</multiplier>
+        <unit_name>vueltas</unit_name>
+      </unit>
+    </units>
+    <dataset_definitions>
+      <dataset_definition>
+        <status>
+          <text>private</text>
+        </status>
+        <name>
+          <text>a</text>
+        </name>
+        <type>calculated</type>
+        <distribution>
+          <text>uniform</text>
+        </distribution>
+        <minimum>
+          <text>1.0</text>
+        </minimum>
+        <maximum>
+          <text>10.0</text>
+        </maximum>
+        <decimals>
+          <text>0</text>
+        </decimals>
+        <itemcount>10</itemcount>
+        <dataset_items>
+          <dataset_item>
+            <number>1</number>
+            <value>7</value>
+          </dataset_item>
+          <dataset_item>
+            <number>2</number>
+            <value>3</value>
+          </dataset_item>
+          <dataset_item>
+            <number>3</number>
+            <value>9</value>
+          </dataset_item>
+          <dataset_item>
+            <number>4</number>
+            <value>8</value>
+          </dataset_item>
+          <dataset_item>
+            <number>5</number>
+            <value>6</value>
+          </dataset_item>
+          <dataset_item>
+            <number>6</number>
+            <value>10</value>
+          </dataset_item>
+          <dataset_item>
+            <number>7</number>
+            <value>8</value>
+          </dataset_item>
+          <dataset_item>
+            <number>8</number>
+            <value>7</value>
+          </dataset_item>
+          <dataset_item>
+            <number>9</number>
+            <value>8</value>
+          </dataset_item>
+          <dataset_item>
+            <number>10</number>
+            <value>5</value>
+          </dataset_item>
+        </dataset_items>
+        <number_of_items>10</number_of_items>
+      </dataset_definition>
+    </dataset_definitions>
+  </question>
+  <!-- question: 64581  -->
+  <question type="calculated">
+    <name>
+      <text>cálculo engranaje 8/40</text>
+    </name>
+    <questiontext format="html">
+      <text>
+<![CDATA[<p>Si el engranaje B da {a} vueltas  ¿Cuantas vueltas  da el engranaje A?</p><p><img hspace="0" height="178" border="0" width="251" title="e" alt="e" src="https://ibersia.ovh/tec/mecanismos/ej_2/engranajes8_40.gif" /></p>]]>
+      </text>
+    </questiontext>
+    <image></image>
+    <generalfeedback>
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1</defaultgrade>
+    <penalty>0.1</penalty>
+    <hidden>0</hidden>
+    <shuffleanswers>0</shuffleanswers>
+    <answer fraction="100">
+      <text>{a}*5</text>
+      <tolerance>0.01</tolerance>
+      <tolerancetype>1</tolerancetype>
+      <correctanswerformat>1</correctanswerformat>
+      <correctanswerlength>2</correctanswerlength>
+      <feedback>
+        <text></text>
+      </feedback>
+    </answer>
+    <units>
+      <unit>
+        <multiplier>1</multiplier>
+        <unit_name>vueltas</unit_name>
+      </unit>
+    </units>
+    <dataset_definitions>
+      <dataset_definition>
+        <status>
+          <text>private</text>
+        </status>
+        <name>
+          <text>a</text>
+        </name>
+        <type>calculated</type>
+        <distribution>
+          <text>uniform</text>
+        </distribution>
+        <minimum>
+          <text>1.0</text>
+        </minimum>
+        <maximum>
+          <text>10.0</text>
+        </maximum>
+        <decimals>
+          <text>0</text>
+        </decimals>
+        <itemcount>10</itemcount>
+        <dataset_items>
+          <dataset_item>
+            <number>1</number>
+            <value>7</value>
+          </dataset_item>
+          <dataset_item>
+            <number>2</number>
+            <value>3</value>
+          </dataset_item>
+          <dataset_item>
+            <number>3</number>
+            <value>9</value>
+          </dataset_item>
+          <dataset_item>
+            <number>4</number>
+            <value>8</value>
+          </dataset_item>
+          <dataset_item>
+            <number>5</number>
+            <value>6</value>
+          </dataset_item>
+          <dataset_item>
+            <number>6</number>
+            <value>10</value>
+          </dataset_item>
+          <dataset_item>
+            <number>7</number>
+            <value>8</value>
+          </dataset_item>
+          <dataset_item>
+            <number>8</number>
+            <value>7</value>
+          </dataset_item>
+          <dataset_item>
+            <number>9</number>
+            <value>8</value>
+          </dataset_item>
+          <dataset_item>
+            <number>10</number>
+            <value>5</value>
+          </dataset_item>
+        </dataset_items>
+        <number_of_items>10</number_of_items>
+      </dataset_definition>
+    </dataset_definitions>
+  </question>
+  <!-- question: 64582  -->
+  <question type="calculated">
+    <name>
+      <text>cálculo engranajes 40/24</text>
+    </name>
+    <questiontext format="html">
+      <text>
+<![CDATA[<p></p><p></p><p>Si el engranaje A da {a} vueltas , ¿cuántas vueltas da el engranaje B?<br /><img hspace="0" height="313" width="410" border="0" title="w" alt="w" src="https://ibersia.ovh/tec/mecanismos/ej_2/engranajes%2040_24.gif" /></p>]]>
+      </text>
+    </questiontext>
+    <image></image>
+    <generalfeedback>
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1</defaultgrade>
+    <penalty>0.1</penalty>
+    <hidden>0</hidden>
+    <shuffleanswers>0</shuffleanswers>
+    <answer fraction="100">
+      <text>40/24*{a}</text>
+      <tolerance>0.01</tolerance>
+      <tolerancetype>1</tolerancetype>
+      <correctanswerformat>1</correctanswerformat>
+      <correctanswerlength>0</correctanswerlength>
+      <feedback>
+        <text></text>
+      </feedback>
+    </answer>
+    <units>
+      <unit>
+        <multiplier>1</multiplier>
+        <unit_name>vueltas</unit_name>
+      </unit>
+    </units>
+    <dataset_definitions>
+      <dataset_definition>
+        <status>
+          <text>private</text>
+        </status>
+        <name>
+          <text>a</text>
+        </name>
+        <type>calculated</type>
+        <distribution>
+          <text>uniform</text>
+        </distribution>
+        <minimum>
+          <text>1.0</text>
+        </minimum>
+        <maximum>
+          <text>32</text>
+        </maximum>
+        <decimals>
+          <text>1</text>
+        </decimals>
+        <itemcount>5</itemcount>
+        <dataset_items>
+          <dataset_item>
+            <number>1</number>
+            <value>12</value>
+          </dataset_item>
+          <dataset_item>
+            <number>2</number>
+            <value>32</value>
+          </dataset_item>
+          <dataset_item>
+            <number>3</number>
+            <value>24</value>
+          </dataset_item>
+          <dataset_item>
+            <number>4</number>
+            <value>18</value>
+          </dataset_item>
+          <dataset_item>
+            <number>5</number>
+            <value>6</value>
+          </dataset_item>
+          <dataset_item>
+            <number>6</number>
+            <value>5</value>
+          </dataset_item>
+          <dataset_item>
+            <number>7</number>
+            <value>9</value>
+          </dataset_item>
+          <dataset_item>
+            <number>8</number>
+            <value>4</value>
+          </dataset_item>
+          <dataset_item>
+            <number>9</number>
+            <value>12</value>
+          </dataset_item>
+          <dataset_item>
+            <number>10</number>
+            <value>6</value>
+          </dataset_item>
+        </dataset_items>
+        <number_of_items>10</number_of_items>
+      </dataset_definition>
+    </dataset_definitions>
+  </question>
+  <!-- question: 0  -->
+  <question type="category">
+    <category>
+      <text>$course$/mecanismos/mecanismos 3</text>
+    </category>
+  </question>
+  <!-- question: 64357  -->
+  <question type="calculated">
+    <name>
+      <text>husillo</text>
+    </name>
+    <questiontext format="html">
+      <text>
+<![CDATA[¿Cuántos centímetros avanzará la tuerca si el husillo de {a}vueltas?<div><img src="https://ibersia.ovh/tec/mecanismos/ej_2/husillo_regla_2.gif" alt="a" title="a" border="0" hspace="0" vspace="0" width="400" height="181" /><br /><div><br /><br /></div></div>]]>
+      </text>
+    </questiontext>
+    <image></image>
+    <generalfeedback>
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1</defaultgrade>
+    <penalty>0.1</penalty>
+    <hidden>0</hidden>
+    <shuffleanswers>0</shuffleanswers>
+    <answer fraction="100">
+      <text>{a}*0.25</text>
+      <tolerance>0.1</tolerance>
+      <tolerancetype>1</tolerancetype>
+      <correctanswerformat>1</correctanswerformat>
+      <correctanswerlength>1</correctanswerlength>
+      <feedback>
+        <text></text>
+      </feedback>
+    </answer>
+    <units>
+      <unit>
+        <multiplier>1</multiplier>
+        <unit_name>cm</unit_name>
+      </unit>
+      <unit>
+        <multiplier>1</multiplier>
+        <unit_name>1Cm</unit_name>
+      </unit>
+    </units>
+    <dataset_definitions>
+      <dataset_definition>
+        <status>
+          <text>private</text>
+        </status>
+        <name>
+          <text>a</text>
+        </name>
+        <type>calculated</type>
+        <distribution>
+          <text>uniform</text>
+        </distribution>
+        <minimum>
+          <text>1.0</text>
+        </minimum>
+        <maximum>
+          <text>10.0</text>
+        </maximum>
+        <decimals>
+          <text>0</text>
+        </decimals>
+        <itemcount>4</itemcount>
+        <dataset_items>
+          <dataset_item>
+            <number>1</number>
+            <value>4</value>
+          </dataset_item>
+          <dataset_item>
+            <number>2</number>
+            <value>2</value>
+          </dataset_item>
+          <dataset_item>
+            <number>3</number>
+            <value>8</value>
+          </dataset_item>
+          <dataset_item>
+            <number>4</number>
+            <value>6</value>
+          </dataset_item>
+          <dataset_item>
+            <number>5</number>
+            <value>9</value>
+          </dataset_item>
+          <dataset_item>
+            <number>6</number>
+            <value>6</value>
+          </dataset_item>
+          <dataset_item>
+            <number>7</number>
+            <value>10</value>
+          </dataset_item>
+          <dataset_item>
+            <number>8</number>
+            <value>7</value>
+          </dataset_item>
+          <dataset_item>
+            <number>9</number>
+            <value>3</value>
+          </dataset_item>
+          <dataset_item>
+            <number>10</number>
+            <value>10</value>
+          </dataset_item>
+        </dataset_items>
+        <number_of_items>10</number_of_items>
+      </dataset_definition>
+    </dataset_definitions>
+  </question>
+  <!-- question: 0  -->
+  <question type="category">
+    <category>
+      <text>$course$/mecanismos/cálculos trócolas</text>
+    </category>
+  </question>
+  <!-- question: 64606  -->
+  <question type="calculated">
+    <name>
+      <text>Longitud polipasto 3</text>
+    </name>
+    <questiontext format="html">
+      <text>
+<![CDATA[¿Cuantos metros de cadena hay que recoger para que el gancho suba {a}metros?<br /><img hspace="0" height="289" width="96" vspace="0" border="0" title="p" alt="p" src="https://ibersia.ovh/tec/mecanismos/palancas_poleas/polipasto.jpg" /><br />]]>
+      </text>
+    </questiontext>
+    <image></image>
+    <generalfeedback>
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1</defaultgrade>
+    <penalty>0.1</penalty>
+    <hidden>0</hidden>
+    <shuffleanswers>0</shuffleanswers>
+    <answer fraction="100">
+      <text>{a}*3</text>
+      <tolerance>0.1</tolerance>
+      <tolerancetype>1</tolerancetype>
+      <correctanswerformat>1</correctanswerformat>
+      <correctanswerlength>2</correctanswerlength>
+      <feedback>
+        <text>En la salida tenemos tres tramos de cadena, por tanto hay que recoger 3 metro de cadena por cada metro que queremos que suba el gancho.</text>
+      </feedback>
+    </answer>
+    <units>
+      <unit>
+        <multiplier>1</multiplier>
+        <unit_name>m</unit_name>
+      </unit>
+      <unit>
+        <multiplier>1</multiplier>
+        <unit_name>metros</unit_name>
+      </unit>
+    </units>
+    <dataset_definitions>
+      <dataset_definition>
+        <status>
+          <text>private</text>
+        </status>
+        <name>
+          <text>a</text>
+        </name>
+        <type>calculated</type>
+        <distribution>
+          <text>uniform</text>
+        </distribution>
+        <minimum>
+          <text>1.0</text>
+        </minimum>
+        <maximum>
+          <text>6</text>
+        </maximum>
+        <decimals>
+          <text>0</text>
+        </decimals>
+        <itemcount>12</itemcount>
+        <dataset_items>
+          <dataset_item>
+            <number>1</number>
+            <value>4</value>
+          </dataset_item>
+          <dataset_item>
+            <number>2</number>
+            <value>5</value>
+          </dataset_item>
+          <dataset_item>
+            <number>3</number>
+            <value>4</value>
+          </dataset_item>
+          <dataset_item>
+            <number>4</number>
+            <value>5</value>
+          </dataset_item>
+          <dataset_item>
+            <number>5</number>
+            <value>3</value>
+          </dataset_item>
+          <dataset_item>
+            <number>6</number>
+            <value>5</value>
+          </dataset_item>
+          <dataset_item>
+            <number>7</number>
+            <value>3</value>
+          </dataset_item>
+          <dataset_item>
+            <number>8</number>
+            <value>5</value>
+          </dataset_item>
+          <dataset_item>
+            <number>9</number>
+            <value>3</value>
+          </dataset_item>
+          <dataset_item>
+            <number>10</number>
+            <value>5</value>
+          </dataset_item>
+          <dataset_item>
+            <number>11</number>
+            <value>5</value>
+          </dataset_item>
+          <dataset_item>
+            <number>12</number>
+            <value>6</value>
+          </dataset_item>
+        </dataset_items>
+        <number_of_items>12</number_of_items>
+      </dataset_definition>
+    </dataset_definitions>
+  </question>
+  <!-- question: 64608  -->
+  <question type="calculated">
+    <name>
+      <text>Longitud polipasto 4</text>
+    </name>
+    <questiontext format="html">
+      <text>
+<![CDATA[¿Cuantos metros de cuerda cuerda hay que recoger para que el gancho suba {a}metros?<br /><img hspace="0" height="183" border="0" width="116" vspace="0" title="p" alt="p" src="https://ibersia.ovh/tec/mecanismos/palancas_poleas/polipasto.gif" /><br />]]>
+      </text>
+    </questiontext>
+    <image></image>
+    <generalfeedback>
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1</defaultgrade>
+    <penalty>0.1</penalty>
+    <hidden>0</hidden>
+    <shuffleanswers>0</shuffleanswers>
+    <answer fraction="100">
+      <text>{a}*4</text>
+      <tolerance>0.1</tolerance>
+      <tolerancetype>1</tolerancetype>
+      <correctanswerformat>1</correctanswerformat>
+      <correctanswerlength>0</correctanswerlength>
+      <feedback>
+        <text>En la salida tenemos cuatro tramos de cuerda, por tanto hay que recoger 4 metros de cadena por cada metro que queremos que suba el gancho.</text>
+      </feedback>
+    </answer>
+    <units>
+      <unit>
+        <multiplier>1</multiplier>
+        <unit_name>metros</unit_name>
+      </unit>
+      <unit>
+        <multiplier>1</multiplier>
+        <unit_name>m</unit_name>
+      </unit>
+    </units>
+    <dataset_definitions>
+      <dataset_definition>
+        <status>
+          <text>private</text>
+        </status>
+        <name>
+          <text>a</text>
+        </name>
+        <type>calculated</type>
+        <distribution>
+          <text>uniform</text>
+        </distribution>
+        <minimum>
+          <text>1.0</text>
+        </minimum>
+        <maximum>
+          <text>10.0</text>
+        </maximum>
+        <decimals>
+          <text>0</text>
+        </decimals>
+        <itemcount>10</itemcount>
+        <dataset_items>
+          <dataset_item>
+            <number>1</number>
+            <value>3.4</value>
+          </dataset_item>
+          <dataset_item>
+            <number>2</number>
+            <value>6</value>
+          </dataset_item>
+          <dataset_item>
+            <number>3</number>
+            <value>3</value>
+          </dataset_item>
+          <dataset_item>
+            <number>4</number>
+            <value>8</value>
+          </dataset_item>
+          <dataset_item>
+            <number>5</number>
+            <value>7</value>
+          </dataset_item>
+          <dataset_item>
+            <number>6</number>
+            <value>2</value>
+          </dataset_item>
+          <dataset_item>
+            <number>7</number>
+            <value>10</value>
+          </dataset_item>
+          <dataset_item>
+            <number>8</number>
+            <value>7</value>
+          </dataset_item>
+          <dataset_item>
+            <number>9</number>
+            <value>9</value>
+          </dataset_item>
+          <dataset_item>
+            <number>10</number>
+            <value>9</value>
+          </dataset_item>
+        </dataset_items>
+        <number_of_items>10</number_of_items>
+      </dataset_definition>
+    </dataset_definitions>
+  </question>
+  <!-- question: 0  -->
+  <question type="category">
+    <category>
+      <text>$course$/mecanismos/cálculos engranajes</text>
+    </category>
+  </question>
+  <!-- question: 64583  -->
+  <question type="calculated">
+    <name>
+      <text>modulo 24</text>
+    </name>
+    <questiontext format="html">
+      <text>
+<![CDATA[<p>¿Cual es el módulo del engranaje, sabiendo que su diámetro son {a}mm?</p>
+<p><img title="engranaje de 24 dientes" height="269" alt="a" hspace="0" src="https://ibersia.ovh/tec/mecanismos/ej_2/engranaje24.png" width="267" border="0" /></p>]]>
+      </text>
+    </questiontext>
+    <image></image>
+    <generalfeedback>
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1</defaultgrade>
+    <penalty>0.1</penalty>
+    <hidden>0</hidden>
+    <shuffleanswers>0</shuffleanswers>
+    <answer fraction="100">
+      <text>{a}/24</text>
+      <tolerance>0.01</tolerance>
+      <tolerancetype>1</tolerancetype>
+      <correctanswerformat>1</correctanswerformat>
+      <correctanswerlength>1</correctanswerlength>
+      <feedback>
+        <text></text>
+      </feedback>
+    </answer>
+    <dataset_definitions>
+      <dataset_definition>
+        <status>
+          <text>private</text>
+        </status>
+        <name>
+          <text>a</text>
+        </name>
+        <type>calculated</type>
+        <distribution>
+          <text>uniform</text>
+        </distribution>
+        <minimum>
+          <text>12</text>
+        </minimum>
+        <maximum>
+          <text>100</text>
+        </maximum>
+        <decimals>
+          <text>1</text>
+        </decimals>
+        <itemcount>4</itemcount>
+        <dataset_items>
+          <dataset_item>
+            <number>1</number>
+            <value>12</value>
+          </dataset_item>
+          <dataset_item>
+            <number>2</number>
+            <value>24</value>
+          </dataset_item>
+          <dataset_item>
+            <number>3</number>
+            <value>36</value>
+          </dataset_item>
+          <dataset_item>
+            <number>4</number>
+            <value>48</value>
+          </dataset_item>
+          <dataset_item>
+            <number>5</number>
+            <value>93.7</value>
+          </dataset_item>
+          <dataset_item>
+            <number>6</number>
+            <value>45.9</value>
+          </dataset_item>
+          <dataset_item>
+            <number>7</number>
+            <value>34.7</value>
+          </dataset_item>
+          <dataset_item>
+            <number>8</number>
+            <value>48</value>
+          </dataset_item>
+          <dataset_item>
+            <number>9</number>
+            <value>36</value>
+          </dataset_item>
+          <dataset_item>
+            <number>10</number>
+            <value>24</value>
+          </dataset_item>
+        </dataset_items>
+        <number_of_items>10</number_of_items>
+      </dataset_definition>
+    </dataset_definitions>
+  </question>
+  <!-- question: 64580  -->
+  <question type="calculated">
+    <name>
+      <text>modulo30</text>
+    </name>
+    <questiontext format="html">
+      <text>
+<![CDATA[¿Cuál es módulo del siguiente engranaje, sabiendo que su diámetro es de {a}mm?<br /><img hspace="0" height="156" width="159" vspace="0" border="0" title="engranaje" alt="engranaje" src="https://ibersia.ovh/tec/mecanismos/ej_2/engranaje30.png" /><br />]]>
+      </text>
+    </questiontext>
+    <image></image>
+    <generalfeedback>
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1</defaultgrade>
+    <penalty>0.1</penalty>
+    <hidden>0</hidden>
+    <shuffleanswers>0</shuffleanswers>
+    <answer fraction="100">
+      <text>{a}/30</text>
+      <tolerance>0.01</tolerance>
+      <tolerancetype>1</tolerancetype>
+      <correctanswerformat>1</correctanswerformat>
+      <correctanswerlength>2</correctanswerlength>
+      <feedback>
+        <text></text>
+      </feedback>
+    </answer>
+    <dataset_definitions>
+      <dataset_definition>
+        <status>
+          <text>private</text>
+        </status>
+        <name>
+          <text>a</text>
+        </name>
+        <type>calculated</type>
+        <distribution>
+          <text>uniform</text>
+        </distribution>
+        <minimum>
+          <text>40</text>
+        </minimum>
+        <maximum>
+          <text>40</text>
+        </maximum>
+        <decimals>
+          <text>0</text>
+        </decimals>
+        <itemcount>4</itemcount>
+        <dataset_items>
+          <dataset_item>
+            <number>1</number>
+            <value>30</value>
+          </dataset_item>
+          <dataset_item>
+            <number>2</number>
+            <value>60</value>
+          </dataset_item>
+          <dataset_item>
+            <number>3</number>
+            <value>45</value>
+          </dataset_item>
+          <dataset_item>
+            <number>4</number>
+            <value>15</value>
+          </dataset_item>
+        </dataset_items>
+        <number_of_items>4</number_of_items>
+      </dataset_definition>
+    </dataset_definitions>
+  </question>
+  <!-- question: 0  -->
+  <question type="category">
+    <category>
+      <text>$course$/mecanismos/poleas y palancas/calculos palancas</text>
+    </category>
+  </question>
+  <!-- question: 64574  -->
+  <question type="calculated">
+    <name>
+      <text>palanca 2 3</text>
+    </name>
+    <questiontext format="html">
+      <text>
+<![CDATA[¿Si colgamos de B {b}Kg cuánto podremos levantar en A?<br /><img hspace="0" height="92" border="0" width="299" vspace="0" title="p" alt="p" src="https://ibersia.ovh/tec/mecanismos/palancas_poleas/palanca3_2.png" /><br />]]>
+      </text>
+    </questiontext>
+    <image></image>
+    <generalfeedback>
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1</defaultgrade>
+    <penalty>0.1</penalty>
+    <hidden>0</hidden>
+    <shuffleanswers>0</shuffleanswers>
+    <answer fraction="100">
+      <text>{b}*2/3</text>
+      <tolerance>0.1</tolerance>
+      <tolerancetype>1</tolerancetype>
+      <correctanswerformat>1</correctanswerformat>
+      <correctanswerlength>1</correctanswerlength>
+      <feedback>
+        <text></text>
+      </feedback>
+    </answer>
+    <units>
+      <unit>
+        <multiplier>1</multiplier>
+        <unit_name>Kg</unit_name>
+      </unit>
+    </units>
+    <dataset_definitions>
+      <dataset_definition>
+        <status>
+          <text>private</text>
+        </status>
+        <name>
+          <text>b</text>
+        </name>
+        <type>calculated</type>
+        <distribution>
+          <text>uniform</text>
+        </distribution>
+        <minimum>
+          <text>1.0</text>
+        </minimum>
+        <maximum>
+          <text>10.0</text>
+        </maximum>
+        <decimals>
+          <text>0</text>
+        </decimals>
+        <itemcount>10</itemcount>
+        <dataset_items>
+          <dataset_item>
+            <number>1</number>
+            <value>9</value>
+          </dataset_item>
+          <dataset_item>
+            <number>2</number>
+            <value>6</value>
+          </dataset_item>
+          <dataset_item>
+            <number>3</number>
+            <value>6</value>
+          </dataset_item>
+          <dataset_item>
+            <number>4</number>
+            <value>3</value>
+          </dataset_item>
+          <dataset_item>
+            <number>5</number>
+            <value>9</value>
+          </dataset_item>
+          <dataset_item>
+            <number>6</number>
+            <value>6</value>
+          </dataset_item>
+          <dataset_item>
+            <number>7</number>
+            <value>12</value>
+          </dataset_item>
+          <dataset_item>
+            <number>8</number>
+            <value>9</value>
+          </dataset_item>
+          <dataset_item>
+            <number>9</number>
+            <value>6</value>
+          </dataset_item>
+          <dataset_item>
+            <number>10</number>
+            <value>3</value>
+          </dataset_item>
+        </dataset_items>
+        <number_of_items>10</number_of_items>
+      </dataset_definition>
+    </dataset_definitions>
+  </question>
+  <!-- question: 64575  -->
+  <question type="calculated">
+    <name>
+      <text>palanca 3 2</text>
+    </name>
+    <questiontext format="moodle_auto_format">
+      <text>
+<![CDATA[¿Si colgamos de A {a}Kg cuánto podremos levantar en B?<br /><img width="299" vspace="0" hspace="0" height="92" border="0" title="p" alt="p" src="https://ibersia.ovh/tec/mecanismos/palancas_poleas/palanca3_2.png" /><br />]]>
+      </text>
+    </questiontext>
+    <image></image>
+    <generalfeedback>
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1</defaultgrade>
+    <penalty>0.1</penalty>
+    <hidden>0</hidden>
+    <shuffleanswers>0</shuffleanswers>
+    <answer fraction="100">
+      <text>{a}*3/2</text>
+      <tolerance>0.1</tolerance>
+      <tolerancetype>1</tolerancetype>
+      <correctanswerformat>1</correctanswerformat>
+      <correctanswerlength>1</correctanswerlength>
+      <feedback>
+        <text></text>
+      </feedback>
+    </answer>
+    <units>
+      <unit>
+        <multiplier>1</multiplier>
+        <unit_name>Kg</unit_name>
+      </unit>
+    </units>
+    <dataset_definitions>
+      <dataset_definition>
+        <status>
+          <text>shared</text>
+        </status>
+        <name>
+          <text>a</text>
+        </name>
+        <type>calculated</type>
+        <distribution>
+          <text>uniform</text>
+        </distribution>
+        <minimum>
+          <text>8</text>
+        </minimum>
+        <maximum>
+          <text>8</text>
+        </maximum>
+        <decimals>
+          <text>0</text>
+        </decimals>
+        <itemcount>3</itemcount>
+        <dataset_items>
+          <dataset_item>
+            <number>1</number>
+            <value>2</value>
+          </dataset_item>
+          <dataset_item>
+            <number>2</number>
+            <value>4</value>
+          </dataset_item>
+          <dataset_item>
+            <number>3</number>
+            <value>8</value>
+          </dataset_item>
+          <dataset_item>
+            <number>4</number>
+            <value>8</value>
+          </dataset_item>
+        </dataset_items>
+        <number_of_items>4</number_of_items>
+      </dataset_definition>
+    </dataset_definitions>
+  </question>
+  <!-- question: 64573  -->
+  <question type="calculated">
+    <name>
+      <text>palanca 4_1</text>
+    </name>
+    <questiontext format="html">
+      <text>
+<![CDATA[¿Cuántos Kg de peso podremos levantar en el extremo B si colgamos {a} Kg del A?<br /><img hspace="0" height="108" width="288" vspace="0" border="0" title="palanca" alt="palanca" src="https://ibersia.ovh/tec/mecanismos/ej_2/palanca4_1.gif" /><br />]]>
+      </text>
+    </questiontext>
+    <image></image>
+    <generalfeedback>
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1</defaultgrade>
+    <penalty>0.1</penalty>
+    <hidden>0</hidden>
+    <shuffleanswers>0</shuffleanswers>
+    <answer fraction="100">
+      <text>{a}*4</text>
+      <tolerance>0.01</tolerance>
+      <tolerancetype>1</tolerancetype>
+      <correctanswerformat>1</correctanswerformat>
+      <correctanswerlength>0</correctanswerlength>
+      <feedback>
+        <text></text>
+      </feedback>
+    </answer>
+    <units>
+      <unit>
+        <multiplier>1</multiplier>
+        <unit_name>Kg</unit_name>
+      </unit>
+    </units>
+    <dataset_definitions>
+      <dataset_definition>
+        <status>
+          <text>private</text>
+        </status>
+        <name>
+          <text>a</text>
+        </name>
+        <type>calculated</type>
+        <distribution>
+          <text>uniform</text>
+        </distribution>
+        <minimum>
+          <text>1.0</text>
+        </minimum>
+        <maximum>
+          <text>10.0</text>
+        </maximum>
+        <decimals>
+          <text>0</text>
+        </decimals>
+        <itemcount>40</itemcount>
+        <dataset_items>
+          <dataset_item>
+            <number>1</number>
+            <value>4</value>
+          </dataset_item>
+          <dataset_item>
+            <number>2</number>
+            <value>6</value>
+          </dataset_item>
+          <dataset_item>
+            <number>3</number>
+            <value>5</value>
+          </dataset_item>
+          <dataset_item>
+            <number>4</number>
+            <value>9</value>
+          </dataset_item>
+          <dataset_item>
+            <number>5</number>
+            <value>10</value>
+          </dataset_item>
+          <dataset_item>
+            <number>6</number>
+            <value>2</value>
+          </dataset_item>
+          <dataset_item>
+            <number>7</number>
+            <value>3</value>
+          </dataset_item>
+          <dataset_item>
+            <number>8</number>
+            <value>1</value>
+          </dataset_item>
+          <dataset_item>
+            <number>9</number>
+            <value>8</value>
+          </dataset_item>
+          <dataset_item>
+            <number>10</number>
+            <value>9</value>
+          </dataset_item>
+          <dataset_item>
+            <number>11</number>
+            <value>5</value>
+          </dataset_item>
+          <dataset_item>
+            <number>12</number>
+            <value>8</value>
+          </dataset_item>
+          <dataset_item>
+            <number>13</number>
+            <value>8</value>
+          </dataset_item>
+          <dataset_item>
+            <number>14</number>
+            <value>8</value>
+          </dataset_item>
+          <dataset_item>
+            <number>15</number>
+            <value>6</value>
+          </dataset_item>
+          <dataset_item>
+            <number>16</number>
+            <value>8</value>
+          </dataset_item>
+          <dataset_item>
+            <number>17</number>
+            <value>7</value>
+          </dataset_item>
+          <dataset_item>
+            <number>18</number>
+            <value>2</value>
+          </dataset_item>
+          <dataset_item>
+            <number>19</number>
+            <value>9</value>
+          </dataset_item>
+          <dataset_item>
+            <number>20</number>
+            <value>6</value>
+          </dataset_item>
+          <dataset_item>
+            <number>21</number>
+            <value>9</value>
+          </dataset_item>
+          <dataset_item>
+            <number>22</number>
+            <value>4</value>
+          </dataset_item>
+          <dataset_item>
+            <number>23</number>
+            <value>5</value>
+          </dataset_item>
+          <dataset_item>
+            <number>24</number>
+            <value>1</value>
+          </dataset_item>
+          <dataset_item>
+            <number>25</number>
+            <value>7</value>
+          </dataset_item>
+          <dataset_item>
+            <number>26</number>
+            <value>5</value>
+          </dataset_item>
+          <dataset_item>
+            <number>27</number>
+            <value>9</value>
+          </dataset_item>
+          <dataset_item>
+            <number>28</number>
+            <value>9</value>
+          </dataset_item>
+          <dataset_item>
+            <number>29</number>
+            <value>1</value>
+          </dataset_item>
+          <dataset_item>
+            <number>30</number>
+            <value>1</value>
+          </dataset_item>
+          <dataset_item>
+            <number>31</number>
+            <value>1</value>
+          </dataset_item>
+          <dataset_item>
+            <number>32</number>
+            <value>6</value>
+          </dataset_item>
+          <dataset_item>
+            <number>33</number>
+            <value>6</value>
+          </dataset_item>
+          <dataset_item>
+            <number>34</number>
+            <value>6</value>
+          </dataset_item>
+          <dataset_item>
+            <number>35</number>
+            <value>1</value>
+          </dataset_item>
+          <dataset_item>
+            <number>36</number>
+            <value>2</value>
+          </dataset_item>
+          <dataset_item>
+            <number>37</number>
+            <value>4</value>
+          </dataset_item>
+          <dataset_item>
+            <number>38</number>
+            <value>1</value>
+          </dataset_item>
+          <dataset_item>
+            <number>39</number>
+            <value>2</value>
+          </dataset_item>
+          <dataset_item>
+            <number>40</number>
+            <value>2</value>
+          </dataset_item>
+        </dataset_items>
+        <number_of_items>40</number_of_items>
+      </dataset_definition>
+    </dataset_definitions>
+  </question>
+  <!-- question: 0  -->
+  <question type="category">
+    <category>
+      <text>$course$/mecanismos/cálculos trócolas</text>
+    </category>
+  </question>
+  <!-- question: 64607  -->
+  <question type="calculated">
+    <name>
+      <text>peso polipasto 3</text>
+    </name>
+    <questiontext format="html">
+      <text>
+<![CDATA[¿Cuantos Kg de peso podemos levantar si tiramos de la cadena con una fuerza de {a}Kg?<br /><img hspace="0" height="289" border="0" width="96" vspace="0" title="p" alt="p" src="https://ibersia.ovh/tec/mecanismos/palancas_poleas/polipasto.jpg" /><br />]]>
+      </text>
+    </questiontext>
+    <image></image>
+    <generalfeedback>
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1</defaultgrade>
+    <penalty>0.1</penalty>
+    <hidden>0</hidden>
+    <shuffleanswers>0</shuffleanswers>
+    <answer fraction="100">
+      <text>{a}*3</text>
+      <tolerance>0.1</tolerance>
+      <tolerancetype>1</tolerancetype>
+      <correctanswerformat>1</correctanswerformat>
+      <correctanswerlength>2</correctanswerlength>
+      <feedback>
+        <text>
+<![CDATA[En la salida tenemos tres tramos de cadena, por tanto el aparejo multiplica la fuerza por 3<br />]]>
+        </text>
+      </feedback>
+    </answer>
+    <units>
+      <unit>
+        <multiplier>1</multiplier>
+        <unit_name>Kg</unit_name>
+      </unit>
+      <unit>
+        <multiplier>1</multiplier>
+        <unit_name>Kilogramos</unit_name>
+      </unit>
+    </units>
+    <dataset_definitions>
+      <dataset_definition>
+        <status>
+          <text>private</text>
+        </status>
+        <name>
+          <text>a</text>
+        </name>
+        <type>calculated</type>
+        <distribution>
+          <text>uniform</text>
+        </distribution>
+        <minimum>
+          <text>1.0</text>
+        </minimum>
+        <maximum>
+          <text>10.0</text>
+        </maximum>
+        <decimals>
+          <text>0</text>
+        </decimals>
+        <itemcount>10</itemcount>
+        <dataset_items>
+          <dataset_item>
+            <number>1</number>
+            <value>2</value>
+          </dataset_item>
+          <dataset_item>
+            <number>2</number>
+            <value>2</value>
+          </dataset_item>
+          <dataset_item>
+            <number>3</number>
+            <value>6</value>
+          </dataset_item>
+          <dataset_item>
+            <number>4</number>
+            <value>6</value>
+          </dataset_item>
+          <dataset_item>
+            <number>5</number>
+            <value>9</value>
+          </dataset_item>
+          <dataset_item>
+            <number>6</number>
+            <value>5</value>
+          </dataset_item>
+          <dataset_item>
+            <number>7</number>
+            <value>6</value>
+          </dataset_item>
+          <dataset_item>
+            <number>8</number>
+            <value>3</value>
+          </dataset_item>
+          <dataset_item>
+            <number>9</number>
+            <value>9</value>
+          </dataset_item>
+          <dataset_item>
+            <number>10</number>
+            <value>9</value>
+          </dataset_item>
+        </dataset_items>
+        <number_of_items>10</number_of_items>
+      </dataset_definition>
+    </dataset_definitions>
+  </question>
+  <!-- question: 64609  -->
+  <question type="calculated">
+    <name>
+      <text>peso polipasto 4</text>
+    </name>
+    <questiontext format="html">
+      <text>
+<![CDATA[¿Cuanto peso podemos levantar si tiramos de la cuerda con una fuerza de {a}Kg?<br /><img hspace="0" height="183" border="0" width="116" vspace="0" title="p" alt="p" src="https://ibersia.ovh/tec/mecanismos/palancas_poleas/polipasto.gif" /><br />]]>
+      </text>
+    </questiontext>
+    <image></image>
+    <generalfeedback>
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1</defaultgrade>
+    <penalty>0.1</penalty>
+    <hidden>0</hidden>
+    <shuffleanswers>0</shuffleanswers>
+    <answer fraction="100">
+      <text>{a}*4</text>
+      <tolerance>0.1</tolerance>
+      <tolerancetype>1</tolerancetype>
+      <correctanswerformat>1</correctanswerformat>
+      <correctanswerlength>2</correctanswerlength>
+      <feedback>
+        <text>
+<![CDATA[En la salida tenemos cuatro tramos de cuerda, por tanto el aparejo multiplica la fuerza por 4<br />]]>
+        </text>
+      </feedback>
+    </answer>
+    <units>
+      <unit>
+        <multiplier>1</multiplier>
+        <unit_name>Kilogramos</unit_name>
+      </unit>
+      <unit>
+        <multiplier>1</multiplier>
+        <unit_name>Kg</unit_name>
+      </unit>
+    </units>
+    <dataset_definitions>
+      <dataset_definition>
+        <status>
+          <text>private</text>
+        </status>
+        <name>
+          <text>a</text>
+        </name>
+        <type>calculated</type>
+        <distribution>
+          <text>uniform</text>
+        </distribution>
+        <minimum>
+          <text>2</text>
+        </minimum>
+        <maximum>
+          <text>8</text>
+        </maximum>
+        <decimals>
+          <text>0</text>
+        </decimals>
+        <itemcount>12</itemcount>
+        <dataset_items>
+          <dataset_item>
+            <number>1</number>
+            <value>4</value>
+          </dataset_item>
+          <dataset_item>
+            <number>2</number>
+            <value>3</value>
+          </dataset_item>
+          <dataset_item>
+            <number>3</number>
+            <value>2</value>
+          </dataset_item>
+          <dataset_item>
+            <number>4</number>
+            <value>3</value>
+          </dataset_item>
+          <dataset_item>
+            <number>5</number>
+            <value>8</value>
+          </dataset_item>
+          <dataset_item>
+            <number>6</number>
+            <value>7</value>
+          </dataset_item>
+          <dataset_item>
+            <number>7</number>
+            <value>6</value>
+          </dataset_item>
+          <dataset_item>
+            <number>8</number>
+            <value>5</value>
+          </dataset_item>
+          <dataset_item>
+            <number>9</number>
+            <value>1</value>
+          </dataset_item>
+          <dataset_item>
+            <number>10</number>
+            <value>2</value>
+          </dataset_item>
+          <dataset_item>
+            <number>11</number>
+            <value>3</value>
+          </dataset_item>
+          <dataset_item>
+            <number>12</number>
+            <value>4</value>
+          </dataset_item>
+          <dataset_item>
+            <number>13</number>
+            <value>5</value>
+          </dataset_item>
+          <dataset_item>
+            <number>14</number>
+            <value>6</value>
+          </dataset_item>
+          <dataset_item>
+            <number>15</number>
+            <value>7</value>
+          </dataset_item>
+          <dataset_item>
+            <number>16</number>
+            <value>8</value>
+          </dataset_item>
+          <dataset_item>
+            <number>17</number>
+            <value>7</value>
+          </dataset_item>
+          <dataset_item>
+            <number>18</number>
+            <value>6</value>
+          </dataset_item>
+          <dataset_item>
+            <number>19</number>
+            <value>5</value>
+          </dataset_item>
+          <dataset_item>
+            <number>20</number>
+            <value>4</value>
+          </dataset_item>
+          <dataset_item>
+            <number>21</number>
+            <value>3</value>
+          </dataset_item>
+          <dataset_item>
+            <number>22</number>
+            <value>2</value>
+          </dataset_item>
+        </dataset_items>
+        <number_of_items>22</number_of_items>
+      </dataset_definition>
+    </dataset_definitions>
+  </question>
+  <!-- question: 0  -->
+  <question type="category">
+    <category>
+      <text>$course$/mecanismos/cálculos engranajes</text>
+    </category>
+  </question>
+  <!-- question: 64588  -->
+  <question type="calculated">
+    <name>
+      <text>polea con correas fuerza(2)</text>
+    </name>
+    <questiontext format="html">
+      <text>
+<![CDATA[<div>En el siguiente mecanismo el elemento rosa tiene {d}mm de diámetro y el amarillo {D}mm. El elemento amarillo puede levantar {a}Kg. ¿Cuánto puede levantar el rosa?</div><img title="poleas" alt="poleas" src="https://ibersia.ovh/tec/mecanismos/imagenes/10.gif"  />]]>
+      </text>
+    </questiontext>
+    <image></image>
+    <generalfeedback>
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1</defaultgrade>
+    <penalty>0.1</penalty>
+    <hidden>0</hidden>
+    <shuffleanswers>0</shuffleanswers>
+    <answer fraction="100">
+      <text>{a}*{d}/{D}*2</text>
+      <tolerance>0.05</tolerance>
+      <tolerancetype>1</tolerancetype>
+      <correctanswerformat>2</correctanswerformat>
+      <correctanswerlength>2</correctanswerlength>
+      <feedback>
+        <text></text>
+      </feedback>
+    </answer>
+    <units>
+      <unit>
+        <multiplier>0.5</multiplier>
+        <unit_name>Kg</unit_name>
+      </unit>
+    </units>
+    <dataset_definitions>
+      <dataset_definition>
+        <status>
+          <text>private</text>
+        </status>
+        <name>
+          <text>a</text>
+        </name>
+        <type>calculated</type>
+        <distribution>
+          <text>uniform</text>
+        </distribution>
+        <minimum>
+          <text>1.0</text>
+        </minimum>
+        <maximum>
+          <text>10.0</text>
+        </maximum>
+        <decimals>
+          <text>0</text>
+        </decimals>
+        <itemcount>20</itemcount>
+        <dataset_items>
+          <dataset_item>
+            <number>1</number>
+            <value>2</value>
+          </dataset_item>
+          <dataset_item>
+            <number>2</number>
+            <value>3</value>
+          </dataset_item>
+          <dataset_item>
+            <number>3</number>
+            <value>2</value>
+          </dataset_item>
+          <dataset_item>
+            <number>4</number>
+            <value>4</value>
+          </dataset_item>
+          <dataset_item>
+            <number>5</number>
+            <value>5</value>
+          </dataset_item>
+          <dataset_item>
+            <number>6</number>
+            <value>7</value>
+          </dataset_item>
+          <dataset_item>
+            <number>7</number>
+            <value>6</value>
+          </dataset_item>
+          <dataset_item>
+            <number>8</number>
+            <value>3</value>
+          </dataset_item>
+          <dataset_item>
+            <number>9</number>
+            <value>1</value>
+          </dataset_item>
+          <dataset_item>
+            <number>10</number>
+            <value>3</value>
+          </dataset_item>
+          <dataset_item>
+            <number>11</number>
+            <value>3</value>
+          </dataset_item>
+          <dataset_item>
+            <number>12</number>
+            <value>2</value>
+          </dataset_item>
+          <dataset_item>
+            <number>13</number>
+            <value>5</value>
+          </dataset_item>
+          <dataset_item>
+            <number>14</number>
+            <value>3</value>
+          </dataset_item>
+          <dataset_item>
+            <number>15</number>
+            <value>8</value>
+          </dataset_item>
+          <dataset_item>
+            <number>16</number>
+            <value>5</value>
+          </dataset_item>
+          <dataset_item>
+            <number>17</number>
+            <value>1</value>
+          </dataset_item>
+          <dataset_item>
+            <number>18</number>
+            <value>1</value>
+          </dataset_item>
+          <dataset_item>
+            <number>19</number>
+            <value>1</value>
+          </dataset_item>
+          <dataset_item>
+            <number>20</number>
+            <value>9</value>
+          </dataset_item>
+        </dataset_items>
+        <number_of_items>20</number_of_items>
+      </dataset_definition>
+      <dataset_definition>
+        <status>
+          <text>private</text>
+        </status>
+        <name>
+          <text>D</text>
+        </name>
+        <type>calculated</type>
+        <distribution>
+          <text>uniform</text>
+        </distribution>
+        <minimum>
+          <text>30</text>
+        </minimum>
+        <maximum>
+          <text>70</text>
+        </maximum>
+        <decimals>
+          <text>0</text>
+        </decimals>
+        <itemcount>20</itemcount>
+        <dataset_items>
+          <dataset_item>
+            <number>1</number>
+            <value>10</value>
+          </dataset_item>
+          <dataset_item>
+            <number>2</number>
+            <value>39</value>
+          </dataset_item>
+          <dataset_item>
+            <number>3</number>
+            <value>57</value>
+          </dataset_item>
+          <dataset_item>
+            <number>4</number>
+            <value>55</value>
+          </dataset_item>
+          <dataset_item>
+            <number>5</number>
+            <value>69</value>
+          </dataset_item>
+          <dataset_item>
+            <number>6</number>
+            <value>50</value>
+          </dataset_item>
+          <dataset_item>
+            <number>7</number>
+            <value>53</value>
+          </dataset_item>
+          <dataset_item>
+            <number>8</number>
+            <value>37</value>
+          </dataset_item>
+          <dataset_item>
+            <number>9</number>
+            <value>35</value>
+          </dataset_item>
+          <dataset_item>
+            <number>10</number>
+            <value>58</value>
+          </dataset_item>
+          <dataset_item>
+            <number>11</number>
+            <value>52</value>
+          </dataset_item>
+          <dataset_item>
+            <number>12</number>
+            <value>54</value>
+          </dataset_item>
+          <dataset_item>
+            <number>13</number>
+            <value>51</value>
+          </dataset_item>
+          <dataset_item>
+            <number>14</number>
+            <value>32</value>
+          </dataset_item>
+          <dataset_item>
+            <number>15</number>
+            <value>43</value>
+          </dataset_item>
+          <dataset_item>
+            <number>16</number>
+            <value>46</value>
+          </dataset_item>
+          <dataset_item>
+            <number>17</number>
+            <value>38</value>
+          </dataset_item>
+          <dataset_item>
+            <number>18</number>
+            <value>48</value>
+          </dataset_item>
+          <dataset_item>
+            <number>19</number>
+            <value>69</value>
+          </dataset_item>
+          <dataset_item>
+            <number>20</number>
+            <value>63</value>
+          </dataset_item>
+        </dataset_items>
+        <number_of_items>20</number_of_items>
+      </dataset_definition>
+      <dataset_definition>
+        <status>
+          <text>private</text>
+        </status>
+        <name>
+          <text>d</text>
+        </name>
+        <type>calculated</type>
+        <distribution>
+          <text>uniform</text>
+        </distribution>
+        <minimum>
+          <text>5</text>
+        </minimum>
+        <maximum>
+          <text>20</text>
+        </maximum>
+        <decimals>
+          <text>0</text>
+        </decimals>
+        <itemcount>20</itemcount>
+        <dataset_items>
+          <dataset_item>
+            <number>1</number>
+            <value>4</value>
+          </dataset_item>
+          <dataset_item>
+            <number>2</number>
+            <value>9</value>
+          </dataset_item>
+          <dataset_item>
+            <number>3</number>
+            <value>13</value>
+          </dataset_item>
+          <dataset_item>
+            <number>4</number>
+            <value>10</value>
+          </dataset_item>
+          <dataset_item>
+            <number>5</number>
+            <value>12</value>
+          </dataset_item>
+          <dataset_item>
+            <number>6</number>
+            <value>9</value>
+          </dataset_item>
+          <dataset_item>
+            <number>7</number>
+            <value>13</value>
+          </dataset_item>
+          <dataset_item>
+            <number>8</number>
+            <value>9</value>
+          </dataset_item>
+          <dataset_item>
+            <number>9</number>
+            <value>7</value>
+          </dataset_item>
+          <dataset_item>
+            <number>10</number>
+            <value>11</value>
+          </dataset_item>
+          <dataset_item>
+            <number>11</number>
+            <value>10</value>
+          </dataset_item>
+          <dataset_item>
+            <number>12</number>
+            <value>5</value>
+          </dataset_item>
+          <dataset_item>
+            <number>13</number>
+            <value>15</value>
+          </dataset_item>
+          <dataset_item>
+            <number>14</number>
+            <value>12</value>
+          </dataset_item>
+          <dataset_item>
+            <number>15</number>
+            <value>16</value>
+          </dataset_item>
+          <dataset_item>
+            <number>16</number>
+            <value>16</value>
+          </dataset_item>
+          <dataset_item>
+            <number>17</number>
+            <value>9</value>
+          </dataset_item>
+          <dataset_item>
+            <number>18</number>
+            <value>14</value>
+          </dataset_item>
+          <dataset_item>
+            <number>19</number>
+            <value>6</value>
+          </dataset_item>
+          <dataset_item>
+            <number>20</number>
+            <value>9</value>
+          </dataset_item>
+        </dataset_items>
+        <number_of_items>20</number_of_items>
+      </dataset_definition>
+    </dataset_definitions>
+  </question>
+  <!-- question: 64598  -->
+  <question type="calculated">
+    <name>
+      <text>polea con correas velocidad(2)</text>
+    </name>
+    <questiontext format="html">
+      <text>
+<![CDATA[<div>En el siguiente mecanismo el elemento rosa tiene {d}mm de diámetro y el amarillo {D}mm. Cuando el elemento rosa da {a} vueltas. ¿Cuántas da el elemento amarillo?</div><img title="poleas" alt="poleas" src="https://ibersia.ovh/tec/mecanismos/imagenes/10.gif" />]]>
+      </text>
+    </questiontext>
+    <image></image>
+    <generalfeedback>
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1</defaultgrade>
+    <penalty>0.1</penalty>
+    <hidden>0</hidden>
+    <shuffleanswers>0</shuffleanswers>
+    <answer fraction="100">
+      <text>{a}*{d}/{D}</text>
+      <tolerance>0.05</tolerance>
+      <tolerancetype>1</tolerancetype>
+      <correctanswerformat>2</correctanswerformat>
+      <correctanswerlength>2</correctanswerlength>
+      <feedback>
+        <text></text>
+      </feedback>
+    </answer>
+    <units>
+      <unit>
+        <multiplier>1</multiplier>
+        <unit_name>vueltas</unit_name>
+      </unit>
+    </units>
+    <dataset_definitions>
+      <dataset_definition>
+        <status>
+          <text>private</text>
+        </status>
+        <name>
+          <text>a</text>
+        </name>
+        <type>calculated</type>
+        <distribution>
+          <text>uniform</text>
+        </distribution>
+        <minimum>
+          <text>30</text>
+        </minimum>
+        <maximum>
+          <text>50</text>
+        </maximum>
+        <decimals>
+          <text>0</text>
+        </decimals>
+        <itemcount>10</itemcount>
+        <dataset_items>
+          <dataset_item>
+            <number>1</number>
+            <value>2</value>
+          </dataset_item>
+          <dataset_item>
+            <number>2</number>
+            <value>50</value>
+          </dataset_item>
+          <dataset_item>
+            <number>3</number>
+            <value>35</value>
+          </dataset_item>
+          <dataset_item>
+            <number>4</number>
+            <value>39</value>
+          </dataset_item>
+          <dataset_item>
+            <number>5</number>
+            <value>39</value>
+          </dataset_item>
+          <dataset_item>
+            <number>6</number>
+            <value>30</value>
+          </dataset_item>
+          <dataset_item>
+            <number>7</number>
+            <value>40</value>
+          </dataset_item>
+          <dataset_item>
+            <number>8</number>
+            <value>38</value>
+          </dataset_item>
+          <dataset_item>
+            <number>9</number>
+            <value>49</value>
+          </dataset_item>
+          <dataset_item>
+            <number>10</number>
+            <value>32</value>
+          </dataset_item>
+          <dataset_item>
+            <number>11</number>
+            <value>3</value>
+          </dataset_item>
+          <dataset_item>
+            <number>12</number>
+            <value>2</value>
+          </dataset_item>
+          <dataset_item>
+            <number>13</number>
+            <value>5</value>
+          </dataset_item>
+          <dataset_item>
+            <number>14</number>
+            <value>3</value>
+          </dataset_item>
+          <dataset_item>
+            <number>15</number>
+            <value>8</value>
+          </dataset_item>
+          <dataset_item>
+            <number>16</number>
+            <value>5</value>
+          </dataset_item>
+          <dataset_item>
+            <number>17</number>
+            <value>1</value>
+          </dataset_item>
+          <dataset_item>
+            <number>18</number>
+            <value>1</value>
+          </dataset_item>
+          <dataset_item>
+            <number>19</number>
+            <value>1</value>
+          </dataset_item>
+          <dataset_item>
+            <number>20</number>
+            <value>9</value>
+          </dataset_item>
+        </dataset_items>
+        <number_of_items>20</number_of_items>
+      </dataset_definition>
+      <dataset_definition>
+        <status>
+          <text>private</text>
+        </status>
+        <name>
+          <text>D</text>
+        </name>
+        <type>calculated</type>
+        <distribution>
+          <text>uniform</text>
+        </distribution>
+        <minimum>
+          <text>30</text>
+        </minimum>
+        <maximum>
+          <text>70</text>
+        </maximum>
+        <decimals>
+          <text>0</text>
+        </decimals>
+        <itemcount>10</itemcount>
+        <dataset_items>
+          <dataset_item>
+            <number>1</number>
+            <value>10</value>
+          </dataset_item>
+          <dataset_item>
+            <number>2</number>
+            <value>45</value>
+          </dataset_item>
+          <dataset_item>
+            <number>3</number>
+            <value>65</value>
+          </dataset_item>
+          <dataset_item>
+            <number>4</number>
+            <value>57</value>
+          </dataset_item>
+          <dataset_item>
+            <number>5</number>
+            <value>64</value>
+          </dataset_item>
+          <dataset_item>
+            <number>6</number>
+            <value>53</value>
+          </dataset_item>
+          <dataset_item>
+            <number>7</number>
+            <value>50</value>
+          </dataset_item>
+          <dataset_item>
+            <number>8</number>
+            <value>66</value>
+          </dataset_item>
+          <dataset_item>
+            <number>9</number>
+            <value>48</value>
+          </dataset_item>
+          <dataset_item>
+            <number>10</number>
+            <value>61</value>
+          </dataset_item>
+          <dataset_item>
+            <number>11</number>
+            <value>52</value>
+          </dataset_item>
+          <dataset_item>
+            <number>12</number>
+            <value>54</value>
+          </dataset_item>
+          <dataset_item>
+            <number>13</number>
+            <value>51</value>
+          </dataset_item>
+          <dataset_item>
+            <number>14</number>
+            <value>32</value>
+          </dataset_item>
+          <dataset_item>
+            <number>15</number>
+            <value>43</value>
+          </dataset_item>
+          <dataset_item>
+            <number>16</number>
+            <value>46</value>
+          </dataset_item>
+          <dataset_item>
+            <number>17</number>
+            <value>38</value>
+          </dataset_item>
+          <dataset_item>
+            <number>18</number>
+            <value>48</value>
+          </dataset_item>
+          <dataset_item>
+            <number>19</number>
+            <value>69</value>
+          </dataset_item>
+          <dataset_item>
+            <number>20</number>
+            <value>63</value>
+          </dataset_item>
+        </dataset_items>
+        <number_of_items>20</number_of_items>
+      </dataset_definition>
+      <dataset_definition>
+        <status>
+          <text>private</text>
+        </status>
+        <name>
+          <text>d</text>
+        </name>
+        <type>calculated</type>
+        <distribution>
+          <text>uniform</text>
+        </distribution>
+        <minimum>
+          <text>5</text>
+        </minimum>
+        <maximum>
+          <text>20</text>
+        </maximum>
+        <decimals>
+          <text>0</text>
+        </decimals>
+        <itemcount>10</itemcount>
+        <dataset_items>
+          <dataset_item>
+            <number>1</number>
+            <value>4</value>
+          </dataset_item>
+          <dataset_item>
+            <number>2</number>
+            <value>12</value>
+          </dataset_item>
+          <dataset_item>
+            <number>3</number>
+            <value>12</value>
+          </dataset_item>
+          <dataset_item>
+            <number>4</number>
+            <value>8</value>
+          </dataset_item>
+          <dataset_item>
+            <number>5</number>
+            <value>9</value>
+          </dataset_item>
+          <dataset_item>
+            <number>6</number>
+            <value>15</value>
+          </dataset_item>
+          <dataset_item>
+            <number>7</number>
+            <value>8</value>
+          </dataset_item>
+          <dataset_item>
+            <number>8</number>
+            <value>5</value>
+          </dataset_item>
+          <dataset_item>
+            <number>9</number>
+            <value>15</value>
+          </dataset_item>
+          <dataset_item>
+            <number>10</number>
+            <value>6</value>
+          </dataset_item>
+          <dataset_item>
+            <number>11</number>
+            <value>10</value>
+          </dataset_item>
+          <dataset_item>
+            <number>12</number>
+            <value>5</value>
+          </dataset_item>
+          <dataset_item>
+            <number>13</number>
+            <value>15</value>
+          </dataset_item>
+          <dataset_item>
+            <number>14</number>
+            <value>12</value>
+          </dataset_item>
+          <dataset_item>
+            <number>15</number>
+            <value>16</value>
+          </dataset_item>
+          <dataset_item>
+            <number>16</number>
+            <value>16</value>
+          </dataset_item>
+          <dataset_item>
+            <number>17</number>
+            <value>9</value>
+          </dataset_item>
+          <dataset_item>
+            <number>18</number>
+            <value>14</value>
+          </dataset_item>
+          <dataset_item>
+            <number>19</number>
+            <value>6</value>
+          </dataset_item>
+          <dataset_item>
+            <number>20</number>
+            <value>9</value>
+          </dataset_item>
+        </dataset_items>
+        <number_of_items>20</number_of_items>
+      </dataset_definition>
+    </dataset_definitions>
+  </question>
+  <!-- question: 64587  -->
+  <question type="calculated">
+    <name>
+      <text>polea con correas fuerza</text>
+    </name>
+    <questiontext format="html">
+      <text>
+<![CDATA[<div>En el siguiente mecanismo, el elemento rosa tiene un diámetro de {d}mm y el amarillo de {D} mm El elemento rosa puede levantar {a}Kg. ¿Cuánto puede levantar el amarillo?</div><img title="poleas" alt="poleas" src="https://ibersia.ovh/tec/mecanismos/imagenes/10.gif" />]]>
+      </text>
+    </questiontext>
+    <image></image>
+    <generalfeedback>
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1</defaultgrade>
+    <penalty>0.1</penalty>
+    <hidden>0</hidden>
+    <shuffleanswers>0</shuffleanswers>
+    <answer fraction="100">
+      <text>{a}*{D}/{d}*2</text>
+      <tolerance>0.01</tolerance>
+      <tolerancetype>1</tolerancetype>
+      <correctanswerformat>1</correctanswerformat>
+      <correctanswerlength>0</correctanswerlength>
+      <feedback>
+        <text></text>
+      </feedback>
+    </answer>
+    <units>
+      <unit>
+        <multiplier>0.5</multiplier>
+        <unit_name>Kg</unit_name>
+      </unit>
+    </units>
+    <dataset_definitions>
+      <dataset_definition>
+        <status>
+          <text>private</text>
+        </status>
+        <name>
+          <text>a</text>
+        </name>
+        <type>calculated</type>
+        <distribution>
+          <text>uniform</text>
+        </distribution>
+        <minimum>
+          <text>1.0</text>
+        </minimum>
+        <maximum>
+          <text>10.0</text>
+        </maximum>
+        <decimals>
+          <text>0</text>
+        </decimals>
+        <itemcount>10</itemcount>
+        <dataset_items>
+          <dataset_item>
+            <number>1</number>
+            <value>2</value>
+          </dataset_item>
+          <dataset_item>
+            <number>2</number>
+            <value>3</value>
+          </dataset_item>
+          <dataset_item>
+            <number>3</number>
+            <value>2</value>
+          </dataset_item>
+          <dataset_item>
+            <number>4</number>
+            <value>4</value>
+          </dataset_item>
+          <dataset_item>
+            <number>5</number>
+            <value>5</value>
+          </dataset_item>
+          <dataset_item>
+            <number>6</number>
+            <value>7</value>
+          </dataset_item>
+          <dataset_item>
+            <number>7</number>
+            <value>6</value>
+          </dataset_item>
+          <dataset_item>
+            <number>8</number>
+            <value>3</value>
+          </dataset_item>
+          <dataset_item>
+            <number>9</number>
+            <value>1</value>
+          </dataset_item>
+          <dataset_item>
+            <number>10</number>
+            <value>3</value>
+          </dataset_item>
+        </dataset_items>
+        <number_of_items>10</number_of_items>
+      </dataset_definition>
+      <dataset_definition>
+        <status>
+          <text>private</text>
+        </status>
+        <name>
+          <text>D</text>
+        </name>
+        <type>calculated</type>
+        <distribution>
+          <text>uniform</text>
+        </distribution>
+        <minimum>
+          <text>30</text>
+        </minimum>
+        <maximum>
+          <text>60</text>
+        </maximum>
+        <decimals>
+          <text>0</text>
+        </decimals>
+        <itemcount>10</itemcount>
+        <dataset_items>
+          <dataset_item>
+            <number>1</number>
+            <value>2.9</value>
+          </dataset_item>
+          <dataset_item>
+            <number>2</number>
+            <value>42</value>
+          </dataset_item>
+          <dataset_item>
+            <number>3</number>
+            <value>43</value>
+          </dataset_item>
+          <dataset_item>
+            <number>4</number>
+            <value>34</value>
+          </dataset_item>
+          <dataset_item>
+            <number>5</number>
+            <value>47</value>
+          </dataset_item>
+          <dataset_item>
+            <number>6</number>
+            <value>57</value>
+          </dataset_item>
+          <dataset_item>
+            <number>7</number>
+            <value>31</value>
+          </dataset_item>
+          <dataset_item>
+            <number>8</number>
+            <value>51</value>
+          </dataset_item>
+          <dataset_item>
+            <number>9</number>
+            <value>48</value>
+          </dataset_item>
+          <dataset_item>
+            <number>10</number>
+            <value>49</value>
+          </dataset_item>
+        </dataset_items>
+        <number_of_items>10</number_of_items>
+      </dataset_definition>
+      <dataset_definition>
+        <status>
+          <text>private</text>
+        </status>
+        <name>
+          <text>d</text>
+        </name>
+        <type>calculated</type>
+        <distribution>
+          <text>uniform</text>
+        </distribution>
+        <minimum>
+          <text>10</text>
+        </minimum>
+        <maximum>
+          <text>20</text>
+        </maximum>
+        <decimals>
+          <text>0</text>
+        </decimals>
+        <itemcount>10</itemcount>
+        <dataset_items>
+          <dataset_item>
+            <number>1</number>
+            <value>3.7</value>
+          </dataset_item>
+          <dataset_item>
+            <number>2</number>
+            <value>20</value>
+          </dataset_item>
+          <dataset_item>
+            <number>3</number>
+            <value>20</value>
+          </dataset_item>
+          <dataset_item>
+            <number>4</number>
+            <value>16</value>
+          </dataset_item>
+          <dataset_item>
+            <number>5</number>
+            <value>17</value>
+          </dataset_item>
+          <dataset_item>
+            <number>6</number>
+            <value>14</value>
+          </dataset_item>
+          <dataset_item>
+            <number>7</number>
+            <value>17</value>
+          </dataset_item>
+          <dataset_item>
+            <number>8</number>
+            <value>16</value>
+          </dataset_item>
+          <dataset_item>
+            <number>9</number>
+            <value>10</value>
+          </dataset_item>
+          <dataset_item>
+            <number>10</number>
+            <value>11</value>
+          </dataset_item>
+        </dataset_items>
+        <number_of_items>10</number_of_items>
+      </dataset_definition>
+    </dataset_definitions>
+  </question>
+  <!-- question: 64597  -->
+  <question type="calculated">
+    <name>
+      <text>polea con correas fuerza</text>
+    </name>
+    <questiontext format="html">
+      <text>
+<![CDATA[<div>En el siguiente mecanismo, el elemento rosa tiene un diámetro de {d}mm y el amarillo de {D} mm. Cuando el elemento amarillo da {a} vueltas. ¿Cuántos da el elemento rosa?</div><img title="poleas" alt="poleas" src="https://ibersia.ovh/tec/mecanismos/imagenes/10.gif" />]]>
+      </text>
+    </questiontext>
+    <image></image>
+    <generalfeedback>
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1</defaultgrade>
+    <penalty>0.1</penalty>
+    <hidden>0</hidden>
+    <shuffleanswers>0</shuffleanswers>
+    <answer fraction="100">
+      <text>{a}*{D}/{d}</text>
+      <tolerance>0.05</tolerance>
+      <tolerancetype>1</tolerancetype>
+      <correctanswerformat>2</correctanswerformat>
+      <correctanswerlength>2</correctanswerlength>
+      <feedback>
+        <text></text>
+      </feedback>
+    </answer>
+    <dataset_definitions>
+      <dataset_definition>
+        <status>
+          <text>private</text>
+        </status>
+        <name>
+          <text>a</text>
+        </name>
+        <type>calculated</type>
+        <distribution>
+          <text>uniform</text>
+        </distribution>
+        <minimum>
+          <text>1.0</text>
+        </minimum>
+        <maximum>
+          <text>10.0</text>
+        </maximum>
+        <decimals>
+          <text>0</text>
+        </decimals>
+        <itemcount>10</itemcount>
+        <dataset_items>
+          <dataset_item>
+            <number>1</number>
+            <value>2</value>
+          </dataset_item>
+          <dataset_item>
+            <number>2</number>
+            <value>3</value>
+          </dataset_item>
+          <dataset_item>
+            <number>3</number>
+            <value>2</value>
+          </dataset_item>
+          <dataset_item>
+            <number>4</number>
+            <value>4</value>
+          </dataset_item>
+          <dataset_item>
+            <number>5</number>
+            <value>5</value>
+          </dataset_item>
+          <dataset_item>
+            <number>6</number>
+            <value>7</value>
+          </dataset_item>
+          <dataset_item>
+            <number>7</number>
+            <value>6</value>
+          </dataset_item>
+          <dataset_item>
+            <number>8</number>
+            <value>3</value>
+          </dataset_item>
+          <dataset_item>
+            <number>9</number>
+            <value>1</value>
+          </dataset_item>
+          <dataset_item>
+            <number>10</number>
+            <value>3</value>
+          </dataset_item>
+        </dataset_items>
+        <number_of_items>10</number_of_items>
+      </dataset_definition>
+      <dataset_definition>
+        <status>
+          <text>private</text>
+        </status>
+        <name>
+          <text>D</text>
+        </name>
+        <type>calculated</type>
+        <distribution>
+          <text>uniform</text>
+        </distribution>
+        <minimum>
+          <text>30</text>
+        </minimum>
+        <maximum>
+          <text>60</text>
+        </maximum>
+        <decimals>
+          <text>0</text>
+        </decimals>
+        <itemcount>10</itemcount>
+        <dataset_items>
+          <dataset_item>
+            <number>1</number>
+            <value>2.9</value>
+          </dataset_item>
+          <dataset_item>
+            <number>2</number>
+            <value>42</value>
+          </dataset_item>
+          <dataset_item>
+            <number>3</number>
+            <value>43</value>
+          </dataset_item>
+          <dataset_item>
+            <number>4</number>
+            <value>34</value>
+          </dataset_item>
+          <dataset_item>
+            <number>5</number>
+            <value>47</value>
+          </dataset_item>
+          <dataset_item>
+            <number>6</number>
+            <value>57</value>
+          </dataset_item>
+          <dataset_item>
+            <number>7</number>
+            <value>31</value>
+          </dataset_item>
+          <dataset_item>
+            <number>8</number>
+            <value>51</value>
+          </dataset_item>
+          <dataset_item>
+            <number>9</number>
+            <value>48</value>
+          </dataset_item>
+          <dataset_item>
+            <number>10</number>
+            <value>49</value>
+          </dataset_item>
+        </dataset_items>
+        <number_of_items>10</number_of_items>
+      </dataset_definition>
+      <dataset_definition>
+        <status>
+          <text>private</text>
+        </status>
+        <name>
+          <text>d</text>
+        </name>
+        <type>calculated</type>
+        <distribution>
+          <text>uniform</text>
+        </distribution>
+        <minimum>
+          <text>10</text>
+        </minimum>
+        <maximum>
+          <text>20</text>
+        </maximum>
+        <decimals>
+          <text>0</text>
+        </decimals>
+        <itemcount>10</itemcount>
+        <dataset_items>
+          <dataset_item>
+            <number>1</number>
+            <value>3.7</value>
+          </dataset_item>
+          <dataset_item>
+            <number>2</number>
+            <value>20</value>
+          </dataset_item>
+          <dataset_item>
+            <number>3</number>
+            <value>20</value>
+          </dataset_item>
+          <dataset_item>
+            <number>4</number>
+            <value>16</value>
+          </dataset_item>
+          <dataset_item>
+            <number>5</number>
+            <value>17</value>
+          </dataset_item>
+          <dataset_item>
+            <number>6</number>
+            <value>14</value>
+          </dataset_item>
+          <dataset_item>
+            <number>7</number>
+            <value>17</value>
+          </dataset_item>
+          <dataset_item>
+            <number>8</number>
+            <value>16</value>
+          </dataset_item>
+          <dataset_item>
+            <number>9</number>
+            <value>10</value>
+          </dataset_item>
+          <dataset_item>
+            <number>10</number>
+            <value>11</value>
+          </dataset_item>
+        </dataset_items>
+        <number_of_items>10</number_of_items>
+      </dataset_definition>
+    </dataset_definitions>
+  </question>
+  <!-- question: 64589  -->
+  <question type="calculated">
+    <name>
+      <text>polea con correas velocidad</text>
+    </name>
+    <questiontext format="html">
+      <text>
+<![CDATA[<div>En el siguiente mecanismo, el elemento rosa tiene un diámetro de {d}mm y el amarillo de {D} mm. Cuando el elemento rosa da {a} vueltas. ¿Cuántas vueltas el amarillo?</div><img title="poleas" alt="poleas" src="https://ibersia.ovh/tec/mecanismos/imagenes/10.gif" />]]>
+      </text>
+    </questiontext>
+    <image></image>
+    <generalfeedback>
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1</defaultgrade>
+    <penalty>0.1</penalty>
+    <hidden>0</hidden>
+    <shuffleanswers>0</shuffleanswers>
+    <answer fraction="100">
+      <text>{a}*{d}/{D}</text>
+      <tolerance>0.05</tolerance>
+      <tolerancetype>1</tolerancetype>
+      <correctanswerformat>2</correctanswerformat>
+      <correctanswerlength>2</correctanswerlength>
+      <feedback>
+        <text></text>
+      </feedback>
+    </answer>
+    <units>
+      <unit>
+        <multiplier>1</multiplier>
+        <unit_name>vueltas</unit_name>
+      </unit>
+    </units>
+    <dataset_definitions>
+      <dataset_definition>
+        <status>
+          <text>private</text>
+        </status>
+        <name>
+          <text>a</text>
+        </name>
+        <type>calculated</type>
+        <distribution>
+          <text>uniform</text>
+        </distribution>
+        <minimum>
+          <text>20</text>
+        </minimum>
+        <maximum>
+          <text>60</text>
+        </maximum>
+        <decimals>
+          <text>0</text>
+        </decimals>
+        <itemcount>11</itemcount>
+        <dataset_items>
+          <dataset_item>
+            <number>1</number>
+            <value>35</value>
+          </dataset_item>
+          <dataset_item>
+            <number>2</number>
+            <value>3</value>
+          </dataset_item>
+          <dataset_item>
+            <number>3</number>
+            <value>2</value>
+          </dataset_item>
+          <dataset_item>
+            <number>4</number>
+            <value>4</value>
+          </dataset_item>
+          <dataset_item>
+            <number>5</number>
+            <value>5</value>
+          </dataset_item>
+          <dataset_item>
+            <number>6</number>
+            <value>7</value>
+          </dataset_item>
+          <dataset_item>
+            <number>7</number>
+            <value>6</value>
+          </dataset_item>
+          <dataset_item>
+            <number>8</number>
+            <value>3</value>
+          </dataset_item>
+          <dataset_item>
+            <number>9</number>
+            <value>1</value>
+          </dataset_item>
+          <dataset_item>
+            <number>10</number>
+            <value>3</value>
+          </dataset_item>
+          <dataset_item>
+            <number>11</number>
+            <value>51</value>
+          </dataset_item>
+        </dataset_items>
+        <number_of_items>11</number_of_items>
+      </dataset_definition>
+      <dataset_definition>
+        <status>
+          <text>private</text>
+        </status>
+        <name>
+          <text>D</text>
+        </name>
+        <type>calculated</type>
+        <distribution>
+          <text>uniform</text>
+        </distribution>
+        <minimum>
+          <text>30</text>
+        </minimum>
+        <maximum>
+          <text>60</text>
+        </maximum>
+        <decimals>
+          <text>0</text>
+        </decimals>
+        <itemcount>11</itemcount>
+        <dataset_items>
+          <dataset_item>
+            <number>1</number>
+            <value>37</value>
+          </dataset_item>
+          <dataset_item>
+            <number>2</number>
+            <value>42</value>
+          </dataset_item>
+          <dataset_item>
+            <number>3</number>
+            <value>43</value>
+          </dataset_item>
+          <dataset_item>
+            <number>4</number>
+            <value>34</value>
+          </dataset_item>
+          <dataset_item>
+            <number>5</number>
+            <value>47</value>
+          </dataset_item>
+          <dataset_item>
+            <number>6</number>
+            <value>57</value>
+          </dataset_item>
+          <dataset_item>
+            <number>7</number>
+            <value>31</value>
+          </dataset_item>
+          <dataset_item>
+            <number>8</number>
+            <value>51</value>
+          </dataset_item>
+          <dataset_item>
+            <number>9</number>
+            <value>48</value>
+          </dataset_item>
+          <dataset_item>
+            <number>10</number>
+            <value>49</value>
+          </dataset_item>
+          <dataset_item>
+            <number>11</number>
+            <value>57</value>
+          </dataset_item>
+        </dataset_items>
+        <number_of_items>11</number_of_items>
+      </dataset_definition>
+      <dataset_definition>
+        <status>
+          <text>private</text>
+        </status>
+        <name>
+          <text>d</text>
+        </name>
+        <type>calculated</type>
+        <distribution>
+          <text>uniform</text>
+        </distribution>
+        <minimum>
+          <text>10</text>
+        </minimum>
+        <maximum>
+          <text>20</text>
+        </maximum>
+        <decimals>
+          <text>0</text>
+        </decimals>
+        <itemcount>11</itemcount>
+        <dataset_items>
+          <dataset_item>
+            <number>1</number>
+            <value>18</value>
+          </dataset_item>
+          <dataset_item>
+            <number>2</number>
+            <value>20</value>
+          </dataset_item>
+          <dataset_item>
+            <number>3</number>
+            <value>20</value>
+          </dataset_item>
+          <dataset_item>
+            <number>4</number>
+            <value>16</value>
+          </dataset_item>
+          <dataset_item>
+            <number>5</number>
+            <value>17</value>
+          </dataset_item>
+          <dataset_item>
+            <number>6</number>
+            <value>14</value>
+          </dataset_item>
+          <dataset_item>
+            <number>7</number>
+            <value>17</value>
+          </dataset_item>
+          <dataset_item>
+            <number>8</number>
+            <value>16</value>
+          </dataset_item>
+          <dataset_item>
+            <number>9</number>
+            <value>10</value>
+          </dataset_item>
+          <dataset_item>
+            <number>10</number>
+            <value>11</value>
+          </dataset_item>
+          <dataset_item>
+            <number>11</number>
+            <value>19</value>
+          </dataset_item>
+        </dataset_items>
+        <number_of_items>11</number_of_items>
+      </dataset_definition>
+    </dataset_definitions>
+  </question>
+  <!-- question: 64596  -->
+  <question type="calculated">
+    <name>
+      <text>polea con correas velovidad</text>
+    </name>
+    <questiontext format="html">
+      <text>
+<![CDATA[<div>En el siguiente mecanismo, el elemento rosa tiene un diámetro de {d}mm y el amarillo de {D} mm. El elemento rosa Cuando el elemento amarillo de {a} vueltas, ¿Cuántos da el elemento rosa?</div><img title="poleas" alt="poleas" src="https://ibersia.ovh/tec/mecanismos/imagenes/10.gif" />]]>
+      </text>
+    </questiontext>
+    <image></image>
+    <generalfeedback>
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1</defaultgrade>
+    <penalty>0.1</penalty>
+    <hidden>0</hidden>
+    <shuffleanswers>0</shuffleanswers>
+    <answer fraction="100">
+      <text>{a}*{D}/{d}</text>
+      <tolerance>0.05</tolerance>
+      <tolerancetype>1</tolerancetype>
+      <correctanswerformat>1</correctanswerformat>
+      <correctanswerlength>2</correctanswerlength>
+      <feedback>
+        <text></text>
+      </feedback>
+    </answer>
+    <units>
+      <unit>
+        <multiplier>1</multiplier>
+        <unit_name>vueltas</unit_name>
+      </unit>
+    </units>
+    <dataset_definitions>
+      <dataset_definition>
+        <status>
+          <text>private</text>
+        </status>
+        <name>
+          <text>a</text>
+        </name>
+        <type>calculated</type>
+        <distribution>
+          <text>uniform</text>
+        </distribution>
+        <minimum>
+          <text>1.0</text>
+        </minimum>
+        <maximum>
+          <text>10.0</text>
+        </maximum>
+        <decimals>
+          <text>0</text>
+        </decimals>
+        <itemcount>10</itemcount>
+        <dataset_items>
+          <dataset_item>
+            <number>1</number>
+            <value>2</value>
+          </dataset_item>
+          <dataset_item>
+            <number>2</number>
+            <value>3</value>
+          </dataset_item>
+          <dataset_item>
+            <number>3</number>
+            <value>2</value>
+          </dataset_item>
+          <dataset_item>
+            <number>4</number>
+            <value>4</value>
+          </dataset_item>
+          <dataset_item>
+            <number>5</number>
+            <value>5</value>
+          </dataset_item>
+          <dataset_item>
+            <number>6</number>
+            <value>7</value>
+          </dataset_item>
+          <dataset_item>
+            <number>7</number>
+            <value>6</value>
+          </dataset_item>
+          <dataset_item>
+            <number>8</number>
+            <value>3</value>
+          </dataset_item>
+          <dataset_item>
+            <number>9</number>
+            <value>1</value>
+          </dataset_item>
+          <dataset_item>
+            <number>10</number>
+            <value>3</value>
+          </dataset_item>
+        </dataset_items>
+        <number_of_items>10</number_of_items>
+      </dataset_definition>
+      <dataset_definition>
+        <status>
+          <text>private</text>
+        </status>
+        <name>
+          <text>D</text>
+        </name>
+        <type>calculated</type>
+        <distribution>
+          <text>uniform</text>
+        </distribution>
+        <minimum>
+          <text>30</text>
+        </minimum>
+        <maximum>
+          <text>60</text>
+        </maximum>
+        <decimals>
+          <text>0</text>
+        </decimals>
+        <itemcount>10</itemcount>
+        <dataset_items>
+          <dataset_item>
+            <number>1</number>
+            <value>29</value>
+          </dataset_item>
+          <dataset_item>
+            <number>2</number>
+            <value>42</value>
+          </dataset_item>
+          <dataset_item>
+            <number>3</number>
+            <value>43</value>
+          </dataset_item>
+          <dataset_item>
+            <number>4</number>
+            <value>34</value>
+          </dataset_item>
+          <dataset_item>
+            <number>5</number>
+            <value>47</value>
+          </dataset_item>
+          <dataset_item>
+            <number>6</number>
+            <value>57</value>
+          </dataset_item>
+          <dataset_item>
+            <number>7</number>
+            <value>31</value>
+          </dataset_item>
+          <dataset_item>
+            <number>8</number>
+            <value>51</value>
+          </dataset_item>
+          <dataset_item>
+            <number>9</number>
+            <value>48</value>
+          </dataset_item>
+          <dataset_item>
+            <number>10</number>
+            <value>49</value>
+          </dataset_item>
+        </dataset_items>
+        <number_of_items>10</number_of_items>
+      </dataset_definition>
+      <dataset_definition>
+        <status>
+          <text>private</text>
+        </status>
+        <name>
+          <text>d</text>
+        </name>
+        <type>calculated</type>
+        <distribution>
+          <text>uniform</text>
+        </distribution>
+        <minimum>
+          <text>10</text>
+        </minimum>
+        <maximum>
+          <text>20</text>
+        </maximum>
+        <decimals>
+          <text>0</text>
+        </decimals>
+        <itemcount>10</itemcount>
+        <dataset_items>
+          <dataset_item>
+            <number>1</number>
+            <value>13</value>
+          </dataset_item>
+          <dataset_item>
+            <number>2</number>
+            <value>20</value>
+          </dataset_item>
+          <dataset_item>
+            <number>3</number>
+            <value>20</value>
+          </dataset_item>
+          <dataset_item>
+            <number>4</number>
+            <value>16</value>
+          </dataset_item>
+          <dataset_item>
+            <number>5</number>
+            <value>17</value>
+          </dataset_item>
+          <dataset_item>
+            <number>6</number>
+            <value>14</value>
+          </dataset_item>
+          <dataset_item>
+            <number>7</number>
+            <value>17</value>
+          </dataset_item>
+          <dataset_item>
+            <number>8</number>
+            <value>16</value>
+          </dataset_item>
+          <dataset_item>
+            <number>9</number>
+            <value>10</value>
+          </dataset_item>
+          <dataset_item>
+            <number>10</number>
+            <value>11</value>
+          </dataset_item>
+        </dataset_items>
+        <number_of_items>10</number_of_items>
+      </dataset_definition>
+    </dataset_definitions>
+  </question>
+  <!-- question: 64585  -->
+  <question type="calculated">
+    <name>
+      <text>polea con correas*4 fuerza</text>
+    </name>
+    <questiontext format="html">
+      <text>
+<![CDATA[<div>En el siguiente mecanismo, el elemento rosa puede levantar {a}Kg. ¿Cuánto puede levantar el amarillo?</div><img title="poleas" alt="poleas" src="https://ibersia.ovh/tec/mecanismos/ej_mec/ej_poleas_correa1.gif" width="357" vspace="0" hspace="0" height="225" border="0" />]]>
+      </text>
+    </questiontext>
+    <image></image>
+    <generalfeedback>
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1</defaultgrade>
+    <penalty>0.1</penalty>
+    <hidden>0</hidden>
+    <shuffleanswers>0</shuffleanswers>
+    <answer fraction="100">
+      <text>{a}*8</text>
+      <tolerance>0.01</tolerance>
+      <tolerancetype>1</tolerancetype>
+      <correctanswerformat>1</correctanswerformat>
+      <correctanswerlength>0</correctanswerlength>
+      <feedback>
+        <text></text>
+      </feedback>
+    </answer>
+    <units>
+      <unit>
+        <multiplier>0.5</multiplier>
+        <unit_name>Kg</unit_name>
+      </unit>
+    </units>
+    <dataset_definitions>
+      <dataset_definition>
+        <status>
+          <text>private</text>
+        </status>
+        <name>
+          <text>a</text>
+        </name>
+        <type>calculated</type>
+        <distribution>
+          <text>uniform</text>
+        </distribution>
+        <minimum>
+          <text>1.0</text>
+        </minimum>
+        <maximum>
+          <text>10.0</text>
+        </maximum>
+        <decimals>
+          <text>0</text>
+        </decimals>
+        <itemcount>10</itemcount>
+        <dataset_items>
+          <dataset_item>
+            <number>1</number>
+            <value>2</value>
+          </dataset_item>
+          <dataset_item>
+            <number>2</number>
+            <value>3</value>
+          </dataset_item>
+          <dataset_item>
+            <number>3</number>
+            <value>2</value>
+          </dataset_item>
+          <dataset_item>
+            <number>4</number>
+            <value>4</value>
+          </dataset_item>
+          <dataset_item>
+            <number>5</number>
+            <value>5</value>
+          </dataset_item>
+          <dataset_item>
+            <number>6</number>
+            <value>7</value>
+          </dataset_item>
+          <dataset_item>
+            <number>7</number>
+            <value>6</value>
+          </dataset_item>
+          <dataset_item>
+            <number>8</number>
+            <value>3</value>
+          </dataset_item>
+          <dataset_item>
+            <number>9</number>
+            <value>1</value>
+          </dataset_item>
+          <dataset_item>
+            <number>10</number>
+            <value>3</value>
+          </dataset_item>
+        </dataset_items>
+        <number_of_items>10</number_of_items>
+      </dataset_definition>
+    </dataset_definitions>
+  </question>
+  <!-- question: 64586  -->
+  <question type="calculated">
+    <name>
+      <text>polea con correas/4 fuerza</text>
+    </name>
+    <questiontext format="html">
+      <text>
+<![CDATA[<div>En el siguiente mecanismo, el elemento amarillo puede levantar {a}Kg. ¿Cuánto puede levantar el rosa?</div><img src="https://ibersia.ovh/tec/mecanismos/ej_mec/ej_poleas_correa1.gif" alt="poleas" title="poleas" width="357" vspace="0" hspace="0" height="225" border="0" />]]>
+      </text>
+    </questiontext>
+    <image></image>
+    <generalfeedback>
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1</defaultgrade>
+    <penalty>0.1</penalty>
+    <hidden>0</hidden>
+    <shuffleanswers>0</shuffleanswers>
+    <answer fraction="100">
+      <text>{a}/4*2</text>
+      <tolerance>0.05</tolerance>
+      <tolerancetype>1</tolerancetype>
+      <correctanswerformat>2</correctanswerformat>
+      <correctanswerlength>2</correctanswerlength>
+      <feedback>
+        <text></text>
+      </feedback>
+    </answer>
+    <units>
+      <unit>
+        <multiplier>0.5</multiplier>
+        <unit_name>Kg</unit_name>
+      </unit>
+    </units>
+    <dataset_definitions>
+      <dataset_definition>
+        <status>
+          <text>private</text>
+        </status>
+        <name>
+          <text>a</text>
+        </name>
+        <type>calculated</type>
+        <distribution>
+          <text>uniform</text>
+        </distribution>
+        <minimum>
+          <text>12</text>
+        </minimum>
+        <maximum>
+          <text>64</text>
+        </maximum>
+        <decimals>
+          <text>0</text>
+        </decimals>
+        <itemcount>9</itemcount>
+        <dataset_items>
+          <dataset_item>
+            <number>1</number>
+            <value>18</value>
+          </dataset_item>
+          <dataset_item>
+            <number>2</number>
+            <value>30</value>
+          </dataset_item>
+          <dataset_item>
+            <number>3</number>
+            <value>26</value>
+          </dataset_item>
+          <dataset_item>
+            <number>4</number>
+            <value>32</value>
+          </dataset_item>
+          <dataset_item>
+            <number>5</number>
+            <value>28</value>
+          </dataset_item>
+          <dataset_item>
+            <number>6</number>
+            <value>24</value>
+          </dataset_item>
+          <dataset_item>
+            <number>7</number>
+            <value>20</value>
+          </dataset_item>
+          <dataset_item>
+            <number>8</number>
+            <value>16</value>
+          </dataset_item>
+          <dataset_item>
+            <number>9</number>
+            <value>12</value>
+          </dataset_item>
+          <dataset_item>
+            <number>10</number>
+            <value>3</value>
+          </dataset_item>
+        </dataset_items>
+        <number_of_items>10</number_of_items>
+      </dataset_definition>
+    </dataset_definitions>
+  </question>
+  <!-- question: 0  -->
+  <question type="category">
+    <category>
+      <text>$course$/mecanismos/mecanismos 3</text>
+    </category>
+  </question>
+  <!-- question: 64364  -->
+  <question type="calculated">
+    <name>
+      <text>tuerca-husilo 2</text>
+    </name>
+    <questiontext format="html">
+      <text>
+<![CDATA[Tenemos un mecanismo tuerca-husillo en el que el paso  es de {a} mm. Cuanto avanza la tuerca al dar {b} vueltas.<div>Para entender lo que es el  paso de un tornillo mira el dibujo</div><div><img src="https://ibersia.ovh/tec/mecanismos/paso.gif" alt="paso del un tornillo" title="paso del un tornillo" border="0" hspace="0" vspace="0" width="151" height="170" /><br /><div><br /></div></div>]]>
+      </text>
+    </questiontext>
+    <image></image>
+    <generalfeedback>
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1</defaultgrade>
+    <penalty>0.1</penalty>
+    <hidden>0</hidden>
+    <shuffleanswers>0</shuffleanswers>
+    <answer fraction="100">
+      <text>{a}*{b}/2</text>
+      <tolerance>0.04</tolerance>
+      <tolerancetype>1</tolerancetype>
+      <correctanswerformat>1</correctanswerformat>
+      <correctanswerlength>1</correctanswerlength>
+      <feedback>
+        <text></text>
+      </feedback>
+    </answer>
+    <units>
+      <unit>
+        <multiplier>2</multiplier>
+        <unit_name>mm</unit_name>
+      </unit>
+      <unit>
+        <multiplier>0.2</multiplier>
+        <unit_name>cm</unit_name>
+      </unit>
+    </units>
+    <dataset_definitions>
+      <dataset_definition>
+        <status>
+          <text>private</text>
+        </status>
+        <name>
+          <text>a</text>
+        </name>
+        <type>calculated</type>
+        <distribution>
+          <text>uniform</text>
+        </distribution>
+        <minimum>
+          <text>0.2</text>
+        </minimum>
+        <maximum>
+          <text>1.2</text>
+        </maximum>
+        <decimals>
+          <text>1</text>
+        </decimals>
+        <itemcount>11</itemcount>
+        <dataset_items>
+          <dataset_item>
+            <number>1</number>
+            <value>0.2</value>
+          </dataset_item>
+          <dataset_item>
+            <number>2</number>
+            <value>0.6</value>
+          </dataset_item>
+          <dataset_item>
+            <number>3</number>
+            <value>1.1</value>
+          </dataset_item>
+          <dataset_item>
+            <number>4</number>
+            <value>1.2</value>
+          </dataset_item>
+          <dataset_item>
+            <number>5</number>
+            <value>0.3</value>
+          </dataset_item>
+          <dataset_item>
+            <number>6</number>
+            <value>0.5</value>
+          </dataset_item>
+          <dataset_item>
+            <number>7</number>
+            <value>0.4</value>
+          </dataset_item>
+          <dataset_item>
+            <number>8</number>
+            <value>0.6</value>
+          </dataset_item>
+          <dataset_item>
+            <number>9</number>
+            <value>0.9</value>
+          </dataset_item>
+          <dataset_item>
+            <number>10</number>
+            <value>1.2</value>
+          </dataset_item>
+          <dataset_item>
+            <number>11</number>
+            <value>1.1</value>
+          </dataset_item>
+        </dataset_items>
+        <number_of_items>11</number_of_items>
+      </dataset_definition>
+      <dataset_definition>
+        <status>
+          <text>private</text>
+        </status>
+        <name>
+          <text>b</text>
+        </name>
+        <type>calculated</type>
+        <distribution>
+          <text>uniform</text>
+        </distribution>
+        <minimum>
+          <text>3</text>
+        </minimum>
+        <maximum>
+          <text>10.0</text>
+        </maximum>
+        <decimals>
+          <text>0</text>
+        </decimals>
+        <itemcount>11</itemcount>
+        <dataset_items>
+          <dataset_item>
+            <number>1</number>
+            <value>6</value>
+          </dataset_item>
+          <dataset_item>
+            <number>2</number>
+            <value>5</value>
+          </dataset_item>
+          <dataset_item>
+            <number>3</number>
+            <value>10</value>
+          </dataset_item>
+          <dataset_item>
+            <number>4</number>
+            <value>8</value>
+          </dataset_item>
+          <dataset_item>
+            <number>5</number>
+            <value>8</value>
+          </dataset_item>
+          <dataset_item>
+            <number>6</number>
+            <value>4</value>
+          </dataset_item>
+          <dataset_item>
+            <number>7</number>
+            <value>4</value>
+          </dataset_item>
+          <dataset_item>
+            <number>8</number>
+            <value>5</value>
+          </dataset_item>
+          <dataset_item>
+            <number>9</number>
+            <value>3</value>
+          </dataset_item>
+          <dataset_item>
+            <number>10</number>
+            <value>5</value>
+          </dataset_item>
+          <dataset_item>
+            <number>11</number>
+            <value>5</value>
+          </dataset_item>
+        </dataset_items>
+        <number_of_items>11</number_of_items>
+      </dataset_definition>
+    </dataset_definitions>
+  </question>
+  <!-- question: 0  -->
+  <question type="category">
+    <category>
+      <text>$course$/mecanismos/poleas y palancas/punto de apoyo, fuerza, resistencia</text>
+    </category>
+  </question>
+  <!-- question: 64890  -->
+  <question type="matching">
+    <name>
+      <text>alicate</text>
+    </name>
+    <questiontext format="html">
+      <text>
+<![CDATA[¿Dónde está el punto de apoyo, dónde hacemos la fuerza (entrada del mecanismo) y dónde la obtenemos (salida del mecanismo)<div><img src="https://ibersia.ovh/tec/mecanismos/palancas_poleas/alicate.gif" alt="alicate" title="alicate" border="0" hspace="0" vspace="0" width="220" height="169" /><br /></div>]]>
+      </text>
+    </questiontext>
+    <image></image>
+    <generalfeedback>
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1</defaultgrade>
+    <penalty>0.1</penalty>
+    <hidden>0</hidden>
+    <shuffleanswers>1</shuffleanswers>
+    <subquestion>
+      <text>Punto de apoyo</text>
+      <answer>
+        <text>B</text>
+      </answer>
+    </subquestion>
+    <subquestion>
+      <text>Entrada</text>
+      <answer>
+        <text>A</text>
+      </answer>
+    </subquestion>
+    <subquestion>
+      <text>Salida</text>
+      <answer>
+        <text>C</text>
+      </answer>
+    </subquestion>
+  </question>
+  <!-- question: 0  -->
+  <question type="category">
+    <category>
+      <text>$course$/mecanismos/poleas y palancas</text>
+    </category>
+  </question>
+  <!-- question: 64319  -->
+  <question type="matching">
+    <name>
+      <text>arbol/eje</text>
+    </name>
+    <questiontext format="moodle_auto_format">
+      <text>Empareja</text>
+    </questiontext>
+    <image></image>
+    <generalfeedback>
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1</defaultgrade>
+    <penalty>0.1</penalty>
+    <hidden>0</hidden>
+    <shuffleanswers>1</shuffleanswers>
+    <subquestion>
+      <text>Barra con elementos unidos</text>
+      <answer>
+        <text>árbol</text>
+      </answer>
+    </subquestion>
+    <subquestion>
+      <text>Lo tiene una polea solidaria</text>
+      <answer>
+        <text>árbol</text>
+      </answer>
+    </subquestion>
+    <subquestion>
+      <text>Puede transmitir movimiento</text>
+      <answer>
+        <text>árbol</text>
+      </answer>
+    </subquestion>
+    <subquestion>
+      <text>No puede transmitir movimiento</text>
+      <answer>
+        <text>eje</text>
+      </answer>
+    </subquestion>
+    <subquestion>
+      <text>Barra con elementos que giran sobre ella</text>
+      <answer>
+        <text>eje</text>
+      </answer>
+    </subquestion>
+    <subquestion>
+      <text>Lo tiene una polea loca</text>
+      <answer>
+        <text>eje</text>
+      </answer>
+    </subquestion>
+  </question>
+  <!-- question: 64321  -->
+  <question type="matching">
+    <name>
+      <text>Carretilla</text>
+    </name>
+    <questiontext format="html">
+      <text>
+<![CDATA[¿Dónde está el punto de apoyo, dónde hacemos la fuerza (entrada del mecanismo) y dónde la obtenemos (salida del mecanismo)<div><img src="https://ibersia.ovh/tec/mecanismos/palancas_poleas/carretilla.gif" /><br /></div>]]>
+      </text>
+    </questiontext>
+    <image></image>
+    <generalfeedback>
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1</defaultgrade>
+    <penalty>0.1</penalty>
+    <hidden>0</hidden>
+    <shuffleanswers>1</shuffleanswers>
+    <subquestion>
+      <text>Punto de apoyo</text>
+      <answer>
+        <text>B</text>
+      </answer>
+    </subquestion>
+    <subquestion>
+      <text>Entrada</text>
+      <answer>
+        <text>A</text>
+      </answer>
+    </subquestion>
+    <subquestion>
+      <text>Salida</text>
+      <answer>
+        <text>C</text>
+      </answer>
+    </subquestion>
+  </question>
+  <!-- question: 0  -->
+  <question type="category">
+    <category>
+      <text>$course$/mecanismos/poleas y palancas/punto de apoyo, fuerza, resistencia</text>
+    </category>
+  </question>
+  <!-- question: 64892  -->
+  <question type="matching">
+    <name>
+      <text>Carretilla</text>
+    </name>
+    <questiontext format="html">
+      <text>
+<![CDATA[¿Dónde está el punto de apoyo, dónde hacemos la fuerza (entrada del mecanismo) y dónde la obtenemos (salida del mecanismo)<div><img src="https://ibersia.ovh/tec/mecanismos/palancas_poleas/carretilla.gif" /><br /></div>]]>
+      </text>
+    </questiontext>
+    <image></image>
+    <generalfeedback>
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1</defaultgrade>
+    <penalty>0.1</penalty>
+    <hidden>0</hidden>
+    <shuffleanswers>1</shuffleanswers>
+    <subquestion>
+      <text>Punto de apoyo</text>
+      <answer>
+        <text>B</text>
+      </answer>
+    </subquestion>
+    <subquestion>
+      <text>Entrada</text>
+      <answer>
+        <text>A</text>
+      </answer>
+    </subquestion>
+    <subquestion>
+      <text>Salida</text>
+      <answer>
+        <text>C</text>
+      </answer>
+    </subquestion>
+  </question>
+  <!-- question: 0  -->
+  <question type="category">
+    <category>
+      <text>$course$/mecanismos/poleas y palancas</text>
+    </category>
+  </question>
+  <!-- question: 64322  -->
+  <question type="matching">
+    <name>
+      <text>cizalla</text>
+    </name>
+    <questiontext format="html">
+      <text>
+<![CDATA[¿Dónde está el punto de apoyo, dónde hacemos la fuerza (entrada del mecanismo) y dónde la obtenemos (salida del mecanismo)<div><img src="https://ibersia.ovh/tec/mecanismos/palancas_poleas/cizalla.gif" /><br /></div>]]>
+      </text>
+    </questiontext>
+    <image></image>
+    <generalfeedback>
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1</defaultgrade>
+    <penalty>0.1</penalty>
+    <hidden>0</hidden>
+    <shuffleanswers>1</shuffleanswers>
+    <subquestion>
+      <text>Punto de apoyo</text>
+      <answer>
+        <text>A</text>
+      </answer>
+    </subquestion>
+    <subquestion>
+      <text>Entrada</text>
+      <answer>
+        <text>C</text>
+      </answer>
+    </subquestion>
+    <subquestion>
+      <text>Salida</text>
+      <answer>
+        <text>B</text>
+      </answer>
+    </subquestion>
+  </question>
+  <!-- question: 0  -->
+  <question type="category">
+    <category>
+      <text>$course$/mecanismos/poleas y palancas/punto de apoyo, fuerza, resistencia</text>
+    </category>
+  </question>
+  <!-- question: 64893  -->
+  <question type="matching">
+    <name>
+      <text>cizalla</text>
+    </name>
+    <questiontext format="html">
+      <text>
+<![CDATA[¿Dónde está el punto de apoyo, dónde hacemos la fuerza (entrada del mecanismo) y dónde la obtenemos (salida del mecanismo)<div><img src="https://ibersia.ovh/tec/mecanismos/palancas_poleas/cizalla.gif" /><br /></div>]]>
+      </text>
+    </questiontext>
+    <image></image>
+    <generalfeedback>
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1</defaultgrade>
+    <penalty>0.1</penalty>
+    <hidden>0</hidden>
+    <shuffleanswers>1</shuffleanswers>
+    <subquestion>
+      <text>Punto de apoyo</text>
+      <answer>
+        <text>A</text>
+      </answer>
+    </subquestion>
+    <subquestion>
+      <text>Entrada</text>
+      <answer>
+        <text>C</text>
+      </answer>
+    </subquestion>
+    <subquestion>
+      <text>Salida</text>
+      <answer>
+        <text>B</text>
+      </answer>
+    </subquestion>
+  </question>
+  <!-- question: 0  -->
+  <question type="category">
+    <category>
+      <text>$course$/mecanismos/mecanismos 3</text>
+    </category>
+  </question>
+  <!-- question: 64365  -->
+  <question type="matching">
+    <name>
+      <text>comparacion tornos 1</text>
+    </name>
+    <questiontext format="html">
+      <text>¿Cual de los siguientes tornos aumenta más la fuerza?</text>
+    </questiontext>
+    <image></image>
+    <generalfeedback>
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1</defaultgrade>
+    <penalty>0.1</penalty>
+    <hidden>0</hidden>
+    <shuffleanswers>1</shuffleanswers>
+    <subquestion>
+      <text>
+<![CDATA[<img src="https://ibersia.ovh/tec/mecanismos/torno1.gif"  />]]>
+      </text>
+      <answer>
+        <text>el de en medio</text>
+      </answer>
+    </subquestion>
+    <subquestion>
+      <text>
+<![CDATA[<img src="https://ibersia.ovh/tec/mecanismos/torno2.gif" />]]>
+      </text>
+      <answer>
+        <text>el que menos aumenta la fuerza</text>
+      </answer>
+    </subquestion>
+    <subquestion>
+      <text>
+<![CDATA[<img src="https://ibersia.ovh/tec/mecanismos/torno3.gif" />]]>
+      </text>
+      <answer>
+        <text>el que más aumenta la fuerza</text>
+      </answer>
+    </subquestion>
+  </question>
+  <!-- question: 64366  -->
+  <question type="matching">
+    <name>
+      <text>comparacion tornos 2</text>
+    </name>
+    <questiontext format="html">
+      <text>¿Cual de los siguientes tornos aumenta más la fuerza?</text>
+    </questiontext>
+    <image></image>
+    <generalfeedback>
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1</defaultgrade>
+    <penalty>0.1</penalty>
+    <hidden>0</hidden>
+    <shuffleanswers>1</shuffleanswers>
+    <subquestion>
+      <text>
+<![CDATA[<img src="https://ibersia.ovh/tec/mecanismos/torno1.gif"  />]]>
+      </text>
+      <answer>
+        <text>el de en medio</text>
+      </answer>
+    </subquestion>
+    <subquestion>
+      <text>
+<![CDATA[<img src="https://ibersia.ovh/tec/mecanismos/torno4.gif" />]]>
+      </text>
+      <answer>
+        <text>el que menos aumenta la fuerza</text>
+      </answer>
+    </subquestion>
+    <subquestion>
+      <text>
+<![CDATA[<img src="https://ibersia.ovh/tec/mecanismos/torno5.gif" />]]>
+      </text>
+      <answer>
+        <text>el que más aumenta la fuerza</text>
+      </answer>
+    </subquestion>
+  </question>
+  <!-- question: 0  -->
+  <question type="category">
+    <category>
+      <text>$course$/mecanismos</text>
+    </category>
+  </question>
+  <!-- question: 64264  -->
+  <question type="matching">
+    <name>
+      <text>más fuerza_todos</text>
+    </name>
+    <questiontext format="html">
+      <text>¿En qué parte del mecanismo hay más fuerza?</text>
+    </questiontext>
+    <image></image>
+    <generalfeedback>
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>8</defaultgrade>
+    <penalty>0.1</penalty>
+    <hidden>0</hidden>
+    <shuffleanswers>1</shuffleanswers>
+    <subquestion>
+      <text>
+<![CDATA[¿Arriba o abajo?<br><img hspace="0" height="314" width="418" vspace="0" border="0" title="arriba o abajo" alt="a" src="https://ibersia.ovh/tec/mecanismos/imagenes/engranaje_sinfin.jpg" /><br />]]>
+      </text>
+      <answer>
+        <text>Arriba</text>
+      </answer>
+    </subquestion>
+    <subquestion>
+      <text>
+<![CDATA[¿Arriba o abajo?<br><img hspace="0" height="340" width="356" vspace="0" border="0" src="https://ibersia.ovh/tec/mecanismos/imagenes/poleas_correas.jpg" alt="arriba o abajo" title="a" /><br />]]>
+      </text>
+      <answer>
+        <text>Abajo</text>
+      </answer>
+    </subquestion>
+    <subquestion>
+      <text>
+<![CDATA[¿Izquierda o derecha?<br><img hspace="0" height="383" width="437" vspace="0" border="0" src="https://ibersia.ovh/tec/mecanismos/imagenes/engranajes.jpg" alt="a" title="Derecha o izquierda" /><br />]]>
+      </text>
+      <answer>
+        <text>Izquierda</text>
+      </answer>
+    </subquestion>
+    <subquestion>
+      <text>
+<![CDATA[¿Izquierda o derecha?<br><img hspace="0" height="130" width="315" vspace="0" border="0" src="https://ibersia.ovh/tec/mecanismos/palancas_poleas/palanca.gif" alt="a" title="Derecha o izquierda" /><br />]]>
+      </text>
+      <answer>
+        <text>Izquierda</text>
+      </answer>
+    </subquestion>
+    <subquestion>
+      <text>
+<![CDATA[¿Izquierda o derecha?<br><img hspace="0" height="169" width="220" vspace="0" border="0" src="https://ibersia.ovh/tec/mecanismos/palancas_poleas/alicate.jpg" alt="izquierda o derecha" title="izquierda o derecha" /><br />]]>
+      </text>
+      <answer>
+        <text>Izquierda</text>
+      </answer>
+    </subquestion>
+    <subquestion>
+      <text>
+<![CDATA[¿Izquierda o derecha?<br><img hspace="0" height="248" width="203" vspace="0" border="0" src="https://ibersia.ovh/tec/mecanismos/palancas_poleas/polea_movil.jpg" alt="a" title="Derecha o izquierda" /><br />]]>
+      </text>
+      <answer>
+        <text>Izquierda</text>
+      </answer>
+    </subquestion>
+    <subquestion>
+      <text>
+<![CDATA[¿Arriba o abajo?<br><img hspace="0" height="173" width="161" vspace="0" border="0" src="https://ibersia.ovh/tec/mecanismos/engranaje_sinfin2.jpg" alt="a" title="arriba o abajo" /><br />]]>
+      </text>
+      <answer>
+        <text>Abajo</text>
+      </answer>
+    </subquestion>
+    <subquestion>
+      <text>
+<![CDATA[¿Izquierda o derecha?<br><img hspace="0" height="144" width="184" vspace="0" border="0" src="https://ibersia.ovh/tec/mecanismos/engranajes.gif" alt="a" title="Derecha o izquierda" /><br />]]>
+      </text>
+      <answer>
+        <text>Derecha</text>
+      </answer>
+    </subquestion>
+  </question>
+  <!-- question: 0  -->
+  <question type="category">
+    <category>
+      <text>$course$/mecanismos/martillos</text>
+    </category>
+  </question>
+  <!-- question: 64296  -->
+  <question type="matching">
+    <name>
+      <text>nombre lvs</text>
+    </name>
+    <questiontext format="html">
+      <text>
+<![CDATA[¿Cómo se llaman los elementos de la imagen?<br /><img hspace="0" height="245" width="346" vspace="0" border="0" title="l" alt="l" src="https://ibersia.ovh/tec/mecanismos/martillos/lvs.jpg" /><br />]]>
+      </text>
+    </questiontext>
+    <image></image>
+    <generalfeedback>
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1</defaultgrade>
+    <penalty>0.1</penalty>
+    <hidden>0</hidden>
+    <shuffleanswers>1</shuffleanswers>
+    <subquestion>
+      <text>A</text>
+      <answer>
+        <text>Leva</text>
+      </answer>
+    </subquestion>
+    <subquestion>
+      <text>B</text>
+      <answer>
+        <text>Excéntrica</text>
+      </answer>
+    </subquestion>
+    <subquestion>
+      <text>C</text>
+      <answer>
+        <text>Leva corazón</text>
+      </answer>
+    </subquestion>
+    <subquestion>
+      <text></text>
+      <answer>
+        <text>Polea</text>
+      </answer>
+    </subquestion>
+    <subquestion>
+      <text></text>
+      <answer>
+        <text>Engranaje</text>
+      </answer>
+    </subquestion>
+    <subquestion>
+      <text></text>
+      <answer>
+        <text>Cigüeñal</text>
+      </answer>
+    </subquestion>
+  </question>
+  <!-- question: 0  -->
+  <question type="category">
+    <category>
+      <text>$course$/mecanismos</text>
+    </category>
+  </question>
+  <!-- question: 64262  -->
+  <question type="matching">
+    <name>
+      <text>Nombres_todos</text>
+    </name>
+    <questiontext format="html">
+      <text>
+<![CDATA[¿Cómo se llaman los siguientes mecanismos?<br /><br /><br />]]>
+      </text>
+    </questiontext>
+    <image></image>
+    <generalfeedback>
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>8</defaultgrade>
+    <penalty>0.1</penalty>
+    <hidden>0</hidden>
+    <shuffleanswers>1</shuffleanswers>
+    <subquestion>
+      <text>
+<![CDATA[<img hspace="0" height="239" width="491" vspace="0" border="0" src="https://ibersia.ovh/tec/mecanismos/imagenes/biela_manivela.jpg" alt="x" title="x" /><br /><br /><br />]]>
+      </text>
+      <answer>
+        <text>biela-cigüeñal</text>
+      </answer>
+    </subquestion>
+    <subquestion>
+      <text>
+<![CDATA[<img hspace="0" height="207" width="317" vspace="0" border="0" src="https://ibersia.ovh/tec/mecanismos/imagenes/cremallera.jpg" alt="z" title="z" /><br /><br /><br />]]>
+      </text>
+      <answer>
+        <text>engranaje-cremallera</text>
+      </answer>
+    </subquestion>
+    <subquestion>
+      <text>
+<![CDATA[<img hspace="0" height="314" width="418" vspace="0" border="0" src="https://ibersia.ovh/tec/mecanismos/imagenes/engranaje_sinfin.jpg" alt="z" title="z" /><br /><br /><br />]]>
+      </text>
+      <answer>
+        <text>engranaje-tornillo sinfín</text>
+      </answer>
+    </subquestion>
+    <subquestion>
+      <text>
+<![CDATA[<img hspace="0" height="383" width="437" vspace="0" border="0" src="https://ibersia.ovh/tec/mecanismos/imagenes/engranajes.jpg" alt="x" title="x" /><br /><br /><br />]]>
+      </text>
+      <answer>
+        <text>Trasmisión por engranajes</text>
+      </answer>
+    </subquestion>
+    <subquestion>
+      <text>
+<![CDATA[<img hspace="0" height="269" width="486" vspace="0" border="0" src="https://ibersia.ovh/tec/mecanismos/imagenes/husillo.jpg" alt="x" title="x" /><br /><br /><br />]]>
+      </text>
+      <answer>
+        <text>Tuerca-husillo</text>
+      </answer>
+    </subquestion>
+    <subquestion>
+      <text>
+<![CDATA[<img hspace="0" height="340" width="356" vspace="0" border="0" src="https://ibersia.ovh/tec/mecanismos/poleas_correas.jpg" alt="1" title="1" /><br />]]>
+      </text>
+      <answer>
+        <text>Poleas con correas</text>
+      </answer>
+    </subquestion>
+    <subquestion>
+      <text>
+<![CDATA[<img hspace="0" height="219" width="134" vspace="0" border="0" src="https://ibersia.ovh/tec/mecanismos/palancas_poleas/grua1.jpg" alt="s" title="s" /><br />]]>
+      </text>
+      <answer>
+        <text>Trócola</text>
+      </answer>
+    </subquestion>
+    <subquestion>
+      <text>
+<![CDATA[<img hspace="0" height="92" width="299" vspace="0" border="0" src="https://ibersia.ovh/tec/mecanismos/palancas_poleas/palanca3_2.png" alt="a" title="a" /><br />]]>
+      </text>
+      <answer>
+        <text>Palanca</text>
+      </answer>
+    </subquestion>
+  </question>
+  <!-- question: 0  -->
+  <question type="category">
+    <category>
+      <text>$course$/mecanismos/poleas y palancas</text>
+    </category>
+  </question>
+  <!-- question: 64323  -->
+  <question type="matching">
+    <name>
+      <text>palancas aumento/disminución de fuerza</text>
+    </name>
+    <questiontext format="html">
+      <text>
+<![CDATA[Las siguientes palancas ¿aumentan o disminuyen las fuerzas?
+<div><br /></div>]]>
+      </text>
+    </questiontext>
+    <image></image>
+    <generalfeedback>
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1</defaultgrade>
+    <penalty>0.1</penalty>
+    <hidden>0</hidden>
+    <shuffleanswers>1</shuffleanswers>
+    <subquestion>
+      <text>
+<![CDATA[<img src="https://ibersia.ovh/tec/mecanismos/palancas_poleas/alicate.gif"  /><br />]]>
+      </text>
+      <answer>
+        <text>aumenta</text>
+      </answer>
+    </subquestion>
+    <subquestion>
+      <text>
+<![CDATA[<img src="https://ibersia.ovh/tec/mecanismos/palancas_poleas/cizalla.gif"  /><br />]]>
+      </text>
+      <answer>
+        <text>aumenta</text>
+      </answer>
+    </subquestion>
+    <subquestion>
+      <text>
+<![CDATA[<img src="https://ibersia.ovh/tec/mecanismos/palancas_poleas/balanza.jpg"  /><br />]]>
+      </text>
+      <answer>
+        <text>ni aumenta ni disminuye</text>
+      </answer>
+    </subquestion>
+    <subquestion>
+      <text>
+<![CDATA[<img src="https://ibersia.ovh/tec/mecanismos/palancas_poleas/carretilla.gif"  /><br />]]>
+      </text>
+      <answer>
+        <text>aumenta</text>
+      </answer>
+    </subquestion>
+    <subquestion>
+      <text>
+<![CDATA[<img src="https://ibersia.ovh/tec/mecanismos/palancas_poleas/ensalada.jpg"  /><br />]]>
+      </text>
+      <answer>
+        <text>disminuye</text>
+      </answer>
+    </subquestion>
+  </question>
+  <!-- question: 0  -->
+  <question type="category">
+    <category>
+      <text>$course$/mecanismos/poleas y palancas/punto de apoyo, fuerza, resistencia</text>
+    </category>
+  </question>
+  <!-- question: 64894  -->
+  <question type="matching">
+    <name>
+      <text>palancas aumento/disminución de fuerza</text>
+    </name>
+    <questiontext format="html">
+      <text>
+<![CDATA[Las siguientes palancas ¿aumentan o disminuyen las fuerzas?
+<div><br /></div>]]>
+      </text>
+    </questiontext>
+    <image></image>
+    <generalfeedback>
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1</defaultgrade>
+    <penalty>0.1</penalty>
+    <hidden>0</hidden>
+    <shuffleanswers>1</shuffleanswers>
+    <subquestion>
+      <text>
+<![CDATA[<img src="https://ibersia.ovh/tec/mecanismos/palancas_poleas/alicate.gif"  /><br />]]>
+      </text>
+      <answer>
+        <text>aumenta</text>
+      </answer>
+    </subquestion>
+    <subquestion>
+      <text>
+<![CDATA[<img src="https://ibersia.ovh/tec/mecanismos/palancas_poleas/cizalla.gif"  /><br />]]>
+      </text>
+      <answer>
+        <text>aumenta</text>
+      </answer>
+    </subquestion>
+    <subquestion>
+      <text>
+<![CDATA[<img src="https://ibersia.ovh/tec/mecanismos/palancas_poleas/balanza.jpg"  /><br />]]>
+      </text>
+      <answer>
+        <text>ni aumenta ni disminuye</text>
+      </answer>
+    </subquestion>
+    <subquestion>
+      <text>
+<![CDATA[<img src="https://ibersia.ovh/tec/mecanismos/palancas_poleas/carretilla.gif"  /><br />]]>
+      </text>
+      <answer>
+        <text>aumenta</text>
+      </answer>
+    </subquestion>
+    <subquestion>
+      <text>
+<![CDATA[<img src="https://ibersia.ovh/tec/mecanismos/palancas_poleas/ensalada.jpg"  /><br />]]>
+      </text>
+      <answer>
+        <text>disminuye</text>
+      </answer>
+    </subquestion>
+  </question>
+  <!-- question: 0  -->
+  <question type="category">
+    <category>
+      <text>$course$/mecanismos/poleas y palancas</text>
+    </category>
+  </question>
+  <!-- question: 64320  -->
+  <question type="matching">
+    <name>
+      <text>Pinza</text>
+    </name>
+    <questiontext format="html">
+      <text>
+<![CDATA[¿Dónde está el punto de apoyo, dónde hacemos la fuerza (entrada del mecanismo) y dónde la obtenemos (salida del mecanismo)<div><img src="https://ibersia.ovh/tec/mecanismos/palancas_poleas/pinzas.gif" /><br /></div>]]>
+      </text>
+    </questiontext>
+    <image></image>
+    <generalfeedback>
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1</defaultgrade>
+    <penalty>0.1</penalty>
+    <hidden>0</hidden>
+    <shuffleanswers>1</shuffleanswers>
+    <subquestion>
+      <text>Punto de apoyo</text>
+      <answer>
+        <text>B</text>
+      </answer>
+    </subquestion>
+    <subquestion>
+      <text>Entrada</text>
+      <answer>
+        <text>C</text>
+      </answer>
+    </subquestion>
+    <subquestion>
+      <text>Salida</text>
+      <answer>
+        <text>A</text>
+      </answer>
+    </subquestion>
+  </question>
+  <!-- question: 0  -->
+  <question type="category">
+    <category>
+      <text>$course$/mecanismos/poleas y palancas/punto de apoyo, fuerza, resistencia</text>
+    </category>
+  </question>
+  <!-- question: 64891  -->
+  <question type="matching">
+    <name>
+      <text>Pinza</text>
+    </name>
+    <questiontext format="html">
+      <text>
+<![CDATA[¿Dónde está el punto de apoyo, dónde hacemos la fuerza (entrada del mecanismo) y dónde la obtenemos (salida del mecanismo)<div><img src="https://ibersia.ovh/tec/mecanismos/palancas_poleas/pinzas.gif" /><br /></div>]]>
+      </text>
+    </questiontext>
+    <image></image>
+    <generalfeedback>
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1</defaultgrade>
+    <penalty>0.1</penalty>
+    <hidden>0</hidden>
+    <shuffleanswers>1</shuffleanswers>
+    <subquestion>
+      <text>Punto de apoyo</text>
+      <answer>
+        <text>B</text>
+      </answer>
+    </subquestion>
+    <subquestion>
+      <text>Entrada</text>
+      <answer>
+        <text>C</text>
+      </answer>
+    </subquestion>
+    <subquestion>
+      <text>Salida</text>
+      <answer>
+        <text>A</text>
+      </answer>
+    </subquestion>
+  </question>
+  <!-- question: 0  -->
+  <question type="category">
+    <category>
+      <text>$course$/mecanismos/poleas y palancas</text>
+    </category>
+  </question>
+  <!-- question: 64324  -->
+  <question type="matching">
+    <name>
+      <text>pinzas ensalada</text>
+    </name>
+    <questiontext format="html">
+      <text>
+<![CDATA[¿Dónde está el punto de apoyo, dónde hacemos la fuerza (entrada del mecanismo) y dónde la obtenemos (salida del mecanismo)
+<div><img width="290" vspace="0" hspace="0" border="0" height="174" src="https://ibersia.ovh/tec/mecanismos/palancas_poleas/ensalada.jpg" alt="pinzas" title="pinzas" /><br /></div>]]>
+      </text>
+    </questiontext>
+    <image></image>
+    <generalfeedback>
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1</defaultgrade>
+    <penalty>0.1</penalty>
+    <hidden>0</hidden>
+    <shuffleanswers>1</shuffleanswers>
+    <subquestion>
+      <text>Punto de apoyo</text>
+      <answer>
+        <text>C</text>
+      </answer>
+    </subquestion>
+    <subquestion>
+      <text>Entrada</text>
+      <answer>
+        <text>B</text>
+      </answer>
+    </subquestion>
+    <subquestion>
+      <text>Salida</text>
+      <answer>
+        <text>A</text>
+      </answer>
+    </subquestion>
+  </question>
+  <!-- question: 0  -->
+  <question type="category">
+    <category>
+      <text>$course$/mecanismos</text>
+    </category>
+  </question>
+  <!-- question: 64263  -->
+  <question type="matching">
+    <name>
+      <text>reversibilidad_todos</text>
+    </name>
+    <questiontext format="html">
+      <text>Indica cuáles de los siguientes mecanismos son reversibles y cuáles irreversibles</text>
+    </questiontext>
+    <image></image>
+    <generalfeedback>
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>4</defaultgrade>
+    <penalty>0.1</penalty>
+    <hidden>0</hidden>
+    <shuffleanswers>1</shuffleanswers>
+    <subquestion>
+      <text>Transmisión por engranajes</text>
+      <answer>
+        <text>Reversible</text>
+      </answer>
+    </subquestion>
+    <subquestion>
+      <text>Poleas con correas</text>
+      <answer>
+        <text>Reversible</text>
+      </answer>
+    </subquestion>
+    <subquestion>
+      <text>Engranaje-cremallera</text>
+      <answer>
+        <text>Reversible</text>
+      </answer>
+    </subquestion>
+    <subquestion>
+      <text>Biela-cigüeñal</text>
+      <answer>
+        <text>Reversible</text>
+      </answer>
+    </subquestion>
+    <subquestion>
+      <text>Tuerca-husillo</text>
+      <answer>
+        <text>Irreversible</text>
+      </answer>
+    </subquestion>
+    <subquestion>
+      <text>Engranaje-tornillo sinfín</text>
+      <answer>
+        <text>Irreversible</text>
+      </answer>
+    </subquestion>
+    <subquestion>
+      <text>Levas</text>
+      <answer>
+        <text>Irreversible</text>
+      </answer>
+    </subquestion>
+    <subquestion>
+      <text>Excentrica</text>
+      <answer>
+        <text>Irreversible</text>
+      </answer>
+    </subquestion>
+  </question>
+  <!-- question: 0  -->
+  <question type="category">
+    <category>
+      <text>$course$/mecanismos/engranajes, poleas-correas</text>
+    </category>
+  </question>
+  <!-- question: 64341  -->
+  <question type="multichoice">
+    <name>
+      <text>fuerza eng</text>
+    </name>
+    <questiontext format="html">
+      <text>
+<![CDATA[¿En qué parte del mecanismo hay más fuerza?<br /><img hspace="0" height="230" width="300" vspace="0" border="0" title="e" alt="e" src="https://ibersia.ovh/tec/mecanismos/martillos/e.jpg" /><br />]]>
+      </text>
+    </questiontext>
+    <image></image>
+    <generalfeedback>
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1</defaultgrade>
+    <penalty>0.1</penalty>
+    <hidden>0</hidden>
+    <shuffleanswers>1</shuffleanswers>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <correctfeedback>
+      <text></text>
+    </correctfeedback>
+    <partiallycorrectfeedback>
+      <text></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback>
+      <text></text>
+    </incorrectfeedback>
+    <answernumbering>abc</answernumbering>
+    <answer fraction="100">
+      <text>izquierda</text>
+      <feedback>
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text>derecha</text>
+      <feedback>
+        <text></text>
+      </feedback>
+    </answer>
+  </question>
+  <!-- question: 64328  -->
+  <question type="multichoice">
+    <name>
+      <text>fuerza pc</text>
+    </name>
+    <questiontext format="html">
+      <text>
+<![CDATA[¿En qué parte del mecanismo hay más fuerza?<br /> <br /><img hspace="0" height="200" width="300" vspace="0" border="0" title="1" alt="1" src="https://ibersia.ovh/tec/mecanismos/martillos/pc1.jpg" /><br />]]>
+      </text>
+    </questiontext>
+    <image></image>
+    <generalfeedback>
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1</defaultgrade>
+    <penalty>0.1</penalty>
+    <hidden>0</hidden>
+    <shuffleanswers>1</shuffleanswers>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <correctfeedback>
+      <text></text>
+    </correctfeedback>
+    <partiallycorrectfeedback>
+      <text></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback>
+      <text></text>
+    </incorrectfeedback>
+    <answernumbering>abc</answernumbering>
+    <answer fraction="0">
+      <text>izquierda</text>
+      <feedback>
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="100">
+      <text>derecha</text>
+      <feedback>
+        <text></text>
+      </feedback>
+    </answer>
+  </question>
+  <!-- question: 64344  -->
+  <question type="multichoice">
+    <name>
+      <text>más rapido engranajes</text>
+    </name>
+    <questiontext format="html">
+      <text>
+<![CDATA[<p>¿Qué parte del mecanismo va más rápido?</p><p><img src="https://ibersia.ovh/tec/mecanismos/imagenes/engranajes.jpg" alt="a" title="a" border="0" hspace="0" vspace="0" width="437" height="383" /><br /></p><p><br /></p>]]>
+      </text>
+    </questiontext>
+    <image></image>
+    <generalfeedback>
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1</defaultgrade>
+    <penalty>0.1</penalty>
+    <hidden>0</hidden>
+    <shuffleanswers>1</shuffleanswers>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <correctfeedback>
+      <text></text>
+    </correctfeedback>
+    <partiallycorrectfeedback>
+      <text></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback>
+      <text></text>
+    </incorrectfeedback>
+    <answernumbering>abc</answernumbering>
+    <answer fraction="100">
+      <text>El de la derecha</text>
+      <feedback>
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text>El de la izquierda</text>
+      <feedback>
+        <text></text>
+      </feedback>
+    </answer>
+  </question>
+  <!-- question: 64342  -->
+  <question type="multichoice">
+    <name>
+      <text>reversibilidad eng</text>
+    </name>
+    <questiontext format="html">
+      <text>
+<![CDATA[¿Es reversible este mecanismo?<br /><img hspace="0" height="230" width="300" vspace="0" border="0" title="e" alt="e" src="https://ibersia.ovh/tec/mecanismos/martillos/e.jpg" /><br />]]>
+      </text>
+    </questiontext>
+    <image></image>
+    <generalfeedback>
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1</defaultgrade>
+    <penalty>0.1</penalty>
+    <hidden>0</hidden>
+    <shuffleanswers>1</shuffleanswers>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <correctfeedback>
+      <text></text>
+    </correctfeedback>
+    <partiallycorrectfeedback>
+      <text></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback>
+      <text></text>
+    </incorrectfeedback>
+    <answernumbering>abc</answernumbering>
+    <answer fraction="100">
+      <text>Sí</text>
+      <feedback>
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text>No</text>
+      <feedback>
+        <text></text>
+      </feedback>
+    </answer>
+  </question>
+  <!-- question: 64338  -->
+  <question type="multichoice">
+    <name>
+      <text>reversibilidad pc</text>
+    </name>
+    <questiontext format="html">
+      <text>
+<![CDATA[¿Es reversible este mecanismo?<br /><img hspace="0" height="200" width="300" vspace="0" border="0" title="1" alt="1" src="https://ibersia.ovh/tec/mecanismos/martillos/pc1.jpg" /><br />]]>
+      </text>
+    </questiontext>
+    <image></image>
+    <generalfeedback>
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1</defaultgrade>
+    <penalty>0.1</penalty>
+    <hidden>0</hidden>
+    <shuffleanswers>1</shuffleanswers>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <correctfeedback>
+      <text></text>
+    </correctfeedback>
+    <partiallycorrectfeedback>
+      <text></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback>
+      <text></text>
+    </incorrectfeedback>
+    <answernumbering>abc</answernumbering>
+    <answer fraction="100">
+      <text>Sí</text>
+      <feedback>
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text>No</text>
+      <feedback>
+        <text></text>
+      </feedback>
+    </answer>
+  </question>
+  <!-- question: 64327  -->
+  <question type="multichoice">
+    <name>
+      <text>rev_ poleas</text>
+    </name>
+    <questiontext format="html">
+      <text>
+<![CDATA[¿Es reversible este mecanismo?<br /><img hspace="0" height="340" width="356" vspace="0" border="0" title="poleas" alt="poleas" src="https://ibersia.ovh/tec/mecanismos/imagenes/poleas_correas.jpg" /><br />]]>
+      </text>
+    </questiontext>
+    <image></image>
+    <generalfeedback>
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1</defaultgrade>
+    <penalty>0.1</penalty>
+    <hidden>0</hidden>
+    <shuffleanswers>1</shuffleanswers>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <correctfeedback>
+      <text></text>
+    </correctfeedback>
+    <partiallycorrectfeedback>
+      <text></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback>
+      <text></text>
+    </incorrectfeedback>
+    <answernumbering>abc</answernumbering>
+    <answer fraction="100">
+      <text>Sí</text>
+      <feedback>
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text>No</text>
+      <feedback>
+        <text></text>
+      </feedback>
+    </answer>
+  </question>
+  <!-- question: 0  -->
+  <question type="category">
+    <category>
+      <text>$course$/mecanismos/mecanismos 3</text>
+    </category>
+  </question>
+  <!-- question: 64358  -->
+  <question type="multichoice">
+    <name>
+      <text>rev_Biela</text>
+    </name>
+    <questiontext format="html">
+      <text>
+<![CDATA[¿Es reversible el siguiente mecanismo?<img hspace="0" height="239" width="491" vspace="0" border="0" title="biela" alt="biela" src="https://ibersia.ovh/tec/mecanismos/imagenes/biela_manivela.jpg" />]]>
+      </text>
+    </questiontext>
+    <image></image>
+    <generalfeedback>
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1</defaultgrade>
+    <penalty>0.1</penalty>
+    <hidden>0</hidden>
+    <shuffleanswers>1</shuffleanswers>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <correctfeedback>
+      <text></text>
+    </correctfeedback>
+    <partiallycorrectfeedback>
+      <text></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback>
+      <text></text>
+    </incorrectfeedback>
+    <answernumbering>abc</answernumbering>
+    <answer fraction="100">
+      <text>si</text>
+      <feedback>
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text>No</text>
+      <feedback>
+        <text></text>
+      </feedback>
+    </answer>
+  </question>
+  <!-- question: 0  -->
+  <question type="category">
+    <category>
+      <text>$course$/mecanismos/engranajes, poleas-correas</text>
+    </category>
+  </question>
+  <!-- question: 64334  -->
+  <question type="multichoice">
+    <name>
+      <text>rev_engranajes</text>
+    </name>
+    <questiontext format="html">
+      <text>
+<![CDATA[¿Es reversible este mecanismo?<br /><img hspace="0" height="383" width="437" vspace="0" border="0" title="engranajes" alt="engranajes" src="https://ibersia.ovh/tec/mecanismos/imagenes/engranajes.jpg" /><br />]]>
+      </text>
+    </questiontext>
+    <image></image>
+    <generalfeedback>
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1</defaultgrade>
+    <penalty>0.1</penalty>
+    <hidden>0</hidden>
+    <shuffleanswers>1</shuffleanswers>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <correctfeedback>
+      <text></text>
+    </correctfeedback>
+    <partiallycorrectfeedback>
+      <text></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback>
+      <text></text>
+    </incorrectfeedback>
+    <answernumbering>abc</answernumbering>
+    <answer fraction="100">
+      <text>Sí</text>
+      <feedback>
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text>No</text>
+      <feedback>
+        <text></text>
+      </feedback>
+    </answer>
+  </question>
+  <!-- question: 0  -->
+  <question type="category">
+    <category>
+      <text>$course$/mecanismos/mecanismos 3</text>
+    </category>
+  </question>
+  <!-- question: 64359  -->
+  <question type="multichoice">
+    <name>
+      <text>rev_husillo</text>
+    </name>
+    <questiontext format="html">
+      <text>
+<![CDATA[¿Es reversible este mecanismo?<br /><img hspace="0" height="269" width="486" vspace="0" border="0" title="husillo" alt="husillo" src="https://ibersia.ovh/tec/mecanismos/imagenes/husillo.jpg" /><br />]]>
+      </text>
+    </questiontext>
+    <image></image>
+    <generalfeedback>
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1</defaultgrade>
+    <penalty>0.1</penalty>
+    <hidden>0</hidden>
+    <shuffleanswers>1</shuffleanswers>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <correctfeedback>
+      <text></text>
+    </correctfeedback>
+    <partiallycorrectfeedback>
+      <text></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback>
+      <text></text>
+    </incorrectfeedback>
+    <answernumbering>abc</answernumbering>
+    <answer fraction="0">
+      <text>Sí</text>
+      <feedback>
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="100">
+      <text>No</text>
+      <feedback>
+        <text></text>
+      </feedback>
+    </answer>
+  </question>
+  <!-- question: 0  -->
+  <question type="category">
+    <category>
+      <text>$course$/mecanismos/engranajes, poleas-correas</text>
+    </category>
+  </question>
+  <!-- question: 64333  -->
+  <question type="multichoice">
+    <name>
+      <text>rev_sinfin</text>
+    </name>
+    <questiontext format="html">
+      <text>
+<![CDATA[¿Es reversible este mecanismo?<br /><img hspace="0" height="314" width="418" vspace="0" border="0" title="sinfin" alt="sinfin" src="https://ibersia.ovh/tec/mecanismos/imagenes/engranaje_sinfin.jpg" /><br />]]>
+      </text>
+    </questiontext>
+    <image></image>
+    <generalfeedback>
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1</defaultgrade>
+    <penalty>0.1</penalty>
+    <hidden>0</hidden>
+    <shuffleanswers>1</shuffleanswers>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <correctfeedback>
+      <text></text>
+    </correctfeedback>
+    <partiallycorrectfeedback>
+      <text></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback>
+      <text></text>
+    </incorrectfeedback>
+    <answernumbering>abc</answernumbering>
+    <answer fraction="100">
+      <text>No</text>
+      <feedback>
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text>Sí</text>
+      <feedback>
+        <text></text>
+      </feedback>
+    </answer>
+  </question>
+  <!-- question: 0  -->
+  <question type="category">
+    <category>
+      <text>$course$/mecanismos/martillos</text>
+    </category>
+  </question>
+  <!-- question: 64295  -->
+  <question type="multichoice">
+    <name>
+      <text>solidario eng</text>
+    </name>
+    <questiontext format="html">
+      <text>
+<![CDATA[¿los elementos del mecanismo son locos o solidarios con sus ejes?<br /><img hspace="0" height="230" width="300" vspace="0" border="0" src="https://ibersia.ovh/tec/mecanismos/martillos/e.jpg" alt="e" title="e" /><br />]]>
+      </text>
+    </questiontext>
+    <image></image>
+    <generalfeedback>
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1</defaultgrade>
+    <penalty>0.1</penalty>
+    <hidden>0</hidden>
+    <shuffleanswers>1</shuffleanswers>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <correctfeedback>
+      <text></text>
+    </correctfeedback>
+    <partiallycorrectfeedback>
+      <text></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback>
+      <text></text>
+    </incorrectfeedback>
+    <answernumbering>abc</answernumbering>
+    <answer fraction="0">
+      <text>locos</text>
+      <feedback>
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="100">
+      <text>solidarios</text>
+      <feedback>
+        <text></text>
+      </feedback>
+    </answer>
+  </question>
+  <!-- question: 64297  -->
+  <question type="multichoice">
+    <name>
+      <text>solidario lv</text>
+    </name>
+    <questiontext format="html">
+      <text>
+<![CDATA[¿Los elementoa A, B y C son locos o solidarios con su eje?<br /><img hspace="0" height="245" width="346" vspace="0" border="0" title="Lv" alt="Lv" src="https://ibersia.ovh/tec/mecanismos/martillos/lvs.jpg" /><br />]]>
+      </text>
+    </questiontext>
+    <image></image>
+    <generalfeedback>
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1</defaultgrade>
+    <penalty>0.1</penalty>
+    <hidden>0</hidden>
+    <shuffleanswers>1</shuffleanswers>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <correctfeedback>
+      <text></text>
+    </correctfeedback>
+    <partiallycorrectfeedback>
+      <text></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback>
+      <text></text>
+    </incorrectfeedback>
+    <answernumbering>abc</answernumbering>
+    <answer fraction="0">
+      <text>Locos</text>
+      <feedback>
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="100">
+      <text>Solidarios</text>
+      <feedback>
+        <text></text>
+      </feedback>
+    </answer>
+  </question>
+  <!-- question: 64294  -->
+  <question type="multichoice">
+    <name>
+      <text>solidario pc</text>
+    </name>
+    <questiontext format="html">
+      <text>
+<![CDATA[¿El elemento amarillo es loco o solidario? <br /><img hspace="0" height="200" width="300" vspace="0" border="0" title="1" alt="1" src="https://ibersia.ovh/tec/mecanismos/martillos/pc1.jpg" /><br />]]>
+      </text>
+    </questiontext>
+    <image></image>
+    <generalfeedback>
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1</defaultgrade>
+    <penalty>0.1</penalty>
+    <hidden>0</hidden>
+    <shuffleanswers>1</shuffleanswers>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <correctfeedback>
+      <text></text>
+    </correctfeedback>
+    <partiallycorrectfeedback>
+      <text></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback>
+      <text></text>
+    </incorrectfeedback>
+    <answernumbering>abc</answernumbering>
+    <answer fraction="0">
+      <text>loco</text>
+      <feedback>
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="100">
+      <text>solidario</text>
+      <feedback>
+        <text></text>
+      </feedback>
+    </answer>
+  </question>
+  <!-- question: 0  -->
+  <question type="category">
+    <category>
+      <text>$course$/mecanismos/engranajes, poleas-correas</text>
+    </category>
+  </question>
+  <!-- question: 64343  -->
+  <question type="multichoice">
+    <name>
+      <text>velocidad eng</text>
+    </name>
+    <questiontext format="html">
+      <text>
+<![CDATA[¿Qué elemento de este mecanismo va más rápido? <br /><img hspace="0" height="230" width="300" vspace="0" border="0" src="https://ibersia.ovh/tec/mecanismos/martillos/e.jpg" alt="e" title="e" /><br />]]>
+      </text>
+    </questiontext>
+    <image></image>
+    <generalfeedback>
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1</defaultgrade>
+    <penalty>0.1</penalty>
+    <hidden>0</hidden>
+    <shuffleanswers>1</shuffleanswers>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <correctfeedback>
+      <text></text>
+    </correctfeedback>
+    <partiallycorrectfeedback>
+      <text></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback>
+      <text></text>
+    </incorrectfeedback>
+    <answernumbering>abc</answernumbering>
+    <answer fraction="0">
+      <text>El de la izquierda</text>
+      <feedback>
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="100">
+      <text>El de la derecha</text>
+      <feedback>
+        <text></text>
+      </feedback>
+    </answer>
+  </question>
+  <!-- question: 64339  -->
+  <question type="multichoice">
+    <name>
+      <text>velocidad pc</text>
+    </name>
+    <questiontext format="html">
+      <text>
+<![CDATA[¿Qué elemento de este mecanismo va más rápido? <br /><img hspace="0" height="200" width="300" vspace="0" border="0" title="1" alt="1" src="https://ibersia.ovh/tec/mecanismos/martillos/pc1.jpg" /><br />]]>
+      </text>
+    </questiontext>
+    <image></image>
+    <generalfeedback>
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1</defaultgrade>
+    <penalty>0.1</penalty>
+    <hidden>0</hidden>
+    <shuffleanswers>1</shuffleanswers>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <correctfeedback>
+      <text></text>
+    </correctfeedback>
+    <partiallycorrectfeedback>
+      <text></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback>
+      <text></text>
+    </incorrectfeedback>
+    <answernumbering>abc</answernumbering>
+    <answer fraction="100">
+      <text>El de la izquierda</text>
+      <feedback>
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text>El de la derecha</text>
+      <feedback>
+        <text></text>
+      </feedback>
+    </answer>
+  </question>
+  <!-- question: 0  -->
+  <question type="category">
+    <category>
+      <text>$course$/mecanismos/mecanismos 3</text>
+    </category>
+  </question>
+  <!-- question: 64356  -->
+  <question type="shortanswer">
+    <name>
+      <text>husillo</text>
+    </name>
+    <questiontext format="html">
+      <text>¿Cómo se llama el mecanismo mostrado?</text>
+    </questiontext>
+    <image>mecanismos/imagenes/husillo.jpg</image>
+    <generalfeedback>
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1</defaultgrade>
+    <penalty>0.1</penalty>
+    <hidden>0</hidden>
+    <shuffleanswers>0</shuffleanswers>
+    <usecase>0</usecase>
+    <answer fraction="100">
+      <text>Tuerca-husillo</text>
+      <feedback>
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="50">
+      <text>husillo</text>
+      <feedback>
+        <text></text>
+      </feedback>
+    </answer>
+  </question>
+  <!-- question: 0  -->
+  <question type="category">
+    <category>
+      <text>$course$/mecanismos/engranajes, poleas-correas</text>
+    </category>
+  </question>
+  <!-- question: 64336  -->
+  <question type="shortanswer">
+    <name>
+      <text>más fuerza eng</text>
+    </name>
+    <questiontext format="html">
+      <text>
+<![CDATA[<p>¿En que parte de mecanismo hay más fuerza, en el engranaje grande o en el pequeño?</p><p><img hspace="0" height="383" width="437" border="0" title="a" alt="a" src="https://ibersia.ovh/tec/mecanismos/imagenes/engranajes.jpg" /></p>]]>
+      </text>
+    </questiontext>
+    <image></image>
+    <generalfeedback>
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1</defaultgrade>
+    <penalty>0.1</penalty>
+    <hidden>0</hidden>
+    <shuffleanswers>0</shuffleanswers>
+    <usecase>0</usecase>
+    <answer fraction="100">
+      <text>En el engranaje grande</text>
+      <feedback>
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="100">
+      <text>En la izquierda</text>
+      <feedback>
+        <text></text>
+      </feedback>
+    </answer>
+  </question>
+  <!-- question: 64337  -->
+  <question type="shortanswer">
+    <name>
+      <text>más fuerza Sinfin</text>
+    </name>
+    <questiontext format="html">
+      <text>
+<![CDATA[<p>¿En qué parte del mecanismo hay más fuerza, en el engranaje o en el tornillo?</p>
+<p><img width="418" hspace="0" height="314" border="0" src="https://ibersia.ovh/tec/mecanismos/imagenes/engranaje_sinfin.jpg" alt="a" title="a" /></p>]]>
+      </text>
+    </questiontext>
+    <image></image>
+    <generalfeedback>
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1</defaultgrade>
+    <penalty>0.1</penalty>
+    <hidden>0</hidden>
+    <shuffleanswers>0</shuffleanswers>
+    <usecase>0</usecase>
+    <answer fraction="100">
+      <text>En el engranaje</text>
+      <feedback>
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="100">
+      <text>En la de arriba</text>
+      <feedback>
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="80">
+      <text>en el engranage</text>
+      <feedback>
+        <text>engranaje es con j</text>
+      </feedback>
+    </answer>
+  </question>
+  <!-- question: 64349  -->
+  <question type="shortanswer">
+    <name>
+      <text>más fuerza Sinfin</text>
+    </name>
+    <questiontext format="html">
+      <text>
+<![CDATA[<p>¿En qué parte del mecanismo hay más fuerza, en el engranaje o en el tornillo?</p><p><img title="a" height="314" alt="a" hspace="0" src="https://ibersia.ovh/tec/mecanismos/imagenes/engranaje_sinfin.jpg" width="418" border="0" /></p>]]>
+      </text>
+    </questiontext>
+    <image></image>
+    <generalfeedback>
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1</defaultgrade>
+    <penalty>0.1</penalty>
+    <hidden>0</hidden>
+    <shuffleanswers>0</shuffleanswers>
+    <usecase>0</usecase>
+    <answer fraction="100">
+      <text>En el engranaje</text>
+      <feedback>
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="100">
+      <text>En la de arriba</text>
+      <feedback>
+        <text></text>
+      </feedback>
+    </answer>
+  </question>
+  <!-- question: 64335  -->
+  <question type="shortanswer">
+    <name>
+      <text>más rápido sinfin</text>
+    </name>
+    <questiontext format="html">
+      <text>
+<![CDATA[<p>¿Que parte del mecanismo va más rápido el engranaje o el tornillo?</p><p><img hspace="0" height="314" width="418" border="0" title="a" alt="a" src="https://ibersia.ovh/tec/mecanismos/imagenes/engranaje_sinfin.jpg" /></p>]]>
+      </text>
+    </questiontext>
+    <image></image>
+    <generalfeedback>
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1</defaultgrade>
+    <penalty>0.1</penalty>
+    <hidden>0</hidden>
+    <shuffleanswers>0</shuffleanswers>
+    <usecase>0</usecase>
+    <answer fraction="100">
+      <text>El tornillo</text>
+      <feedback>
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="100">
+      <text>El de abajo</text>
+      <feedback>
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="100">
+      <text>El tornillo sinfín</text>
+      <feedback>
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="80">
+      <text>El tornillo sinfin</text>
+      <feedback>
+        <text>Sinfín lleva acento</text>
+      </feedback>
+    </answer>
+    <answer fraction="70">
+      <text>El tornillo sin fín</text>
+      <feedback>
+        <text>sinfín se escribe todo junto</text>
+      </feedback>
+    </answer>
+    <answer fraction="100">
+      <text>Tornillo sinfín</text>
+      <feedback>
+        <text></text>
+      </feedback>
+    </answer>
+  </question>
+  <!-- question: 0  -->
+  <question type="category">
+    <category>
+      <text>$course$/mecanismos/mecanismos 3</text>
+    </category>
+  </question>
+  <!-- question: 64355  -->
+  <question type="shortanswer">
+    <name>
+      <text>Nombre biela_manivela</text>
+    </name>
+    <questiontext format="html">
+      <text>¿Cómo se llama el mecanismo mostrado?</text>
+    </questiontext>
+    <image>mecanismos/imagenes/biela_manivela.jpg</image>
+    <generalfeedback>
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1</defaultgrade>
+    <penalty>0.1</penalty>
+    <hidden>0</hidden>
+    <shuffleanswers>0</shuffleanswers>
+    <usecase>0</usecase>
+    <answer fraction="100">
+      <text>Biela-manivela</text>
+      <feedback>
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="100">
+      <text>Biela-cigüeñal</text>
+      <feedback>
+        <text></text>
+      </feedback>
+    </answer>
+  </question>
+  <!-- question: 0  -->
+  <question type="category">
+    <category>
+      <text>$course$/mecanismos/engranajes, poleas-correas</text>
+    </category>
+  </question>
+  <!-- question: 64329  -->
+  <question type="shortanswer">
+    <name>
+      <text>nombre cremallera</text>
+    </name>
+    <questiontext format="html">
+      <text>¿Cómo se llama el mecanismo mostrado?</text>
+    </questiontext>
+    <image>mecanismos/imagenes/cremallera.jpg</image>
+    <generalfeedback>
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1</defaultgrade>
+    <penalty>0.1</penalty>
+    <hidden>0</hidden>
+    <shuffleanswers>0</shuffleanswers>
+    <usecase>0</usecase>
+    <answer fraction="100">
+      <text>engranaje-cremallera</text>
+      <feedback>
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="100">
+      <text>piñón-cremallera</text>
+      <feedback>
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="50">
+      <text>engranaje</text>
+      <feedback>
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="50">
+      <text>cremallera</text>
+      <feedback>
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="80">
+      <text>engranaje cremallera</text>
+      <feedback>
+        <text>El nombre auténtico es engranaje-cremallera, con un guión separando las palabras</text>
+      </feedback>
+    </answer>
+    <answer fraction="80">
+      <text>engranage-cremallera</text>
+      <feedback>
+        <text>engranaje va con j</text>
+      </feedback>
+    </answer>
+  </question>
+  <!-- question: 64345  -->
+  <question type="shortanswer">
+    <name>
+      <text>nombre cremallera</text>
+    </name>
+    <questiontext format="html">
+      <text>¿Cómo se llama el mecanismo mostrado?</text>
+    </questiontext>
+    <image>mecanismos/imagenes/cremallera.jpg</image>
+    <generalfeedback>
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1</defaultgrade>
+    <penalty>0.1</penalty>
+    <hidden>0</hidden>
+    <shuffleanswers>0</shuffleanswers>
+    <usecase>0</usecase>
+    <answer fraction="100">
+      <text>engranaje-cremallera</text>
+      <feedback>
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="100">
+      <text>piñón-cremallera</text>
+      <feedback>
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="50">
+      <text>engranaje</text>
+      <feedback>
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="50">
+      <text>cremallera</text>
+      <feedback>
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="80">
+      <text>engranaje cremallera</text>
+      <feedback>
+        <text>El nombre auténtico es engranaje-cremallera, con un guión separando las palabras</text>
+      </feedback>
+    </answer>
+  </question>
+  <!-- question: 64340  -->
+  <question type="shortanswer">
+    <name>
+      <text>nombre eng</text>
+    </name>
+    <questiontext format="html">
+      <text>
+<![CDATA[¿Cómo se llama el siguiente mecanismo?<br /><img hspace="0" height="230" width="300" vspace="0" border="0" title="e" alt="e" src="https://ibersia.ovh/tec/mecanismos/martillos/e.jpg" /><br />]]>
+      </text>
+    </questiontext>
+    <image></image>
+    <generalfeedback>
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1</defaultgrade>
+    <penalty>0.1</penalty>
+    <hidden>0</hidden>
+    <shuffleanswers>0</shuffleanswers>
+    <usecase>0</usecase>
+    <answer fraction="100">
+      <text>transmisión por engranajes</text>
+      <feedback>
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="60">
+      <text>engranajes</text>
+      <feedback>
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="50">
+      <text>engranaje</text>
+      <feedback>
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="80">
+      <text>transmision por engranajes</text>
+      <feedback>
+        <text>Transmisión lleva acento</text>
+      </feedback>
+    </answer>
+  </question>
+  <!-- question: 64331  -->
+  <question type="shortanswer">
+    <name>
+      <text>nombre engranajes</text>
+    </name>
+    <questiontext format="html">
+      <text>¿Cómo se llama el mecanismo mostrado?</text>
+    </questiontext>
+    <image>mecanismos/imagenes/engranajes.jpg</image>
+    <generalfeedback>
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1</defaultgrade>
+    <penalty>0.1</penalty>
+    <hidden>0</hidden>
+    <shuffleanswers>0</shuffleanswers>
+    <usecase>0</usecase>
+    <answer fraction="100">
+      <text>transmisión por engranajes</text>
+      <feedback>
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="100">
+      <text>engranajes</text>
+      <feedback>
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="75">
+      <text>engranaje</text>
+      <feedback>
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="100">
+      <text>trasmisión por engranajes</text>
+      <feedback>
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="80">
+      <text>transmisión por engranages</text>
+      <feedback>
+        <text>engranaje es con j</text>
+      </feedback>
+    </answer>
+  </question>
+  <!-- question: 64347  -->
+  <question type="shortanswer">
+    <name>
+      <text>nombre engranajes</text>
+    </name>
+    <questiontext format="html">
+      <text>¿Cómo se llama el mecanismo mostrado?</text>
+    </questiontext>
+    <image>mecanismos/imagenes/engranajes.jpg</image>
+    <generalfeedback>
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1</defaultgrade>
+    <penalty>0.1</penalty>
+    <hidden>0</hidden>
+    <shuffleanswers>0</shuffleanswers>
+    <usecase>0</usecase>
+    <answer fraction="100">
+      <text>transmisión por engranajes</text>
+      <feedback>
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="100">
+      <text>engranajes</text>
+      <feedback>
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="75">
+      <text>engranaje</text>
+      <feedback>
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="100">
+      <text>trasmisión por engranajes</text>
+      <feedback>
+        <text></text>
+      </feedback>
+    </answer>
+  </question>
+  <!-- question: 0  -->
+  <question type="category">
+    <category>
+      <text>$course$/mecanismos/mecanismos 3</text>
+    </category>
+  </question>
+  <!-- question: 64363  -->
+  <question type="shortanswer">
+    <name>
+      <text>nombre husillo</text>
+    </name>
+    <questiontext format="html">
+      <text>
+<![CDATA[¿Cómo se llama el mecanismo del tornillo de banco?<div><img src="https://ibersia.ovh/tec/mecanismos/tornillo%20de%20banco.jpg" alt="tornillo de banco" title="tornillo de banco" border="0" hspace="0" vspace="0" width="248" height="204" /><br /></div>]]>
+      </text>
+    </questiontext>
+    <image></image>
+    <generalfeedback>
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1</defaultgrade>
+    <penalty>0.1</penalty>
+    <hidden>0</hidden>
+    <shuffleanswers>0</shuffleanswers>
+    <usecase>0</usecase>
+    <answer fraction="100">
+      <text>Tuerca-husillo</text>
+      <feedback>
+        <text></text>
+      </feedback>
+    </answer>
+  </question>
+  <!-- question: 0  -->
+  <question type="category">
+    <category>
+      <text>$course$/mecanismos/poleas y palancas</text>
+    </category>
+  </question>
+  <!-- question: 64318  -->
+  <question type="shortanswer">
+    <name>
+      <text>nombre palanca</text>
+    </name>
+    <questiontext format="html">
+      <text>Cómo se llama el mecanismo mostrado?</text>
+    </questiontext>
+    <image>mecanismos/imagenes/palanca.jpg</image>
+    <generalfeedback>
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1</defaultgrade>
+    <penalty>0.1</penalty>
+    <hidden>0</hidden>
+    <shuffleanswers>0</shuffleanswers>
+    <usecase>0</usecase>
+    <answer fraction="100">
+      <text>Palanca</text>
+      <feedback>
+        <text></text>
+      </feedback>
+    </answer>
+  </question>
+  <!-- question: 0  -->
+  <question type="category">
+    <category>
+      <text>$course$/mecanismos/martillos</text>
+    </category>
+  </question>
+  <!-- question: 64293  -->
+  <question type="shortanswer">
+    <name>
+      <text>nombre pc</text>
+    </name>
+    <questiontext format="html">
+      <text>
+<![CDATA[¿Cómo se llama este mecanismo?<br /><img hspace="0" height="200" width="300" vspace="0" border="0" title="i1" alt="i1" src="https://ibersia.ovh/tec/mecanismos/martillos/pc1.jpg" /><br />]]>
+      </text>
+    </questiontext>
+    <image></image>
+    <generalfeedback>
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1</defaultgrade>
+    <penalty>0.1</penalty>
+    <hidden>0</hidden>
+    <shuffleanswers>0</shuffleanswers>
+    <usecase>0</usecase>
+    <answer fraction="100">
+      <text>poleas con correas</text>
+      <feedback>
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="50">
+      <text>polea</text>
+      <feedback>
+        <text>Falta algo</text>
+      </feedback>
+    </answer>
+    <answer fraction="50">
+      <text>Poleas</text>
+      <feedback>
+        <text>Falta algo</text>
+      </feedback>
+    </answer>
+  </question>
+  <!-- question: 0  -->
+  <question type="category">
+    <category>
+      <text>$course$/mecanismos/engranajes, poleas-correas</text>
+    </category>
+  </question>
+  <!-- question: 64332  -->
+  <question type="shortanswer">
+    <name>
+      <text>nombre poleas con correas</text>
+    </name>
+    <questiontext format="html">
+      <text>¿Cómo se llama el mecanismo mostrado?</text>
+    </questiontext>
+    <image>mecanismos/imagenes/poleas_correas.jpg</image>
+    <generalfeedback>
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1</defaultgrade>
+    <penalty>0.1</penalty>
+    <hidden>0</hidden>
+    <shuffleanswers>0</shuffleanswers>
+    <usecase>0</usecase>
+    <answer fraction="100">
+      <text>poleas con correas</text>
+      <feedback>
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="50">
+      <text>poleas</text>
+      <feedback>
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="100">
+      <text>poleas con correa</text>
+      <feedback>
+        <text></text>
+      </feedback>
+    </answer>
+  </question>
+  <!-- question: 64348  -->
+  <question type="shortanswer">
+    <name>
+      <text>nombre poleas con correas</text>
+    </name>
+    <questiontext format="html">
+      <text>¿Cómo se llama el mecanismo mostrado?</text>
+    </questiontext>
+    <image>mecanismos/imagenes/poleas_correas.jpg</image>
+    <generalfeedback>
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1</defaultgrade>
+    <penalty>0.1</penalty>
+    <hidden>0</hidden>
+    <shuffleanswers>0</shuffleanswers>
+    <usecase>0</usecase>
+    <answer fraction="100">
+      <text>poleas con correas</text>
+      <feedback>
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="50">
+      <text>poleas</text>
+      <feedback>
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="100">
+      <text>poleas con correa</text>
+      <feedback>
+        <text></text>
+      </feedback>
+    </answer>
+  </question>
+  <!-- question: 64351  -->
+  <question type="shortanswer">
+    <name>
+      <text>nombre poleas con correas</text>
+    </name>
+    <questiontext format="html">
+      <text>¿Cómo se llama el mecanismo mostrado?</text>
+    </questiontext>
+    <image>mecanismos/imagenes/poleas_correas.jpg</image>
+    <generalfeedback>
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1</defaultgrade>
+    <penalty>0.1</penalty>
+    <hidden>0</hidden>
+    <shuffleanswers>0</shuffleanswers>
+    <usecase>0</usecase>
+    <answer fraction="100">
+      <text>poleas con correas</text>
+      <feedback>
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="50">
+      <text>poleas</text>
+      <feedback>
+        <text></text>
+      </feedback>
+    </answer>
+  </question>
+  <!-- question: 64330  -->
+  <question type="shortanswer">
+    <name>
+      <text>nombre sinfín</text>
+    </name>
+    <questiontext format="html">
+      <text>¿Cómo se llama el mecanismo mostrado?</text>
+    </questiontext>
+    <image>mecanismos/imagenes/engranaje_sinfin.jpg</image>
+    <generalfeedback>
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1</defaultgrade>
+    <penalty>0.1</penalty>
+    <hidden>0</hidden>
+    <shuffleanswers>0</shuffleanswers>
+    <usecase>0</usecase>
+    <answer fraction="100">
+      <text>engranaje-tornillo sinfín</text>
+      <feedback>
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="100">
+      <text>engranaje-sinfín</text>
+      <feedback>
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="50">
+      <text>tornillo sinfín</text>
+      <feedback>
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="75">
+      <text>engranaje-tornillo sin fín</text>
+      <feedback>
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="25">
+      <text>engranaje</text>
+      <feedback>
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="100">
+      <text>engranaje con tornillo sinfín</text>
+      <feedback>
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="80">
+      <text>engranaje-tornillo sinfin</text>
+      <feedback>
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="40">
+      <text>Tornillo sinfin</text>
+      <feedback>
+        <text></text>
+      </feedback>
+    </answer>
+  </question>
+  <!-- question: 64346  -->
+  <question type="shortanswer">
+    <name>
+      <text>nombre sinfín</text>
+    </name>
+    <questiontext format="html">
+      <text>¿Cómo se llama el macanismo mostrado?</text>
+    </questiontext>
+    <image>mecanismos/imagenes/engranaje_sinfin.jpg</image>
+    <generalfeedback>
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1</defaultgrade>
+    <penalty>0.1</penalty>
+    <hidden>0</hidden>
+    <shuffleanswers>0</shuffleanswers>
+    <usecase>0</usecase>
+    <answer fraction="100">
+      <text>engranaje-tornillo sinfín</text>
+      <feedback>
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="100">
+      <text>engranaje-sinfín</text>
+      <feedback>
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="50">
+      <text>tornillo sinfín</text>
+      <feedback>
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="75">
+      <text>engranaje-tornillo sin fín</text>
+      <feedback>
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="25">
+      <text>engranaje</text>
+      <feedback>
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="100">
+      <text>engranaje con tornillo sinfín</text>
+      <feedback>
+        <text></text>
+      </feedback>
+    </answer>
+  </question>
+  <!-- question: 64350  -->
+  <question type="shortanswer">
+    <name>
+      <text>nombre sinfín</text>
+    </name>
+    <questiontext format="html">
+      <text>¿Cómo se llama el macanismo mostrado?</text>
+    </questiontext>
+    <image>mecanismos/imagenes/engranaje_sinfin.jpg</image>
+    <generalfeedback>
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1</defaultgrade>
+    <penalty>0.1</penalty>
+    <hidden>0</hidden>
+    <shuffleanswers>0</shuffleanswers>
+    <usecase>0</usecase>
+    <answer fraction="100">
+      <text>engranaje-sinfín</text>
+      <feedback>
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="100">
+      <text>engranaje-tornillo sinfín</text>
+      <feedback>
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="50">
+      <text>tornillo sinfín</text>
+      <feedback>
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="75">
+      <text>engranaje-tornillo sin fín</text>
+      <feedback>
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="25">
+      <text>engranaje</text>
+      <feedback>
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="100">
+      <text>engranaje con tornillo sinfín</text>
+      <feedback>
+        <text></text>
+      </feedback>
+    </answer>
+  </question>
+  <!-- question: 0  -->
+  <question type="category">
+    <category>
+      <text>$course$/mecanismos/mecanismos 3</text>
+    </category>
+  </question>
+  <!-- question: 64362  -->
+  <question type="shortanswer">
+    <name>
+      <text>nombre torno</text>
+    </name>
+    <questiontext format="html">
+      <text>
+<![CDATA[¿Cómo se llama este mecanismo?<div><img src="https://ibersia.ovh/tec/mecanismos/ap_mec_3/torno.gif" alt="ej" title="ej" border="0" hspace="0" vspace="0" width="141" height="163" /><br /></div>]]>
+      </text>
+    </questiontext>
+    <image></image>
+    <generalfeedback>
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1</defaultgrade>
+    <penalty>0.1</penalty>
+    <hidden>0</hidden>
+    <shuffleanswers>0</shuffleanswers>
+    <usecase>0</usecase>
+    <answer fraction="100">
+      <text>torno</text>
+      <feedback>
+        <text></text>
+      </feedback>
+    </answer>
+  </question>
+  <!-- question: 0  -->
+  <question type="category">
+    <category>
+      <text>$course$/mecanismos/poleas y palancas</text>
+    </category>
+  </question>
+  <!-- question: 64317  -->
+  <question type="shortanswer">
+    <name>
+      <text>nombre Trócola</text>
+    </name>
+    <questiontext format="html">
+      <text>¿Cómo se llama el mecanismo mostrado?</text>
+    </questiontext>
+    <image>mecanismos/imagenes/trocola.jpg</image>
+    <generalfeedback>
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1</defaultgrade>
+    <penalty>0.1</penalty>
+    <hidden>0</hidden>
+    <shuffleanswers>0</shuffleanswers>
+    <usecase>0</usecase>
+    <answer fraction="100">
+      <text>Trócola</text>
+      <feedback>
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="100">
+      <text>Polipasto</text>
+      <feedback>
+        <text></text>
+      </feedback>
+    </answer>
+  </question>
+  <!-- question: 0  -->
+  <question type="category">
+    <category>
+      <text>$course$/mecanismos/mecanismos 3</text>
+    </category>
+  </question>
+  <!-- question: 64360  -->
+  <question type="shortanswer">
+    <name>
+      <text>transformación biela</text>
+    </name>
+    <questiontext format="html">
+      <text>
+<![CDATA[<p>¿El mecanismo mostrado transforma un movimiento de qué tipo en un movimiento de qué tipo?</p>
+<p><img src="https://ibersia.ovh/tec/mecanismos/imagenes/biela_manivela.jpg" alt="x" title="x" width="491" hspace="0" height="239" border="0" /></p>]]>
+      </text>
+    </questiontext>
+    <image></image>
+    <generalfeedback>
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1</defaultgrade>
+    <penalty>0.1</penalty>
+    <hidden>0</hidden>
+    <shuffleanswers>0</shuffleanswers>
+    <usecase>0</usecase>
+    <answer fraction="60">
+      <text>circular en lineal</text>
+      <feedback>
+        <text>el lineal es alternativo</text>
+      </feedback>
+    </answer>
+    <answer fraction="100">
+      <text>circular en lineal alternativo</text>
+      <feedback>
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="60">
+      <text>Lineal en circular</text>
+      <feedback>
+        <text>el movimiento lineal es alternativo</text>
+      </feedback>
+    </answer>
+    <answer fraction="100">
+      <text>circular en lineal de vaivén</text>
+      <feedback>
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="60">
+      <text>movimiento circular en lineal</text>
+      <feedback>
+        <text>El lineal es alternativo</text>
+      </feedback>
+    </answer>
+    <answer fraction="60">
+      <text>un movimiento lineal en circular</text>
+      <feedback>
+        <text>
+<![CDATA[<span class="Apple-style-span">
+<div style="background-color: rgb(255, 255, 255);">El lineal es alternativo</div></span>]]>
+        </text>
+      </feedback>
+    </answer>
+    <answer fraction="60">
+      <text>un movimiento circular en uno lineal</text>
+      <feedback>
+        <text>el lineal es alternativo</text>
+      </feedback>
+    </answer>
+    <answer fraction="100">
+      <text>un movimiento circular en uno lineal de vaivén</text>
+      <feedback>
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="100">
+      <text>un movimiento circular en uno lineal alternativo</text>
+      <feedback>
+        <text></text>
+      </feedback>
+    </answer>
+  </question>
+  <!-- question: 64367  -->
+  <question type="shortanswer">
+    <name>
+      <text>transformación biela</text>
+    </name>
+    <questiontext format="html">
+      <text>
+<![CDATA[<p>¿El mecanismo mostrado transforma un movimiento de qué tipo en un movimiento de qué tipo?</p>
+<p><img title="x" alt="x" src="https://ibersia.ovh/tec/mecanismos/imagenes/biela_manivela.jpg" width="491" hspace="0" height="239" border="0" /></p>]]>
+      </text>
+    </questiontext>
+    <image></image>
+    <generalfeedback>
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1</defaultgrade>
+    <penalty>0.1</penalty>
+    <hidden>0</hidden>
+    <shuffleanswers>0</shuffleanswers>
+    <usecase>0</usecase>
+    <answer fraction="100">
+      <text>circular en lineal de vaivén</text>
+      <feedback>
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="100">
+      <text>circular en lineal alternativo</text>
+      <feedback>
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="100">
+      <text>Lineal alternativo en circular</text>
+      <feedback>
+        <text>el movimiento lineal es alternativo</text>
+      </feedback>
+    </answer>
+    <answer fraction="100">
+      <text>Lineal de vaivén en circular</text>
+      <feedback>
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="80">
+      <text>movimiento circular en lineal</text>
+      <feedback>
+        <text>El lineal es alternativo</text>
+      </feedback>
+    </answer>
+    <answer fraction="80">
+      <text>movimiento lineal en circular</text>
+      <feedback>
+        <text>
+<![CDATA[<span class="Apple-style-span">
+<div style="background-color: rgb(255, 255, 255);">El lineal es alternativo</div></span>]]>
+        </text>
+      </feedback>
+    </answer>
+  </question>
+  <!-- question: 64368  -->
+  <question type="shortanswer">
+    <name>
+      <text>transformación biela</text>
+    </name>
+    <questiontext format="html">
+      <text>
+<![CDATA[<p>¿El mecanismo mostrado transforma un movimiento de qué tipo en un movimiento de qué tipo?</p>
+<p><img title="x" alt="x" src="https://ibersia.ovh/tec/mecanismos/imagenes/biela_manivela.jpg" width="491" hspace="0" height="239" border="0" /></p>]]>
+      </text>
+    </questiontext>
+    <image></image>
+    <generalfeedback>
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1</defaultgrade>
+    <penalty>0.1</penalty>
+    <hidden>0</hidden>
+    <shuffleanswers>0</shuffleanswers>
+    <usecase>0</usecase>
+    <answer fraction="100">
+      <text>circular en lineal de vaivén</text>
+      <feedback>
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="100">
+      <text>circular en lineal alternativo</text>
+      <feedback>
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="60">
+      <text>Lineal en circular</text>
+      <feedback>
+        <text>el movimiento lineal es alternativo</text>
+      </feedback>
+    </answer>
+    <answer fraction="100">
+      <text>Lineal alternativo en circular</text>
+      <feedback>
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="60">
+      <text>circular en lineal</text>
+      <feedback>
+        <text>El lineal es alternativo</text>
+      </feedback>
+    </answer>
+    <answer fraction="60">
+      <text>lineal en circular</text>
+      <feedback>
+        <text>
+<![CDATA[<span class="Apple-style-span" style="font-family: "times new roman";">
+<div style="background-color: rgb(255, 255, 255); font-family: "trebuchet ms",verdana,arial,helvetica,sans-serif; direction: ltr;">El lineal es alternativo</div></span>]]>
+        </text>
+      </feedback>
+    </answer>
+  </question>
+  <!-- question: 64361  -->
+  <question type="shortanswer">
+    <name>
+      <text>transformación husillo</text>
+    </name>
+    <questiontext format="html">
+      <text>
+<![CDATA[<p>El mecanismo mostrado transforma un movimiento de qué tipo en un movimiento de qué tipo.</p>
+<p><img title="a" height="269" alt="a" hspace="0" src="https://ibersia.ovh/tec/mecanismos/imagenes/husillo.jpg" width="486" border="0" /></p>]]>
+      </text>
+    </questiontext>
+    <image></image>
+    <generalfeedback>
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1</defaultgrade>
+    <penalty>0.1</penalty>
+    <hidden>0</hidden>
+    <shuffleanswers>0</shuffleanswers>
+    <usecase>0</usecase>
+    <answer fraction="100">
+      <text>Circular en lineal</text>
+      <feedback>
+        <text></text>
+      </feedback>
+    </answer>
+  </question>
+</quiz>
