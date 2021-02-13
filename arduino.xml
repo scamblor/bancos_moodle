@@ -1,0 +1,4825 @@
+<?xml version="1.0" encoding="utf-8"?>
+<quiz>
+  <!-- question: 0  -->
+  <question type="category">
+    <category>
+      <text>$course$/arduino/constantes</text>
+    </category>
+  </question>
+  <!-- question: 48652  -->
+  <question type="description">
+    <name>
+      <text>constantes</text>
+    </name>
+    <questiontext format="html">
+      <text>
+<![CDATA[<h1>Constantes</h1>Las constantes son nombres que almacenan un valor. Nos ayudan a entender el programa si usamos nombres significativos. Además permiten modificarlos más fácilmente ya que cambiando la asignación del valor, cambia esto en todo el programa aunque la constante aparezca muchas veces<br />
+<h2>sintaxis</h2>
+<p>La sintaxis para constantes es <br /></p>
+<p><b>tipo nombre = valor; </b><br /></p>
+<p>Tipo será int para enteros y float para números con decimales</p>
+<p>Por ejemplo, si tenemos un led verde conectado a la salida 2 podemos escribir:</p>
+<p><b>int verde = 2;</b></p>
+<p> de esta foma, para encender el verde podemos decir <b>digitalWrite(verde, HIGH)</b>;<br /></p>
+<p><br /></p>
+<h2> </h2>]]>
+      </text>
+    </questiontext>
+    <image></image>
+    <generalfeedback>
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>0</defaultgrade>
+    <penalty>0</penalty>
+    <hidden>0</hidden>
+    <shuffleanswers>0</shuffleanswers>
+  </question>
+  <!-- question: 0  -->
+  <question type="category">
+    <category>
+      <text>$course$/arduino</text>
+    </category>
+  </question>
+  <!-- question: 48614  -->
+  <question type="description">
+    <name>
+      <text>delay</text>
+    </name>
+    <questiontext format="html">
+      <text>
+<![CDATA[<h2>Esperas</h2>
+<div>Para programar esperas usamos la instrucción delay:</div>
+<div><br /></div>
+<div><b>delay(</b>tiempo<b>);</b>// el tiempo se muestra en milisegundos<br /></div>]]>
+      </text>
+    </questiontext>
+    <image></image>
+    <generalfeedback>
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>0</defaultgrade>
+    <penalty>0</penalty>
+    <hidden>0</hidden>
+    <shuffleanswers>0</shuffleanswers>
+  </question>
+  <!-- question: 48615  -->
+  <question type="description">
+    <name>
+      <text>digitalWrite</text>
+    </name>
+    <questiontext format="html">
+      <text>
+<![CDATA[<div>Para activar o desactivar salidas digitales usamos la intrucción digitalWrite:</div>
+<div><b>digitalWrite(</b>pin,estado<b>);</b>// donde pin es el numero de la salida. El estado será HIGH para activarla y LOW para desactivarla<br /> </div>]]>
+      </text>
+    </questiontext>
+    <image></image>
+    <generalfeedback>
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>0</defaultgrade>
+    <penalty>0</penalty>
+    <hidden>0</hidden>
+    <shuffleanswers>0</shuffleanswers>
+  </question>
+  <!-- question: 0  -->
+  <question type="category">
+    <category>
+      <text>$course$/arduino/entradas digitales</text>
+    </category>
+  </question>
+  <!-- question: 49070  -->
+  <question type="description">
+    <name>
+      <text>entradas digitales</text>
+    </name>
+    <questiontext format="html">
+      <text>
+<![CDATA[<h1>Entradas digitales</h1>
+<p>Las entradas digitales sirven para introducir información en la controladora. Se llaman digitales porque sólo pueden interpretar dos valores, por ejemplo si un pulsador está accionado o no.</p>
+<h2>Modo del pin</h2>
+<p>Para que un pin se pueda usar como entrada, deberá indicarse con la instrucción pinMode. Esto normalmente se hace en setup</p>
+<p><br /></p>
+<p><b>pinMode(numero_pin,INPUT); </b>//El pin indicado trabajará como entrada</p>
+<h2>Estados</h2>
+<p>Una vez configurado elpin como entrada, podemos leer su estado con la instrucción digitalRead:</p>
+<p><b>digitalRead(numero_pin);</b><br /></p>
+<ul>
+  <li>Cuando un pin está unido al polo positivo digitalRead devuelve <b>HIGH</b></li>
+  <li>Cuando un pin está unido al polo negativo digitalRead devuelve <b>LOW</b></li>
+  <li>Cuando el pin no está conectado ni a positivo ni a negativo, el resultado es indeterminado (<b>?</b>)</li>
+  <li>Cuando está unido a positivo y a negativo pesa más la unión directa, sin resistencia<br /><br /></li>
+</ul>]]>
+      </text>
+    </questiontext>
+    <image></image>
+    <generalfeedback>
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>0</defaultgrade>
+    <penalty>0</penalty>
+    <hidden>0</hidden>
+    <shuffleanswers>0</shuffleanswers>
+  </question>
+  <!-- question: 0  -->
+  <question type="category">
+    <category>
+      <text>$course$/arduino</text>
+    </category>
+  </question>
+  <!-- question: 48613  -->
+  <question type="description">
+    <name>
+      <text>IDE arduino</text>
+    </name>
+    <questiontext format="html">
+      <text>
+<![CDATA[<div>Para escribir y cargar los programas en la placa usamos el IDE arduino. Para abrirlo ve a menu&gt;progrmación&gt;IDE arduino.</div>
+<div><br /></div>
+<div>Los programas tienen dos partes: <br /></div>
+<div> 
+  <ul> 
+    <li> setup() se ejecuta una sola vez <br /></li> 
+    <li>loop() se ejecuta continuamente</li> 
+  </ul> 
+  <div> 
+    <h2>Punto y coma ;</h2> 
+    <div>Todas las instrucciones terminan con punto y coma <b>;</b><br /></div></div> 
+  <div> 
+    <h2>comentarios<br /></h2> 
+    <div>Los programas deben tener comentarios que nos ayuden a comprenderlos. Para escribir un comentario se pone una doble barra invertida <b>//</b> antes del comentario. El IDE no interpreta que está después de una doble barra invertida</div> 
+    <div>//esto no se intrepretará</div> 
+    <div><br /></div> 
+    <div><b>Todos tus programas deben tener un comentario con tu nombre arriba del todo</b><br /></div></div></div>]]>
+      </text>
+    </questiontext>
+    <image></image>
+    <generalfeedback>
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>0</defaultgrade>
+    <penalty>0</penalty>
+    <hidden>0</hidden>
+    <shuffleanswers>0</shuffleanswers>
+  </question>
+  <!-- question: 0  -->
+  <question type="category">
+    <category>
+      <text>$course$/arduino/arduino_if</text>
+    </category>
+  </question>
+  <!-- question: 49101  -->
+  <question type="description">
+    <name>
+      <text>if</text>
+    </name>
+    <questiontext format="html">
+      <text>
+<![CDATA[<h1>Bifurcaciones condicionales</h1>
+<p>Es ,muy importante que un programa actúe de diferente manera si las situaciones son diferentes. Esto se hace mediante bifurcaciones condicionales. La sintaxis de la instrucción es la siguiente:</p> <br /> <b>if(</b>condicion<b>){</b><br /> instrucciones que se realizarán si la condición se cumple<br /> <b>}else{</b><br /> instrucciones que se realizarán si la instrucción no se cumple<br /> <b>}</b><br /><br />
+<p> La condición podrá ser que una entrada digital tenga el valor HIGH o que lo tenga low. Por ejemplo si queremos que el pin 5 se active cuando el pin 3 está en HIGH, escribiremos:</p>
+<p><b>if(digitalRead(3) == HIGH){ <br />digitalWrite(5, HIGH);<br />}</b></p>
+<h2>Operadores de comparación</h2>
+<p>igual <b>==</b><br />diferente <b>!=</b><br />mayor que <b>&gt;</b><br />menor que <b>&lt;</b><br />mayor o igual <b>&gt;=</b><br />menor o igual <b>&lt;=</b><br /></p>]]>
+      </text>
+    </questiontext>
+    <image></image>
+    <generalfeedback>
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>0</defaultgrade>
+    <penalty>0</penalty>
+    <hidden>0</hidden>
+    <shuffleanswers>0</shuffleanswers>
+  </question>
+  <!-- question: 0  -->
+  <question type="category">
+    <category>
+      <text>$course$/arduino</text>
+    </category>
+  </question>
+  <!-- question: 48612  -->
+  <question type="description">
+    <name>
+      <text>pinMode</text>
+    </name>
+    <questiontext format="html">
+      <text>
+<![CDATA[<div>
+  <h1 align="center">pinMode</h1>Los pines digitales de arduino pueden actuar como salidas o como entradas. Las salidas sirven para conectar elementos conectados a la placa (por ejemplo encender un led) y las entradas para introducir información (por ejemplo indicar que se ha pulsado un botón)</div>
+<div><br /></div>
+<div>Para usar un pin hay que definir si trabajará como entrada o salida. Se hace con la instrucción pinMode:</div>
+<div><br /></div>
+<div><b>pinMode(</b>pin,modo<b>);</b> //pin es el número del pin y mode es OUTPUT para salidas e INPUT para entradas<br /></div>]]>
+      </text>
+    </questiontext>
+    <image></image>
+    <generalfeedback>
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>0</defaultgrade>
+    <penalty>0</penalty>
+    <hidden>0</hidden>
+    <shuffleanswers>0</shuffleanswers>
+  </question>
+  <!-- question: 0  -->
+  <question type="category">
+    <category>
+      <text>$course$/arduino/repeticiones</text>
+    </category>
+  </question>
+  <!-- question: 48839  -->
+  <question type="description">
+    <name>
+      <text>repeticiones</text>
+    </name>
+    <questiontext format="html">
+      <text>
+<![CDATA[<div>
+  <h1>Repeticiones </h1></div>
+<div>Las repeticiones se hacen con bucles <b>for</b> que llevan dentro siempre una variable contador. Vamos a diferenciar entre repeticiones simples en las que el contador sólo se usa para contar las repeticiones y las repeticiones complejas en las que el contador tiene otros usos además.</div>
+<div>
+  <h2>Repeticiones simples</h2>
+  <div>Las usamos para repetir un número de veces algo. La sintaxis es:</div>
+  <div><br /></div>
+  <div><b>for (int contador = 0 ; contador &lt; numero_de_repeticiones ; contador = contador + 1){</b></div>
+  <div><b><br /></b></div>
+  <div><b>//aquí se escribe lo que se va a repetir</b></div>
+  <div><b><br /></b></div>
+  <div><b>}</b><br /></div></div>
+<div><br /></div>]]>
+      </text>
+    </questiontext>
+    <image></image>
+    <generalfeedback>
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>0</defaultgrade>
+    <penalty>0</penalty>
+    <hidden>0</hidden>
+    <shuffleanswers>0</shuffleanswers>
+  </question>
+  <!-- question: 48841  -->
+  <question type="description">
+    <name>
+      <text>repeticiones complejas</text>
+    </name>
+    <questiontext format="html">
+      <text>
+<![CDATA[<h1>Repeticiones complejas</h1>
+<div> 
+  <div>En las repeticiones complejas usamos la variable contador dentro del bucle for. La sintaxis es:</div> 
+  <div><br /></div> 
+  <div><b>for (int contador = </b><i>valor_inicial</i><b> ; contador &lt;= </b><i>valor_final</i><b> ; contador = contador +</b><i> incremento</i><b>){</b></div> 
+  <div><b><br /></b></div> 
+  <div><b>// aquí se escribe lo que se va a repetir</b></div> 
+  <div><b><br /></b></div> 
+  <div><b>}</b><br /></div></div> 
+<div><br /></div>]]>
+      </text>
+    </questiontext>
+    <image></image>
+    <generalfeedback>
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>0</defaultgrade>
+    <penalty>0</penalty>
+    <hidden>0</hidden>
+    <shuffleanswers>0</shuffleanswers>
+  </question>
+  <!-- question: 48840  -->
+  <question type="description">
+    <name>
+      <text>semáforo con repeticiones</text>
+    </name>
+    <questiontext format="html">
+      <text>
+<![CDATA[<div>Haz el programa de un semáforo con las mismas características que el que ya has hecho (tienes que usar los mismos led que te correspondían entonces) pero con la diferencia de que debes hacer que el amarillo parpadee 4 veces con esperas de 200 milisegundos. Esto debe hacerse necesariamente con<b> un bucle de repetición</b>.</div>
+<div>Además debes usar <b>constantes</b> con los números de las salidas que tengan como nombre el color del led correspondiente. Cuando actúes sobre las salidas deberás usar estas constantes. Por ejemplo, para encender el verde pondrás <b>digitalWrite(<i>verde</i></b>,<b>HIGH);</b><br /></div>]]>
+      </text>
+    </questiontext>
+    <image></image>
+    <generalfeedback>
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>0</defaultgrade>
+    <penalty>0</penalty>
+    <hidden>0</hidden>
+    <shuffleanswers>0</shuffleanswers>
+  </question>
+  <!-- question: 0  -->
+  <question type="category">
+    <category>
+      <text>$course$/arduino/variables</text>
+    </category>
+  </question>
+  <!-- question: 48812  -->
+  <question type="description">
+    <name>
+      <text>Variables</text>
+    </name>
+    <questiontext format="html">
+      <text>
+<![CDATA[<h1>Variables</h1>Las variables son nombres que almacenan valores que pueden cambiar durante la ejecución del programa.<br />
+<h2>sintaxis</h2>
+<p>La sintaxis es igual que la de las constante:s <br /></p>
+<p><b>tipo nombre = valor; </b><br /></p>
+<p>Tipo será int para enteros y float para números con decimales</p>Ejemplo:<br /> int salida = 8;<br /> void setup(){<br />}<br /><br />void loop(){<br /><br />pinMode(salida,OUTPUT):<br />digitalWrite(salida,HIGH);<br />delay(1000);<br />salida = salida +1;<br />}<br />
+<p><br /></p>
+<h2> </h2>]]>
+      </text>
+    </questiontext>
+    <image></image>
+    <generalfeedback>
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>0</defaultgrade>
+    <penalty>0</penalty>
+    <hidden>0</hidden>
+    <shuffleanswers>0</shuffleanswers>
+  </question>
+  <!-- question: 0  -->
+  <question type="category">
+    <category>
+      <text>$course$/arduino/entradas digitales/digitalRead_ej1</text>
+    </category>
+  </question>
+  <!-- question: 49089  -->
+  <question type="matching">
+    <name>
+      <text>ind_dig_ej1</text>
+    </name>
+    <questiontext format="html">
+      <text>
+<![CDATA[Observa la imagen e indica que valor devuelve la función expuesta en cada caso<br /><img src="https://ibersia.ovh/tec/programacion/aprendizaje/in_dig/ej_pin/ej_pin_1.gif" alt="in dig" title="in dig" vspace="0" hspace="0" border="0" />]]>
+      </text>
+    </questiontext>
+    <image></image>
+    <generalfeedback>
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1</defaultgrade>
+    <penalty>0.5</penalty>
+    <hidden>0</hidden>
+    <shuffleanswers>0</shuffleanswers>
+    <subquestion>
+      <text>digitalRead(7)</text>
+      <answer>
+        <text>LOW</text>
+      </answer>
+    </subquestion>
+    <subquestion>
+      <text>digitalRead(6)</text>
+      <answer>
+        <text>HIGH</text>
+      </answer>
+    </subquestion>
+    <subquestion>
+      <text>digitalRead(5)</text>
+      <answer>
+        <text>HIGH</text>
+      </answer>
+    </subquestion>
+    <subquestion>
+      <text>digitalRead(4)</text>
+      <answer>
+        <text>LOW</text>
+      </answer>
+    </subquestion>
+  </question>
+  <!-- question: 0  -->
+  <question type="category">
+    <category>
+      <text>$course$/arduino/entradas digitales/digitalRead_ej2</text>
+    </category>
+  </question>
+  <!-- question: 49098  -->
+  <question type="matching">
+    <name>
+      <text>ind_dig_ej10</text>
+    </name>
+    <questiontext format="html">
+      <text>
+<![CDATA[Observa la imagen e indica que valor devuelve la función expuesta en cada caso<br /><img src="https://ibersia.ovh/tec/programacion/aprendizaje/in_dig/ej_pin/ej_pin_10.gif" alt="in dig" title="in dig" vspace="0" hspace="0" border="0" />]]>
+      </text>
+    </questiontext>
+    <image></image>
+    <generalfeedback>
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1</defaultgrade>
+    <penalty>0.5</penalty>
+    <hidden>0</hidden>
+    <shuffleanswers>0</shuffleanswers>
+    <subquestion>
+      <text>digitalRead(7)</text>
+      <answer>
+        <text>?</text>
+      </answer>
+    </subquestion>
+    <subquestion>
+      <text>digitalRead(6)</text>
+      <answer>
+        <text>LOW</text>
+      </answer>
+    </subquestion>
+    <subquestion>
+      <text>digitalRead(5)</text>
+      <answer>
+        <text>HIGH</text>
+      </answer>
+    </subquestion>
+    <subquestion>
+      <text>digitalRead(4)</text>
+      <answer>
+        <text>HIGH</text>
+      </answer>
+    </subquestion>
+    <subquestion>
+      <text>digitalRead(3)</text>
+      <answer>
+        <text>LOW</text>
+      </answer>
+    </subquestion>
+    <subquestion>
+      <text>digitalRead(2)</text>
+      <answer>
+        <text>HIGH</text>
+      </answer>
+    </subquestion>
+    <subquestion>
+      <text>digitalRead(1)</text>
+      <answer>
+        <text>HIGH</text>
+      </answer>
+    </subquestion>
+    <subquestion>
+      <text>digitalRead(0)</text>
+      <answer>
+        <text>LOW</text>
+      </answer>
+    </subquestion>
+  </question>
+  <!-- question: 49099  -->
+  <question type="matching">
+    <name>
+      <text>ind_dig_ej12</text>
+    </name>
+    <questiontext format="html">
+      <text>
+<![CDATA[Observa la imagen e indica que valor devuelve la función expuesta en cada caso<br /><img src="https://ibersia.ovh/tec/programacion/aprendizaje/in_dig/ej_pin/ej_pin_12.gif" alt="in dig" title="in dig" vspace="0" hspace="0" border="0" />]]>
+      </text>
+    </questiontext>
+    <image></image>
+    <generalfeedback>
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1</defaultgrade>
+    <penalty>0.5</penalty>
+    <hidden>0</hidden>
+    <shuffleanswers>0</shuffleanswers>
+    <subquestion>
+      <text>digitalRead(7)</text>
+      <answer>
+        <text>LOW</text>
+      </answer>
+    </subquestion>
+    <subquestion>
+      <text>digitalRead(6)</text>
+      <answer>
+        <text>?</text>
+      </answer>
+    </subquestion>
+    <subquestion>
+      <text>digitalRead(5)</text>
+      <answer>
+        <text>LOW</text>
+      </answer>
+    </subquestion>
+    <subquestion>
+      <text>digitalRead(4)</text>
+      <answer>
+        <text>HIGH</text>
+      </answer>
+    </subquestion>
+    <subquestion>
+      <text>digitalRead(3)</text>
+      <answer>
+        <text>LOW</text>
+      </answer>
+    </subquestion>
+    <subquestion>
+      <text>digitalRead(2)</text>
+      <answer>
+        <text>HIGH</text>
+      </answer>
+    </subquestion>
+    <subquestion>
+      <text>digitalRead(1)</text>
+      <answer>
+        <text>HIGH</text>
+      </answer>
+    </subquestion>
+    <subquestion>
+      <text>digitalRead(0)</text>
+      <answer>
+        <text>HIGH</text>
+      </answer>
+    </subquestion>
+  </question>
+  <!-- question: 0  -->
+  <question type="category">
+    <category>
+      <text>$course$/arduino/entradas digitales/digitalRead_ej1</text>
+    </category>
+  </question>
+  <!-- question: 49090  -->
+  <question type="matching">
+    <name>
+      <text>ind_dig_ej2</text>
+    </name>
+    <questiontext format="html">
+      <text>
+<![CDATA[Observa la imagen e indica que valor devuelve la función expuesta en cada caso<br /><img src="https://ibersia.ovh/tec/programacion/aprendizaje/in_dig/ej_pin/ej_pin_2.gif" alt="in dig" title="in dig" vspace="0" hspace="0" border="0" />]]>
+      </text>
+    </questiontext>
+    <image></image>
+    <generalfeedback>
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1</defaultgrade>
+    <penalty>0.5</penalty>
+    <hidden>0</hidden>
+    <shuffleanswers>0</shuffleanswers>
+    <subquestion>
+      <text>digitalRead(7)</text>
+      <answer>
+        <text>LOW</text>
+      </answer>
+    </subquestion>
+    <subquestion>
+      <text>digitalRead(6)</text>
+      <answer>
+        <text>HIGH</text>
+      </answer>
+    </subquestion>
+    <subquestion>
+      <text>digitalRead(5)</text>
+      <answer>
+        <text>HIGH</text>
+      </answer>
+    </subquestion>
+    <subquestion>
+      <text>digitalRead(4)</text>
+      <answer>
+        <text>HIGH</text>
+      </answer>
+    </subquestion>
+  </question>
+  <!-- question: 49091  -->
+  <question type="matching">
+    <name>
+      <text>ind_dig_ej3</text>
+    </name>
+    <questiontext format="html">
+      <text>
+<![CDATA[Observa la imagen e indica que valor devuelve la función expuesta en cada caso<br /><img src="https://ibersia.ovh/tec/programacion/aprendizaje/in_dig/ej_pin/ej_pin_3.gif" alt="in dig" title="in dig" vspace="0" hspace="0" border="0" />]]>
+      </text>
+    </questiontext>
+    <image></image>
+    <generalfeedback>
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1</defaultgrade>
+    <penalty>0.5</penalty>
+    <hidden>0</hidden>
+    <shuffleanswers>0</shuffleanswers>
+    <subquestion>
+      <text>digitalRead(7)</text>
+      <answer>
+        <text>HIGH</text>
+      </answer>
+    </subquestion>
+    <subquestion>
+      <text>digitalRead(6)</text>
+      <answer>
+        <text>LOW</text>
+      </answer>
+    </subquestion>
+    <subquestion>
+      <text>digitalRead(5)</text>
+      <answer>
+        <text>HIGH</text>
+      </answer>
+    </subquestion>
+    <subquestion>
+      <text>digitalRead(4)</text>
+      <answer>
+        <text>LOW</text>
+      </answer>
+    </subquestion>
+  </question>
+  <!-- question: 49092  -->
+  <question type="matching">
+    <name>
+      <text>ind_dig_ej4</text>
+    </name>
+    <questiontext format="html">
+      <text>
+<![CDATA[Observa la imagen e indica que valor devuelve la función expuesta en cada caso<br /><img src="https://ibersia.ovh/tec/programacion/aprendizaje/in_dig/ej_pin/ej_pin_4.gif" alt="in dig" title="in dig" vspace="0" hspace="0" border="0" />]]>
+      </text>
+    </questiontext>
+    <image></image>
+    <generalfeedback>
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1</defaultgrade>
+    <penalty>0.5</penalty>
+    <hidden>0</hidden>
+    <shuffleanswers>0</shuffleanswers>
+    <subquestion>
+      <text>digitalRead(7)</text>
+      <answer>
+        <text>HIGH</text>
+      </answer>
+    </subquestion>
+    <subquestion>
+      <text>digitalRead(6)</text>
+      <answer>
+        <text>HIGH</text>
+      </answer>
+    </subquestion>
+    <subquestion>
+      <text>digitalRead(5)</text>
+      <answer>
+        <text>HIGH</text>
+      </answer>
+    </subquestion>
+    <subquestion>
+      <text>digitalRead(4)</text>
+      <answer>
+        <text>LOW</text>
+      </answer>
+    </subquestion>
+  </question>
+  <!-- question: 49093  -->
+  <question type="matching">
+    <name>
+      <text>ind_dig_ej5</text>
+    </name>
+    <questiontext format="html">
+      <text>
+<![CDATA[Observa la imagen e indica que valor devuelve la función expuesta en cada caso<br /><img src="https://ibersia.ovh/tec/programacion/aprendizaje/in_dig/ej_pin/ej_pin_5.gif" alt="in dig" title="in dig" vspace="0" hspace="0" border="0" />]]>
+      </text>
+    </questiontext>
+    <image></image>
+    <generalfeedback>
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1</defaultgrade>
+    <penalty>0.5</penalty>
+    <hidden>0</hidden>
+    <shuffleanswers>0</shuffleanswers>
+    <subquestion>
+      <text>digitalRead(7)</text>
+      <answer>
+        <text>HIGH</text>
+      </answer>
+    </subquestion>
+    <subquestion>
+      <text>digitalRead(6)</text>
+      <answer>
+        <text>HIGH</text>
+      </answer>
+    </subquestion>
+    <subquestion>
+      <text>digitalRead(5)</text>
+      <answer>
+        <text>LOW</text>
+      </answer>
+    </subquestion>
+    <subquestion>
+      <text>digitalRead(4)</text>
+      <answer>
+        <text>HIGH</text>
+      </answer>
+    </subquestion>
+  </question>
+  <!-- question: 0  -->
+  <question type="category">
+    <category>
+      <text>$course$/arduino/entradas digitales/digitalRead_ej2</text>
+    </category>
+  </question>
+  <!-- question: 49094  -->
+  <question type="matching">
+    <name>
+      <text>ind_dig_ej6</text>
+    </name>
+    <questiontext format="html">
+      <text>
+<![CDATA[Observa la imagen e indica que valor devuelve la función expuesta en cada caso<br /><img src="https://ibersia.ovh/tec/programacion/aprendizaje/in_dig/ej_pin/ej_pin_6.gif" alt="in dig" title="in dig" vspace="0" hspace="0" border="0" />]]>
+      </text>
+    </questiontext>
+    <image></image>
+    <generalfeedback>
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1</defaultgrade>
+    <penalty>0.5</penalty>
+    <hidden>0</hidden>
+    <shuffleanswers>0</shuffleanswers>
+    <subquestion>
+      <text>digitalRead(7)</text>
+      <answer>
+        <text>HIGH</text>
+      </answer>
+    </subquestion>
+    <subquestion>
+      <text>digitalRead(6)</text>
+      <answer>
+        <text>HIGH</text>
+      </answer>
+    </subquestion>
+    <subquestion>
+      <text>digitalRead(5)</text>
+      <answer>
+        <text>LOW</text>
+      </answer>
+    </subquestion>
+    <subquestion>
+      <text>digitalRead(4)</text>
+      <answer>
+        <text>HIGH</text>
+      </answer>
+    </subquestion>
+    <subquestion>
+      <text>digitalRead(3)</text>
+      <answer>
+        <text>LOW</text>
+      </answer>
+    </subquestion>
+    <subquestion>
+      <text>digitalRead(2)</text>
+      <answer>
+        <text>HIGH</text>
+      </answer>
+    </subquestion>
+    <subquestion>
+      <text>digitalRead(1)</text>
+      <answer>
+        <text>?</text>
+      </answer>
+    </subquestion>
+    <subquestion>
+      <text>digitalRead(0)</text>
+      <answer>
+        <text>?</text>
+      </answer>
+    </subquestion>
+  </question>
+  <!-- question: 49095  -->
+  <question type="matching">
+    <name>
+      <text>ind_dig_ej7</text>
+    </name>
+    <questiontext format="html">
+      <text>
+<![CDATA[Observa la imagen e indica que valor devuelve la función expuesta en cada caso<br /><img src="https://ibersia.ovh/tec/programacion/aprendizaje/in_dig/ej_pin/ej_pin_7.gif" alt="in dig" title="in dig" vspace="0" hspace="0" border="0" />]]>
+      </text>
+    </questiontext>
+    <image></image>
+    <generalfeedback>
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1</defaultgrade>
+    <penalty>0.5</penalty>
+    <hidden>0</hidden>
+    <shuffleanswers>0</shuffleanswers>
+    <subquestion>
+      <text>digitalRead(7)</text>
+      <answer>
+        <text>HIGH</text>
+      </answer>
+    </subquestion>
+    <subquestion>
+      <text>digitalRead(6)</text>
+      <answer>
+        <text>HIGH</text>
+      </answer>
+    </subquestion>
+    <subquestion>
+      <text>digitalRead(5)</text>
+      <answer>
+        <text>?</text>
+      </answer>
+    </subquestion>
+    <subquestion>
+      <text>digitalRead(4)</text>
+      <answer>
+        <text>HIGH</text>
+      </answer>
+    </subquestion>
+    <subquestion>
+      <text>digitalRead(3)</text>
+      <answer>
+        <text>LOW</text>
+      </answer>
+    </subquestion>
+    <subquestion>
+      <text>digitalRead(2)</text>
+      <answer>
+        <text>?</text>
+      </answer>
+    </subquestion>
+    <subquestion>
+      <text>digitalRead(1)</text>
+      <answer>
+        <text>LOW</text>
+      </answer>
+    </subquestion>
+    <subquestion>
+      <text>digitalRead(0)</text>
+      <answer>
+        <text>HIGH</text>
+      </answer>
+    </subquestion>
+  </question>
+  <!-- question: 49096  -->
+  <question type="matching">
+    <name>
+      <text>ind_dig_ej8</text>
+    </name>
+    <questiontext format="html">
+      <text>
+<![CDATA[Observa la imagen e indica que valor devuelve la función expuesta en cada caso<br /><img src="https://ibersia.ovh/tec/programacion/aprendizaje/in_dig/ej_pin/ej_pin_8.gif" alt="in dig" title="in dig" vspace="0" hspace="0" border="0" />]]>
+      </text>
+    </questiontext>
+    <image></image>
+    <generalfeedback>
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1</defaultgrade>
+    <penalty>0.5</penalty>
+    <hidden>0</hidden>
+    <shuffleanswers>0</shuffleanswers>
+    <subquestion>
+      <text>digitalRead(7)</text>
+      <answer>
+        <text>HIGH</text>
+      </answer>
+    </subquestion>
+    <subquestion>
+      <text>digitalRead(6)</text>
+      <answer>
+        <text>HIGH</text>
+      </answer>
+    </subquestion>
+    <subquestion>
+      <text>digitalRead(5)</text>
+      <answer>
+        <text>LOW</text>
+      </answer>
+    </subquestion>
+    <subquestion>
+      <text>digitalRead(4)</text>
+      <answer>
+        <text>HIGH</text>
+      </answer>
+    </subquestion>
+    <subquestion>
+      <text>digitalRead(3)</text>
+      <answer>
+        <text>LOW</text>
+      </answer>
+    </subquestion>
+    <subquestion>
+      <text>digitalRead(2)</text>
+      <answer>
+        <text>?</text>
+      </answer>
+    </subquestion>
+    <subquestion>
+      <text>digitalRead(1)</text>
+      <answer>
+        <text>LOW</text>
+      </answer>
+    </subquestion>
+    <subquestion>
+      <text>digitalRead(0)</text>
+      <answer>
+        <text>HIGH</text>
+      </answer>
+    </subquestion>
+  </question>
+  <!-- question: 49097  -->
+  <question type="matching">
+    <name>
+      <text>ind_dig_ej9</text>
+    </name>
+    <questiontext format="html">
+      <text>
+<![CDATA[Observa la imagen e indica que valor devuelve la función expuesta en cada caso<br /><img src="https://ibersia.ovh/tec/programacion/aprendizaje/in_dig/ej_pin/ej_pin_9.gif" alt="in dig" title="in dig" vspace="0" hspace="0" border="0" />]]>
+      </text>
+    </questiontext>
+    <image></image>
+    <generalfeedback>
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1</defaultgrade>
+    <penalty>0.5</penalty>
+    <hidden>0</hidden>
+    <shuffleanswers>0</shuffleanswers>
+    <subquestion>
+      <text>digitalRead(7)</text>
+      <answer>
+        <text>LOW</text>
+      </answer>
+    </subquestion>
+    <subquestion>
+      <text>digitalRead(6)</text>
+      <answer>
+        <text>LOW</text>
+      </answer>
+    </subquestion>
+    <subquestion>
+      <text>digitalRead(5)</text>
+      <answer>
+        <text>HIGH</text>
+      </answer>
+    </subquestion>
+    <subquestion>
+      <text>digitalRead(4)</text>
+      <answer>
+        <text>LOW</text>
+      </answer>
+    </subquestion>
+    <subquestion>
+      <text>digitalRead(3)</text>
+      <answer>
+        <text>HIGH</text>
+      </answer>
+    </subquestion>
+    <subquestion>
+      <text>digitalRead(2)</text>
+      <answer>
+        <text>HIGH</text>
+      </answer>
+    </subquestion>
+    <subquestion>
+      <text>digitalRead(1)</text>
+      <answer>
+        <text>HIGH</text>
+      </answer>
+    </subquestion>
+    <subquestion>
+      <text>digitalRead(0)</text>
+      <answer>
+        <text>?</text>
+      </answer>
+    </subquestion>
+  </question>
+  <!-- question: 0  -->
+  <question type="category">
+    <category>
+      <text>$course$/arduino/arduino_if/arduino_if_ej1</text>
+    </category>
+  </question>
+  <!-- question: 49102  -->
+  <question type="cloze">
+    <name>
+      <text>ej0_13</text>
+    </name>
+    <questiontext>
+      <text>
+<![CDATA[Escribe la instrucción necesaria para que si el pin 0 está en HIGH se activa el pin 13<br />if ({1:SAC:=digitalRead(0)} == {1:SAC:=HIGH}){<br />{1:SAC:=digitalWrite(13,HIGH)};<br />}<br />]]>
+      </text>
+    </questiontext>
+    <generalfeedback>
+      <text></text>
+    </generalfeedback>
+    <shuffleanswers>0</shuffleanswers>
+  </question>
+  <!-- question: 0  -->
+  <question type="category">
+    <category>
+      <text>$course$/arduino/repeticiones/simples2</text>
+    </category>
+  </question>
+  <!-- question: 48905  -->
+  <question type="cloze">
+    <name>
+      <text>ej1</text>
+    </name>
+    <questiontext>
+      <text>
+<![CDATA[<div>Rellena los huecos del bucle for que se comporta como el ejemplo<br /></div> <iframe src="https://ibersia.ovh/tec/arduino/repeticiones/simples/ej_rep1.html" style="border: 0px none;" width="200" height="100"></iframe>
+<div> </div>
+<div>{1:SAC:=for}({1:SAC:=int} contador = 0 ; {2:SAC:=contador &lt; 4};contador = {2:SAC:= contador + 1}({</div>
+<div>digitalWrite({1:SAC:=2},{1:SAC:=HIGH});</div>
+<div>{1:SAC:=delay}(500);</div>
+<div>{1:SAC:=digitalWrite}({1:SAC:=2},LOW);</div>
+<div>delay{1:SAC:=(500)};</div>
+<div>}<br /></div>]]>
+      </text>
+    </questiontext>
+    <generalfeedback>
+      <text></text>
+    </generalfeedback>
+    <shuffleanswers>0</shuffleanswers>
+  </question>
+  <!-- question: 0  -->
+  <question type="category">
+    <category>
+      <text>$course$/arduino/arduino_if/arduino_if_ej3</text>
+    </category>
+  </question>
+  <!-- question: 49176  -->
+  <question type="cloze">
+    <name>
+      <text>ej1</text>
+    </name>
+    <questiontext>
+      <text>
+<![CDATA[<div>Completa el fragmento del programa para que funcione como el ejemplo. Prueba las entradas para ver cómo funciona<br /></div>
+<div><iframe src="https://ibersia.ovh/tec/arduino/if/ej3/ej_if_1.html " style="border: 0px none; width: 100%; height: 100px;"></iframe></div>
+<div> if({1:SAC:= digitalRead(4)} == {1:SAC:=HIGH}){</div>
+<div>{1:SAC:=digitalWrite(6,HIGH)};</div>
+<div>} {1:SAC:=else}{ //sino</div>
+<div>{1:SAC:=digitalWrite(6,LOW)};}</div>
+<div>}<br /></div>]]>
+      </text>
+    </questiontext>
+    <generalfeedback>
+      <text></text>
+    </generalfeedback>
+    <shuffleanswers>0</shuffleanswers>
+  </question>
+  <!-- question: 0  -->
+  <question type="category">
+    <category>
+      <text>$course$/arduino/basicos1</text>
+    </category>
+  </question>
+  <!-- question: 48665  -->
+  <question type="cloze">
+    <name>
+      <text>ej1</text>
+    </name>
+    <questiontext>
+      <text>
+<![CDATA[<div>completa el programa para que funcione como el ejemplo.</div> <iframe src="https://ibersia.ovh/tec/arduino/basicos1/ej1.html" style="border: 0px none; width: 200px; height: 100px;"></iframe> <br />
+<div>void {1:SAC:=setup}(){<br /></div>
+<div><br /></div>
+<div>pinMode(2,OUTPUT);</div>
+<div>pinMode{2:SAC:=(5,OUTPUT);}</div>
+<div>digitalWrite(2,HIGH);</div>
+<div>delay(500);</div>
+<div>digitalWrite{2:SAC:=(5,HIGH);}</div>
+<div>{1:SAC:=delay}(500);</div>
+<div>digitalWrite(2,LOW);</div>
+<div>delay{1:SAC:=(500);}</div>
+<div>{1:SAC:=digitalWrite}(5,LOW);<br />}<br /><br />void {1:SAC:= loop} (){<br />}<br /></div>
+<div><br /></div>
+<div><br /></div>]]>
+      </text>
+    </questiontext>
+    <generalfeedback>
+      <text></text>
+    </generalfeedback>
+    <shuffleanswers>0</shuffleanswers>
+  </question>
+  <!-- question: 0  -->
+  <question type="category">
+    <category>
+      <text>$course$/arduino/arduino_if/arduino_if_ej4</text>
+    </category>
+  </question>
+  <!-- question: 49231  -->
+  <question type="cloze">
+    <name>
+      <text>ej1</text>
+    </name>
+    <questiontext>
+      <text>
+<![CDATA[<div>Completa el fragmento del programa para que funcione como el ejemplo. Prueba las entradas para ver cómo funciona<br /></div>
+<div><iframe src="https://ibersia.ovh/tec/arduino/if/ej4/ej_if_1.html " style="border: 0px none; width: 100%; height: 100px;"></iframe></div>
+<div> {2:SAC:=if(digitalRead(4) == HIGH)}{//si la entrada 4 está pulsada<br /></div>
+<div>digitalWrite{1:SAC:=(13,LOW)};</div>
+<div>{2:SAC:=if(digitalRead(5) == HIGH)}{//si la entrada 5 está pulsada<br /></div>
+<div>{1:SAC:=digitalWrite(13,HIGH)};}</div>
+<div>}<br /></div>]]>
+      </text>
+    </questiontext>
+    <generalfeedback>
+      <text></text>
+    </generalfeedback>
+    <shuffleanswers>0</shuffleanswers>
+  </question>
+  <!-- question: 0  -->
+  <question type="category">
+    <category>
+      <text>$course$/arduino/variables</text>
+    </category>
+  </question>
+  <!-- question: 48813  -->
+  <question type="cloze">
+    <name>
+      <text>ej1</text>
+    </name>
+    <questiontext>
+      <text>
+<![CDATA[<div>Rellena los huecos para que el programa se comporte como el ejemplo</div> <iframe src="https://ibersia.ovh/tec/arduino/variables/ej_var1.html" style="border: 0px none;" width="200" height="100"></iframe>
+<div> </div>
+<div>void setup(){</div>
+<div>pinMode(2,OUTPUT);</div>
+<div>pinMode(3,OUTPUT);</div>
+<div>pinMode(4,OUTPUT);</div>
+<div>pinMode(5,OUTPUT);</div>
+<div>pinMode(6,OUTPUT);</div>
+<div>pinMode(7,OUTPUT);</div>
+<div>}<br /></div>
+<div>int salida = {1:SAC:=2;}</div>
+<div><br /></div>
+<div>void loop(){</div>
+<div>digitalWrite(salida,HIGH);</div>
+<div>salida = {2:SAC:= salida + 1;}<br />delay(500);<br /></div>
+<div>}<br /> </div>]]>
+      </text>
+    </questiontext>
+    <generalfeedback>
+      <text></text>
+    </generalfeedback>
+    <shuffleanswers>0</shuffleanswers>
+  </question>
+  <!-- question: 0  -->
+  <question type="category">
+    <category>
+      <text>$course$/arduino/basicos1</text>
+    </category>
+  </question>
+  <!-- question: 48673  -->
+  <question type="cloze">
+    <name>
+      <text>ej1 b2</text>
+    </name>
+    <questiontext>
+      <text>
+<![CDATA[<div>completa el programa para que funcione como el ejemplo.</div> <iframe src="https://ibersia.ovh/tec/arduino/basicos2/ej1.html" style="border: 0px none; width: 200px; height: 100px;"></iframe> <br />
+<div>void {1:SAC:=setup}(){<br /></div>
+<div><br /></div>
+<div>pinMode(2,OUTPUT);</div>
+<div>pinMode{2:SAC:=(5,OUTPUT);}<br /><br />}<br /></div>
+<div><br />void {1:SAC:= loop} (){<br />digitalWrite(2,HIGH);<br />delay(500);</div>
+<div>digitalWrite{2:SAC:=(5,HIGH);}</div>
+<div>{1:SAC:=delay}(500);</div>
+<div>digitalWrite(2,LOW);<br />delay {1:SAC:=(500);}<br /></div> {1:SAC:=digitalWrite}(5,LOW);<br />{1:SAC:=delay}(500);<br />}]]>
+      </text>
+    </questiontext>
+    <generalfeedback>
+      <text></text>
+    </generalfeedback>
+    <shuffleanswers>0</shuffleanswers>
+  </question>
+  <!-- question: 0  -->
+  <question type="category">
+    <category>
+      <text>$course$/arduino/variables/nivel2</text>
+    </category>
+  </question>
+  <!-- question: 48842  -->
+  <question type="cloze">
+    <name>
+      <text>ej10</text>
+    </name>
+    <questiontext>
+      <text>
+<![CDATA[<div>Rellena los huecos para que el programa se comporte como el ejemplo</div> <iframe src="https://ibersia.ovh/tec/arduino/variables/ej_var10.html" style="border: 0px none;" width="200" height="100"></iframe>
+<div> </div>
+<div>void setup(){</div>
+<div>pinMode(2,OUTPUT);</div>
+<div>pinMode(3,OUTPUT);</div>
+<div>pinMode(4,OUTPUT);</div>
+<div>pinMode(5,OUTPUT);</div>
+<div>pinMode(6,OUTPUT);</div>
+<div>pinMode(7,OUTPUT);</div>
+<div>}<br /></div>
+<div>{4:SAC:=int salida = 7;}// se define la variable salida y se le asigna el valor inicial<br /></div>
+<div><br /></div>
+<div>void loop(){</div>
+<div>digitalWrite(salida,HIGH);</div>
+<div>salida = {2:SAC:= salida - 2;}<br />delay(500);</div>
+<div>}<br /> </div>]]>
+      </text>
+    </questiontext>
+    <generalfeedback>
+      <text></text>
+    </generalfeedback>
+    <shuffleanswers>0</shuffleanswers>
+  </question>
+  <!-- question: 0  -->
+  <question type="category">
+    <category>
+      <text>$course$/arduino/repeticiones/complejas</text>
+    </category>
+  </question>
+  <!-- question: 48987  -->
+  <question type="cloze">
+    <name>
+      <text>ej10complejas</text>
+    </name>
+    <questiontext>
+      <text>
+<![CDATA[<div>Rellena los huecos del bucle for que se comporta como el ejemplo<br /></div> <iframe src="https://ibersia.ovh/tec/arduino/repeticiones/complejas/ej_rep10.html" style="border: 0px none;" width="200" height="100"></iframe>
+<div> </div>
+<div>{1:SAC:=for}({1:SAC:=int} contador = {1:SAC:=3} ; {2:SAC:=contador &lt;= 7};contador = {2:SAC:= contador + 2}({</div>
+<div>digitalWrite({1:SAC:=contador},{1:SAC:=HIGH});</div>
+<div>{1:SAC:=delay}(500);</div>}<br />
+<div><br /></div>]]>
+      </text>
+    </questiontext>
+    <generalfeedback>
+      <text></text>
+    </generalfeedback>
+    <shuffleanswers>0</shuffleanswers>
+  </question>
+  <!-- question: 0  -->
+  <question type="category">
+    <category>
+      <text>$course$/arduino/variables/nivel2</text>
+    </category>
+  </question>
+  <!-- question: 48843  -->
+  <question type="cloze">
+    <name>
+      <text>ej11</text>
+    </name>
+    <questiontext>
+      <text>
+<![CDATA[<div>Rellena los huecos para que el programa se comporte como el ejemplo</div> <iframe src="https://ibersia.ovh/tec/arduino/variables/ej_var11.html" style="border: 0px none;" width="200" height="100"></iframe>
+<div> </div>
+<div>void setup(){</div>
+<div>pinMode(2,OUTPUT);</div>
+<div>pinMode(3,OUTPUT);</div>
+<div>pinMode(4,OUTPUT);</div>
+<div>pinMode(5,OUTPUT);</div>
+<div>pinMode(6,OUTPUT);</div>
+<div>pinMode(7,OUTPUT);</div>
+<div>}<br /></div>
+<div>{4:SAC:=int salida = 6;}// se define la variable salida y se le asigna el valor inicial<br /></div>
+<div><br /></div>
+<div>void loop(){</div>
+<div>digitalWrite(salida,HIGH);</div>
+<div>salida = {2:SAC:= salida - 2;}<br />delay(500);</div>
+<div>}<br /> </div>]]>
+      </text>
+    </questiontext>
+    <generalfeedback>
+      <text></text>
+    </generalfeedback>
+    <shuffleanswers>0</shuffleanswers>
+  </question>
+  <!-- question: 48844  -->
+  <question type="cloze">
+    <name>
+      <text>ej12</text>
+    </name>
+    <questiontext>
+      <text>
+<![CDATA[<div>Rellena los huecos para que el programa se comporte como el ejemplo</div> <iframe src="https://ibersia.ovh/tec/arduino/variables/ej_var12.html" style="border: 0px none;" width="200" height="100"></iframe>
+<div> </div>
+<div>void setup(){</div>
+<div>pinMode(2,OUTPUT);</div>
+<div>pinMode(3,OUTPUT);</div>
+<div>pinMode(4,OUTPUT);</div>
+<div>pinMode(5,OUTPUT);</div>
+<div>pinMode(6,OUTPUT);</div>
+<div>pinMode(7,OUTPUT);</div>
+<div>}<br /></div>
+<div>{4:SAC:=int salida = 5;}// se define la variable salida y se le asigna el valor inicial<br /></div>
+<div><br /></div>
+<div>void loop(){</div>
+<div>digitalWrite(salida,HIGH);</div>
+<div>salida = {2:SAC:= salida - 2;}<br />delay(500);</div>
+<div>}<br /> </div>]]>
+      </text>
+    </questiontext>
+    <generalfeedback>
+      <text></text>
+    </generalfeedback>
+    <shuffleanswers>0</shuffleanswers>
+  </question>
+  <!-- question: 48845  -->
+  <question type="cloze">
+    <name>
+      <text>ej15</text>
+    </name>
+    <questiontext>
+      <text>
+<![CDATA[<div>Rellena los huecos para que el programa se comporte como el ejemplo</div> <iframe src="https://ibersia.ovh/tec/arduino/variables/ej_var15.html" style="border: 0px none;" width="200" height="100"></iframe>
+<div> </div>
+<div>void setup(){</div>
+<div>pinMode(2,OUTPUT);</div>
+<div>pinMode(3,OUTPUT);</div>
+<div>pinMode(4,OUTPUT);</div>
+<div>pinMode(5,OUTPUT);</div>
+<div>pinMode(6,OUTPUT);</div>
+<div>pinMode(7,OUTPUT);</div>
+<div>}<br /></div>
+<div>{4:SAC:=int salida = 2;}// se define la variable salida y se le asigna el valor inicial<br /></div>
+<div><br /></div>
+<div>void loop(){</div>
+<div>digitalWrite(salida,HIGH);</div>
+<div>salida = {2:SAC:= salida + 2;}<br />delay(500);</div>
+<div>}<br /> </div>]]>
+      </text>
+    </questiontext>
+    <generalfeedback>
+      <text></text>
+    </generalfeedback>
+    <shuffleanswers>0</shuffleanswers>
+  </question>
+  <!-- question: 48846  -->
+  <question type="cloze">
+    <name>
+      <text>ej16</text>
+    </name>
+    <questiontext>
+      <text>
+<![CDATA[<div>Rellena los huecos para que el programa se comporte como el ejemplo</div> <iframe src="https://ibersia.ovh/tec/arduino/variables/ej_var16.html" style="border: 0px none;" width="200" height="100"></iframe>
+<div> </div>
+<div>void setup(){</div>
+<div>pinMode(2,OUTPUT);</div>
+<div>pinMode(3,OUTPUT);</div>
+<div>pinMode(4,OUTPUT);</div>
+<div>pinMode(5,OUTPUT);</div>
+<div>pinMode(6,OUTPUT);</div>
+<div>pinMode(7,OUTPUT);</div>
+<div>}<br /></div>
+<div>{4:SAC:=int salida = 3;}// se define la variable salida y se le asigna el valor inicial<br /></div>
+<div><br /></div>
+<div>void loop(){</div>
+<div>digitalWrite(salida,HIGH);</div>
+<div>salida = {2:SAC:= salida + 2;}<br />delay(500);</div>
+<div>}<br /> </div>]]>
+      </text>
+    </questiontext>
+    <generalfeedback>
+      <text></text>
+    </generalfeedback>
+    <shuffleanswers>0</shuffleanswers>
+  </question>
+  <!-- question: 48847  -->
+  <question type="cloze">
+    <name>
+      <text>ej17</text>
+    </name>
+    <questiontext>
+      <text>
+<![CDATA[<div>Rellena los huecos para que el programa se comporte como el ejemplo</div> <iframe src="https://ibersia.ovh/tec/arduino/variables/ej_var17.html" style="border: 0px none;" width="200" height="100"></iframe>
+<div> </div>
+<div>void setup(){</div>
+<div>pinMode(2,OUTPUT);</div>
+<div>pinMode(3,OUTPUT);</div>
+<div>pinMode(4,OUTPUT);</div>
+<div>pinMode(5,OUTPUT);</div>
+<div>pinMode(6,OUTPUT);</div>
+<div>pinMode(7,OUTPUT);</div>
+<div>}<br /></div>
+<div>{4:SAC:=int salida = 4;}// se define la variable salida y se le asigna el valor inicial<br /></div>
+<div><br /></div>
+<div>void loop(){</div>
+<div>digitalWrite(salida,HIGH);</div>
+<div>salida = {2:SAC:= salida + 2;}<br />delay(500);</div>
+<div>}<br /> </div>]]>
+      </text>
+    </questiontext>
+    <generalfeedback>
+      <text></text>
+    </generalfeedback>
+    <shuffleanswers>0</shuffleanswers>
+  </question>
+  <!-- question: 0  -->
+  <question type="category">
+    <category>
+      <text>$course$/arduino/repeticiones/complejas</text>
+    </category>
+  </question>
+  <!-- question: 48978  -->
+  <question type="cloze">
+    <name>
+      <text>ej1complejas</text>
+    </name>
+    <questiontext>
+      <text>
+<![CDATA[<div>Rellena los huecos del bucle for que se comporta como el ejemplo<br /></div> <iframe src="https://ibersia.ovh/tec/arduino/repeticiones/complejas/ej_rep1.html" style="border: 0px none;" width="200" height="100"></iframe>
+<div> </div>
+<div>{1:SAC:=for}({1:SAC:=int} contador = {1:SAC:=2} ; {2:SAC:=contador &lt;= 4};contador = {2:SAC:= contador + 1}({</div>
+<div>digitalWrite({1:SAC:=contador},{1:SAC:=HIGH});</div>
+<div>{1:SAC:=delay}(500);</div>}<br />
+<div><br /></div>]]>
+      </text>
+    </questiontext>
+    <generalfeedback>
+      <text></text>
+    </generalfeedback>
+    <shuffleanswers>0</shuffleanswers>
+  </question>
+  <!-- question: 0  -->
+  <question type="category">
+    <category>
+      <text>$course$/arduino/arduino_if/arduino_if_ej1</text>
+    </category>
+  </question>
+  <!-- question: 49104  -->
+  <question type="cloze">
+    <name>
+      <text>ej1_12</text>
+    </name>
+    <questiontext>
+      <text>
+<![CDATA[Escribe la instrucción necesaria para que si el pin 1 está en HIGH se activa el pin 12<br />if ({1:SAC:=digitalRead(1)} == {1:SAC:=HIGH}){<br />{1:SAC:=digitalWrite(12,HIGH)};<br />}<br />]]>
+      </text>
+    </questiontext>
+    <generalfeedback>
+      <text></text>
+    </generalfeedback>
+    <shuffleanswers>0</shuffleanswers>
+  </question>
+  <!-- question: 0  -->
+  <question type="category">
+    <category>
+      <text>$course$/arduino/repeticiones/simples2</text>
+    </category>
+  </question>
+  <!-- question: 48906  -->
+  <question type="cloze">
+    <name>
+      <text>ej2</text>
+    </name>
+    <questiontext>
+      <text>
+<![CDATA[<div>Rellena los huecos del bucle for que se comporta como el ejemplo<br /></div> <iframe src="https://ibersia.ovh/tec/arduino/repeticiones/simples/ej_rep2.html" style="border: 0px none;" width="200" height="100"></iframe>
+<div> </div>
+<div>{1:SAC:=for}({1:SAC:=int} contador = 0 ; {2:SAC:=contador &lt; 3};contador = {2:SAC:= contador + 1}({</div>
+<div>digitalWrite({1:SAC:=3},{1:SAC:=HIGH});</div>
+<div>{1:SAC:=delay}(500);</div>
+<div>{1:SAC:=digitalWrite}({1:SAC:=3},LOW);</div>
+<div>delay{1:SAC:=(500)};</div>
+<div>}<br /></div>]]>
+      </text>
+    </questiontext>
+    <generalfeedback>
+      <text></text>
+    </generalfeedback>
+    <shuffleanswers>0</shuffleanswers>
+  </question>
+  <!-- question: 0  -->
+  <question type="category">
+    <category>
+      <text>$course$/arduino/arduino_if/arduino_if_ej3</text>
+    </category>
+  </question>
+  <!-- question: 49177  -->
+  <question type="cloze">
+    <name>
+      <text>ej2</text>
+    </name>
+    <questiontext>
+      <text>
+<![CDATA[<div>Completa el fragmento del programa para que funcione como el ejemplo. Prueba las entradas para ver cómo funciona<br /></div>
+<div><iframe src="https://ibersia.ovh/tec/arduino/if/ej3/ej_if_2.html " style="border: 0px none; width: 100%; height: 100px;"></iframe></div>
+<div> if({1:SAC:= digitalRead(4)} == {1:SAC:=HIGH}){</div>
+<div>{1:SAC:=digitalWrite(7,HIGH)};</div>
+<div>} {1:SAC:=else}{ //sino</div>
+<div>{1:SAC:=digitalWrite(7,LOW)};}</div>
+<div>}<br /></div>]]>
+      </text>
+    </questiontext>
+    <generalfeedback>
+      <text></text>
+    </generalfeedback>
+    <shuffleanswers>0</shuffleanswers>
+  </question>
+  <!-- question: 0  -->
+  <question type="category">
+    <category>
+      <text>$course$/arduino/basicos1</text>
+    </category>
+  </question>
+  <!-- question: 48666  -->
+  <question type="cloze">
+    <name>
+      <text>ej2</text>
+    </name>
+    <questiontext>
+      <text>
+<![CDATA[<div>completa el programa para que funcione como el ejemplo.</div> <iframe src="https://ibersia.ovh/tec/arduino/basicos1/ej2.html" style="border: 0px none; width: 200px; height: 100px;"></iframe> <br />
+<div>void {1:SAC:=setup}(){<br /></div>
+<div><br /></div>
+<div>pinMode(3,OUTPUT);</div>
+<div>pinMode{2:SAC:=(6,OUTPUT);}</div>
+<div>digitalWrite(3,HIGH);</div>
+<div>delay(500);</div>
+<div>digitalWrite{2:SAC:=(6,HIGH);}</div>
+<div>{1:SAC:=delay}(500);</div>
+<div>digitalWrite(3,LOW);</div>
+<div>delay{1:SAC:=(500);}</div>
+<div>{1:SAC:=digitalWrite}(6,LOW);<br />}<br /><br />void {1:SAC:= loop} (){<br />}<br /></div>
+<div><br /></div>]]>
+      </text>
+    </questiontext>
+    <generalfeedback>
+      <text></text>
+    </generalfeedback>
+    <shuffleanswers>0</shuffleanswers>
+  </question>
+  <!-- question: 0  -->
+  <question type="category">
+    <category>
+      <text>$course$/arduino/arduino_if/arduino_if_ej4</text>
+    </category>
+  </question>
+  <!-- question: 49232  -->
+  <question type="cloze">
+    <name>
+      <text>ej2</text>
+    </name>
+    <questiontext>
+      <text>
+<![CDATA[<div>Completa el fragmento del programa para que funcione como el ejemplo. Prueba las entradas para ver cómo funciona<br /></div>
+<div><iframe src="https://ibersia.ovh/tec/arduino/if/ej4/ej_if_2.html " style="border: 0px none; width: 100%; height: 100px;"></iframe></div>
+<div> {2:SAC:=if(digitalRead(4) == HIGH)}{//si la entrada 4 está pulsada<br /></div>
+<div>digitalWrite{1:SAC:=(12,LOW)};</div>
+<div>{2:SAC:=if(digitalRead(5) == HIGH)}{//si la entrada 5 está pulsada<br /></div>
+<div>{1:SAC:=digitalWrite(12,HIGH)};}</div>
+<div>}<br /></div>]]>
+      </text>
+    </questiontext>
+    <generalfeedback>
+      <text></text>
+    </generalfeedback>
+    <shuffleanswers>0</shuffleanswers>
+  </question>
+  <!-- question: 0  -->
+  <question type="category">
+    <category>
+      <text>$course$/arduino/variables</text>
+    </category>
+  </question>
+  <!-- question: 48814  -->
+  <question type="cloze">
+    <name>
+      <text>ej2</text>
+    </name>
+    <questiontext>
+      <text>
+<![CDATA[<div>Rellena los huecos para que el programa se comporte como el ejemplo</div> <iframe src="https://ibersia.ovh/tec/arduino/variables/ej_var2.html" style="border: 0px none;" width="200" height="100"></iframe>
+<div> </div>
+<div>void setup(){</div>
+<div>pinMode(2,OUTPUT);</div>
+<div>pinMode(3,OUTPUT);</div>
+<div>pinMode(4,OUTPUT);</div>
+<div>pinMode(5,OUTPUT);</div>
+<div>pinMode(6,OUTPUT);</div>
+<div>pinMode(7,OUTPUT);</div>
+<div>}<br /></div>
+<div>int salida = {1:SAC:=3;}</div>
+<div><br /></div>
+<div>void loop(){</div>
+<div>digitalWrite(salida,HIGH);</div>
+<div>salida = {2:SAC:= salida + 1;}<br />delay(500);<br /></div>
+<div>}<br /> </div>]]>
+      </text>
+    </questiontext>
+    <generalfeedback>
+      <text></text>
+    </generalfeedback>
+    <shuffleanswers>0</shuffleanswers>
+  </question>
+  <!-- question: 0  -->
+  <question type="category">
+    <category>
+      <text>$course$/arduino/basicos1</text>
+    </category>
+  </question>
+  <!-- question: 48674  -->
+  <question type="cloze">
+    <name>
+      <text>ej2 b2</text>
+    </name>
+    <questiontext>
+      <text>
+<![CDATA[<div>completa el programa para que funcione como el ejemplo.</div> <iframe src="https://ibersia.ovh/tec/arduino/basicos2/ej2.html" style="border: 0px none; width: 200px; height: 100px;"></iframe> <br />
+<div>void {1:SAC:=setup}(){<br /></div>
+<div><br /></div>
+<div>pinMode(3,OUTPUT);</div>
+<div>pinMode{2:SAC:=(6,OUTPUT);}<br /><br />}<br /></div>
+<div><br />void {1:SAC:= loop} (){<br />digitalWrite(3,HIGH);<br />delay(500);</div>
+<div>digitalWrite{2:SAC:=(6,HIGH);}</div>
+<div>{1:SAC:=delay}(500);</div>
+<div>digitalWrite(3,LOW);<br />delay {1:SAC:=(500);}<br /></div> {1:SAC:=digitalWrite}(6,LOW);<br />{1:SAC:=delay}(500);<br />}<br />]]>
+      </text>
+    </questiontext>
+    <generalfeedback>
+      <text></text>
+    </generalfeedback>
+    <shuffleanswers>0</shuffleanswers>
+  </question>
+  <!-- question: 0  -->
+  <question type="category">
+    <category>
+      <text>$course$/arduino/arduino_if/arduino_if_ej2</text>
+    </category>
+  </question>
+  <!-- question: 49132  -->
+  <question type="cloze">
+    <name>
+      <text>ej2-0_13</text>
+    </name>
+    <questiontext>
+      <text>
+<![CDATA[Escribe la instrucción necesaria para que si el pin 0 está en HIGH se activa el pin 13 y si no, se desactiva.<br />if ({1:SAC:=digitalRead(0)} == {1:SAC:=HIGH}){<br />{1:SAC:=digitalWrite(13,HIGH)};<br />{1:SAC:=}else{} //si no<br />{1:SAC:=digitalWrite(13,LOW)}; <br />}<br />]]>
+      </text>
+    </questiontext>
+    <generalfeedback>
+      <text></text>
+    </generalfeedback>
+    <shuffleanswers>0</shuffleanswers>
+  </question>
+  <!-- question: 0  -->
+  <question type="category">
+    <category>
+      <text>$course$/arduino/variables/nivel2</text>
+    </category>
+  </question>
+  <!-- question: 48848  -->
+  <question type="cloze">
+    <name>
+      <text>ej20</text>
+    </name>
+    <questiontext>
+      <text>
+<![CDATA[<div>Rellena los huecos para que el programa se comporte como el ejemplo</div> <iframe src="https://ibersia.ovh/tec/arduino/variables/ej_var21.html" style="border: 0px none;" width="200" height="100"></iframe>
+<div> </div>
+<div>void setup(){</div>
+<div>pinMode(2,OUTPUT);</div>
+<div>pinMode(3,OUTPUT);</div>
+<div>pinMode(4,OUTPUT);</div>
+<div>pinMode(5,OUTPUT);</div>
+<div>pinMode(6,OUTPUT);</div>
+<div>pinMode(7,OUTPUT);</div>
+<div>}<br /></div>
+<div>{4:SAC:=int salida = 3;}// se define la variable salida y se le asigna el valor inicial<br /></div>
+<div><br /></div>
+<div>void loop(){</div>
+<div>digitalWrite(salida,HIGH);</div>
+<div>salida = {2:SAC:= salida + 3;}<br />delay(500);</div>
+<div>}<br /> </div>]]>
+      </text>
+    </questiontext>
+    <generalfeedback>
+      <text></text>
+    </generalfeedback>
+    <shuffleanswers>0</shuffleanswers>
+  </question>
+  <!-- question: 48849  -->
+  <question type="cloze">
+    <name>
+      <text>ej21</text>
+    </name>
+    <questiontext>
+      <text>
+<![CDATA[<div>Rellena los huecos para que el programa se comporte como el ejemplo</div> <iframe src="https://ibersia.ovh/tec/arduino/variables/ej_var20.html" style="border: 0px none;" width="200" height="100"></iframe>
+<div> </div>
+<div>void setup(){</div>
+<div>pinMode(2,OUTPUT);</div>
+<div>pinMode(3,OUTPUT);</div>
+<div>pinMode(4,OUTPUT);</div>
+<div>pinMode(5,OUTPUT);</div>
+<div>pinMode(6,OUTPUT);</div>
+<div>pinMode(7,OUTPUT);</div>
+<div>}<br /></div>
+<div>{4:SAC:=int salida = 2;}// se define la variable salida y se le asigna el valor inicial<br /></div>
+<div><br /></div>
+<div>void loop(){</div>
+<div>digitalWrite(salida,HIGH);</div>
+<div>salida = {2:SAC:= salida + 3;}<br />delay(500);</div>
+<div>}<br /> </div>]]>
+      </text>
+    </questiontext>
+    <generalfeedback>
+      <text></text>
+    </generalfeedback>
+    <shuffleanswers>0</shuffleanswers>
+  </question>
+  <!-- question: 0  -->
+  <question type="category">
+    <category>
+      <text>$course$/arduino/repeticiones/complejas</text>
+    </category>
+  </question>
+  <!-- question: 48979  -->
+  <question type="cloze">
+    <name>
+      <text>ej2complejas</text>
+    </name>
+    <questiontext>
+      <text>
+<![CDATA[<div>Rellena los huecos del bucle for que se comporta como el ejemplo<br /></div> <iframe src="https://ibersia.ovh/tec/arduino/repeticiones/complejas/ej_rep2.html" style="border: 0px none;" width="200" height="100"></iframe>
+<div> </div>
+<div>{1:SAC:=for}({1:SAC:=int} contador = {1:SAC:=3} ; {2:SAC:=contador &lt;= 5};contador = {2:SAC:= contador + 1}({</div>
+<div>digitalWrite({1:SAC:=contador},{1:SAC:=HIGH});</div>
+<div>{1:SAC:=delay}(500);</div>}<br />
+<div><br /></div>]]>
+      </text>
+    </questiontext>
+    <generalfeedback>
+      <text></text>
+    </generalfeedback>
+    <shuffleanswers>0</shuffleanswers>
+  </question>
+  <!-- question: 0  -->
+  <question type="category">
+    <category>
+      <text>$course$/arduino/arduino_if/arduino_if_ej1</text>
+    </category>
+  </question>
+  <!-- question: 49103  -->
+  <question type="cloze">
+    <name>
+      <text>ej2_11</text>
+    </name>
+    <questiontext>
+      <text>
+<![CDATA[Escribe la instrucción necesaria para que si el pin 2 está en HIGH se activa el pin 11<br />if ({1:SAC:=digitalRead(2)} == {1:SAC:=HIGH}){<br />{1:SAC:=digitalWrite(11,HIGH)};<br />}<br />]]>
+      </text>
+    </questiontext>
+    <generalfeedback>
+      <text></text>
+    </generalfeedback>
+    <shuffleanswers>0</shuffleanswers>
+  </question>
+  <!-- question: 0  -->
+  <question type="category">
+    <category>
+      <text>$course$/arduino/arduino_if/arduino_if_ej2</text>
+    </category>
+  </question>
+  <!-- question: 49133  -->
+  <question type="cloze">
+    <name>
+      <text>ej2_1_12</text>
+    </name>
+    <questiontext>
+      <text>
+<![CDATA[Escribe la instrucción necesaria para que si el pin 1 está en HIGH se activa el pin 12 y si no, se desactiva.<br />if ({1:SAC:=digitalRead(1)} == {1:SAC:=HIGH}){<br />{1:SAC:=digitalWrite(12,HIGH)};<br />{1:SAC:=}else{} //si no<br />{1:SAC:=digitalWrite(12,LOW)}; <br />}<br />]]>
+      </text>
+    </questiontext>
+    <generalfeedback>
+      <text></text>
+    </generalfeedback>
+    <shuffleanswers>0</shuffleanswers>
+  </question>
+  <!-- question: 49134  -->
+  <question type="cloze">
+    <name>
+      <text>ej2_2_11</text>
+    </name>
+    <questiontext>
+      <text>
+<![CDATA[Escribe la instrucción necesaria para que si el pin 2 está en HIGH se activa el pin 11 y si no, se desactiva.<br />if ({1:SAC:=digitalRead(2)} == {1:SAC:=HIGH}){<br />{1:SAC:=digitalWrite(11,HIGH)};<br />{1:SAC:=}else{} //si no<br />{1:SAC:=digitalWrite(11,LOW)}; <br />}<br />]]>
+      </text>
+    </questiontext>
+    <generalfeedback>
+      <text></text>
+    </generalfeedback>
+    <shuffleanswers>0</shuffleanswers>
+  </question>
+  <!-- question: 49135  -->
+  <question type="cloze">
+    <name>
+      <text>ej2_3_10</text>
+    </name>
+    <questiontext>
+      <text>
+<![CDATA[Escribe la instrucción necesaria para que si el pin 3 está en HIGH se activa el pin 10 y si no, se desactiva.<br />if ({1:SAC:=digitalRead(3)} == {1:SAC:=HIGH}){<br />{1:SAC:=digitalWrite(10,HIGH)};<br />{1:SAC:=}else{} //si no<br />{1:SAC:=digitalWrite(10,LOW)}; <br />}<br />]]>
+      </text>
+    </questiontext>
+    <generalfeedback>
+      <text></text>
+    </generalfeedback>
+    <shuffleanswers>0</shuffleanswers>
+  </question>
+  <!-- question: 49136  -->
+  <question type="cloze">
+    <name>
+      <text>ej2_4_9</text>
+    </name>
+    <questiontext>
+      <text>
+<![CDATA[Escribe la instrucción necesaria para que si el pin 4 está en HIGH se activa el pin 9 y si no, se desactiva.<br />if ({1:SAC:=digitalRead(4)} == {1:SAC:=HIGH}){<br />{1:SAC:=digitalWrite(9,HIGH)};<br />{1:SAC:=}else{} //si no<br />{1:SAC:=digitalWrite(9,LOW)}; <br />}<br />]]>
+      </text>
+    </questiontext>
+    <generalfeedback>
+      <text></text>
+    </generalfeedback>
+    <shuffleanswers>0</shuffleanswers>
+  </question>
+  <!-- question: 49137  -->
+  <question type="cloze">
+    <name>
+      <text>ej2_5_8</text>
+    </name>
+    <questiontext>
+      <text>
+<![CDATA[Escribe la instrucción necesaria para que si el pin 5 está en HIGH se activa el pin 8 y si no, se desactiva.<br />if ({1:SAC:=digitalRead(5)} == {1:SAC:=HIGH}){<br />{1:SAC:=digitalWrite(8,HIGH)};<br />{1:SAC:=}else{} //si no<br />{1:SAC:=digitalWrite(8,LOW)}; <br />}<br />]]>
+      </text>
+    </questiontext>
+    <generalfeedback>
+      <text></text>
+    </generalfeedback>
+    <shuffleanswers>0</shuffleanswers>
+  </question>
+  <!-- question: 49138  -->
+  <question type="cloze">
+    <name>
+      <text>ej2_6_7</text>
+    </name>
+    <questiontext>
+      <text>
+<![CDATA[Escribe la instrucción necesaria para que si el pin 6 está en HIGH se activa el pin 7 y si no, se desactiva.<br />if ({1:SAC:=digitalRead(6)} == {1:SAC:=HIGH}){<br />{1:SAC:=digitalWrite(7,HIGH)};<br />{1:SAC:=}else{} //si no<br />{1:SAC:=digitalWrite(7,LOW)}; <br />}<br />]]>
+      </text>
+    </questiontext>
+    <generalfeedback>
+      <text></text>
+    </generalfeedback>
+    <shuffleanswers>0</shuffleanswers>
+  </question>
+  <!-- question: 0  -->
+  <question type="category">
+    <category>
+      <text>$course$/arduino/repeticiones/simples2</text>
+    </category>
+  </question>
+  <!-- question: 48907  -->
+  <question type="cloze">
+    <name>
+      <text>ej3</text>
+    </name>
+    <questiontext>
+      <text>
+<![CDATA[<div>Rellena los huecos del bucle for que se comporta como el ejemplo<br /></div> <iframe src="https://ibersia.ovh/tec/arduino/repeticiones/simples/ej_rep3.html" style="border: 0px none;" width="200" height="100"></iframe>
+<div> </div>
+<div>{1:SAC:=for}({1:SAC:=int} contador = 0 ; {2:SAC:=contador &lt; 5};contador = {2:SAC:= contador + 1}({</div>
+<div>digitalWrite({1:SAC:=4},{1:SAC:=HIGH});</div>
+<div>{1:SAC:=delay}(500);</div>
+<div>{3:SAC:=digitalWrite(4,LOW)};</div>
+<div>delay{1:SAC:=(500)};</div>
+<div>}<br /></div>]]>
+      </text>
+    </questiontext>
+    <generalfeedback>
+      <text></text>
+    </generalfeedback>
+    <shuffleanswers>0</shuffleanswers>
+  </question>
+  <!-- question: 48908  -->
+  <question type="cloze">
+    <name>
+      <text>ej3</text>
+    </name>
+    <questiontext>
+      <text>
+<![CDATA[<div>Rellena los huecos del bucle for que se comporta como el ejemplo<br /></div> <iframe src="https://ibersia.ovh/tec/arduino/repeticiones/simples/ej_rep4.html" style="border: 0px none;" width="200" height="100"></iframe>
+<div> </div>
+<div>{1:SAC:=for}({1:SAC:=int} contador = 0 ; {2:SAC:=contador &lt; 4};contador = {2:SAC:= contador + 1}){</div>
+<div>digitalWrite({1:SAC:=5},{1:SAC:=HIGH});</div>
+<div>{1:SAC:=delay}(500);</div>
+<div>{3:SAC:=digitalWrite(5,LOW)};</div>
+<div>delay{1:SAC:=(500)};</div>
+<div>}<br /></div>]]>
+      </text>
+    </questiontext>
+    <generalfeedback>
+      <text></text>
+    </generalfeedback>
+    <shuffleanswers>0</shuffleanswers>
+  </question>
+  <!-- question: 0  -->
+  <question type="category">
+    <category>
+      <text>$course$/arduino/arduino_if/arduino_if_ej3</text>
+    </category>
+  </question>
+  <!-- question: 49178  -->
+  <question type="cloze">
+    <name>
+      <text>ej3</text>
+    </name>
+    <questiontext>
+      <text>
+<![CDATA[<div>Completa el fragmento del programa para que funcione como el ejemplo. Prueba las entradas para ver cómo funciona<br /></div>
+<div><iframe src="https://ibersia.ovh/tec/arduino/if/ej3/ej_if_3.html " style="border: 0px none; width: 100%; height: 100px;"></iframe></div>
+<div> if({1:SAC:= digitalRead(4)} == {1:SAC:=HIGH}){</div>
+<div>{1:SAC:=digitalWrite(8,HIGH)};</div>
+<div>} {1:SAC:=else}{ //sino</div>
+<div>{1:SAC:=digitalWrite(8,LOW)};}</div>
+<div>}<br /></div>]]>
+      </text>
+    </questiontext>
+    <generalfeedback>
+      <text></text>
+    </generalfeedback>
+    <shuffleanswers>0</shuffleanswers>
+  </question>
+  <!-- question: 0  -->
+  <question type="category">
+    <category>
+      <text>$course$/arduino/basicos1</text>
+    </category>
+  </question>
+  <!-- question: 48667  -->
+  <question type="cloze">
+    <name>
+      <text>ej3</text>
+    </name>
+    <questiontext>
+      <text>
+<![CDATA[<div>completa el programa para que funcione como el ejemplo.</div> <iframe src="https://ibersia.ovh/tec/arduino/basicos1/ej3.html" style="border: 0px none; width: 200px; height: 100px;"></iframe> <br />
+<div>void {1:SAC:=setup}(){<br /></div>
+<div><br /></div>
+<div>pinMode(4,OUTPUT);</div>
+<div>pinMode{2:SAC:=(7,OUTPUT);}</div>
+<div>digitalWrite(4,HIGH);</div>
+<div>delay(500);</div>
+<div>digitalWrite{2:SAC:=(7,HIGH);}</div>
+<div>{1:SAC:=delay}(500);</div>
+<div>digitalWrite(4,LOW);</div>
+<div>delay{1:SAC:=(500);}</div>
+<div>{1:SAC:=digitalWrite}(7,LOW);<br />}<br /><br />void {1:SAC:= loop} (){<br />}<br /></div>
+<div><br /></div>]]>
+      </text>
+    </questiontext>
+    <generalfeedback>
+      <text></text>
+    </generalfeedback>
+    <shuffleanswers>0</shuffleanswers>
+  </question>
+  <!-- question: 0  -->
+  <question type="category">
+    <category>
+      <text>$course$/arduino/arduino_if/arduino_if_ej4</text>
+    </category>
+  </question>
+  <!-- question: 49233  -->
+  <question type="cloze">
+    <name>
+      <text>ej3</text>
+    </name>
+    <questiontext>
+      <text>
+<![CDATA[<div>Completa el fragmento del programa para que funcione como el ejemplo. Prueba las entradas para ver cómo funciona<br /></div>
+<div><iframe src="https://ibersia.ovh/tec/arduino/if/ej4/ej_if_3.html " style="border: 0px none; width: 100%; height: 100px;"></iframe></div>
+<div> {2:SAC:=if(digitalRead(4) == HIGH)}{//si la entrada 4 está pulsada<br /></div>
+<div>digitalWrite{1:SAC:=(11,LOW)};</div>
+<div>{2:SAC:=if(digitalRead(5) == HIGH)}{//si la entrada 5 está pulsada<br /></div>
+<div>{1:SAC:=digitalWrite(11,HIGH)};}</div>
+<div>}<br /></div>]]>
+      </text>
+    </questiontext>
+    <generalfeedback>
+      <text></text>
+    </generalfeedback>
+    <shuffleanswers>0</shuffleanswers>
+  </question>
+  <!-- question: 0  -->
+  <question type="category">
+    <category>
+      <text>$course$/arduino/variables</text>
+    </category>
+  </question>
+  <!-- question: 48815  -->
+  <question type="cloze">
+    <name>
+      <text>ej3</text>
+    </name>
+    <questiontext>
+      <text>
+<![CDATA[<div>Rellena los huecos para que el programa se comporte como el ejemplo</div> <iframe src="https://ibersia.ovh/tec/arduino/variables/ej_var3.html" style="border: 0px none;" width="200" height="100"></iframe>
+<div> </div>
+<div>void setup(){</div>
+<div>pinMode(2,OUTPUT);</div>
+<div>pinMode(3,OUTPUT);</div>
+<div>pinMode(4,OUTPUT);</div>
+<div>pinMode(5,OUTPUT);</div>
+<div>pinMode(6,OUTPUT);</div>
+<div>pinMode(7,OUTPUT);</div>
+<div>}<br /></div>
+<div>int salida = {1:SAC:=5;}</div>
+<div><br /></div>
+<div>void loop(){</div>
+<div>digitalWrite(salida,HIGH);</div>
+<div>salida = {2:SAC:= salida + 1;}<br />delay(500);</div>
+<div>}<br /> </div>]]>
+      </text>
+    </questiontext>
+    <generalfeedback>
+      <text></text>
+    </generalfeedback>
+    <shuffleanswers>0</shuffleanswers>
+  </question>
+  <!-- question: 0  -->
+  <question type="category">
+    <category>
+      <text>$course$/arduino/basicos1</text>
+    </category>
+  </question>
+  <!-- question: 48675  -->
+  <question type="cloze">
+    <name>
+      <text>ej3 b2</text>
+    </name>
+    <questiontext>
+      <text>
+<![CDATA[<div>completa el programa para que funcione como el ejemplo.</div> <iframe src="https://ibersia.ovh/tec/arduino/basicos2/ej3.html" style="border: 0px none; width: 200px; height: 100px;"></iframe> <br />
+<div>void {1:SAC:=setup}(){<br /></div>
+<div><br /></div>
+<div>pinMode(4,OUTPUT);</div>
+<div>pinMode{2:SAC:=(7,OUTPUT);}<br /><br />}<br /></div>
+<div><br />void {1:SAC:= loop} (){<br />digitalWrite(4,HIGH);<br />delay(500);</div>
+<div>digitalWrite{2:SAC:=(7,HIGH);}</div>
+<div>{1:SAC:=delay}(500);</div>
+<div>digitalWrite(4,LOW);<br />delay {1:SAC:=(500);}<br /></div> {1:SAC:=digitalWrite}(7,LOW);<br />{1:SAC:=delay}(500);<br />}]]>
+      </text>
+    </questiontext>
+    <generalfeedback>
+      <text></text>
+    </generalfeedback>
+    <shuffleanswers>0</shuffleanswers>
+  </question>
+  <!-- question: 0  -->
+  <question type="category">
+    <category>
+      <text>$course$/arduino/repeticiones/complejas</text>
+    </category>
+  </question>
+  <!-- question: 48980  -->
+  <question type="cloze">
+    <name>
+      <text>ej3complejas</text>
+    </name>
+    <questiontext>
+      <text>
+<![CDATA[<div>Rellena los huecos del bucle for que se comporta como el ejemplo<br /></div> <iframe src="https://ibersia.ovh/tec/arduino/repeticiones/complejas/ej_rep3.html" style="border: 0px none;" width="200" height="100"></iframe>
+<div> </div>
+<div>{1:SAC:=for}({1:SAC:=int} contador = {1:SAC:=4} ; {2:SAC:=contador &lt;= 6};contador = {2:SAC:= contador + 1}({</div>
+<div>digitalWrite({1:SAC:=contador},{1:SAC:=HIGH});</div>
+<div>{1:SAC:=delay}(500);</div>}<br />
+<div><br /></div>]]>
+      </text>
+    </questiontext>
+    <generalfeedback>
+      <text></text>
+    </generalfeedback>
+    <shuffleanswers>0</shuffleanswers>
+  </question>
+  <!-- question: 0  -->
+  <question type="category">
+    <category>
+      <text>$course$/arduino/arduino_if/arduino_if_ej1</text>
+    </category>
+  </question>
+  <!-- question: 49105  -->
+  <question type="cloze">
+    <name>
+      <text>ej3_10</text>
+    </name>
+    <questiontext>
+      <text>
+<![CDATA[Escribe la instrucción necesaria para que si el pin 3 está en HIGH se activa el pin 10<br />if ({1:SAC:=digitalRead(3)} == {1:SAC:=HIGH}){<br />{1:SAC:=digitalWrite(10,HIGH)};<br />}<br />]]>
+      </text>
+    </questiontext>
+    <generalfeedback>
+      <text></text>
+    </generalfeedback>
+    <shuffleanswers>0</shuffleanswers>
+  </question>
+  <!-- question: 0  -->
+  <question type="category">
+    <category>
+      <text>$course$/arduino/repeticiones/simples2</text>
+    </category>
+  </question>
+  <!-- question: 48909  -->
+  <question type="cloze">
+    <name>
+      <text>ej4</text>
+    </name>
+    <questiontext>
+      <text>
+<![CDATA[<div>Rellena los huecos del bucle for que se comporta como el ejemplo<br /></div> <iframe src="https://ibersia.ovh/tec/arduino/repeticiones/simples/ej_rep4.html" style="border: 0px none;" width="200" height="100"></iframe>
+<div> </div>
+<div>{1:SAC:=for}({1:SAC:=int} contador = 0 ; {2:SAC:=contador &lt; 4};contador = {2:SAC:= contador + 1}({</div>
+<div>digitalWrite({1:SAC:=5},{1:SAC:=HIGH});</div>
+<div>{1:SAC:=delay}(500);</div>
+<div>{3:SAC:=digitalWrite(5,LOW)};</div>
+<div>delay{1:SAC:=(500)};</div>
+<div>}<br /></div>]]>
+      </text>
+    </questiontext>
+    <generalfeedback>
+      <text></text>
+    </generalfeedback>
+    <shuffleanswers>0</shuffleanswers>
+  </question>
+  <!-- question: 0  -->
+  <question type="category">
+    <category>
+      <text>$course$/arduino/arduino_if/arduino_if_ej3</text>
+    </category>
+  </question>
+  <!-- question: 49179  -->
+  <question type="cloze">
+    <name>
+      <text>ej4</text>
+    </name>
+    <questiontext>
+      <text>
+<![CDATA[<div>Completa el fragmento del programa para que funcione como el ejemplo. Prueba las entradas para ver cómo funciona<br /></div>
+<div><iframe src="https://ibersia.ovh/tec/arduino/if/ej3/ej_if_4.html " style="border: 0px none; width: 100%; height: 100px;"></iframe></div>
+<div> if({1:SAC:= digitalRead(4)} == {1:SAC:=HIGH}){</div>
+<div>{1:SAC:=digitalWrite(9,HIGH)};</div>
+<div>} {1:SAC:=else}{ //sino</div>
+<div>{1:SAC:=digitalWrite(9,LOW)};}</div>
+<div>}<br /></div>]]>
+      </text>
+    </questiontext>
+    <generalfeedback>
+      <text></text>
+    </generalfeedback>
+    <shuffleanswers>0</shuffleanswers>
+  </question>
+  <!-- question: 0  -->
+  <question type="category">
+    <category>
+      <text>$course$/arduino/basicos1</text>
+    </category>
+  </question>
+  <!-- question: 48668  -->
+  <question type="cloze">
+    <name>
+      <text>ej4</text>
+    </name>
+    <questiontext>
+      <text>
+<![CDATA[<div>completa el programa para que funcione como el ejemplo.</div> <iframe src="https://ibersia.ovh/tec/arduino/basicos1/ej4.html" style="border: 0px none; width: 200px; height: 100px;"></iframe> <br />
+<div>void {1:SAC:=setup}(){<br /></div>
+<div><br /></div>
+<div>pinMode(4,OUTPUT);</div>
+<div>pinMode{2:SAC:=(7,OUTPUT);}</div>
+<div>digitalWrite(4,HIGH);</div>
+<div>digitalWrite{2:SAC:=(7,HIGH);}</div>
+<div>{1:SAC:=delay}(500);</div>
+<div>digitalWrite(4,LOW);</div>
+<div>{1:SAC:=digitalWrite}(7,LOW);<br />}<br /><br />void {1:SAC:= loop} (){<br />}<br /></div>
+<div><br /></div>]]>
+      </text>
+    </questiontext>
+    <generalfeedback>
+      <text></text>
+    </generalfeedback>
+    <shuffleanswers>0</shuffleanswers>
+  </question>
+  <!-- question: 0  -->
+  <question type="category">
+    <category>
+      <text>$course$/arduino/arduino_if/arduino_if_ej4</text>
+    </category>
+  </question>
+  <!-- question: 49234  -->
+  <question type="cloze">
+    <name>
+      <text>ej4</text>
+    </name>
+    <questiontext>
+      <text>
+<![CDATA[<div>Completa el fragmento del programa para que funcione como el ejemplo. Prueba las entradas para ver cómo funciona<br /></div>
+<div><iframe src="https://ibersia.ovh/tec/arduino/if/ej4/ej_if_4.html " style="border: 0px none; width: 100%; height: 100px;"></iframe></div>
+<div> {2:SAC:=if(digitalRead(4) == HIGH)}{//si la entrada 4 está pulsada<br /></div>
+<div>digitalWrite{1:SAC:=(10,LOW)};</div>
+<div>{2:SAC:=if(digitalRead(5) == HIGH)}{//si la entrada 5 está pulsada<br /></div>
+<div>{1:SAC:=digitalWrite(10,HIGH)};}</div>
+<div>}<br /></div>]]>
+      </text>
+    </questiontext>
+    <generalfeedback>
+      <text></text>
+    </generalfeedback>
+    <shuffleanswers>0</shuffleanswers>
+  </question>
+  <!-- question: 0  -->
+  <question type="category">
+    <category>
+      <text>$course$/arduino/variables</text>
+    </category>
+  </question>
+  <!-- question: 48816  -->
+  <question type="cloze">
+    <name>
+      <text>ej4</text>
+    </name>
+    <questiontext>
+      <text>
+<![CDATA[<div>Rellena los huecos para que el programa se comporte como el ejemplo</div> <iframe src="https://ibersia.ovh/tec/arduino/variables/ej_var4.html" style="border: 0px none;" width="200" height="100"></iframe>
+<div> </div>
+<div>void setup(){</div>
+<div>pinMode(2,OUTPUT);</div>
+<div>pinMode(3,OUTPUT);</div>
+<div>pinMode(4,OUTPUT);</div>
+<div>pinMode(5,OUTPUT);</div>
+<div>pinMode(6,OUTPUT);</div>
+<div>pinMode(7,OUTPUT);</div>
+<div>}<br /></div>
+<div>int salida = {1:SAC:=4;}</div>
+<div><br /></div>
+<div>void loop(){</div>
+<div>digitalWrite(salida,HIGH);</div>
+<div>salida = {2:SAC:= salida + 1;}<br />delay(500);</div>
+<div>}<br /> </div>]]>
+      </text>
+    </questiontext>
+    <generalfeedback>
+      <text></text>
+    </generalfeedback>
+    <shuffleanswers>0</shuffleanswers>
+  </question>
+  <!-- question: 0  -->
+  <question type="category">
+    <category>
+      <text>$course$/arduino/basicos1</text>
+    </category>
+  </question>
+  <!-- question: 48676  -->
+  <question type="cloze">
+    <name>
+      <text>ej4 b4</text>
+    </name>
+    <questiontext>
+      <text>
+<![CDATA[<div>completa el programa para que funcione como el ejemplo.</div> <iframe src="https://ibersia.ovh/tec/arduino/basicos2/ej4.html" style="border: 0px none; width: 200px; height: 100px;"></iframe> <br />
+<div>void {1:SAC:=setup}(){<br /></div>
+<div><br /></div>
+<div>pinMode(4,OUTPUT);</div>
+<div>pinMode{2:SAC:=(7,OUTPUT);}<br /><br />}<br /></div>
+<div><br />void {1:SAC:= loop} (){<br />digitalWrite(4,HIGH);<br />digitalWrite{2:SAC:=(7,HIGH);}</div>
+<div>{1:SAC:=delay}(500);</div>
+<div>digitalWrite(4,LOW);<br />{1:SAC:=digitalWrite}(7,LOW);<br />delay {1:SAC:=(500);}</div>}<br /><br />}]]>
+      </text>
+    </questiontext>
+    <generalfeedback>
+      <text></text>
+    </generalfeedback>
+    <shuffleanswers>0</shuffleanswers>
+  </question>
+  <!-- question: 0  -->
+  <question type="category">
+    <category>
+      <text>$course$/arduino/repeticiones/complejas</text>
+    </category>
+  </question>
+  <!-- question: 48981  -->
+  <question type="cloze">
+    <name>
+      <text>ej4complejas</text>
+    </name>
+    <questiontext>
+      <text>
+<![CDATA[<div>Rellena los huecos del bucle for que se comporta como el ejemplo<br /></div> <iframe src="https://ibersia.ovh/tec/arduino/repeticiones/complejas/ej_rep4.html" style="border: 0px none;" width="200" height="100"></iframe>
+<div> </div>
+<div>{1:SAC:=for}({1:SAC:=int} contador = {1:SAC:=7} ; {2:SAC:=contador &gt;= 5};contador = {2:SAC:= contador - 1}({</div>
+<div>digitalWrite({1:SAC:=contador},{1:SAC:=HIGH});</div>
+<div>{1:SAC:=delay}(500);</div>}<br />
+<div><br /></div>]]>
+      </text>
+    </questiontext>
+    <generalfeedback>
+      <text></text>
+    </generalfeedback>
+    <shuffleanswers>0</shuffleanswers>
+  </question>
+  <!-- question: 0  -->
+  <question type="category">
+    <category>
+      <text>$course$/arduino/arduino_if/arduino_if_ej1</text>
+    </category>
+  </question>
+  <!-- question: 49106  -->
+  <question type="cloze">
+    <name>
+      <text>ej4_9</text>
+    </name>
+    <questiontext>
+      <text>
+<![CDATA[Escribe la instrucción necesaria para que si el pin 4 está en LOW se activa el pin 9<br />if ({1:SAC:=digitalRead(4)} == {1:SAC:=LOW}){<br />{1:SAC:=digitalWrite(9,HIGH)};<br />}<br />]]>
+      </text>
+    </questiontext>
+    <generalfeedback>
+      <text></text>
+    </generalfeedback>
+    <shuffleanswers>0</shuffleanswers>
+  </question>
+  <!-- question: 0  -->
+  <question type="category">
+    <category>
+      <text>$course$/arduino/repeticiones/simples2</text>
+    </category>
+  </question>
+  <!-- question: 48910  -->
+  <question type="cloze">
+    <name>
+      <text>ej5</text>
+    </name>
+    <questiontext>
+      <text>
+<![CDATA[<div>Rellena los huecos del bucle for que se comporta como el ejemplo<br /></div> <iframe src="https://ibersia.ovh/tec/arduino/repeticiones/simples/ej_rep5.html" style="border: 0px none;" width="200" height="100"></iframe>
+<div> </div>
+<div>{1:SAC:=for}({1:SAC:=int} contador = 0 ; {2:SAC:=contador &lt; 3};contador = {2:SAC:= contador + 1}({</div>
+<div>digitalWrite({1:SAC:=6},{1:SAC:=HIGH});</div>
+<div>{1:SAC:=delay}(500);</div>
+<div>{3:SAC:=digitalWrite(6,LOW)};</div>
+<div>delay{1:SAC:=(500)};</div>
+<div>}<br /></div>]]>
+      </text>
+    </questiontext>
+    <generalfeedback>
+      <text></text>
+    </generalfeedback>
+    <shuffleanswers>0</shuffleanswers>
+  </question>
+  <!-- question: 0  -->
+  <question type="category">
+    <category>
+      <text>$course$/arduino/arduino_if/arduino_if_ej3</text>
+    </category>
+  </question>
+  <!-- question: 49180  -->
+  <question type="cloze">
+    <name>
+      <text>ej5</text>
+    </name>
+    <questiontext>
+      <text>
+<![CDATA[<div>Completa el fragmento del programa para que funcione como el ejemplo. Prueba las entradas para ver cómo funciona<br /></div>
+<div><iframe src="https://ibersia.ovh/tec/arduino/if/ej3/ej_if_5.html " style="border: 0px none; width: 100%; height: 100px;"></iframe></div>
+<div> if({1:SAC:= digitalRead(4)} == {1:SAC:=HIGH}){</div>
+<div>{1:SAC:=digitalWrite(10,HIGH)};</div>
+<div>} {1:SAC:=else}{ //sino</div>
+<div>{1:SAC:=digitalWrite(10,LOW)};}</div>
+<div>}<br /></div>]]>
+      </text>
+    </questiontext>
+    <generalfeedback>
+      <text></text>
+    </generalfeedback>
+    <shuffleanswers>0</shuffleanswers>
+  </question>
+  <!-- question: 0  -->
+  <question type="category">
+    <category>
+      <text>$course$/arduino/basicos1</text>
+    </category>
+  </question>
+  <!-- question: 48669  -->
+  <question type="cloze">
+    <name>
+      <text>ej5</text>
+    </name>
+    <questiontext>
+      <text>
+<![CDATA[<div>completa el programa para que funcione como el ejemplo.</div> <iframe src="https://ibersia.ovh/tec/arduino/basicos1/ej5.html" style="border: 0px none; width: 200px; height: 100px;"></iframe> <br />
+<div>void {1:SAC:=setup}(){<br /></div>
+<div><br /></div>
+<div>pinMode(3,OUTPUT);</div>
+<div>pinMode{2:SAC:=(6,OUTPUT);}</div>
+<div>digitalWrite(3,HIGH);</div>
+<div>digitalWrite{2:SAC:=(6,HIGH);}</div>
+<div>{1:SAC:=delay}(500);</div>
+<div>digitalWrite(3,LOW);</div>
+<div>{1:SAC:=digitalWrite}(6,LOW);<br />}<br /><br />void {1:SAC:= loop} (){<br />}<br /></div>
+<div><br /></div>]]>
+      </text>
+    </questiontext>
+    <generalfeedback>
+      <text></text>
+    </generalfeedback>
+    <shuffleanswers>0</shuffleanswers>
+  </question>
+  <!-- question: 0  -->
+  <question type="category">
+    <category>
+      <text>$course$/arduino/arduino_if/arduino_if_ej4</text>
+    </category>
+  </question>
+  <!-- question: 49235  -->
+  <question type="cloze">
+    <name>
+      <text>ej5</text>
+    </name>
+    <questiontext>
+      <text>
+<![CDATA[<div>Completa el fragmento del programa para que funcione como el ejemplo. Prueba las entradas para ver cómo funciona<br /></div>
+<div><iframe src="https://ibersia.ovh/tec/arduino/if/ej4/ej_if_5.html " style="border: 0px none; width: 100%; height: 100px;"></iframe></div>
+<div> {2:SAC:=if(digitalRead(4) == HIGH)}{//si la entrada 4 está pulsada<br /></div>
+<div>digitalWrite{1:SAC:=(10,HIGH)};</div>
+<div>{2:SAC:=if(digitalRead(5) == HIGH)}{//si la entrada 5 está pulsada<br /></div>
+<div>{1:SAC:=digitalWrite(10,LOW)};}</div>
+<div>}<br /></div>]]>
+      </text>
+    </questiontext>
+    <generalfeedback>
+      <text></text>
+    </generalfeedback>
+    <shuffleanswers>0</shuffleanswers>
+  </question>
+  <!-- question: 0  -->
+  <question type="category">
+    <category>
+      <text>$course$/arduino/variables</text>
+    </category>
+  </question>
+  <!-- question: 48817  -->
+  <question type="cloze">
+    <name>
+      <text>ej5</text>
+    </name>
+    <questiontext>
+      <text>
+<![CDATA[<div>Rellena los huecos para que el programa se comporte como el ejemplo</div> <iframe src="https://ibersia.ovh/tec/arduino/variables/ej_var5.html" style="border: 0px none;" width="200" height="100"></iframe>
+<div> </div>
+<div>void setup(){</div>
+<div>pinMode(2,OUTPUT);</div>
+<div>pinMode(3,OUTPUT);</div>
+<div>pinMode(4,OUTPUT);</div>
+<div>pinMode(5,OUTPUT);</div>
+<div>pinMode(6,OUTPUT);</div>
+<div>pinMode(7,OUTPUT);</div>
+<div>}<br /></div>
+<div>int salida = {1:SAC:=6;}</div>
+<div><br /></div>
+<div>void loop(){</div>
+<div>digitalWrite(salida,HIGH);</div>
+<div>salida = {2:SAC:= salida + 1;}<br />delay(500);</div>
+<div>}<br /> </div>]]>
+      </text>
+    </questiontext>
+    <generalfeedback>
+      <text></text>
+    </generalfeedback>
+    <shuffleanswers>0</shuffleanswers>
+  </question>
+  <!-- question: 0  -->
+  <question type="category">
+    <category>
+      <text>$course$/arduino/basicos1</text>
+    </category>
+  </question>
+  <!-- question: 48677  -->
+  <question type="cloze">
+    <name>
+      <text>ej5 b2</text>
+    </name>
+    <questiontext>
+      <text>
+<![CDATA[<div>completa el programa para que funcione como el ejemplo.</div> <iframe src="https://ibersia.ovh/tec/arduino/basicos2/ej5.html" style="border: 0px none; width: 200px; height: 100px;"></iframe> <br />
+<div>
+  <div>void {1:SAC:=setup}(){<br /></div>
+  <div><br /></div>
+  <div>pinMode(3,OUTPUT);</div>
+  <div>pinMode{2:SAC:=(6,OUTPUT);}<br /><br />}<br /></div>
+  <div><br />void {1:SAC:= loop} (){<br />digitalWrite(3,HIGH);<br />digitalWrite{2:SAC:=(6,HIGH);}</div>
+  <div>{1:SAC:=delay}(500);</div>
+  <div>digitalWrite(3,LOW);<br />{1:SAC:=digitalWrite}(6,LOW);<br />delay {1:SAC:=(500);}</div>}<br /><br />} </div>]]>
+      </text>
+    </questiontext>
+    <generalfeedback>
+      <text></text>
+    </generalfeedback>
+    <shuffleanswers>0</shuffleanswers>
+  </question>
+  <!-- question: 0  -->
+  <question type="category">
+    <category>
+      <text>$course$/arduino/repeticiones/complejas</text>
+    </category>
+  </question>
+  <!-- question: 48982  -->
+  <question type="cloze">
+    <name>
+      <text>ej5complejas</text>
+    </name>
+    <questiontext>
+      <text>
+<![CDATA[<div>Rellena los huecos del bucle for que se comporta como el ejemplo<br /></div> <iframe src="https://ibersia.ovh/tec/arduino/repeticiones/complejas/ej_rep5.html" style="border: 0px none;" width="200" height="100"></iframe>
+<div> </div>
+<div>{1:SAC:=for}({1:SAC:=int} contador = {1:SAC:=6} ; {2:SAC:=contador &gt;= 4};contador = {2:SAC:= contador - 1}({</div>
+<div>digitalWrite({1:SAC:=contador},{1:SAC:=HIGH});</div>
+<div>{1:SAC:=delay}(500);</div>}<br />
+<div><br /></div>]]>
+      </text>
+    </questiontext>
+    <generalfeedback>
+      <text></text>
+    </generalfeedback>
+    <shuffleanswers>0</shuffleanswers>
+  </question>
+  <!-- question: 0  -->
+  <question type="category">
+    <category>
+      <text>$course$/arduino/arduino_if/arduino_if_ej1</text>
+    </category>
+  </question>
+  <!-- question: 49107  -->
+  <question type="cloze">
+    <name>
+      <text>ej5_8</text>
+    </name>
+    <questiontext>
+      <text>
+<![CDATA[Escribe la instrucción necesaria para que si el pin5 está en LOW se activa el pin 8<br />if ({1:SAC:=digitalRead(5)} == {1:SAC:=LOW}){<br />{1:SAC:=digitalWrite(8,HIGH)};<br />}<br />]]>
+      </text>
+    </questiontext>
+    <generalfeedback>
+      <text></text>
+    </generalfeedback>
+    <shuffleanswers>0</shuffleanswers>
+  </question>
+  <!-- question: 0  -->
+  <question type="category">
+    <category>
+      <text>$course$/arduino/repeticiones/simples2</text>
+    </category>
+  </question>
+  <!-- question: 48911  -->
+  <question type="cloze">
+    <name>
+      <text>ej6</text>
+    </name>
+    <questiontext>
+      <text>
+<![CDATA[<div>Rellena los huecos del bucle for que se comporta como el ejemplo<br /></div> <iframe src="https://ibersia.ovh/tec/arduino/repeticiones/simples/ej_rep6.html" style="border: 0px none;" width="200" height="100"></iframe>
+<div> </div>
+<div>{1:SAC:=for}({1:SAC:=int} contador = 0 ; {2:SAC:=contador &lt; 4};contador = {2:SAC:= contador + 1}({</div>
+<div>digitalWrite({1:SAC:=7},{1:SAC:=HIGH});</div>
+<div>{1:SAC:=delay}(500);</div>
+<div>{3:SAC:=digitalWrite(7,LOW)};</div>
+<div>delay{1:SAC:=(500)};</div>
+<div>}<br /></div>]]>
+      </text>
+    </questiontext>
+    <generalfeedback>
+      <text></text>
+    </generalfeedback>
+    <shuffleanswers>0</shuffleanswers>
+  </question>
+  <!-- question: 0  -->
+  <question type="category">
+    <category>
+      <text>$course$/arduino/arduino_if/arduino_if_ej3</text>
+    </category>
+  </question>
+  <!-- question: 49181  -->
+  <question type="cloze">
+    <name>
+      <text>ej6</text>
+    </name>
+    <questiontext>
+      <text>
+<![CDATA[<div>Completa el fragmento del programa para que funcione como el ejemplo. Prueba las entradas para ver cómo funciona<br /></div>
+<div><iframe src="https://ibersia.ovh/tec/arduino/if/ej3/ej_if_6.html " style="border: 0px none; width: 100%; height: 100px;"></iframe></div>
+<div> if({1:SAC:= digitalRead(5)} == {1:SAC:=HIGH}){</div>
+<div>{1:SAC:=digitalWrite(10,HIGH)};</div>
+<div>} {1:SAC:=else}{ //sino</div>
+<div>{1:SAC:=digitalWrite(10,LOW)};}</div>
+<div>}<br /></div>]]>
+      </text>
+    </questiontext>
+    <generalfeedback>
+      <text></text>
+    </generalfeedback>
+    <shuffleanswers>0</shuffleanswers>
+  </question>
+  <!-- question: 0  -->
+  <question type="category">
+    <category>
+      <text>$course$/arduino/basicos1</text>
+    </category>
+  </question>
+  <!-- question: 48671  -->
+  <question type="cloze">
+    <name>
+      <text>ej6</text>
+    </name>
+    <questiontext>
+      <text>
+<![CDATA[<div>completa el programa para que funcione como el ejemplo.</div> <iframe src="https://ibersia.ovh/tec/arduino/basicos1/ej6.html" style="border: 0px none; width: 200px; height: 100px;"></iframe> <br />
+<div>void {1:SAC:=setup}(){<br /></div>
+<div><br /></div>
+<div>pinMode(2,OUTPUT);</div>
+<div>pinMode{2:SAC:=(5,OUTPUT);}</div>
+<div>digitalWrite(2,HIGH);</div>
+<div>digitalWrite{2:SAC:=(5,HIGH);}</div>
+<div>{1:SAC:=delay}(500);</div>
+<div>digitalWrite(2,LOW);</div>
+<div>{1:SAC:=digitalWrite}(5,LOW);<br />}<br /><br />void {1:SAC:= loop} (){<br />}<br /></div>
+<div><br /></div>]]>
+      </text>
+    </questiontext>
+    <generalfeedback>
+      <text></text>
+    </generalfeedback>
+    <shuffleanswers>0</shuffleanswers>
+  </question>
+  <!-- question: 0  -->
+  <question type="category">
+    <category>
+      <text>$course$/arduino/arduino_if/arduino_if_ej4</text>
+    </category>
+  </question>
+  <!-- question: 49236  -->
+  <question type="cloze">
+    <name>
+      <text>ej6</text>
+    </name>
+    <questiontext>
+      <text>
+<![CDATA[<div>Completa el fragmento del programa para que funcione como el ejemplo. Prueba las entradas para ver cómo funciona<br /></div>
+<div><iframe src="https://ibersia.ovh/tec/arduino/if/ej4/ej_if_6.html " style="border: 0px none; width: 100%; height: 100px;"></iframe></div>
+<div> {2:SAC:=if(digitalRead(4) == HIGH)}{//si la entrada 4 está pulsada<br /></div>
+<div>digitalWrite{1:SAC:=(11,HIGH)};</div>
+<div>{2:SAC:=if(digitalRead(5) == HIGH)}{//si la entrada 5 está pulsada<br /></div>
+<div>{1:SAC:=digitalWrite(11,LOW)};}</div>
+<div>}<br /></div>]]>
+      </text>
+    </questiontext>
+    <generalfeedback>
+      <text></text>
+    </generalfeedback>
+    <shuffleanswers>0</shuffleanswers>
+  </question>
+  <!-- question: 0  -->
+  <question type="category">
+    <category>
+      <text>$course$/arduino/variables</text>
+    </category>
+  </question>
+  <!-- question: 48818  -->
+  <question type="cloze">
+    <name>
+      <text>ej6</text>
+    </name>
+    <questiontext>
+      <text>
+<![CDATA[<div>Rellena los huecos para que el programa se comporte como el ejemplo</div> <iframe src="https://ibersia.ovh/tec/arduino/variables/ej_var6.html" style="border: 0px none;" width="200" height="100"></iframe>
+<div> </div>
+<div>void setup(){</div>
+<div>pinMode(2,OUTPUT);</div>
+<div>pinMode(3,OUTPUT);</div>
+<div>pinMode(4,OUTPUT);</div>
+<div>pinMode(5,OUTPUT);</div>
+<div>pinMode(6,OUTPUT);</div>
+<div>pinMode(7,OUTPUT);</div>
+<div>}<br /></div>
+<div>int salida = {1:SAC:=7;}</div>
+<div><br /></div>
+<div>void loop(){</div>
+<div>digitalWrite(salida,HIGH);</div>
+<div>salida = {2:SAC:= salida - 1;}<br />delay(500);</div>
+<div>}<br /> </div>]]>
+      </text>
+    </questiontext>
+    <generalfeedback>
+      <text></text>
+    </generalfeedback>
+    <shuffleanswers>0</shuffleanswers>
+  </question>
+  <!-- question: 0  -->
+  <question type="category">
+    <category>
+      <text>$course$/arduino/basicos1</text>
+    </category>
+  </question>
+  <!-- question: 48678  -->
+  <question type="cloze">
+    <name>
+      <text>ej6 b2</text>
+    </name>
+    <questiontext>
+      <text>
+<![CDATA[<div>completa el programa para que funcione como el ejemplo.</div> <iframe src="https://ibersia.ovh/tec/arduino/basicos2/ej6.html" style="border: 0px none; width: 200px; height: 100px;"></iframe> <br />
+<div>void {1:SAC:=setup}(){<br /></div>
+<div><br /></div>
+<div>pinMode(2,OUTPUT);</div>
+<div>pinMode{2:SAC:=(5,OUTPUT);}<br /><br />}<br /></div>
+<div><br />void {1:SAC:= loop} (){<br />digitalWrite(2,HIGH);<br />digitalWrite{2:SAC:=(5,HIGH);}</div>
+<div>{1:SAC:=delay}(500);</div>
+<div>digitalWrite(2,LOW);<br />{1:SAC:=digitalWrite}(5,LOW);<br />delay {1:SAC:=(500);}</div>}<br /><br />}]]>
+      </text>
+    </questiontext>
+    <generalfeedback>
+      <text></text>
+    </generalfeedback>
+    <shuffleanswers>0</shuffleanswers>
+  </question>
+  <!-- question: 0  -->
+  <question type="category">
+    <category>
+      <text>$course$/arduino/repeticiones/complejas</text>
+    </category>
+  </question>
+  <!-- question: 48983  -->
+  <question type="cloze">
+    <name>
+      <text>ej6complejas</text>
+    </name>
+    <questiontext>
+      <text>
+<![CDATA[<div>Rellena los huecos del bucle for que se comporta como el ejemplo<br /></div> <iframe src="https://ibersia.ovh/tec/arduino/repeticiones/complejas/ej_rep6.html" style="border: 0px none;" width="200" height="100"></iframe>
+<div> </div>
+<div>{1:SAC:=for}({1:SAC:=int} contador = {1:SAC:=5} ; {2:SAC:=contador &gt;= 3};contador = {2:SAC:= contador - 1}({</div>
+<div>digitalWrite({1:SAC:=contador},{1:SAC:=HIGH});</div>
+<div>{1:SAC:=delay}(500);</div>}<br />
+<div><br /></div>]]>
+      </text>
+    </questiontext>
+    <generalfeedback>
+      <text></text>
+    </generalfeedback>
+    <shuffleanswers>0</shuffleanswers>
+  </question>
+  <!-- question: 0  -->
+  <question type="category">
+    <category>
+      <text>$course$/arduino/arduino_if/arduino_if_ej1</text>
+    </category>
+  </question>
+  <!-- question: 49108  -->
+  <question type="cloze">
+    <name>
+      <text>ej6_7</text>
+    </name>
+    <questiontext>
+      <text>
+<![CDATA[Escribe la instrucción necesaria para que si el pin5 está en LOW se activa el pin 7<br />if ({1:SAC:=digitalRead(5)} == {1:SAC:=LOW}){<br />{1:SAC:=digitalWrite(7,HIGH)};<br />}<br />]]>
+      </text>
+    </questiontext>
+    <generalfeedback>
+      <text></text>
+    </generalfeedback>
+    <shuffleanswers>0</shuffleanswers>
+  </question>
+  <!-- question: 0  -->
+  <question type="category">
+    <category>
+      <text>$course$/arduino/basicos1</text>
+    </category>
+  </question>
+  <!-- question: 48670  -->
+  <question type="cloze">
+    <name>
+      <text>ej7</text>
+    </name>
+    <questiontext>
+      <text>
+<![CDATA[<div>completa el programa para que funcione como el ejemplo.</div> <iframe src="https://ibersia.ovh/tec/arduino/basicos1/ej7.html" style="border: 0px none; width: 200px; height: 100px;"></iframe> <br />
+<div>void {1:SAC:=setup}(){<br /></div>
+<div><br /></div>
+<div>pinMode(2,OUTPUT);</div>
+<div>pinMode{2:SAC:=(5,OUTPUT);}</div>
+<div>digitalWrite(2,HIGH);<br />delay(500);</div>
+<div>digitalWrite{2:SAC:=(5,HIGH);}</div>
+<div>{1:SAC:=delay}(500);</div>
+<div>digitalWrite(2,LOW);</div>
+<div>{1:SAC:=digitalWrite}(5,LOW);<br />}<br /><br />void {1:SAC:= loop} (){<br />}<br /></div>
+<div><br /></div>]]>
+      </text>
+    </questiontext>
+    <generalfeedback>
+      <text></text>
+    </generalfeedback>
+    <shuffleanswers>0</shuffleanswers>
+  </question>
+  <!-- question: 0  -->
+  <question type="category">
+    <category>
+      <text>$course$/arduino/arduino_if/arduino_if_ej3</text>
+    </category>
+  </question>
+  <!-- question: 49182  -->
+  <question type="cloze">
+    <name>
+      <text>ej7</text>
+    </name>
+    <questiontext>
+      <text>
+<![CDATA[<div>Completa el fragmento del programa para que funcione como el ejemplo. Prueba las entradas para ver cómo funciona<br /></div>
+<div><iframe src="https://ibersia.ovh/tec/arduino/if/ej3/ej_if_7.html " style="border: 0px none; width: 100%; height: 100px;"></iframe></div>
+<div> if({1:SAC:= digitalRead(5)} == {1:SAC:=HIGH}){</div>
+<div>{1:SAC:=digitalWrite(11,HIGH)};</div>
+<div>} {1:SAC:=else}{ //sino</div>
+<div>{1:SAC:=digitalWrite(11,LOW)};}</div>
+<div>}<br /></div>]]>
+      </text>
+    </questiontext>
+    <generalfeedback>
+      <text></text>
+    </generalfeedback>
+    <shuffleanswers>0</shuffleanswers>
+  </question>
+  <!-- question: 0  -->
+  <question type="category">
+    <category>
+      <text>$course$/arduino/arduino_if/arduino_if_ej4</text>
+    </category>
+  </question>
+  <!-- question: 49237  -->
+  <question type="cloze">
+    <name>
+      <text>ej7</text>
+    </name>
+    <questiontext>
+      <text>
+<![CDATA[<div>Completa el fragmento del programa para que funcione como el ejemplo. Prueba las entradas para ver cómo funciona<br /></div>
+<div><iframe src="https://ibersia.ovh/tec/arduino/if/ej4/ej_if_7.html " style="border: 0px none; width: 100%; height: 100px;"></iframe></div>
+<div> {2:SAC:=if(digitalRead(4) == HIGH)}{//si la entrada 4 está pulsada<br /></div>
+<div>digitalWrite{1:SAC:=(12,HIGH)};</div>
+<div>{2:SAC:=if(digitalRead(5) == HIGH)}{//si la entrada 5 está pulsada<br /></div>
+<div>{1:SAC:=digitalWrite(12,LOW)};}</div>
+<div>}<br /></div>]]>
+      </text>
+    </questiontext>
+    <generalfeedback>
+      <text></text>
+    </generalfeedback>
+    <shuffleanswers>0</shuffleanswers>
+  </question>
+  <!-- question: 0  -->
+  <question type="category">
+    <category>
+      <text>$course$/arduino/variables</text>
+    </category>
+  </question>
+  <!-- question: 48819  -->
+  <question type="cloze">
+    <name>
+      <text>ej7</text>
+    </name>
+    <questiontext>
+      <text>
+<![CDATA[<div>Rellena los huecos para que el programa se comporte como el ejemplo</div> <iframe src="https://ibersia.ovh/tec/arduino/variables/ej_var7.html" style="border: 0px none;" width="200" height="100"></iframe>
+<div> </div>
+<div>void setup(){</div>
+<div>pinMode(2,OUTPUT);</div>
+<div>pinMode(3,OUTPUT);</div>
+<div>pinMode(4,OUTPUT);</div>
+<div>pinMode(5,OUTPUT);</div>
+<div>pinMode(6,OUTPUT);</div>
+<div>pinMode(7,OUTPUT);</div>
+<div>}<br /></div>
+<div>int salida = {1:SAC:=6;}</div>
+<div><br /></div>
+<div>void loop(){</div>
+<div>digitalWrite(salida,HIGH);</div>
+<div>salida = {2:SAC:= salida - 1;}<br />delay(500);</div>
+<div>}<br /> </div>]]>
+      </text>
+    </questiontext>
+    <generalfeedback>
+      <text></text>
+    </generalfeedback>
+    <shuffleanswers>0</shuffleanswers>
+  </question>
+  <!-- question: 0  -->
+  <question type="category">
+    <category>
+      <text>$course$/arduino/basicos1</text>
+    </category>
+  </question>
+  <!-- question: 48679  -->
+  <question type="cloze">
+    <name>
+      <text>ej7 b2</text>
+    </name>
+    <questiontext>
+      <text>
+<![CDATA[<div>completa el programa para que funcione como el ejemplo.</div> <iframe src="https://ibersia.ovh/tec/arduino/basicos2/ej7.html" style="border: 0px none; width: 200px; height: 100px;"></iframe> <br />
+<div>void {1:SAC:=setup}(){<br /></div>
+<div><br /></div>
+<div>pinMode(2,OUTPUT);</div>
+<div>pinMode{2:SAC:=(5,OUTPUT);}<br /><br />}<br /></div>
+<div><br />void {1:SAC:= loop} (){<br />digitalWrite(2,HIGH);<br />delay {1:SAC:=(500);}<br />digitalWrite{2:SAC:=(5,HIGH);}</div>
+<div>{1:SAC:=delay}(500);</div>
+<div>digitalWrite(2,LOW);<br />{1:SAC:=digitalWrite}(5,LOW);<br />delay {1:SAC:=(500);}</div>}]]>
+      </text>
+    </questiontext>
+    <generalfeedback>
+      <text></text>
+    </generalfeedback>
+    <shuffleanswers>0</shuffleanswers>
+  </question>
+  <!-- question: 0  -->
+  <question type="category">
+    <category>
+      <text>$course$/arduino/repeticiones/complejas</text>
+    </category>
+  </question>
+  <!-- question: 48984  -->
+  <question type="cloze">
+    <name>
+      <text>ej7complejas</text>
+    </name>
+    <questiontext>
+      <text>
+<![CDATA[<div>Rellena los huecos del bucle for que se comporta como el ejemplo<br /></div> <iframe src="https://ibersia.ovh/tec/arduino/repeticiones/complejas/ej_rep7.html" style="border: 0px none;" width="200" height="100"></iframe>
+<div> </div>
+<div>{1:SAC:=for}({1:SAC:=int} contador = {1:SAC:=7} ; {2:SAC:=contador &gt;= 3};contador = {2:SAC:= contador - 2}({</div>
+<div>digitalWrite({1:SAC:=contador},{1:SAC:=HIGH});</div>
+<div>{1:SAC:=delay}(500);</div>}<br />
+<div><br /></div>]]>
+      </text>
+    </questiontext>
+    <generalfeedback>
+      <text></text>
+    </generalfeedback>
+    <shuffleanswers>0</shuffleanswers>
+  </question>
+  <!-- question: 0  -->
+  <question type="category">
+    <category>
+      <text>$course$/arduino/arduino_if/arduino_if_ej3</text>
+    </category>
+  </question>
+  <!-- question: 49183  -->
+  <question type="cloze">
+    <name>
+      <text>ej8</text>
+    </name>
+    <questiontext>
+      <text>
+<![CDATA[<div>Completa el fragmento del programa para que funcione como el ejemplo. Prueba las entradas para ver cómo funciona<br /></div>
+<div><iframe src="https://ibersia.ovh/tec/arduino/if/ej3/ej_if_8.html " style="border: 0px none; width: 100%; height: 100px;"></iframe></div>
+<div> if({1:SAC:= digitalRead(5)} == {1:SAC:=HIGH}){</div>
+<div>{1:SAC:=digitalWrite(12,HIGH)};</div>
+<div>} {1:SAC:=else}{ //sino</div>
+<div>{1:SAC:=digitalWrite(12,LOW)};}</div>
+<div>}<br /></div>]]>
+      </text>
+    </questiontext>
+    <generalfeedback>
+      <text></text>
+    </generalfeedback>
+    <shuffleanswers>0</shuffleanswers>
+  </question>
+  <!-- question: 0  -->
+  <question type="category">
+    <category>
+      <text>$course$/arduino/basicos1</text>
+    </category>
+  </question>
+  <!-- question: 48672  -->
+  <question type="cloze">
+    <name>
+      <text>ej8</text>
+    </name>
+    <questiontext>
+      <text>
+<![CDATA[<div>completa el programa para que funcione como el ejemplo.</div> <iframe src="https://ibersia.ovh/tec/arduino/basicos1/ej8.html" style="border: 0px none; width: 200px; height: 100px;"></iframe> <br />
+<div>void {1:SAC:=setup}(){<br /></div>
+<div><br /></div>
+<div>pinMode(3,OUTPUT);</div>
+<div>pinMode{2:SAC:=(6,OUTPUT);}</div>
+<div>digitalWrite(3,HIGH);<br />delay(500);</div>
+<div>digitalWrite{2:SAC:=(6,HIGH);}</div>
+<div>{1:SAC:=delay}(500);</div>
+<div>digitalWrite(3,LOW);</div> {1:SAC:=digitalWrite}(6,LOW);<br />}<br /><br />void {1:SAC:= loop} (){<br />}]]>
+      </text>
+    </questiontext>
+    <generalfeedback>
+      <text></text>
+    </generalfeedback>
+    <shuffleanswers>0</shuffleanswers>
+  </question>
+  <!-- question: 0  -->
+  <question type="category">
+    <category>
+      <text>$course$/arduino/arduino_if/arduino_if_ej4</text>
+    </category>
+  </question>
+  <!-- question: 49238  -->
+  <question type="cloze">
+    <name>
+      <text>ej8</text>
+    </name>
+    <questiontext>
+      <text>
+<![CDATA[<div>Completa el fragmento del programa para que funcione como el ejemplo. Prueba las entradas para ver cómo funciona<br /></div>
+<div><iframe src="https://ibersia.ovh/tec/arduino/if/ej4/ej_if_8.html " style="border: 0px none; width: 100%; height: 100px;"></iframe></div>
+<div> {2:SAC:=if(digitalRead(4) == HIGH)}{//si la entrada 4 está pulsada<br /></div>
+<div>digitalWrite{1:SAC:=(13,HIGH)};</div>
+<div>{2:SAC:=if(digitalRead(5) == HIGH)}{//si la entrada 5 está pulsada<br /></div>
+<div>{1:SAC:=digitalWrite(13,LOW)};}</div>
+<div>}<br /></div>]]>
+      </text>
+    </questiontext>
+    <generalfeedback>
+      <text></text>
+    </generalfeedback>
+    <shuffleanswers>0</shuffleanswers>
+  </question>
+  <!-- question: 0  -->
+  <question type="category">
+    <category>
+      <text>$course$/arduino/variables</text>
+    </category>
+  </question>
+  <!-- question: 48820  -->
+  <question type="cloze">
+    <name>
+      <text>ej8</text>
+    </name>
+    <questiontext>
+      <text>
+<![CDATA[<div>Rellena los huecos para que el programa se comporte como el ejemplo</div> <iframe src="https://ibersia.ovh/tec/arduino/variables/ej_var8.html" style="border: 0px none;" width="200" height="100"></iframe>
+<div> </div>
+<div>void setup(){</div>
+<div>pinMode(2,OUTPUT);</div>
+<div>pinMode(3,OUTPUT);</div>
+<div>pinMode(4,OUTPUT);</div>
+<div>pinMode(5,OUTPUT);</div>
+<div>pinMode(6,OUTPUT);</div>
+<div>pinMode(7,OUTPUT);</div>
+<div>}<br /></div>
+<div>int salida = {1:SAC:=5;}</div>
+<div><br /></div>
+<div>void loop(){</div>
+<div>digitalWrite(salida,HIGH);</div>
+<div>salida = {2:SAC:= salida - 1;}<br />delay(500);</div>
+<div>}<br /> </div>]]>
+      </text>
+    </questiontext>
+    <generalfeedback>
+      <text></text>
+    </generalfeedback>
+    <shuffleanswers>0</shuffleanswers>
+  </question>
+  <!-- question: 0  -->
+  <question type="category">
+    <category>
+      <text>$course$/arduino/basicos1</text>
+    </category>
+  </question>
+  <!-- question: 48680  -->
+  <question type="cloze">
+    <name>
+      <text>ej8 b2</text>
+    </name>
+    <questiontext>
+      <text>
+<![CDATA[<div>completa el programa para que funcione como el ejemplo.</div> <iframe src="https://ibersia.ovh/tec/arduino/basicos2/ej8.html" style="border: 0px none; width: 200px; height: 100px;"></iframe> <br />
+<div>void {1:SAC:=setup}(){<br /></div>
+<div><br /></div>
+<div>pinMode(3,OUTPUT);</div>
+<div>pinMode{2:SAC:=(6,OUTPUT);}<br /><br />}<br /></div>
+<div><br />void {1:SAC:= loop} (){<br />digitalWrite(3,HIGH);<br />delay {1:SAC:=(500);}<br />digitalWrite{2:SAC:=(6,HIGH);}</div>
+<div>{1:SAC:=delay}(500);</div>
+<div>digitalWrite(3,LOW);<br />{1:SAC:=digitalWrite}(6,LOW);<br />delay {1:SCA:=(500);}</div>}]]>
+      </text>
+    </questiontext>
+    <generalfeedback>
+      <text></text>
+    </generalfeedback>
+    <shuffleanswers>0</shuffleanswers>
+  </question>
+  <!-- question: 0  -->
+  <question type="category">
+    <category>
+      <text>$course$/arduino/repeticiones/complejas</text>
+    </category>
+  </question>
+  <!-- question: 48985  -->
+  <question type="cloze">
+    <name>
+      <text>ej8complejas</text>
+    </name>
+    <questiontext>
+      <text>
+<![CDATA[<div>Rellena los huecos del bucle for que se comporta como el ejemplo<br /></div> <iframe src="https://ibersia.ovh/tec/arduino/repeticiones/complejas/ej_rep8.html" style="border: 0px none;" width="200" height="100"></iframe>
+<div> </div>
+<div>{1:SAC:=for}({1:SAC:=int} contador = {1:SAC:=6} ; {2:SAC:=contador &gt;= 2};contador = {2:SAC:= contador - 2}({</div>
+<div>digitalWrite({1:SAC:=contador},{1:SAC:=HIGH});</div>
+<div>{1:SAC:=delay}(500);</div>}<br />
+<div><br /></div>]]>
+      </text>
+    </questiontext>
+    <generalfeedback>
+      <text></text>
+    </generalfeedback>
+    <shuffleanswers>0</shuffleanswers>
+  </question>
+  <!-- question: 0  -->
+  <question type="category">
+    <category>
+      <text>$course$/arduino/arduino_if/arduino_if_ej3</text>
+    </category>
+  </question>
+  <!-- question: 49184  -->
+  <question type="cloze">
+    <name>
+      <text>ej9</text>
+    </name>
+    <questiontext>
+      <text>
+<![CDATA[<div>Completa el fragmento del programa para que funcione como el ejemplo. Prueba las entradas para ver cómo funciona<br /></div>
+<div><iframe src="https://ibersia.ovh/tec/arduino/if/ej3/ej_if_9.html " style="border: 0px none; width: 100%; height: 100px;"></iframe></div>
+<div> if({1:SAC:= digitalRead(5)} == {1:SAC:=HIGH}){</div>
+<div>{1:SAC:=digitalWrite(13,HIGH)};</div>
+<div>} {1:SAC:=else}{ //sino</div>
+<div>{1:SAC:=digitalWrite(13,LOW)};}</div>
+<div>}<br /></div>]]>
+      </text>
+    </questiontext>
+    <generalfeedback>
+      <text></text>
+    </generalfeedback>
+    <shuffleanswers>0</shuffleanswers>
+  </question>
+  <!-- question: 0  -->
+  <question type="category">
+    <category>
+      <text>$course$/arduino/basicos1</text>
+    </category>
+  </question>
+  <!-- question: 48682  -->
+  <question type="cloze">
+    <name>
+      <text>ej9</text>
+    </name>
+    <questiontext>
+      <text>
+<![CDATA[<div>completa el programa para que funcione como el ejemplo.</div> <iframe src="https://ibersia.ovh/tec/arduino/basicos1/ej9.html" style="border: 0px none; width: 200px; height: 100px;"></iframe> <br />
+<div>void {1:SAC:=setup}(){<br /></div>
+<div><br /></div>
+<div>pinMode(4,OUTPUT);</div>
+<div>pinMode{2:SAC:=(7,OUTPUT);}</div>
+<div>digitalWrite(4,HIGH);<br />delay(500);</div>
+<div>digitalWrite{2:SAC:=(7,HIGH);}</div>
+<div>{1:SAC:=delay}(500);</div>
+<div>digitalWrite(4,LOW);</div> {1:SAC:=digitalWrite}(7,LOW);<br />}<br /><br />void {1:SAC:= loop} (){<br />}]]>
+      </text>
+    </questiontext>
+    <generalfeedback>
+      <text></text>
+    </generalfeedback>
+    <shuffleanswers>0</shuffleanswers>
+  </question>
+  <!-- question: 48681  -->
+  <question type="cloze">
+    <name>
+      <text>ej9 b2</text>
+    </name>
+    <questiontext>
+      <text>
+<![CDATA[<div>completa el programa para que funcione como el ejemplo.</div> <iframe src="https://ibersia.ovh/tec/arduino/basicos2/ej9.html" style="border: 0px none; width: 200px; height: 100px;"></iframe> <br />
+<div>void {1:SAC:=setup}(){<br /></div>
+<div><br /></div>
+<div>pinMode(4,OUTPUT);</div>
+<div>pinMode{2:SAC:=(7,OUTPUT);}<br /><br />}<br /></div>
+<div><br />void {1:SAC:= loop} (){<br />digitalWrite(4,HIGH);<br />delay {1:SAC:=(500);}<br />digitalWrite{2:SAC:=(7,HIGH);}</div>
+<div>{1:SAC:=delay}(500);</div>
+<div>digitalWrite(4,LOW);<br />{1:SAC:=digitalWrite}(7,LOW);}<br /><br />delay {1:SAC:=(500);}</div>}]]>
+      </text>
+    </questiontext>
+    <generalfeedback>
+      <text></text>
+    </generalfeedback>
+    <shuffleanswers>0</shuffleanswers>
+  </question>
+  <!-- question: 0  -->
+  <question type="category">
+    <category>
+      <text>$course$/arduino/repeticiones/complejas</text>
+    </category>
+  </question>
+  <!-- question: 48986  -->
+  <question type="cloze">
+    <name>
+      <text>ej9complejas</text>
+    </name>
+    <questiontext>
+      <text>
+<![CDATA[<div>Rellena los huecos del bucle for que se comporta como el ejemplo<br /></div> <iframe src="https://ibersia.ovh/tec/arduino/repeticiones/complejas/ej_rep9.html" style="border: 0px none;" width="200" height="100"></iframe>
+<div> </div>
+<div>{1:SAC:=for}({1:SAC:=int} contador = {1:SAC:=2} ; {2:SAC:=contador &lt;= 6};contador = {2:SAC:= contador + 2}({</div>
+<div>digitalWrite({1:SAC:=contador},{1:SAC:=HIGH});</div>
+<div>{1:SAC:=delay}(500);</div>}<br />
+<div><br /></div>]]>
+      </text>
+    </questiontext>
+    <generalfeedback>
+      <text></text>
+    </generalfeedback>
+    <shuffleanswers>0</shuffleanswers>
+  </question>
+  <!-- question: 0  -->
+  <question type="category">
+    <category>
+      <text>$course$/arduino/repeticiones/simples1</text>
+    </category>
+  </question>
+  <!-- question: 48868  -->
+  <question type="cloze">
+    <name>
+      <text>rep simples1 ej1</text>
+    </name>
+    <questiontext>
+      <text>
+<![CDATA[<div>Completa la parte inicial de un bucle de repetición para que algo se repita 5 veces <br /></div>
+<div><br /></div>
+<div>{1:SAC:=for}( {1:SAC:=int} contador {1:SAC:== 0}; {2:SAC:=contador &lt; 5}; contador = {1:SAC:=contador + 1}){<br /></div>]]>
+      </text>
+    </questiontext>
+    <generalfeedback>
+      <text></text>
+    </generalfeedback>
+    <shuffleanswers>0</shuffleanswers>
+  </question>
+  <!-- question: 48869  -->
+  <question type="cloze">
+    <name>
+      <text>rep simples1 ej2</text>
+    </name>
+    <questiontext>
+      <text>
+<![CDATA[<div>Completa la parte inicial de un bucle de repetición para que algo se repita 6 veces <br /></div>
+<div><br /></div>
+<div>{1:SAC:=for}( {1:SAC:=int} contador {1:SAC:== 0}; {2:SAC:=contador &lt; 6}; contador = {1:SAC:=contador + 1}){<br /></div>]]>
+      </text>
+    </questiontext>
+    <generalfeedback>
+      <text></text>
+    </generalfeedback>
+    <shuffleanswers>0</shuffleanswers>
+  </question>
+  <!-- question: 48870  -->
+  <question type="cloze">
+    <name>
+      <text>rep simples1 ej3</text>
+    </name>
+    <questiontext>
+      <text>
+<![CDATA[<div>Completa la parte inicial de un bucle de repetición para que algo se repita 7 veces <br /></div>
+<div><br /></div>
+<div>{1:SAC:=for}( {1:SAC:=int} contador {1:SAC:== 0}; {2:SAC:=contador &lt; 7}; contador = {1:SAC:=contador + 1}){<br /></div>]]>
+      </text>
+    </questiontext>
+    <generalfeedback>
+      <text></text>
+    </generalfeedback>
+    <shuffleanswers>0</shuffleanswers>
+  </question>
+  <!-- question: 48871  -->
+  <question type="cloze">
+    <name>
+      <text>rep simples1 ej3</text>
+    </name>
+    <questiontext>
+      <text>
+<![CDATA[<div>Completa la parte inicial de un bucle de repetición para que algo se repita 8 veces <br /></div>
+<div><br /></div>
+<div>{1:SAC:=for}( {1:SAC:=int} contador {1:SAC:== 0}; {2:SAC:=contador &lt; 8}; contador = {1:SAC:=contador + 1}){<br /></div>]]>
+      </text>
+    </questiontext>
+    <generalfeedback>
+      <text></text>
+    </generalfeedback>
+    <shuffleanswers>0</shuffleanswers>
+  </question>
+  <!-- question: 48872  -->
+  <question type="cloze">
+    <name>
+      <text>rep simples1 ej4</text>
+    </name>
+    <questiontext>
+      <text>
+<![CDATA[<div>Completa la parte inicial de un bucle de repetición para que algo se repita 8 veces <br /></div>
+<div><br /></div>
+<div>{1:SAC:=for}( {1:SAC:=int} contador {1:SAC:== 0}; {2:SAC:=contador &lt; 8}; contador = {1:SAC:=contador + 1}){<br /></div>]]>
+      </text>
+    </questiontext>
+    <generalfeedback>
+      <text></text>
+    </generalfeedback>
+    <shuffleanswers>0</shuffleanswers>
+  </question>
+  <!-- question: 48873  -->
+  <question type="cloze">
+    <name>
+      <text>rep simples1 ej5</text>
+    </name>
+    <questiontext>
+      <text>
+<![CDATA[<div>Completa la parte inicial de un bucle de repetición para que algo se repita 18 veces <br /></div>
+<div><br /></div>
+<div>{1:SAC:=for}( {1:SAC:=int} contador {1:SAC:== 0}; {2:SAC:=contador &lt; 18}; contador = {1:SAC:=contador + 1}){<br /></div>]]>
+      </text>
+    </questiontext>
+    <generalfeedback>
+      <text></text>
+    </generalfeedback>
+    <shuffleanswers>0</shuffleanswers>
+  </question>
+  <!-- question: 0  -->
+  <question type="category">
+    <category>
+      <text>$course$/arduino/digitalWrite</text>
+    </category>
+  </question>
+  <!-- question: 48640  -->
+  <question type="shortanswer">
+    <name>
+      <text>0 high</text>
+    </name>
+    <questiontext format="html">
+      <text>escribe la instrucción para activar la salida cero</text>
+    </questiontext>
+    <image></image>
+    <generalfeedback>
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1</defaultgrade>
+    <penalty>0.5</penalty>
+    <hidden>0</hidden>
+    <shuffleanswers>0</shuffleanswers>
+    <usecase>1</usecase>
+    <answer fraction="100">
+      <text>digitalWrite(0,HIGH);</text>
+      <feedback>
+        <text></text>
+      </feedback>
+    </answer>
+  </question>
+  <!-- question: 48641  -->
+  <question type="shortanswer">
+    <name>
+      <text>1 high</text>
+    </name>
+    <questiontext format="html">
+      <text>escribe la instrucción para activar la salida uno</text>
+    </questiontext>
+    <image></image>
+    <generalfeedback>
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1</defaultgrade>
+    <penalty>0.5</penalty>
+    <hidden>0</hidden>
+    <shuffleanswers>0</shuffleanswers>
+    <usecase>1</usecase>
+    <answer fraction="100">
+      <text>digitalWrite(1,HIGH);</text>
+      <feedback>
+        <text></text>
+      </feedback>
+    </answer>
+  </question>
+  <!-- question: 48645  -->
+  <question type="shortanswer">
+    <name>
+      <text>1 low</text>
+    </name>
+    <questiontext format="html">
+      <text>escribe la instrucción para desactivar la salida uno</text>
+    </questiontext>
+    <image></image>
+    <generalfeedback>
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1</defaultgrade>
+    <penalty>0.5</penalty>
+    <hidden>0</hidden>
+    <shuffleanswers>0</shuffleanswers>
+    <usecase>1</usecase>
+    <answer fraction="100">
+      <text>digitalWrite(1,LOW);</text>
+      <feedback>
+        <text></text>
+      </feedback>
+    </answer>
+  </question>
+  <!-- question: 48642  -->
+  <question type="shortanswer">
+    <name>
+      <text>2 high</text>
+    </name>
+    <questiontext format="html">
+      <text>escribe la instrucción para activar la salida dos</text>
+    </questiontext>
+    <image></image>
+    <generalfeedback>
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1</defaultgrade>
+    <penalty>0.5</penalty>
+    <hidden>0</hidden>
+    <shuffleanswers>0</shuffleanswers>
+    <usecase>1</usecase>
+    <answer fraction="100">
+      <text>digitalWrite(2,HIGH);</text>
+      <feedback>
+        <text></text>
+      </feedback>
+    </answer>
+  </question>
+  <!-- question: 48646  -->
+  <question type="shortanswer">
+    <name>
+      <text>2 low</text>
+    </name>
+    <questiontext format="html">
+      <text>escribe la instrucción para desactivar la salida dos</text>
+    </questiontext>
+    <image></image>
+    <generalfeedback>
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1</defaultgrade>
+    <penalty>0.5</penalty>
+    <hidden>0</hidden>
+    <shuffleanswers>0</shuffleanswers>
+    <usecase>1</usecase>
+    <answer fraction="100">
+      <text>digitalWrite(2,LOW);</text>
+      <feedback>
+        <text></text>
+      </feedback>
+    </answer>
+  </question>
+  <!-- question: 48643  -->
+  <question type="shortanswer">
+    <name>
+      <text>3 high</text>
+    </name>
+    <questiontext format="html">
+      <text>escribe la instrucción para activar la salida tres</text>
+    </questiontext>
+    <image></image>
+    <generalfeedback>
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1</defaultgrade>
+    <penalty>0.5</penalty>
+    <hidden>0</hidden>
+    <shuffleanswers>0</shuffleanswers>
+    <usecase>1</usecase>
+    <answer fraction="100">
+      <text>digitalWrite(3,HIGH);</text>
+      <feedback>
+        <text></text>
+      </feedback>
+    </answer>
+  </question>
+  <!-- question: 48647  -->
+  <question type="shortanswer">
+    <name>
+      <text>3 low</text>
+    </name>
+    <questiontext format="html">
+      <text>escribe la instrucción para desactivar la salida tres</text>
+    </questiontext>
+    <image></image>
+    <generalfeedback>
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1</defaultgrade>
+    <penalty>0.5</penalty>
+    <hidden>0</hidden>
+    <shuffleanswers>0</shuffleanswers>
+    <usecase>1</usecase>
+    <answer fraction="100">
+      <text>digitalWrite(3,LOW);</text>
+      <feedback>
+        <text></text>
+      </feedback>
+    </answer>
+  </question>
+  <!-- question: 48644  -->
+  <question type="shortanswer">
+    <name>
+      <text>4 high</text>
+    </name>
+    <questiontext format="html">
+      <text>escribe la instrucción para activar la salida cuatro</text>
+    </questiontext>
+    <image></image>
+    <generalfeedback>
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1</defaultgrade>
+    <penalty>0.5</penalty>
+    <hidden>0</hidden>
+    <shuffleanswers>0</shuffleanswers>
+    <usecase>1</usecase>
+    <answer fraction="100">
+      <text>digitalWrite(4,HIGH);</text>
+      <feedback>
+        <text></text>
+      </feedback>
+    </answer>
+  </question>
+  <!-- question: 48648  -->
+  <question type="shortanswer">
+    <name>
+      <text>4 low</text>
+    </name>
+    <questiontext format="html">
+      <text>escribe la instrucción para desactivar la salida cuatro</text>
+    </questiontext>
+    <image></image>
+    <generalfeedback>
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1</defaultgrade>
+    <penalty>0.5</penalty>
+    <hidden>0</hidden>
+    <shuffleanswers>0</shuffleanswers>
+    <usecase>1</usecase>
+    <answer fraction="100">
+      <text>digitalWrite(4,LOW);</text>
+      <feedback>
+        <text></text>
+      </feedback>
+    </answer>
+  </question>
+  <!-- question: 48649  -->
+  <question type="shortanswer">
+    <name>
+      <text>5 low</text>
+    </name>
+    <questiontext format="html">
+      <text>escribe la instrucción para desactivar la salida cinco</text>
+    </questiontext>
+    <image></image>
+    <generalfeedback>
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1</defaultgrade>
+    <penalty>0.5</penalty>
+    <hidden>0</hidden>
+    <shuffleanswers>0</shuffleanswers>
+    <usecase>1</usecase>
+    <answer fraction="100">
+      <text>digitalWrite(5,LOW);</text>
+      <feedback>
+        <text></text>
+      </feedback>
+    </answer>
+  </question>
+  <!-- question: 0  -->
+  <question type="category">
+    <category>
+      <text>$course$/arduino/entradas digitales/digitalRead_ej3</text>
+    </category>
+  </question>
+  <!-- question: 49079  -->
+  <question type="shortanswer">
+    <name>
+      <text>digitalRead_ej1</text>
+    </name>
+    <questiontext format="html">
+      <text>
+<![CDATA[¿Qué valor devuelve la función <b>digitalRead(7);</b><br /><img src="https://ibersia.ovh/tec/programacion/aprendizaje/in_dig/ej_pin/ej_pin_1.gif" alt="in dig" title="in dig" vspace="0" hspace="0" border="0" /><br />]]>
+      </text>
+    </questiontext>
+    <image></image>
+    <generalfeedback>
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1</defaultgrade>
+    <penalty>0.8</penalty>
+    <hidden>0</hidden>
+    <shuffleanswers>0</shuffleanswers>
+    <usecase>1</usecase>
+    <answer fraction="100">
+      <text>LOW</text>
+      <feedback>
+        <text></text>
+      </feedback>
+    </answer>
+  </question>
+  <!-- question: 49080  -->
+  <question type="shortanswer">
+    <name>
+      <text>digitalRead_ej2</text>
+    </name>
+    <questiontext format="html">
+      <text>
+<![CDATA[¿Qué valor devuelve la función <b>digitalRead(4);</b><br /><img src="https://ibersia.ovh/tec/programacion/aprendizaje/in_dig/ej_pin/ej_pin_1.gif" alt="in dig" title="in dig" vspace="0" hspace="0" border="0" /><br />]]>
+      </text>
+    </questiontext>
+    <image></image>
+    <generalfeedback>
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1</defaultgrade>
+    <penalty>0.8</penalty>
+    <hidden>0</hidden>
+    <shuffleanswers>0</shuffleanswers>
+    <usecase>1</usecase>
+    <answer fraction="100">
+      <text>LOW</text>
+      <feedback>
+        <text></text>
+      </feedback>
+    </answer>
+  </question>
+  <!-- question: 49081  -->
+  <question type="shortanswer">
+    <name>
+      <text>digitalRead_ej3</text>
+    </name>
+    <questiontext format="html">
+      <text>
+<![CDATA[¿Qué valor devuelve la función <b>digitalRead(6);</b><br /><img src="https://ibersia.ovh/tec/programacion/aprendizaje/in_dig/ej_pin/ej_pin_1.gif" alt="in dig" title="in dig" vspace="0" hspace="0" border="0" /><br />]]>
+      </text>
+    </questiontext>
+    <image></image>
+    <generalfeedback>
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1</defaultgrade>
+    <penalty>0.8</penalty>
+    <hidden>0</hidden>
+    <shuffleanswers>0</shuffleanswers>
+    <usecase>1</usecase>
+    <answer fraction="100">
+      <text>HIGH</text>
+      <feedback>
+        <text></text>
+      </feedback>
+    </answer>
+  </question>
+  <!-- question: 49082  -->
+  <question type="shortanswer">
+    <name>
+      <text>digitalRead_ej4</text>
+    </name>
+    <questiontext format="html">
+      <text>
+<![CDATA[¿Qué valor devuelve la función <b>digitalRead(5);</b><br /><img src="https://ibersia.ovh/tec/programacion/aprendizaje/in_dig/ej_pin/ej_pin_1.gif" alt="in dig" title="in dig" vspace="0" hspace="0" border="0" /><br />]]>
+      </text>
+    </questiontext>
+    <image></image>
+    <generalfeedback>
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1</defaultgrade>
+    <penalty>0.8</penalty>
+    <hidden>0</hidden>
+    <shuffleanswers>0</shuffleanswers>
+    <usecase>1</usecase>
+    <answer fraction="100">
+      <text>HIGH</text>
+      <feedback>
+        <text></text>
+      </feedback>
+    </answer>
+  </question>
+  <!-- question: 49083  -->
+  <question type="shortanswer">
+    <name>
+      <text>digitalRead_ej4</text>
+    </name>
+    <questiontext format="html">
+      <text>
+<![CDATA[¿Qué valor devuelve la función <b>digitalRead(4);</b><br /><img src="https://ibersia.ovh/tec/programacion/aprendizaje/in_dig/ej_pin/ej_pin_2.gif" alt="in dig" title="in dig" vspace="0" hspace="0" border="0" /><br />]]>
+      </text>
+    </questiontext>
+    <image></image>
+    <generalfeedback>
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1</defaultgrade>
+    <penalty>0.8</penalty>
+    <hidden>0</hidden>
+    <shuffleanswers>0</shuffleanswers>
+    <usecase>1</usecase>
+    <answer fraction="100">
+      <text>LOW</text>
+      <feedback>
+        <text></text>
+      </feedback>
+    </answer>
+  </question>
+  <!-- question: 49084  -->
+  <question type="shortanswer">
+    <name>
+      <text>digitalRead_ej6</text>
+    </name>
+    <questiontext format="html">
+      <text>
+<![CDATA[¿Qué valor devuelve la función <b>digitalRead(6);</b><br /><img src="https://ibersia.ovh/tec/programacion/aprendizaje/in_dig/ej_pin/ej_pin_12.gif" alt="in dig" title="in dig" vspace="0" hspace="0" border="0" /><br />]]>
+      </text>
+    </questiontext>
+    <image></image>
+    <generalfeedback>
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1</defaultgrade>
+    <penalty>0.8</penalty>
+    <hidden>0</hidden>
+    <shuffleanswers>0</shuffleanswers>
+    <usecase>0</usecase>
+    <answer fraction="100">
+      <text>?</text>
+      <feedback>
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="100">
+      <text>indeterminado</text>
+      <feedback>
+        <text></text>
+      </feedback>
+    </answer>
+  </question>
+  <!-- question: 49085  -->
+  <question type="shortanswer">
+    <name>
+      <text>digitalRead_ej7</text>
+    </name>
+    <questiontext format="html">
+      <text>
+<![CDATA[¿Qué valor devuelve la función <b>digitalRead(1);</b><br /><img src="https://ibersia.ovh/tec/programacion/aprendizaje/in_dig/ej_pin/ej_pin_11.gif" alt="in dig" title="in dig" vspace="0" hspace="0" border="0" /><br />]]>
+      </text>
+    </questiontext>
+    <image></image>
+    <generalfeedback>
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1</defaultgrade>
+    <penalty>0.8</penalty>
+    <hidden>0</hidden>
+    <shuffleanswers>0</shuffleanswers>
+    <usecase>0</usecase>
+    <answer fraction="100">
+      <text>?</text>
+      <feedback>
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="100">
+      <text>indeterminado</text>
+      <feedback>
+        <text></text>
+      </feedback>
+    </answer>
+  </question>
+  <!-- question: 49086  -->
+  <question type="shortanswer">
+    <name>
+      <text>digitalRead_ej8</text>
+    </name>
+    <questiontext format="html">
+      <text>
+<![CDATA[¿Qué valor devuelve la función <b>digitalRead(7);</b><br /><img src="https://ibersia.ovh/tec/programacion/aprendizaje/in_dig/ej_pin/ej_pin_10.gif" alt="in dig" title="in dig" vspace="0" hspace="0" border="0" /><br />]]>
+      </text>
+    </questiontext>
+    <image></image>
+    <generalfeedback>
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1</defaultgrade>
+    <penalty>0.8</penalty>
+    <hidden>0</hidden>
+    <shuffleanswers>0</shuffleanswers>
+    <usecase>0</usecase>
+    <answer fraction="100">
+      <text>?</text>
+      <feedback>
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="100">
+      <text>indeterminado</text>
+      <feedback>
+        <text></text>
+      </feedback>
+    </answer>
+  </question>
+  <!-- question: 0  -->
+  <question type="category">
+    <category>
+      <text>$course$/arduino/constantes</text>
+    </category>
+  </question>
+  <!-- question: 48653  -->
+  <question type="shortanswer">
+    <name>
+      <text>ej constantes 1</text>
+    </name>
+    <questiontext format="html">
+      <text>Escribe la instrucción para crear una constante de nombre maria que contenga el valor 2</text>
+    </questiontext>
+    <image></image>
+    <generalfeedback>
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1</defaultgrade>
+    <penalty>0.1</penalty>
+    <hidden>0</hidden>
+    <shuffleanswers>0</shuffleanswers>
+    <usecase>0</usecase>
+    <answer fraction="100">
+      <text>int maria = 2;</text>
+      <feedback>
+        <text></text>
+      </feedback>
+    </answer>
+  </question>
+  <!-- question: 48654  -->
+  <question type="shortanswer">
+    <name>
+      <text>ej constantes 2</text>
+    </name>
+    <questiontext format="html">
+      <text>Escribe la instrucción para crear una constante de nombre pepe que contenga el valor 1</text>
+    </questiontext>
+    <image></image>
+    <generalfeedback>
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1</defaultgrade>
+    <penalty>0.1</penalty>
+    <hidden>0</hidden>
+    <shuffleanswers>0</shuffleanswers>
+    <usecase>0</usecase>
+    <answer fraction="100">
+      <text>int pepe = 1;</text>
+      <feedback>
+        <text></text>
+      </feedback>
+    </answer>
+  </question>
+  <!-- question: 48655  -->
+  <question type="shortanswer">
+    <name>
+      <text>ej constantes 3</text>
+    </name>
+    <questiontext format="html">
+      <text>Escribe la instrucción para crear una constante de nombre verde que contenga el valor 3</text>
+    </questiontext>
+    <image></image>
+    <generalfeedback>
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1</defaultgrade>
+    <penalty>0.1</penalty>
+    <hidden>0</hidden>
+    <shuffleanswers>0</shuffleanswers>
+    <usecase>0</usecase>
+    <answer fraction="100">
+      <text>int verde = 3;</text>
+      <feedback>
+        <text></text>
+      </feedback>
+    </answer>
+  </question>
+  <!-- question: 48656  -->
+  <question type="shortanswer">
+    <name>
+      <text>ej constantes 4</text>
+    </name>
+    <questiontext format="html">
+      <text>Escribe la instrucción para crear una constante de nombre rojo que contenga el valor 4</text>
+    </questiontext>
+    <image></image>
+    <generalfeedback>
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1</defaultgrade>
+    <penalty>0.1</penalty>
+    <hidden>0</hidden>
+    <shuffleanswers>0</shuffleanswers>
+    <usecase>0</usecase>
+    <answer fraction="100">
+      <text>int rojo = 4;</text>
+      <feedback>
+        <text></text>
+      </feedback>
+    </answer>
+  </question>
+  <!-- question: 48657  -->
+  <question type="shortanswer">
+    <name>
+      <text>ej constantes 5</text>
+    </name>
+    <questiontext format="html">
+      <text>Escribe la instrucción para crear una constante de nombre amarillo que contenga el valor 5</text>
+    </questiontext>
+    <image></image>
+    <generalfeedback>
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1</defaultgrade>
+    <penalty>0.1</penalty>
+    <hidden>0</hidden>
+    <shuffleanswers>0</shuffleanswers>
+    <usecase>0</usecase>
+    <answer fraction="100">
+      <text>int amarillo = 5;</text>
+      <feedback>
+        <text></text>
+      </feedback>
+    </answer>
+  </question>
+  <!-- question: 48658  -->
+  <question type="shortanswer">
+    <name>
+      <text>ej constantes float 1</text>
+    </name>
+    <questiontext format="html">
+      <text>Escribe la instrucción para crear una constante de nombre temperatura que contenga el valor 2.5</text>
+    </questiontext>
+    <image></image>
+    <generalfeedback>
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1</defaultgrade>
+    <penalty>0.1</penalty>
+    <hidden>0</hidden>
+    <shuffleanswers>0</shuffleanswers>
+    <usecase>0</usecase>
+    <answer fraction="100">
+      <text>float temperatura = 2.5;</text>
+      <feedback>
+        <text></text>
+      </feedback>
+    </answer>
+  </question>
+  <!-- question: 48659  -->
+  <question type="shortanswer">
+    <name>
+      <text>ej constantes float 2</text>
+    </name>
+    <questiontext format="html">
+      <text>Escribe la instrucción para crear una constante de nombre brillo que contenga el valor 3.1</text>
+    </questiontext>
+    <image></image>
+    <generalfeedback>
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1</defaultgrade>
+    <penalty>0.1</penalty>
+    <hidden>0</hidden>
+    <shuffleanswers>0</shuffleanswers>
+    <usecase>0</usecase>
+    <answer fraction="100">
+      <text>float brillo = 3.1;</text>
+      <feedback>
+        <text></text>
+      </feedback>
+    </answer>
+  </question>
+  <!-- question: 48660  -->
+  <question type="shortanswer">
+    <name>
+      <text>ej constantes float 3</text>
+    </name>
+    <questiontext format="html">
+      <text>Escribe la instrucción para crear una constante de nombre pablo que contenga el valor 34.2</text>
+    </questiontext>
+    <image></image>
+    <generalfeedback>
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1</defaultgrade>
+    <penalty>0.1</penalty>
+    <hidden>0</hidden>
+    <shuffleanswers>0</shuffleanswers>
+    <usecase>0</usecase>
+    <answer fraction="100">
+      <text>float pablo = 34.2;</text>
+      <feedback>
+        <text></text>
+      </feedback>
+    </answer>
+  </question>
+  <!-- question: 48662  -->
+  <question type="shortanswer">
+    <name>
+      <text>ej constantes float 4</text>
+    </name>
+    <questiontext format="html">
+      <text>Escribe la instrucción para crear una constante de nombre luz que contenga el valor 102.4</text>
+    </questiontext>
+    <image></image>
+    <generalfeedback>
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1</defaultgrade>
+    <penalty>0.1</penalty>
+    <hidden>0</hidden>
+    <shuffleanswers>0</shuffleanswers>
+    <usecase>0</usecase>
+    <answer fraction="100">
+      <text>float luz = 102.4;</text>
+      <feedback>
+        <text></text>
+      </feedback>
+    </answer>
+  </question>
+  <!-- question: 48661  -->
+  <question type="shortanswer">
+    <name>
+      <text>ej constantes float 5</text>
+    </name>
+    <questiontext format="html">
+      <text>Escribe la instrucción para crear una constante de nombre arbol que contenga el valor 4.2</text>
+    </questiontext>
+    <image></image>
+    <generalfeedback>
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1</defaultgrade>
+    <penalty>0.1</penalty>
+    <hidden>0</hidden>
+    <shuffleanswers>0</shuffleanswers>
+    <usecase>0</usecase>
+    <answer fraction="100">
+      <text>float arbol = 4.2;</text>
+      <feedback>
+        <text></text>
+      </feedback>
+    </answer>
+  </question>
+  <!-- question: 0  -->
+  <question type="category">
+    <category>
+      <text>$course$/arduino/delay</text>
+    </category>
+  </question>
+  <!-- question: 48630  -->
+  <question type="shortanswer">
+    <name>
+      <text>espera 1000</text>
+    </name>
+    <questiontext format="html">
+      <text>
+<![CDATA[Escribe la instrucción necesaria para que el programa espere un segundo sin hacer nada<br />]]>
+      </text>
+    </questiontext>
+    <image></image>
+    <generalfeedback>
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1</defaultgrade>
+    <penalty>0.5</penalty>
+    <hidden>0</hidden>
+    <shuffleanswers>0</shuffleanswers>
+    <usecase>1</usecase>
+    <answer fraction="100">
+      <text>delay(1000);</text>
+      <feedback>
+        <text></text>
+      </feedback>
+    </answer>
+  </question>
+  <!-- question: 48631  -->
+  <question type="shortanswer">
+    <name>
+      <text>espera 1500</text>
+    </name>
+    <questiontext format="html">
+      <text>
+<![CDATA[Escribe la instrucción necesaria para que el programa espere un segundo y medio sin hacer nada<br />]]>
+      </text>
+    </questiontext>
+    <image></image>
+    <generalfeedback>
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1</defaultgrade>
+    <penalty>0.5</penalty>
+    <hidden>0</hidden>
+    <shuffleanswers>0</shuffleanswers>
+    <usecase>1</usecase>
+    <answer fraction="100">
+      <text>delay(1500);</text>
+      <feedback>
+        <text></text>
+      </feedback>
+    </answer>
+  </question>
+  <!-- question: 48634  -->
+  <question type="shortanswer">
+    <name>
+      <text>espera 200</text>
+    </name>
+    <questiontext format="html">
+      <text>
+<![CDATA[Escribe la instrucción necesaria para que el programa espere dos segundos sin hacer nada<br />]]>
+      </text>
+    </questiontext>
+    <image></image>
+    <generalfeedback>
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1</defaultgrade>
+    <penalty>0.5</penalty>
+    <hidden>0</hidden>
+    <shuffleanswers>0</shuffleanswers>
+    <usecase>1</usecase>
+    <answer fraction="100">
+      <text>delay(2000);</text>
+      <feedback>
+        <text></text>
+      </feedback>
+    </answer>
+  </question>
+  <!-- question: 48635  -->
+  <question type="shortanswer">
+    <name>
+      <text>espera 250</text>
+    </name>
+    <questiontext format="html">
+      <text>
+<![CDATA[Escribe la instrucción necesaria para que el programa espere un cuarto de segundo sin hacer nada<br />]]>
+      </text>
+    </questiontext>
+    <image></image>
+    <generalfeedback>
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1</defaultgrade>
+    <penalty>0.5</penalty>
+    <hidden>0</hidden>
+    <shuffleanswers>0</shuffleanswers>
+    <usecase>1</usecase>
+    <answer fraction="100">
+      <text>delay(250);</text>
+      <feedback>
+        <text></text>
+      </feedback>
+    </answer>
+  </question>
+  <!-- question: 48633  -->
+  <question type="shortanswer">
+    <name>
+      <text>espera 2500</text>
+    </name>
+    <questiontext format="html">
+      <text>
+<![CDATA[Escribe la instrucción necesaria para que el programa espere dos segundos y medio sin hacer nada<br />]]>
+      </text>
+    </questiontext>
+    <image></image>
+    <generalfeedback>
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1</defaultgrade>
+    <penalty>0.5</penalty>
+    <hidden>0</hidden>
+    <shuffleanswers>0</shuffleanswers>
+    <usecase>1</usecase>
+    <answer fraction="100">
+      <text>delay(2500);</text>
+      <feedback>
+        <text></text>
+      </feedback>
+    </answer>
+  </question>
+  <!-- question: 48636  -->
+  <question type="shortanswer">
+    <name>
+      <text>espera 3000</text>
+    </name>
+    <questiontext format="html">
+      <text>
+<![CDATA[Escribe la instrucción necesaria para que el programa espere tres segundos sin hacer nada<br />]]>
+      </text>
+    </questiontext>
+    <image></image>
+    <generalfeedback>
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1</defaultgrade>
+    <penalty>0.5</penalty>
+    <hidden>0</hidden>
+    <shuffleanswers>0</shuffleanswers>
+    <usecase>1</usecase>
+    <answer fraction="100">
+      <text>delay(3000);</text>
+      <feedback>
+        <text></text>
+      </feedback>
+    </answer>
+  </question>
+  <!-- question: 48637  -->
+  <question type="shortanswer">
+    <name>
+      <text>espera 3500</text>
+    </name>
+    <questiontext format="html">
+      <text>
+<![CDATA[Escribe la instrucción necesaria para que el programa espere tres segundos y medio sin hacer nada<br />]]>
+      </text>
+    </questiontext>
+    <image></image>
+    <generalfeedback>
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1</defaultgrade>
+    <penalty>0.5</penalty>
+    <hidden>0</hidden>
+    <shuffleanswers>0</shuffleanswers>
+    <usecase>1</usecase>
+    <answer fraction="100">
+      <text>delay(3500);</text>
+      <feedback>
+        <text></text>
+      </feedback>
+    </answer>
+  </question>
+  <!-- question: 48632  -->
+  <question type="shortanswer">
+    <name>
+      <text>espera 500</text>
+    </name>
+    <questiontext format="html">
+      <text>
+<![CDATA[Escribe la instrucción necesaria para que el programa espere medio segundo sin hacer nada<br />]]>
+      </text>
+    </questiontext>
+    <image></image>
+    <generalfeedback>
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1</defaultgrade>
+    <penalty>0.5</penalty>
+    <hidden>0</hidden>
+    <shuffleanswers>0</shuffleanswers>
+    <usecase>1</usecase>
+    <answer fraction="100">
+      <text>delay(500);</text>
+      <feedback>
+        <text></text>
+      </feedback>
+    </answer>
+  </question>
+  <!-- question: 0  -->
+  <question type="category">
+    <category>
+      <text>$course$/arduino/pinMode</text>
+    </category>
+  </question>
+  <!-- question: 48616  -->
+  <question type="shortanswer">
+    <name>
+      <text>pinMode 0</text>
+    </name>
+    <questiontext format="html">
+      <text>
+<![CDATA[Escribe la instrucción para hacer que el pin cero funcione como entrada digital<br />]]>
+      </text>
+    </questiontext>
+    <image></image>
+    <generalfeedback>
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1</defaultgrade>
+    <penalty>0.1</penalty>
+    <hidden>0</hidden>
+    <shuffleanswers>0</shuffleanswers>
+    <usecase>1</usecase>
+    <answer fraction="100">
+      <text>pinMode(0,INPUT);</text>
+      <feedback>
+        <text></text>
+      </feedback>
+    </answer>
+  </question>
+  <!-- question: 0  -->
+  <question type="category">
+    <category>
+      <text>$course$/arduino/entradas digitales/digital_in_ ej1</text>
+    </category>
+  </question>
+  <!-- question: 49071  -->
+  <question type="shortanswer">
+    <name>
+      <text>pinMode 1</text>
+    </name>
+    <questiontext format="html">
+      <text>Escribe la instrucción para configurar el pin 1 como entrada</text>
+    </questiontext>
+    <image></image>
+    <generalfeedback>
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1</defaultgrade>
+    <penalty>0.3</penalty>
+    <hidden>0</hidden>
+    <shuffleanswers>0</shuffleanswers>
+    <usecase>1</usecase>
+    <answer fraction="100">
+      <text>pinMode(1,INPUT);</text>
+      <feedback>
+        <text></text>
+      </feedback>
+    </answer>
+  </question>
+  <!-- question: 0  -->
+  <question type="category">
+    <category>
+      <text>$course$/arduino/pinMode</text>
+    </category>
+  </question>
+  <!-- question: 48617  -->
+  <question type="shortanswer">
+    <name>
+      <text>pinMode 1</text>
+    </name>
+    <questiontext format="html">
+      <text>
+<![CDATA[Escribe la instrucción para hacer que el pin uno funcione como entrada digital<br />]]>
+      </text>
+    </questiontext>
+    <image></image>
+    <generalfeedback>
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1</defaultgrade>
+    <penalty>0.1</penalty>
+    <hidden>0</hidden>
+    <shuffleanswers>0</shuffleanswers>
+    <usecase>1</usecase>
+    <answer fraction="100">
+      <text>pinMode(1,INPUT);</text>
+      <feedback>
+        <text></text>
+      </feedback>
+    </answer>
+  </question>
+  <!-- question: 48625  -->
+  <question type="shortanswer">
+    <name>
+      <text>pinMode 10</text>
+    </name>
+    <questiontext format="html">
+      <text>
+<![CDATA[Escribe la instrucción para hacer que el pin diez funcione como salida digital<br />]]>
+      </text>
+    </questiontext>
+    <image></image>
+    <generalfeedback>
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1</defaultgrade>
+    <penalty>0.1</penalty>
+    <hidden>0</hidden>
+    <shuffleanswers>0</shuffleanswers>
+    <usecase>1</usecase>
+    <answer fraction="100">
+      <text>pinMode(10,OUTPUT);</text>
+      <feedback>
+        <text></text>
+      </feedback>
+    </answer>
+  </question>
+  <!-- question: 48624  -->
+  <question type="shortanswer">
+    <name>
+      <text>pinMode 11</text>
+    </name>
+    <questiontext format="html">
+      <text>
+<![CDATA[Escribe la instrucción para hacer que el pin once funcione como salida digital<br />]]>
+      </text>
+    </questiontext>
+    <image></image>
+    <generalfeedback>
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1</defaultgrade>
+    <penalty>0.1</penalty>
+    <hidden>0</hidden>
+    <shuffleanswers>0</shuffleanswers>
+    <usecase>1</usecase>
+    <answer fraction="100">
+      <text>pinMode(11,OUTPUT);</text>
+      <feedback>
+        <text></text>
+      </feedback>
+    </answer>
+  </question>
+  <!-- question: 48623  -->
+  <question type="shortanswer">
+    <name>
+      <text>pinMode 12</text>
+    </name>
+    <questiontext format="html">
+      <text>
+<![CDATA[Escribe la instrucción para hacer que el pin doce funcione como salida digital<br />]]>
+      </text>
+    </questiontext>
+    <image></image>
+    <generalfeedback>
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1</defaultgrade>
+    <penalty>0.1</penalty>
+    <hidden>0</hidden>
+    <shuffleanswers>0</shuffleanswers>
+    <usecase>1</usecase>
+    <answer fraction="100">
+      <text>pinMode(12,OUTPUT);</text>
+      <feedback>
+        <text></text>
+      </feedback>
+    </answer>
+  </question>
+  <!-- question: 48622  -->
+  <question type="shortanswer">
+    <name>
+      <text>pinMode 13</text>
+    </name>
+    <questiontext format="html">
+      <text>
+<![CDATA[Escribe la instrucción para hacer que el pin trece funcione como salida digital<br />]]>
+      </text>
+    </questiontext>
+    <image></image>
+    <generalfeedback>
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1</defaultgrade>
+    <penalty>0.1</penalty>
+    <hidden>0</hidden>
+    <shuffleanswers>0</shuffleanswers>
+    <usecase>1</usecase>
+    <answer fraction="100">
+      <text>pinMode(13,OUTPUT);</text>
+      <feedback>
+        <text></text>
+      </feedback>
+    </answer>
+  </question>
+  <!-- question: 0  -->
+  <question type="category">
+    <category>
+      <text>$course$/arduino/entradas digitales/digital_in_ ej1</text>
+    </category>
+  </question>
+  <!-- question: 49072  -->
+  <question type="shortanswer">
+    <name>
+      <text>pinMode 2</text>
+    </name>
+    <questiontext format="html">
+      <text>Escribe la instrucción para configurar el pin 2 como entrada</text>
+    </questiontext>
+    <image></image>
+    <generalfeedback>
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1</defaultgrade>
+    <penalty>0.3</penalty>
+    <hidden>0</hidden>
+    <shuffleanswers>0</shuffleanswers>
+    <usecase>1</usecase>
+    <answer fraction="100">
+      <text>pinMode(2,INPUT);</text>
+      <feedback>
+        <text></text>
+      </feedback>
+    </answer>
+  </question>
+  <!-- question: 0  -->
+  <question type="category">
+    <category>
+      <text>$course$/arduino/pinMode</text>
+    </category>
+  </question>
+  <!-- question: 48619  -->
+  <question type="shortanswer">
+    <name>
+      <text>pinMode 2</text>
+    </name>
+    <questiontext format="html">
+      <text>
+<![CDATA[Escribe la instrucción para hacer que el pin dos funcione como entrada digital<br />]]>
+      </text>
+    </questiontext>
+    <image></image>
+    <generalfeedback>
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1</defaultgrade>
+    <penalty>0.1</penalty>
+    <hidden>0</hidden>
+    <shuffleanswers>0</shuffleanswers>
+    <usecase>1</usecase>
+    <answer fraction="100">
+      <text>pinMode(2,INPUT);</text>
+      <feedback>
+        <text></text>
+      </feedback>
+    </answer>
+  </question>
+  <!-- question: 0  -->
+  <question type="category">
+    <category>
+      <text>$course$/arduino/entradas digitales/digital_in_ ej1</text>
+    </category>
+  </question>
+  <!-- question: 49073  -->
+  <question type="shortanswer">
+    <name>
+      <text>pinMode 3</text>
+    </name>
+    <questiontext format="html">
+      <text>Escribe la instrucción para configurar el pin 3 como entrada</text>
+    </questiontext>
+    <image></image>
+    <generalfeedback>
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1</defaultgrade>
+    <penalty>0.3</penalty>
+    <hidden>0</hidden>
+    <shuffleanswers>0</shuffleanswers>
+    <usecase>1</usecase>
+    <answer fraction="100">
+      <text>pinMode(3,INPUT);</text>
+      <feedback>
+        <text></text>
+      </feedback>
+    </answer>
+  </question>
+  <!-- question: 0  -->
+  <question type="category">
+    <category>
+      <text>$course$/arduino/pinMode</text>
+    </category>
+  </question>
+  <!-- question: 48618  -->
+  <question type="shortanswer">
+    <name>
+      <text>pinMode 3</text>
+    </name>
+    <questiontext format="html">
+      <text>
+<![CDATA[Escribe la instrucción para hacer que el pin tres funcione como entrada digital<br />]]>
+      </text>
+    </questiontext>
+    <image></image>
+    <generalfeedback>
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1</defaultgrade>
+    <penalty>0.1</penalty>
+    <hidden>0</hidden>
+    <shuffleanswers>0</shuffleanswers>
+    <usecase>1</usecase>
+    <answer fraction="100">
+      <text>pinMode(3,INPUT);</text>
+      <feedback>
+        <text></text>
+      </feedback>
+    </answer>
+  </question>
+  <!-- question: 0  -->
+  <question type="category">
+    <category>
+      <text>$course$/arduino/entradas digitales/digital_in_ ej1</text>
+    </category>
+  </question>
+  <!-- question: 49074  -->
+  <question type="shortanswer">
+    <name>
+      <text>pinMode 4</text>
+    </name>
+    <questiontext format="html">
+      <text>Escribe la instrucción para configurar el pin 4 como entrada</text>
+    </questiontext>
+    <image></image>
+    <generalfeedback>
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1</defaultgrade>
+    <penalty>0.3</penalty>
+    <hidden>0</hidden>
+    <shuffleanswers>0</shuffleanswers>
+    <usecase>1</usecase>
+    <answer fraction="100">
+      <text>pinMode(4,INPUT);</text>
+      <feedback>
+        <text></text>
+      </feedback>
+    </answer>
+  </question>
+  <!-- question: 0  -->
+  <question type="category">
+    <category>
+      <text>$course$/arduino/pinMode</text>
+    </category>
+  </question>
+  <!-- question: 48620  -->
+  <question type="shortanswer">
+    <name>
+      <text>pinMode 4</text>
+    </name>
+    <questiontext format="html">
+      <text>
+<![CDATA[Escribe la instrucción para hacer que el pin 4 funcione como entrada digital<br />]]>
+      </text>
+    </questiontext>
+    <image></image>
+    <generalfeedback>
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1</defaultgrade>
+    <penalty>0.1</penalty>
+    <hidden>0</hidden>
+    <shuffleanswers>0</shuffleanswers>
+    <usecase>1</usecase>
+    <answer fraction="100">
+      <text>pinMode(4,INPUT);</text>
+      <feedback>
+        <text></text>
+      </feedback>
+    </answer>
+  </question>
+  <!-- question: 0  -->
+  <question type="category">
+    <category>
+      <text>$course$/arduino/entradas digitales/digital_in_ ej1</text>
+    </category>
+  </question>
+  <!-- question: 49075  -->
+  <question type="shortanswer">
+    <name>
+      <text>pinMode 5</text>
+    </name>
+    <questiontext format="html">
+      <text>Escribe la instrucción para configurar el pin 5 como entrada</text>
+    </questiontext>
+    <image></image>
+    <generalfeedback>
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1</defaultgrade>
+    <penalty>0.3</penalty>
+    <hidden>0</hidden>
+    <shuffleanswers>0</shuffleanswers>
+    <usecase>1</usecase>
+    <answer fraction="100">
+      <text>pinMode(5,INPUT);</text>
+      <feedback>
+        <text></text>
+      </feedback>
+    </answer>
+  </question>
+  <!-- question: 49076  -->
+  <question type="shortanswer">
+    <name>
+      <text>pinMode 6</text>
+    </name>
+    <questiontext format="html">
+      <text>Escribe la instrucción para configurar el pin 6 como entrada</text>
+    </questiontext>
+    <image></image>
+    <generalfeedback>
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1</defaultgrade>
+    <penalty>0.3</penalty>
+    <hidden>0</hidden>
+    <shuffleanswers>0</shuffleanswers>
+    <usecase>1</usecase>
+    <answer fraction="100">
+      <text>pinMode(6,INPUT);</text>
+      <feedback>
+        <text></text>
+      </feedback>
+    </answer>
+  </question>
+  <!-- question: 49077  -->
+  <question type="shortanswer">
+    <name>
+      <text>pinMode 7</text>
+    </name>
+    <questiontext format="html">
+      <text>Escribe la instrucción para configurar el pin 7 como entrada</text>
+    </questiontext>
+    <image></image>
+    <generalfeedback>
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1</defaultgrade>
+    <penalty>0.3</penalty>
+    <hidden>0</hidden>
+    <shuffleanswers>0</shuffleanswers>
+    <usecase>1</usecase>
+    <answer fraction="100">
+      <text>pinMode(7,INPUT);</text>
+      <feedback>
+        <text></text>
+      </feedback>
+    </answer>
+  </question>
+  <!-- question: 0  -->
+  <question type="category">
+    <category>
+      <text>$course$/arduino/pinMode</text>
+    </category>
+  </question>
+  <!-- question: 48627  -->
+  <question type="shortanswer">
+    <name>
+      <text>pinMode 8</text>
+    </name>
+    <questiontext format="html">
+      <text>
+<![CDATA[Escribe la instrucción para hacer que el pin ocho funcione como salida digital<br />]]>
+      </text>
+    </questiontext>
+    <image></image>
+    <generalfeedback>
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1</defaultgrade>
+    <penalty>0.1</penalty>
+    <hidden>0</hidden>
+    <shuffleanswers>0</shuffleanswers>
+    <usecase>1</usecase>
+    <answer fraction="100">
+      <text>pinMode(8,OUTPUT);</text>
+      <feedback>
+        <text></text>
+      </feedback>
+    </answer>
+  </question>
+  <!-- question: 48626  -->
+  <question type="shortanswer">
+    <name>
+      <text>pinMode 9</text>
+    </name>
+    <questiontext format="html">
+      <text>
+<![CDATA[Escribe la instrucción para hacer que el pin nueve funcione como salida digital<br />]]>
+      </text>
+    </questiontext>
+    <image></image>
+    <generalfeedback>
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1</defaultgrade>
+    <penalty>0.1</penalty>
+    <hidden>0</hidden>
+    <shuffleanswers>0</shuffleanswers>
+    <usecase>1</usecase>
+    <answer fraction="100">
+      <text>pinMode(9,OUTPUT);</text>
+      <feedback>
+        <text></text>
+      </feedback>
+    </answer>
+  </question>
+  <!-- question: 48621  -->
+  <question type="shortanswer">
+    <name>
+      <text>pinMode5</text>
+    </name>
+    <questiontext format="html">
+      <text>
+<![CDATA[Escribe la instrucción para hacer que el pin 5 funcione como entrada digital<br />]]>
+      </text>
+    </questiontext>
+    <image></image>
+    <generalfeedback>
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1</defaultgrade>
+    <penalty>0.1</penalty>
+    <hidden>0</hidden>
+    <shuffleanswers>0</shuffleanswers>
+    <usecase>1</usecase>
+    <answer fraction="100">
+      <text>pinMode(5,INPUT);</text>
+      <feedback>
+        <text></text>
+      </feedback>
+    </answer>
+  </question>
+</quiz>

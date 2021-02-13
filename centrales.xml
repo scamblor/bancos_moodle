@@ -1,0 +1,1663 @@
+<?xml version="1.0" encoding="utf-8"?>
+<quiz>
+  <!-- question: 0  -->
+  <question type="category">
+    <category>
+      <text>$course$/energia/leccion_energia</text>
+    </category>
+  </question>
+  <!-- question: 45554  -->
+  <question type="calculated">
+    <name>
+      <text>kilowatio hora</text>
+    </name>
+    <questiontext format="html">
+      <text>
+<![CDATA[<div>La unidad de energía del sistema internacional es demasiado pequeña para usarla cómodamente en los consumos energéticos domésticos. Por ello en tecnología se usa el kilowatiohora que es la energía consumida por una máquina de 1KW funcionado durante una hora. <br /></div>
+<div><br /></div>
+<div>Para consumos industriales se usa el MWh (megawatiohora) o incluso el GWh (gigawatiohora).</div>
+<div><br /></div>
+<div>¿A cuánto corresponde {a} KWh en el sistema internacional}</div>]]>
+      </text>
+    </questiontext>
+    <image></image>
+    <generalfeedback>
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1</defaultgrade>
+    <penalty>0.3</penalty>
+    <hidden>0</hidden>
+    <shuffleanswers>0</shuffleanswers>
+    <answer fraction="100">
+      <text>{a}*1000*3600</text>
+      <tolerance>0.05</tolerance>
+      <tolerancetype>1</tolerancetype>
+      <correctanswerformat>2</correctanswerformat>
+      <correctanswerlength>2</correctanswerlength>
+      <feedback>
+        <text></text>
+      </feedback>
+    </answer>
+    <units>
+      <unit>
+        <multiplier>1</multiplier>
+        <unit_name>j</unit_name>
+      </unit>
+      <unit>
+        <multiplier>1</multiplier>
+        <unit_name>julios</unit_name>
+      </unit>
+    </units>
+    <dataset_definitions>
+      <dataset_definition>
+        <status>
+          <text>private</text>
+        </status>
+        <name>
+          <text>a</text>
+        </name>
+        <type>calculated</type>
+        <distribution>
+          <text>uniform</text>
+        </distribution>
+        <minimum>
+          <text>1.0</text>
+        </minimum>
+        <maximum>
+          <text>10.0</text>
+        </maximum>
+        <decimals>
+          <text>1</text>
+        </decimals>
+        <itemcount>20</itemcount>
+        <dataset_items>
+          <dataset_item>
+            <number>1</number>
+            <value>3.6</value>
+          </dataset_item>
+          <dataset_item>
+            <number>2</number>
+            <value>6.1</value>
+          </dataset_item>
+          <dataset_item>
+            <number>3</number>
+            <value>9.6</value>
+          </dataset_item>
+          <dataset_item>
+            <number>4</number>
+            <value>9.8</value>
+          </dataset_item>
+          <dataset_item>
+            <number>5</number>
+            <value>8.1</value>
+          </dataset_item>
+          <dataset_item>
+            <number>6</number>
+            <value>3.4</value>
+          </dataset_item>
+          <dataset_item>
+            <number>7</number>
+            <value>6.8</value>
+          </dataset_item>
+          <dataset_item>
+            <number>8</number>
+            <value>7.1</value>
+          </dataset_item>
+          <dataset_item>
+            <number>9</number>
+            <value>2.2</value>
+          </dataset_item>
+          <dataset_item>
+            <number>10</number>
+            <value>8.8</value>
+          </dataset_item>
+          <dataset_item>
+            <number>11</number>
+            <value>5.7</value>
+          </dataset_item>
+          <dataset_item>
+            <number>12</number>
+            <value>2.5</value>
+          </dataset_item>
+          <dataset_item>
+            <number>13</number>
+            <value>2.2</value>
+          </dataset_item>
+          <dataset_item>
+            <number>14</number>
+            <value>7.3</value>
+          </dataset_item>
+          <dataset_item>
+            <number>15</number>
+            <value>7.2</value>
+          </dataset_item>
+          <dataset_item>
+            <number>16</number>
+            <value>2.5</value>
+          </dataset_item>
+          <dataset_item>
+            <number>17</number>
+            <value>2.7</value>
+          </dataset_item>
+          <dataset_item>
+            <number>18</number>
+            <value>6.8</value>
+          </dataset_item>
+          <dataset_item>
+            <number>19</number>
+            <value>4.4</value>
+          </dataset_item>
+          <dataset_item>
+            <number>20</number>
+            <value>4.7</value>
+          </dataset_item>
+        </dataset_items>
+        <number_of_items>20</number_of_items>
+      </dataset_definition>
+    </dataset_definitions>
+  </question>
+  <!-- question: 45444  -->
+  <question type="description">
+    <name>
+      <text>definicion_energia</text>
+    </name>
+    <questiontext format="html">
+      <text>
+<![CDATA[<div> 
+  <h1>Energía</h1></div>
+<div>Físicamente la energía se define como la capacidad para producir trabajo y tiene las mismas dimensiones y unidades que esta magnitud. El trabajo se define como la fuerza multiplicada por el desplazamiento, de manera que siempre que usemos fuerzas para mover masas se producirá trabajo y hará falta energía para producirlo.</div>
+<div>En las máquinas usamos fuerzas para mover masas, de manera que hará falta suministrar energía a una máquina para que funcione.<br /></div>]]>
+      </text>
+    </questiontext>
+    <image></image>
+    <generalfeedback>
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>0</defaultgrade>
+    <penalty>0</penalty>
+    <hidden>0</hidden>
+    <shuffleanswers>0</shuffleanswers>
+  </question>
+  <!-- question: 45446  -->
+  <question type="description">
+    <name>
+      <text>termodinámica</text>
+    </name>
+    <questiontext format="html">
+      <text>
+<![CDATA[<h1>Termodinámica</h1>
+<div>La termodinámica es la parte de la física que estudia el flujo de energía entre sistemas. Nosotros no vamos a adentrarnos mucho en esta disciplina, pero sí conviene conocer algunos de sus principios. Estos principios se pueden formular de muchas formas.</div>
+<div>Un principio es un enunciado que se da por válido sin demostrarse para usarlo como punto básico sobre el que se desarrolla una teoría.<br /></div>
+<div>
+  <h2>Primer principio: principio de conservación de la energía<br /></h2>
+  <div>El primer principio dice el cambio de la energía de un sistema es igual al trabajo realizado más el calor perdido. En otras palabras, lo que dice este enunciado es que la energía ni se crea ni se destruye, sino que se transforma. Es decir que antes y después de cualquier fenómenos físico, la energía total no ha cambiado aunque sí puede haber pasado de unos sistemas a otros.</div>
+  <div><br /></div>
+  <div>
+    <h2>Segundo principio</h2>
+    <div>El segundo principio de la termodinámica dice que cuando se produce un proceso en un sistema aislado (que no puede intercambiar energía con el exterior) la entropía aumenta. La entropía es una magnitud termodinámica relacionada con el desorden del sistema.</div>
+    <div><br /></div>
+    <div>El segundo principio habla sobre la dirección de los procesos de manera que una magnitud llamada entropía aumenta. Supongamos que tenemos dos botellas unidas con un tubo que tiene una válvula de cierre de manera que una de las dos botellas está llena de aire y la otra está vacía. Si abrimos la válvula, al cabo de poco tiempo tendremos las dos botellas con aire porque el de la primera se habrá repartido entre las dos. Si viéramos dos fotografías una antes u otra después de abrir la válvula, sabríamos ordenarlas en el tiempo. Enérgicamente las dos situaciones son idénticas. Pero sabemos que no es posible que partiendo de la segunda situación, con el aire en las dos botellas lleguemos a la primera a menos que suministremos energía en hacer el vacío. La segunda situación tiene una entropía mayor que la primera<br /></div></div></div>]]>
+      </text>
+    </questiontext>
+    <image></image>
+    <generalfeedback>
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>0</defaultgrade>
+    <penalty>0</penalty>
+    <hidden>0</hidden>
+    <shuffleanswers>0</shuffleanswers>
+  </question>
+  <!-- question: 0  -->
+  <question type="category">
+    <category>
+      <text>$course$/energia/examen energía</text>
+    </category>
+  </question>
+  <!-- question: 45639  -->
+  <question type="essay">
+    <name>
+      <text>alta tensión</text>
+    </name>
+    <questiontext format="html">
+      <text>¿Por qué se transporta la electricidad a alta tensión?</text>
+    </questiontext>
+    <image></image>
+    <generalfeedback>
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>2</defaultgrade>
+    <penalty>0</penalty>
+    <hidden>0</hidden>
+    <shuffleanswers>0</shuffleanswers>
+    <answer fraction="0">
+      <feedback>
+        <text></text>
+      </feedback>
+    </answer>
+  </question>
+  <!-- question: 45638  -->
+  <question type="essay">
+    <name>
+      <text>eficiencia de las centrales térmicas</text>
+    </name>
+    <questiontext format="html">
+      <text>¿Cómo se puede mejorar la eficiencia energética de las centrales térmicas convencionales?</text>
+    </questiontext>
+    <image></image>
+    <generalfeedback>
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>4</defaultgrade>
+    <penalty>0</penalty>
+    <hidden>0</hidden>
+    <shuffleanswers>0</shuffleanswers>
+    <answer fraction="0">
+      <feedback>
+        <text></text>
+      </feedback>
+    </answer>
+  </question>
+  <!-- question: 45634  -->
+  <question type="essay">
+    <name>
+      <text>ensayo ciclo combinado</text>
+    </name>
+    <questiontext format="html">
+      <text>Describe el funcionamiento de una central de ciclo combinado</text>
+    </questiontext>
+    <image></image>
+    <generalfeedback>
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>5</defaultgrade>
+    <penalty>0</penalty>
+    <hidden>0</hidden>
+    <shuffleanswers>0</shuffleanswers>
+    <answer fraction="0">
+      <feedback>
+        <text></text>
+      </feedback>
+    </answer>
+  </question>
+  <!-- question: 0  -->
+  <question type="category">
+    <category>
+      <text>$course$/energia/leccion_energia</text>
+    </category>
+  </question>
+  <!-- question: 45459  -->
+  <question type="essay">
+    <name>
+      <text>rendimiento</text>
+    </name>
+    <questiontext format="html">
+      <text>
+<![CDATA[<div> 
+  <h1>Rendimiento</h1></div> 
+<div>Cuando se usa energía en una máquina o un proceso tecnológico, se producen transformaciones energéticas. Unos tipos de energía se transforman en otros y la energía fluye de unos sistemas a otros. La energía total antes y después del proceso no cambia (como impone el primer principio). Sin embargo, no toda la energía que usamos se transforma en lo que deseamos.</div> 
+<div><br /></div> 
+<div>Por ejemplo, cuando usamos energía eléctrica para conseguir movimiento en un motor, parte de la energía se transforma en movimiento, pero otra parte se transforma en calor. Esto afecta al rendimiento del proceso.</div> 
+<div><br /></div> Reflexiona sobre los siguientes sistemas de calefacción en lo que se refiere al rendimiento: Calefacción por radiadores eléctricos, estufa catalítica, chimenea convencional, estufa de leña y calefacción de gasoil.]]>
+      </text>
+    </questiontext>
+    <image></image>
+    <generalfeedback>
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>4</defaultgrade>
+    <penalty>0</penalty>
+    <hidden>0</hidden>
+    <shuffleanswers>0</shuffleanswers>
+    <answer fraction="0">
+      <feedback>
+        <text></text>
+      </feedback>
+    </answer>
+  </question>
+  <!-- question: 0  -->
+  <question type="category">
+    <category>
+      <text>$course$/energia/examen energía</text>
+    </category>
+  </question>
+  <!-- question: 45637  -->
+  <question type="essay">
+    <name>
+      <text>residuos de las centrales nucleares</text>
+    </name>
+    <questiontext format="html">
+      <text>
+<![CDATA[Las centrales nucleares producen residuos de alta y baja actividad. ¿Cuál es la problemática y utilidad de cada uno?<br />]]>
+      </text>
+    </questiontext>
+    <image></image>
+    <generalfeedback>
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>3</defaultgrade>
+    <penalty>0</penalty>
+    <hidden>0</hidden>
+    <shuffleanswers>0</shuffleanswers>
+    <answer fraction="0">
+      <feedback>
+        <text></text>
+      </feedback>
+    </answer>
+  </question>
+  <!-- question: 0  -->
+  <question type="category">
+    <category>
+      <text>$course$/energia/centrales</text>
+    </category>
+  </question>
+  <!-- question: 45450  -->
+  <question type="matching">
+    <name>
+      <text>centrales</text>
+    </name>
+    <questiontext format="html">
+      <text>
+<![CDATA[<div>Las fuentes de energía secundaria fundamentalmente son los combustibles fósiles procesados (gasolina, gas, gasoil) para su uso en el transporte y en calefacción y la energía eléctrica para cualquier tipo de uso ya que es extraordinariamente versátil.</div>
+<div><br /></div>
+<div>Por su extraordinaria versatilidad, la energía eléctrica se genera en centrales a gran escala. Con frecuencia estas centrales toman su nombre de la fuente primaria de la que se nutren.<br /></div>]]>
+      </text>
+    </questiontext>
+    <image></image>
+    <generalfeedback>
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1</defaultgrade>
+    <penalty>0.5</penalty>
+    <hidden>0</hidden>
+    <shuffleanswers>1</shuffleanswers>
+    <subquestion>
+      <text>consume carbón y produce electricidad</text>
+      <answer>
+        <text>central termica</text>
+      </answer>
+    </subquestion>
+    <subquestion>
+      <text>Usa el viento y produce electricidad</text>
+      <answer>
+        <text>aerogenerador</text>
+      </answer>
+    </subquestion>
+    <subquestion>
+      <text>consume uranio y genera electricidad</text>
+      <answer>
+        <text>central nuclear</text>
+      </answer>
+    </subquestion>
+    <subquestion>
+      <text>Usa el sol para producir electricidad</text>
+      <answer>
+        <text>central fotovoltaica</text>
+      </answer>
+    </subquestion>
+    <subquestion>
+      <text>Usa el agua almacenada e embalses y produce electricidad</text>
+      <answer>
+        <text>central hidroeléctica</text>
+      </answer>
+    </subquestion>
+  </question>
+  <!-- question: 0  -->
+  <question type="category">
+    <category>
+      <text>$course$/energia/leccion_energia</text>
+    </category>
+  </question>
+  <!-- question: 45448  -->
+  <question type="matching">
+    <name>
+      <text>fuentes de energía</text>
+    </name>
+    <questiontext format="html">
+      <text>
+<![CDATA[<h1>Fuentes de energía </h1>
+<div>Las fuentes de energía son fenómenos que se pueden explotar económicamente para obtener energía que alimente máquinas o caliente recintos. Se pueden clasificar en primarias y secundarias</div>
+<ul>
+  <li>Fuentes de energía primarias: son recursos naturales que no han sufrido transformación artificial</li>
+  <li>Fuentes de energía secundarias: se han obtenido a partir de fuentes primarias mediante transformaciones para que sean fáciles de utilizar<br /></li>
+</ul>
+<div> Clasifica<br /></div>]]>
+      </text>
+    </questiontext>
+    <image></image>
+    <generalfeedback>
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1</defaultgrade>
+    <penalty>0.5</penalty>
+    <hidden>0</hidden>
+    <shuffleanswers>1</shuffleanswers>
+    <subquestion>
+      <text>Solar</text>
+      <answer>
+        <text>primaria</text>
+      </answer>
+    </subquestion>
+    <subquestion>
+      <text>eólica</text>
+      <answer>
+        <text>primaria</text>
+      </answer>
+    </subquestion>
+    <subquestion>
+      <text>petróleo</text>
+      <answer>
+        <text>primaria</text>
+      </answer>
+    </subquestion>
+    <subquestion>
+      <text>uranio</text>
+      <answer>
+        <text>primaria</text>
+      </answer>
+    </subquestion>
+    <subquestion>
+      <text>carbón</text>
+      <answer>
+        <text>primaria</text>
+      </answer>
+    </subquestion>
+    <subquestion>
+      <text>gasolina</text>
+      <answer>
+        <text>secundaria</text>
+      </answer>
+    </subquestion>
+    <subquestion>
+      <text>fotovoltaica</text>
+      <answer>
+        <text>secundaria</text>
+      </answer>
+    </subquestion>
+    <subquestion>
+      <text>eléctrica</text>
+      <answer>
+        <text>secundaria</text>
+      </answer>
+    </subquestion>
+  </question>
+  <!-- question: 45449  -->
+  <question type="matching">
+    <name>
+      <text>renovables/no renovables</text>
+    </name>
+    <questiontext format="html">
+      <text>
+<![CDATA[<div>Las fuentes de energía primarias se clasifican en:</div>
+<div>
+  <ul>
+    <li> renovables: La cantidad disponible (a medio plazo) no depende del uso que de ellas se hace</li>
+    <li>no renovables: La cantidad disponible depende del uso que se hace. Cuanto más se usan, menos recurso queda para usos futuros.<br /></li>
+  </ul>
+  <div>Clasifica<br /></div></div>]]>
+      </text>
+    </questiontext>
+    <image></image>
+    <generalfeedback>
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1</defaultgrade>
+    <penalty>0.5</penalty>
+    <hidden>0</hidden>
+    <shuffleanswers>1</shuffleanswers>
+    <subquestion>
+      <text>eólica</text>
+      <answer>
+        <text>renovable</text>
+      </answer>
+    </subquestion>
+    <subquestion>
+      <text>solar</text>
+      <answer>
+        <text>renovable</text>
+      </answer>
+    </subquestion>
+    <subquestion>
+      <text>mareomotriz</text>
+      <answer>
+        <text>renovable</text>
+      </answer>
+    </subquestion>
+    <subquestion>
+      <text>carbón</text>
+      <answer>
+        <text>no renovable</text>
+      </answer>
+    </subquestion>
+    <subquestion>
+      <text>petróleo</text>
+      <answer>
+        <text>no renovable</text>
+      </answer>
+    </subquestion>
+    <subquestion>
+      <text>uranio</text>
+      <answer>
+        <text>no renovable</text>
+      </answer>
+    </subquestion>
+    <subquestion>
+      <text>hidráulica</text>
+      <answer>
+        <text>renovable</text>
+      </answer>
+    </subquestion>
+  </question>
+  <!-- question: 45453  -->
+  <question type="matching">
+    <name>
+      <text>tipos de energía</text>
+    </name>
+    <questiontext format="html">
+      <text>
+<![CDATA[<h1>Tipos de energía</h1>
+<div>Según su forma de manifestarse, la energía se clasifica en distintos tipos</div>
+<div>
+  <ul>
+    <li>Energía química: se manifiesta en una reacción química(cambios en los enlaces de las especies químicas responsables)<br /></li>
+    <li>Energía térmica: se manifiesta en el flujo de calor entre dos sistemas</li>
+    <li>Energía eléctrica: de manifiesta en un movimiento de cargas</li>
+    <li>Energía mecánica: se manifiesta en un movimiento de masas</li>
+    <li>Energía nuclear: se manifiesta en una reacción nuclear (cambio de los números atómicos de las especies químicas responsables)</li>
+  </ul>
+  <div>Cuando se realiza un proceso técnico, la energía fluye entre dos sistemas, a veces transformándose de un tipo en otro.</div>
+  <div><br /></div></div>]]>
+      </text>
+    </questiontext>
+    <image></image>
+    <generalfeedback>
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1</defaultgrade>
+    <penalty>0.5</penalty>
+    <hidden>0</hidden>
+    <shuffleanswers>1</shuffleanswers>
+    <subquestion>
+      <text>en un motor eléctrico</text>
+      <answer>
+        <text>La energía eléctrica se transforma en energía mecánica</text>
+      </answer>
+    </subquestion>
+    <subquestion>
+      <text>en un circuito alimentado con una pila</text>
+      <answer>
+        <text>La energía química de transforma en energía eléctrica</text>
+      </answer>
+    </subquestion>
+    <subquestion>
+      <text>En un reactor nuclear</text>
+      <answer>
+        <text>la energía nuclear se transforma en energía térmica</text>
+      </answer>
+    </subquestion>
+    <subquestion>
+      <text></text>
+      <answer>
+        <text>la energía nuclear se transforma en energía eléctrica</text>
+      </answer>
+    </subquestion>
+    <subquestion>
+      <text>en una chimenea</text>
+      <answer>
+        <text>la energía química se transforma en energía témica</text>
+      </answer>
+    </subquestion>
+  </question>
+  <!-- question: 0  -->
+  <question type="category">
+    <category>
+      <text>$course$/energia/centrales</text>
+    </category>
+  </question>
+  <!-- question: 45460  -->
+  <question type="cloze">
+    <name>
+      <text>central hidroeléctrica</text>
+    </name>
+    <questiontext>
+      <text>
+<![CDATA[<div>
+  <h1>Centrales hidroeléctricas </h1>
+  <div>Esquema de una central hidroeléctrica:</div>
+  <div><img src="https://ibersia.ovh/tec/energia/centrales/hidroelectrica.gif" alt="central hidroeléctrica" title="central hidroeléctrica" vspace="0" hspace="0" border="0" /><br /></div></div>
+<div>En las centrales hidroeléctricas se transforma energía mecánica almacenada como una masa de agua a cierta altura en energía eléctrica.</div>
+<div>El agua esta almacenada en un {1:SA:=embalse}. La {1:SA:=presa} es el elemento encargado de retener esa masa de agua. Existe una {1:SA:=canalización} que comunica el embalse con la {1:SA:= turbina}. En ella el movimiento lineal de la masa de agua se transforma en un movimiento circular que acciona un {1:SA:=alternador}. En este elemento, la energía mecánica se transforma en una {1:SA:=corriente} {1:SA:= alterna} trifásica de {1:SA:=baja} tensión. En el {1:SA:=transformador} se cambia a {1:SA:=alta} tensión para su transporte.</div>
+<div><br /></div>
+<div>Cuanto mayor sea la diferencia de altura entre el nivel del embalse y la{1:SA:=turbina} más energía se puede producir y con más rendimiento.</div>
+<div><br /></div>
+<div>La central de Puente Nuevo se alimenta de El Charco del Cura y tiene la turbina prácticamente al nivel de la cola del pantano de San Juan. De esta manera se consigue una diferencia de altura mucho mayor que si estuviera a pie de presa.</div>
+<div>
+  <h2>Centrales de bombeo</h2></div>
+<div>Existen turbinas reversibles que permiten elevar agua. Este tipo de turbinas son las que tienen las centrales de bombeo. Están formadas por dos embalses a distinta altura. La turbina está a nivel del embalse inferior. Cuando hay exceso de producción en la red eléctrica la central funciona consumiendo energía eléctrica usando la turbina para elevar el agua al embalse superior. De esa manera se consigue almacenar energía.</div>
+<div>La turbina está por debajo del nivel del embalse inferior ya que hay un límite físico que no permite aspirar agua a más de 10 metros de profundidad (el límite práctico está en torno a 7 metros)<br /></div>]]>
+      </text>
+    </questiontext>
+    <generalfeedback>
+      <text></text>
+    </generalfeedback>
+    <shuffleanswers>0</shuffleanswers>
+  </question>
+  <!-- question: 45472  -->
+  <question type="cloze">
+    <name>
+      <text>central térmica</text>
+    </name>
+    <questiontext>
+      <text>
+<![CDATA[<div>
+  <h1>Centrales térmicas </h1></div>
+<div>En las centrales térmicas se transforma energía {1:SA:=química} en forma de combustible en energía eléctrica con un paso intermedio de energía {1:SA:=térmica}</div>
+<div>Dependiendo del combustible, pueden ser de carbón, gas o gasoil.</div>
+<div>
+  <h2>Esquema de una central térmica convencional</h2>
+  <div><img src="https://ibersia.ovh/tec/energia/centrales/termica.gif" alt="central térmica" title="central térmica" width="570" vspace="0" hspace="0" border="0" /><br /></div></div>
+<div> Existe un quemador en el que se quema combustible y calienta una caldera en el que la energía química se transforma en energía térmica en forma de una masa de agua a alta temperatura (por encima de los 500ºC). El agua a esa temperatura está en forma de {1:SA:=vapor} a alta presión que es capaz de mover la {1:SA:=turbina} que a su vez acciona al{1:SA:= alternador}.</div>
+<div>El alternador produce una corriente alterna trifásica de{1:SA:= baja} tensión que, por acción del transformador, se convierte en una corriente de {1:SA:=alta} tensión. Esta corriente es la que se lleva a las líneas de distribución.</div>
+<div>De la turbina sale el vapor de agua con menos presión pero aun muy caliente. En la {1:SA:=torre de refrigeración} ese vapor condensa para transformarse de nuevo en agua líquida. Una {1:SA:=bomba} inyecta ese agua de nuevo en la caldera.<br /></div>]]>
+      </text>
+    </questiontext>
+    <generalfeedback>
+      <text></text>
+    </generalfeedback>
+    <shuffleanswers>0</shuffleanswers>
+  </question>
+  <!-- question: 45524  -->
+  <question type="cloze">
+    <name>
+      <text>Centrales nucleares</text>
+    </name>
+    <questiontext>
+      <text>
+<![CDATA[<div>
+  <h1>Centrales nucleares</h1></div>
+<div>Las centrales nucleares son un tipo de central {1:SA:=térmica} por eso se llaman termonucleares. La diferencia con otras centrales de este tipo es cómo se calienta el agua que accionará la {1:MC:alterndor~=turbina de vapor~ turbina de gas~intercambiador de calor~transformador}. En este caso el calor proviene de un reactor nuclear.</div>
+<div><br /></div>
+<div>Como las reacciones nucleares producen subproductos peligrosos hay riesgo de contaminación, de manera que el agua que acciona la turbina de {1:MC:pelton~francis~=vapor~gas}no entra en contacto con el combustible nuclear. Hay un circuito primario de refrigeración del reactor que es un circuito cerrado y estanco que es el encargado de captar el calor del reactor y transmitirlo al agua que acciona la trubina en un {1:SA:=intercambiador de calor}. Una parte importante de la estructura de una central nuclear es el {1:SA:=edificio de contención} que contiene el reactor y el sistema de refrigeración primario. Este edificio debe asegurar que la radiación no escape de él y que no haya fugas al exterior en caso de que algo del combustible de combustión o de sus productos salga del reactor. La barrera contra la radiación es un escudo de plomo y la barrera física es una gruesa pared de hormigón.<br /></div>
+<div><img src="https://ibersia.ovh/tec/energia/centrales/nuclear.gif" alt="central nuclear" title="central nuclear" width="570" vspace="0" hspace="0" border="0" /><br /> </div>]]>
+      </text>
+    </questiontext>
+    <generalfeedback>
+      <text></text>
+    </generalfeedback>
+    <shuffleanswers>0</shuffleanswers>
+  </question>
+  <!-- question: 45568  -->
+  <question type="cloze">
+    <name>
+      <text>Centrales térmicas solares</text>
+    </name>
+    <questiontext>
+      <text>
+<![CDATA[<h1>Centrales térmicas solares</h1>
+<div>Las centrales térmicas solares son un tipo de central que transforma energía {1:SA:=térmica} procedente del sol en eléctrica con un sistema muy parecido al de las centrales térmicas convencionales.</div>
+<div>Las centrales térmicas tienen un rendimiento mayor cuanto {1:MC:=mayor~menor} es la temperatura del foco caliente. La radiación directa del sol no puede elevar la temperatura del objeto sobre el que incide más de 100ºC. En las centrales se usa un parque de {1:SA:=espejos} que mediante un sistema de {1:SA:=seguimiento} concentra la radiación en un {1:SA:=horno solar} situado en la parte alta de una torre. Se alcanzan temperaturas que pueden superar los 1800ºC.</div>
+<div>Un fluido se calienta en ese punto y es capaz de llevar la energía térmica al pie de la torre donde en un intercambiador de calor se pone en contacto con una masa de agua que se vaporiza. El vapor de agua mueve una {1:SA:=turbina de vapor} conectada a un alternador que es el que genera la corriente eléctrica {1:MC:mono~bi~=tri}fásica. Para poder recircular, el agua debe cambiar de estado y volverse otra vez líquida. Lo que sucede en el {1:SA:=condensador} que es otro intercambiador de calor. Este intercambiador necesitará a su vez de un fluido refrigerante.<br /></div>
+<div><br /></div>
+<div><img src="https://ibersia.ovh/tec/energia/centrales/termica_solar.gif" alt="central térmica solar" title="central térmica solar" vspace="0" hspace="0" border="0" /><br /></div>]]>
+      </text>
+    </questiontext>
+    <generalfeedback>
+      <text></text>
+    </generalfeedback>
+    <shuffleanswers>0</shuffleanswers>
+  </question>
+  <!-- question: 45486  -->
+  <question type="cloze">
+    <name>
+      <text>ciclo combinado</text>
+    </name>
+    <questiontext>
+      <text>
+<![CDATA[<h1>Centrales de ciclo combinado</h1>
+<div>Las centrales de ciclo combinado tiene un rendimiento {1:SA:peor~semejante~=mejor} que el de las centrales térmicas convencionales. La idea es aprovechar al máximo la energía de los gases de combustión. La forma de hacerlo es usar una {1:MC:tobera~caldera~=turbina de gas} en lugar de un quemador convencional. Los gases de combustión calentarán el agua que alimenta {1:SA:=turbina de vapor}.</div>
+<div><br /></div>
+<div>Una turbina de gas es idéntica a las que usan los aviones a reacción (los que no tienen hélices). Cuando se quema un combustible, los productos de la combustión son gases a alta temperatura y presión. La energía de estos gases se puede aprovechar con una turbina de gas. Es parecida a una turbina de vapor pero está accionada directamente por los gases de combustión. <br /></div>
+<div>Por supuesto, aunque no aparezca el en el esquema, la electricidad generada en los alternadores debe pasar por un {1:SA:=transformador} para poder inyectarse en la red de {1:MC:=alta~media~baja}tensión.<br /></div><img src="https://ibersia.ovh/tec/energia/centrales/ciclo_combinado.gif" alt="ciclo combinado" title="ciclo combinado" vspace="0" hspace="0" border="0" /><br /><br /><br />]]>
+      </text>
+    </questiontext>
+    <generalfeedback>
+      <text></text>
+    </generalfeedback>
+    <shuffleanswers>0</shuffleanswers>
+  </question>
+  <!-- question: 45577  -->
+  <question type="cloze">
+    <name>
+      <text>Cogeneración</text>
+    </name>
+    <questiontext>
+      <text>
+<![CDATA[<h1>Cogeneración</h1>
+<div>Otro de los puntos de pérdida de energía de una central térmica es el {1:MC:alternador~transformador~=condensador}: lugar en el que el vapor de agua que ha movido la turbina de vapor se vuelve líquida para poder volverse a inyectar en la caldera</div>
+<div><br /></div>
+<div> Las centrales de cogeneración aprovechan el calor para darle otros usos útiles como puede ser la calefacción, calor para la realización de reacciones químicas, secadores, etc. Incluso existen industrias que se pueden nutrir del propio vapor de agua como tal.</div>
+<div><br /></div>
+<div>Dado que la energía obtenida en el condensador no es fácilmente transportable, la cogeneración se suele realizar en plantas industriales que generan su propia energía eléctrica.<br /></div>
+<div><br /></div>
+<div>La cogeneración permite un {1:MC:=mejor~peor} rendimiento del proceso o que significa un {1:SA:=ahorro} de combustible.</div>
+<div><br /></div>
+<div><a href="http://www.acogen.es/que-es.php" target="_blank">Web</a> de la asociación española de cogeneración<br /></div>
+<div><img src="https://ibersia.ovh/tec/energia/centrales/cogeneracion.gif" alt="cogeneración" title="cogeneración" vspace="0" hspace="0" border="0" /><br /></div>]]>
+      </text>
+    </questiontext>
+    <generalfeedback>
+      <text></text>
+    </generalfeedback>
+    <shuffleanswers>0</shuffleanswers>
+  </question>
+  <!-- question: 0  -->
+  <question type="category">
+    <category>
+      <text>$course$/energia/examen energía</text>
+    </category>
+  </question>
+  <!-- question: 45592  -->
+  <question type="cloze">
+    <name>
+      <text>elementos ciclo combinado</text>
+    </name>
+    <questiontext>
+      <text>
+<![CDATA[<div>El siguiente esquema representa una central eléctrica{1:SA:=de ciclo combinado~=ciclo combinado}.<br /> Los elementos marcados en la misma son:</div>
+<div>
+  <table width="100%" border="0"><tbody>
+    <tr>
+      <td width="25%" valign="top">
+        <div>
+          <ul>
+            <li>1:{1:MC:chimenea~torre de refrigeración~=turbina de gas~turbina de vapor~bomba~transformador~alternador~quemador~linea de alta tensión~caldera~condensador~calefacción}</li>
+            <li>2:{1:MC:chimenea~torre de refrigeración~turbina de gas~=turbina de vapor~bomba~transformador~alternador~~quemador~linea de alta tensión~caldera~condensador~calefacción}</li>
+            <li>3:{1:MC:chimenea~torre de refrigeración~turbina de gas~turbina de vapor~bomba~transformador~=alternador~quemador~linea de alta tensión~caldera~condensador~calefacción}</li>
+            <li>4:{1:MC:chimenea~torre de refrigeración~turbina de gas~turbina de vapor~bomba~=transformador~alternador~quemador~linea de alta tensión~caldera~condensador~calefacción}</li>
+            <li>5:{1:MC:chimenea~=torre de refrigeración~turbina de gas~turbina de vapor~bomba~transformador~alternador~quemador~linea de alta tensión~caldera~=condensador~calefacción}</li>
+            <li>6:{1:MC:chimenea~torre de refrigeración~turbina de gas~turbina de vapor~bomba~transformador~alternador~quemador~=linea de alta tensión~caldera~condensador~calefacción}</li>
+            <li>7:{1:MC:chimenea~torre de refrigeración~turbina de gas~turbina de vapor~=bomba~transformador~alternador~quemador~linea de alta tensión~caldera~condensador~calefacción}</li>
+            <li>8:{1:MC:=chimenea~torre de refrigeración~turbina de gas~turbina de vapor~bomba~transformador~alternador~quemador~linea de alta tensión~caldera~condensador~calefacción}</li>
+            <li>9:{1:MC:chimenea~torre de refrigeración~turbina de gas~turbina de vapor~bomba~transformador~=alternador~quemador~linea de alta tensión~caldera~condensador~calefacción}</li>
+          </ul></div>
+      </td>
+      <td width="75%" valign="top">
+        <div><img src="https://ibersia.ovh/tec/energia/centrales/e1.gif" alt="e1" title="e1" width="600" vspace="0" hspace="0" border="0" /></div>
+      </td>
+    </tr></tbody>
+  </table><br /></div>
+<div>
+  <ul>&nbsp;
+  </ul></div>
+<div><br /></div>]]>
+      </text>
+    </questiontext>
+    <generalfeedback>
+      <text></text>
+    </generalfeedback>
+    <shuffleanswers>0</shuffleanswers>
+  </question>
+  <!-- question: 45602  -->
+  <question type="cloze">
+    <name>
+      <text>elementos cogeneración</text>
+    </name>
+    <questiontext>
+      <text>
+<![CDATA[<div>El siguiente esquema representa una central eléctrica{1:SA:=de cogeneración~=cogeneración}. <br />Los elementos marcados en la misma son:</div>
+<div>
+  <table width="100%" border="0"><tbody>
+    <tr>
+      <td width="25%" valign="top">
+        <ul>
+          <li>1:{1:MC:chimenea~torre de refrigeración~turbina de gas~turbina de vapor~bomba~transformador~alternador~=quemador~linea de alta tensión~caldera~condensador~calefacción}</li>
+          <li>2:{1:MC:chimenea~torre de refrigeración~turbina de gas~turbina de vapor~bomba~transformador~alternador~quemador~linea de alta tensión~=caldera~condensador~calefacción}</li>
+          <li>3:{1:MC:chimenea~torre de refrigeración~turbina de gas~=turbina de vapor~bomba~transformador~alternador~quemador~linea de alta tensión~caldera~condensador~calefacción}</li>
+          <li>4:{1:MC:chimenea~torre de refrigeración~turbina de gas~turbina de vapor~bomba~transformador~=alternador~quemador~linea de alta tensión~caldera~condensador~calefacción}</li>
+          <li>5:{1:MC:chimenea~torre de refrigeración~turbina de gas~turbina de vapor~bomba~=transformador~alternador~quemador~linea de alta tensión~caldera~condensador~calefacción}</li>
+          <li>6:{1:MC:chimenea~torre de refrigeración~turbina de gas~turbina de vapor~bomba~transformador~alternador~quemador~=linea de alta tensión~caldera~condensador~calefacción}</li>
+          <li>7:{1:MC:chimenea~torre de refrigeración~turbina de gas~turbina de vapor~bomba~transformador~alternador~quemador~linea de alta tensión~caldera~condensador~=calefacción}</li>
+          <li>8:{1:MC:chimenea~torre de refrigeración~turbina de gas~turbina de vapor~bomba~transformador~alternador~quemador~linea de alta tensión~caldera~=condensador~calefacción}</li>
+          <li>9:{1:MC:chimenea~torre de refrigeración~turbina de gas~turbina de vapor~=bomba~transformador~alternador~quemador~linea de alta tensión~caldera~condensador~calefacción}</li>
+          <li>10:{1:MC:=chimenea~torre de refrigeración~turbina de gas~turbina de vapor~bomba~transformador~alternador~quemador~linea de alta tensión~caldera~condensador~calefacción}</li>
+          <li>11:{1:MC:chimenea~torre de refrigeración~turbina de gas~turbina de vapor~=bomba~transformador~alternador~quemador~linea de alta tensión~caldera~condensador~calefacción}</li>
+        </ul>
+      </td>
+      <td width="75%" valign="top"><img src="https://ibersia.ovh/tec/energia/centrales/e2.gif" alt="e" title="e" width="600" vspace="0" border="0" align="left" />
+      </td>
+    </tr></tbody>
+  </table><br /></div>
+<div>
+  <ul>&nbsp;
+  </ul> <br /> </div>]]>
+      </text>
+    </questiontext>
+    <generalfeedback>
+      <text></text>
+    </generalfeedback>
+    <shuffleanswers>0</shuffleanswers>
+  </question>
+  <!-- question: 0  -->
+  <question type="category">
+    <category>
+      <text>$course$/energia/centrales</text>
+    </category>
+  </question>
+  <!-- question: 45557  -->
+  <question type="cloze">
+    <name>
+      <text>eolica 3</text>
+    </name>
+    <questiontext>
+      <text>
+<![CDATA[Los parques eólicos están formados por un gran número de aerogeneradore. Pueden situarse en tierra
+<div><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/97/11_turbines_E-126_7%2C5MW_wind_farm_Estinnes_Belgium.jpg/400px-11_turbines_E-126_7%2C5MW_wind_farm_Estinnes_Belgium.jpg" alt="parque eólico terrestre" title="parque eólico terrestre" vspace="0" hspace="0" border="0" /></div>
+<div>o en el mar</div>
+<div><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/17/DanishWindTurbines.jpg/400px-DanishWindTurbines.jpg" alt="parque eólico marino" title="parque eólico marino" vspace="0" hspace="0" border="0" /></div>
+<div><br /></div>
+<div>En los parque eólicos marinos, es frecuente que la cimentación cuente con un pequeño arrecife artificial que ayuda a mantener la diversidad marina.</div>
+<div><br /></div>
+<div>Para poder inyectar en la red la energía producida por este conjunto de máquinas, hace falta un sistema de {1:MC:transformación~=sincronización} para que las ondas se sumen perfectamente. </div>]]>
+      </text>
+    </questiontext>
+    <generalfeedback>
+      <text></text>
+    </generalfeedback>
+    <shuffleanswers>0</shuffleanswers>
+  </question>
+  <!-- question: 45537  -->
+  <question type="cloze">
+    <name>
+      <text>eólica1</text>
+    </name>
+    <questiontext>
+      <text>
+<![CDATA[<div>
+  <h1>Energía eólica</h1>
+  <div>Se suele llamar energía éolica a la energía eléctrica producida por los {1:SA:=aerogeneradores} (que no molinos ya que no muelen nada).</div>
+  <div><br /></div>
+  <div>Aunque estas máquinas pueden tener el eje horizontal o vertical, son mucho más frecuentes las de eje {1:SA:=horizontal}.</div>
+  <div><br /></div>
+  <div>La máquina consta de una {1:SA:=torre} que levanta el sistema varios metros sobre el nivel del suelo. Esto es así porque el suelo roza con el viento, disminuyendo su velocidad. Además se suelen situar el las zonas altas de las montañas porque allí se suma el viento de ladera con el viento horizontal. La ladera hace las veces de pantalla o vela que dirige el viento al aerogenerador.</div>
+  <div><br /></div>
+  <div>El sistema generador está dentro de un habitáculo llamado {1:SA:=góndola} que contiene {1:MC:una hélice~=un sistema multiplicador~un alternador~un anemómetro~ un transformador} que aumenta la velocidad de giro del eje acoplado a {1:MC:la hélice~el sistema multiplicador~=el alternador~el anemómetro~ el transformador} encargado de transformar la energía mecánica del giro del eje en energía eléctrica. Para que esta máquina funcione necesita una velocidad de giro mínima.<br /></div>
+  <div><br /></div>
+  <div>La hélice está formada por tres grandes {1:SA:=palas} con perfil aerodinámico encargadas de transformar la energía {1:SA:=mecánica~=cinética} del viento en rotación del eje. El sistema produce turbulencias que son menores con tres palas que con un numero mayor o menor. Las palas pueden rotar sobre su eje colocándose de perfil al viento. En esas condiciones el viento {1:MC:las mueve muy rápido~=no las mueve}.</div>
+  <div><br /></div>
+  <div>El eje de la hélice no está perfectamente horizontal para evitar que las palas puedan chocar con la torre en condiciones de viento muy fuertes y porque además se minimiza el efecto de las turbulencias.</div>
+  <div><br /></div>
+  <div>Como la dirección del viento es cambiante hace falta un {1:MC:=sistema de orientación~anemómetro} para colocar la góndola en la dirección adecuada.</div>
+  <div><br /></div>La torre tiene que soportar grandes esfuerzos, por eso necesita de una fuerte {1:SA:=cimentación} que la ancle firmemente al terreno. <br /></div>
+<div><br /></div>
+<div>Aunque no se vea en el esquema, la energía eléctrica producida en el alternador debe pasar por un {1:SA:=transformador} para infectarla en la red de distribución.
+  <div><br /></div><br />
+  <div><img src="https://ibersia.ovh/tec/energia/centrales/eolica.gif" alt="aerogenerador" title="aerogenerador" width="282" vspace="0" hspace="10" height="638" border="0" /><br /></div></div>
+<div><br /> </div>]]>
+      </text>
+    </questiontext>
+    <generalfeedback>
+      <text></text>
+    </generalfeedback>
+    <shuffleanswers>0</shuffleanswers>
+  </question>
+  <!-- question: 45550  -->
+  <question type="cloze">
+    <name>
+      <text>eolica2</text>
+    </name>
+    <questiontext>
+      <text>
+<![CDATA[<div>
+  <div>La energía {1:MC:térmica~eléctrica~=mecánica~química}del viento que se transforma en electricidad en un aerogenerador es {1:MC:=energía potencial~=cinética}, con ecuación: {1:MC:E=mgh~=mv<sup>2</sup>/2}.</div>
+  <div><br /></div>
+  <div>Podemos asimilar la forma de la masa de aire que interacciona con el aerogenerador como un cilindro. La energía que capta un aerogenerador es proporcional {1:MC:a la longitud~=al cuadrado de la longitud~ al cubo de la longitud} de la pala y {1:MC: a la velocidad~al cuadrado de la velocidad~=al cubo de la velocidad} del viento.</div>
+  <div><br /></div> Cuando el viento sopla con mucha velocidad, se produce tanta energía que se corre el riesgo de que se estropee la máquina. Es necesario frenarla para evitar averías. Esto se consigue desorientando las palas o desorientando la góndola. Además dentro hay un freno, necesario para pararlo por completo. Es necesario un {1:SA:=anemómetro} que mida la velocidad del viento y se decida disparar el sistema de frenado.</div>
+<div><br /></div><br />]]>
+      </text>
+    </questiontext>
+    <generalfeedback>
+      <text>
+<![CDATA[<div> El volumen del cilindro aumenta con el cuadrado del radio (longitud de la pala) y linealmente con la velocidad que correspondería a la altura del cilindro.</div>
+<div>La energía cinética del viento es proporcional al cuadrado de la velocidad y a la masa que es proporcional a la longitud del cilindro. </div>]]>
+      </text>
+    </generalfeedback>
+    <shuffleanswers>0</shuffleanswers>
+  </question>
+  <!-- question: 45500  -->
+  <question type="cloze">
+    <name>
+      <text>reacciones nucleares</text>
+    </name>
+    <questiontext>
+      <text>
+<![CDATA[<div>
+  <h1>Reacciones nucleares</h1></div>
+<div>Los reactores nucleares sacan energía de la {1:SA:=fisión~fusión} de núcleos de átomos pesados. Cuando esto se produce, un núcleo pesado se divide. los números {1:SA:=atómicos} de las especies cambian, por tanto unos elementos se transforman en otros. La suma de la masa de las especies reactivas y de los productos {1:SA:=no coincide}. Parte de la {1:SA:=masa} se transforma en energía según la célebre ecuación de Einstein: E=mc<sup>2</sup>. Cuando 1 gr de masa se transforma en energía produce 9x10<sup>{1:NM:=16}</sup> julios. Esta es una cantidad enorme.</div>
+<div> En las reacciones nucleares la perdida de masa es muy pequeña. Una central nuclear estándar puede tener una ponencia entorno al 1000 MW (megawatios). La perdida de masa está entorno a 3x10{1:NM:=-4} gr al año.<br />Posibles respuestas: fisión, fusión, másicos, atómicos, coincide, no coincide, masa, carga, electricidad<br /></div>]]>
+      </text>
+    </questiontext>
+    <generalfeedback>
+      <text></text>
+    </generalfeedback>
+    <shuffleanswers>0</shuffleanswers>
+  </question>
+  <!-- question: 45507  -->
+  <question type="cloze">
+    <name>
+      <text>Reactor nuclear</text>
+    </name>
+    <questiontext>
+      <text>
+<![CDATA[<div>
+  <h1>Reactor nuclear</h1></div>
+<div>Cuando un núcleo atómico se fisiona, además de la energía que se produce, se liberan neutrones de alta energía (alta {1:MC:masa~carga~=velocidad~temperatura}). Estas partículas al {1:MC:= no tener~tener} carga, no son repelidas por los {1:MC:electrones~muones~=protones~neutrones} del núcleo. Por tanto pueden colisionar con él.</div>
+<div>Cuando un neutrón colisiona con el {1:SA:=núcleo} un elemento radiactivo ({1: MC:=inestable~estable}) induce una nueva fisión, que a su vez libera más energía y más neutrones que pueden {1:MC:=repetir~frenar} el proceso.<br /></div>
+<div>Si juntamos suficiente cantidad de material radiactivo (&quot;combustible&quot; nuclear), se produce una reacción en cadena que librea una gran cantidad de energía que llamamos explosión {1:SA:=nuclear:= termo nuclear}. Es el caso de la bomba {1:MC:=atómica~de hidrógeno~de neutrones~TNT}.</div>
+<div>La forma de regular esta reacción es absorbiendo los neutrones que se van liberando. Esto se consigue mediante una barras de grafito que se pueden introducir a voluntad entre el combustible nuclear y que absorben el exceso de neutrones. El conjunto del combustible con las barras de control se denomina <b>reactor nuclear</b>.<br /></div>
+<div><br /></div>]]>
+      </text>
+    </questiontext>
+    <generalfeedback>
+      <text></text>
+    </generalfeedback>
+    <shuffleanswers>0</shuffleanswers>
+  </question>
+  <!-- question: 45563  -->
+  <question type="cloze">
+    <name>
+      <text>solar fotovoltaica</text>
+    </name>
+    <questiontext>
+      <text>
+<![CDATA[<h1>Energía solar fotovoltaica</h1>
+<div>La energía solar fotovoltaica es capaz de transformar la energía de la radiación solar en electricidad gracias a la labor de las células solares fotovoltaicas hechas de material semiconductor.</div>
+<div>Para poder inyectar la energía eléctrica producida en la red hace falta transformar la {1:MC:=corriente continua~corriente alterna} que producen las placas en {1:MC:corriente continua~=corriente alterna}, labor de la que se encarga un aparato llamado {1:SA:=inversor}.</div>
+<div>Dado que la posición del sol con respecto a la tierra varía continuamente, para mejorar la productividad, es bueno contar con un {1:SA:=sistema de seguimiento} que es capaz de optimizar la orientación de los paneles de manera que captación de la energía sea máxima. <br /></div>
+<div>La capacidad de captación de los paneles solares se mide en wp (watios pico) que son los watios que produce cada panel con una orientación optima con el sol.</div>
+<div><img src="https://ibersia.ovh/tec/energia/centrales/fotovoltaica.gif" alt="central fotovoltaica" title="central fotovoltaica" vspace="0" hspace="0" border="0" /><br /></div>]]>
+      </text>
+    </questiontext>
+    <generalfeedback>
+      <text></text>
+    </generalfeedback>
+    <shuffleanswers>0</shuffleanswers>
+  </question>
+  <!-- question: 45514  -->
+  <question type="cloze">
+    <name>
+      <text>subproductos nucleares</text>
+    </name>
+    <questiontext>
+      <text>
+<![CDATA[<div>
+  <h1>Subproductos nucleares</h1></div>
+<div>Los elementos pesados inestables que forman el {1:SA:= combustible ~=&quot;combustible&quot;} nuclear al {1:MC:quemarse~fusionarse~=fisionarse} producen otros elementos más {1:MC:blandos~pesados~=ligeros~duros} que son también inestables y que continúan fisionándose hasta transformarse en algún tipo de elemento estable, generalmente plomo.</div>
+<div>Así tenemos dos tipos de subproductos: los de alta actividad y los de baja actividad.</div>
+<div>Los de alta actividad tienen una vida corta hasta llegar a sus estados estables. Los de baja actividad tardan mucho en llegar. Esto se mide con un parámetro llamado <b>periodo de semidesintegración</b> que es el tiempo necesario para que la cantidad del elemento de una muestra se reduzca a la mitad.</div>
+<div>Los periodos de {1:SA:=semidesintegración} pueden variar entre milésimas de segundo a miles de años. El <sup>14</sup>C ({1:SA:=carbono catorce~=carbono 14}), por ejemplo, tiene un periodo de semidesintegración de unos 6000 años. Esto significa que después de 12mil años una muestra ha reducido su cantidad de este {1:MC:ión~elemento~=isótopo} a la {1:SA:=cuarta~=1/4} parte.</div>
+<div>Los subproductos con periodo de semidesintegración pequeño producen {1:MC:=mucha~poca} radiación durante {1:MC:mucho~=poco} tiempo.</div>
+<div>Los subproductos de alta actividad (periodo de semidesintegración {1:MC:=corto~largo}) tienen mucha utilidad en la medicina y la investigación científica. Se usan para el tratamiento del cáncer con radioterapias, para determinar rutas metabólicas, etc.</div>
+<div>Los subproductos de baja actividad producen {1:MC:mucha~=poca} radiación durante {1:MC:=mucho~poco} tiempo. Estos son los que llamamos {1:SA:=residuos} nucleares y son el principal problema de las centrales nucleares<br /> </div>]]>
+      </text>
+    </questiontext>
+    <generalfeedback>
+      <text></text>
+    </generalfeedback>
+    <shuffleanswers>0</shuffleanswers>
+  </question>
+  <!-- question: 45493  -->
+  <question type="cloze">
+    <name>
+      <text>torre de refrigeración</text>
+    </name>
+    <questiontext>
+      <text>
+<![CDATA[<div>
+  <h1>Torres de refrigeración</h1>
+  <div>
+    <p>El vapor de agua que mueve las turbinas al salir de ellas ha bajado su temperatura, pero sigue siendo vapor. Necesitamos que se {1:MC:congele~evapore~sublime~=condense} para poder inyectarla de nuevo en la caldera. Este proceso se realiza en las torres de refrigeración. El vapor de agua entra por la parte baja de las torres y se comporta como una nube que asciende por la torre. Por el hecho de {1:MC:contraerse~=expandirse~elevarse}, se enfría. Pero en su ascenso hace efecto chimenea absorbiendo {1:SA:=aire} que entra por la parte baja de la torre. Las torres están levantadas del suelo para permitir esa entrada. Además, por la parte alta se inyecta {1:SA:=agua líquida~vapor de agua} que contribuye al enfriamiento. En total la torre de refrigeración mantiene confinada una nube que llueve dentro de la misma.</p>
+    <p>Después del proceso obtenemos agua {1:MC:=líquida~gaseosa} {1:SA:=caliente~fría}</p>
+    <p><img src="https://ibersia.ovh/tec/energia/centrales/torre_refrigeracion.gif" alt="torre de refrigeración" title="torre de refrigeración" width="569" hspace="0" border="0" vspace="0" /><br /></p></div></div>
+<div>
+  <p><br /> </p></div>]]>
+      </text>
+    </questiontext>
+    <generalfeedback>
+      <text></text>
+    </generalfeedback>
+    <shuffleanswers>0</shuffleanswers>
+  </question>
+  <!-- question: 0  -->
+  <question type="category">
+    <category>
+      <text>$course$/energia/leccion_energia</text>
+    </category>
+  </question>
+  <!-- question: 45456  -->
+  <question type="multichoice">
+    <name>
+      <text>almacenamiento</text>
+    </name>
+    <questiontext format="html">
+      <text>
+<![CDATA[Indica cuales de las siguientes formas de energía se pueden almacenar<br />]]>
+      </text>
+    </questiontext>
+    <image></image>
+    <generalfeedback>
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1</defaultgrade>
+    <penalty>0.5</penalty>
+    <hidden>0</hidden>
+    <shuffleanswers>1</shuffleanswers>
+    <single>false</single>
+    <shuffleanswers>true</shuffleanswers>
+    <correctfeedback>
+      <text></text>
+    </correctfeedback>
+    <partiallycorrectfeedback>
+      <text></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback>
+      <text></text>
+    </incorrectfeedback>
+    <answernumbering>abc</answernumbering>
+    <answer fraction="33.333">
+      <text>energía química</text>
+      <feedback>
+        <text>Efectivamente, los combustibles o las pilas almacenan energía química.</text>
+      </feedback>
+    </answer>
+    <answer fraction="33.333">
+      <text>energía nuclear</text>
+      <feedback>
+        <text>
+<![CDATA[ Correcto. Los &quot;combustibles&quot; nucleares se pueden almacena, aunque es algo que puede ser peligroso. ]]>
+        </text>
+      </feedback>
+    </answer>
+    <answer fraction="33.333">
+      <text>energía mecánica</text>
+      <feedback>
+        <text>Efectivamente. La energía mecánica se puede almacenar, por ejemplo en las masas de agua de los embalses</text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text>Térmica</text>
+      <feedback>
+        <text>
+<![CDATA[ Almacenar energía térmica es posible, pero no por mucho tiempo. La forma de hacerlo es mediante masas a alta temperatura en recintos aislados. El calor terminará saliendo. No se puede almacenar a largo plazo.<br /> ]]>
+        </text>
+      </feedback>
+    </answer>
+    <answer fraction="-33.333">
+      <text>eléctrica</text>
+      <feedback>
+        <text>La energía eléctrica no se puede almacenar. Existen unos artefactos llamados condensadores que permiten almacenar cantidades muy pequeñas. A gran escala no se puede</text>
+      </feedback>
+    </answer>
+  </question>
+  <!-- question: 0  -->
+  <question type="category">
+    <category>
+      <text>$course$/energia/centrales</text>
+    </category>
+  </question>
+  <!-- question: 45451  -->
+  <question type="multichoice">
+    <name>
+      <text>Alternador</text>
+    </name>
+    <questiontext format="html">
+      <text>
+<![CDATA[<div>
+  <p>Las corrientes eléctricas generan campos magnéticos. Los campos magnéticos <u>variables</u> generan corrientes eléctricas. Si ponemos un imán estático al lado de una bobina, no genera electricidad; pero cuando lo movemos, sí la produce. Si acerco el imán a la bobina, se genera una corriente que va en una dirección y si lo alejo, va en dirección contraria.</p>
+  <p>Pide al profesor una bobina, un imán y un polímetro para comprobarlo.<br /></p>
+  <h1>Alternador<br /></h1></div>
+<div>Los alternadores son máquinas eléctricas que son capaces de transformar movimiento (energía mecánica) en una corriente eléctrica alterna. Se estudian en 2º de bachillerato. En esencia se componen de un conjunto de bobinados y unos imanes que al rotar se acercan y alejan sucesivamente de cada bobinado generando corrientes en ellos</div>
+<div><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/03/Alternador.svg/420px-Alternador.svg.png" alt="alternador" title="alternador" vspace="0" hspace="0" border="0" /><br /></div>
+<div>Por cuestiones prácticas los bobinados se organizan en grupos de tres de manera que a la salida del alternador disponemos de tres corrientes eléctricas alternas desfasadas. Observa como en los tendidos eléctricos los cables de potencia (los gordos) van siempre en múltiplos de 3, aunque hay un cable adicional más fino (llamado neutro) que lleva una tensión de referencia común a todos ellos.</div>
+<div><img src="https://ibersia.ovh/tec/estructuras/ejercicios/estructuras/imag/ej17.JPG" alt="torre de alta tensión" title="torre de alta tensión" width="146" vspace="0" hspace="0" height="300" border="0" /></div>
+<div><br /></div>
+<div>¿Por qué se transporta la electricidad a alta tensión?<br /></div>
+<div><br /></div>]]>
+      </text>
+    </questiontext>
+    <image></image>
+    <generalfeedback>
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1</defaultgrade>
+    <penalty>0.5</penalty>
+    <hidden>0</hidden>
+    <shuffleanswers>1</shuffleanswers>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <correctfeedback>
+      <text></text>
+    </correctfeedback>
+    <partiallycorrectfeedback>
+      <text></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback>
+      <text></text>
+    </incorrectfeedback>
+    <answernumbering>abc</answernumbering>
+    <answer fraction="100">
+      <text>Porque es más barato</text>
+      <feedback>
+        <text>
+<![CDATA[ Efectivamente. Como hemos estudiado en el tema de electricidad, para la misma potencia transportada, cuanto mayor es la tensión, menor es la intensidad y las perdidas de energía por calentamiento de los cables, son proporcionales al cuadrado de la intensidad. Por tanto, cuanto menor sea la intensidad, perderemos menos energía en el transporte<br /> ]]>
+        </text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text>porque es más seguro</text>
+      <feedback>
+        <text>No es correcto</text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text>porque la energía generada tiene alta tensión</text>
+      <feedback>
+        <text>No es correcto</text>
+      </feedback>
+    </answer>
+  </question>
+  <!-- question: 45492  -->
+  <question type="multichoice">
+    <name>
+      <text>combustibles ciclo combinado</text>
+    </name>
+    <questiontext format="html">
+      <text>¿Qué combustible se usa en una central de ciclo combinado?</text>
+    </questiontext>
+    <image></image>
+    <generalfeedback>
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1</defaultgrade>
+    <penalty>0.5</penalty>
+    <hidden>0</hidden>
+    <shuffleanswers>1</shuffleanswers>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <correctfeedback>
+      <text></text>
+    </correctfeedback>
+    <partiallycorrectfeedback>
+      <text></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback>
+      <text></text>
+    </incorrectfeedback>
+    <answernumbering>abc</answernumbering>
+    <answer fraction="100">
+      <text>Gas natural</text>
+      <feedback>
+        <text>El gas natural es el principal combustible de estas centrales ya que produce muy pocos residuos. Los residuos se acumularían en los álabes de la turbina, deteriorándola.</text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text>Gasoil</text>
+      <feedback>
+        <text>Es posible usar gasoil, peor no es el combustible más usado</text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text>Carbón</text>
+      <feedback>
+        <text>El carbón produce muchos residuos. No se puede usar.</text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text>Uranio enriquecido</text>
+      <feedback>
+        <text>El uranio no sirve para este tipo de centrales</text>
+      </feedback>
+    </answer>
+  </question>
+  <!-- question: 0  -->
+  <question type="category">
+    <category>
+      <text>$course$/energia/leccion_energia</text>
+    </category>
+  </question>
+  <!-- question: 45447  -->
+  <question type="multichoice">
+    <name>
+      <text>hielo</text>
+    </name>
+    <questiontext format="html">
+      <text>Cogemos un vaso de agua y lo metemos en la nevera. Al cabo de un tiempo se trasforma en hielo. ¿Qué le ha pasado a la entropía del agua del vaso?</text>
+    </questiontext>
+    <image></image>
+    <generalfeedback>
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1</defaultgrade>
+    <penalty>0.5</penalty>
+    <hidden>0</hidden>
+    <shuffleanswers>1</shuffleanswers>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <correctfeedback>
+      <text></text>
+    </correctfeedback>
+    <partiallycorrectfeedback>
+      <text></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback>
+      <text></text>
+    </incorrectfeedback>
+    <answernumbering>abc</answernumbering>
+    <answer fraction="100">
+      <text>Ha disminuído</text>
+      <feedback>
+        <text>Efectivamente, el hielo está más ordenado que el agua líquida. La entropía ha disminuido y esto no contradice el segundo principio ya que no se trata de un sistema aislado. Hemos conseguido ordenarlo bajando su temperatura, con lo que el calor ha tenido que fluir hacia afuera del sistema</text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text>Ha aumentado</text>
+      <feedback>
+        <text>No es correcto</text>
+      </feedback>
+    </answer>
+  </question>
+  <!-- question: 45458  -->
+  <question type="multichoice">
+    <name>
+      <text>impacto ambiental</text>
+    </name>
+    <questiontext format="html">
+      <text>
+<![CDATA[<div>El uso y producción de la energía tiene un impacto ambiental. Los impactos ambientales más importantes son la emisión de gases del efecto invernadero, la emisión de contaminantes químicos, la emisión de contaminantes nucleares, el agotamiento de recursos y el impacto paisajístico y social. <br /></div>
+<div><br /></div>
+<div>Los impactos ambientales de la producción y transporte de energía...<br /></div>]]>
+      </text>
+    </questiontext>
+    <image></image>
+    <generalfeedback>
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1</defaultgrade>
+    <penalty>0.5</penalty>
+    <hidden>0</hidden>
+    <shuffleanswers>1</shuffleanswers>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <correctfeedback>
+      <text></text>
+    </correctfeedback>
+    <partiallycorrectfeedback>
+      <text></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback>
+      <text></text>
+    </incorrectfeedback>
+    <answernumbering>abc</answernumbering>
+    <answer fraction="100">
+      <text>los hay negativos y positivos.</text>
+      <feedback>
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text>son negativos</text>
+      <feedback>
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text>son positivos</text>
+      <feedback>
+        <text></text>
+      </feedback>
+    </answer>
+  </question>
+  <!-- question: 0  -->
+  <question type="category">
+    <category>
+      <text>$course$/energia/centrales</text>
+    </category>
+  </question>
+  <!-- question: 45484  -->
+  <question type="multichoice">
+    <name>
+      <text>perdidas en la central térmica</text>
+    </name>
+    <questiontext format="html">
+      <text>En qué parte del proceso de una central térmica perdemos más rendimiento</text>
+    </questiontext>
+    <image></image>
+    <generalfeedback>
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>2</defaultgrade>
+    <penalty>0.5</penalty>
+    <hidden>0</hidden>
+    <shuffleanswers>1</shuffleanswers>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <correctfeedback>
+      <text></text>
+    </correctfeedback>
+    <partiallycorrectfeedback>
+      <text></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback>
+      <text></text>
+    </incorrectfeedback>
+    <answernumbering>abc</answernumbering>
+    <answer fraction="100">
+      <text>En la quema del combustible</text>
+      <feedback>
+        <text>Efectivamente. Por la chimenea se van los gases de combustión llevándose una gran cantidad de la energía.</text>
+      </feedback>
+    </answer>
+    <answer fraction="80">
+      <text>en la torre de refrigeración</text>
+      <feedback>
+        <text>En la torre de refrigeración se pierde mucha energía, pero hay otra zona en la que se pierde más</text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text>en el alternador</text>
+      <feedback>
+        <text>No es correcto</text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text>en el transformador</text>
+      <feedback>
+        <text>No es correcto</text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text>en la bomba</text>
+      <feedback>
+        <text>no es correcto</text>
+      </feedback>
+    </answer>
+  </question>
+  <!-- question: 45485  -->
+  <question type="multichoice">
+    <name>
+      <text>transformador</text>
+    </name>
+    <questiontext format="html">
+      <text>
+<![CDATA[<div>
+  <h1>Transformador</h1></div>
+<div>La electricidad generada por los alternadores es de baja tensión y como hemos visto, para transportarla es conveniente que sea de alta tensión. Más tensión cuanto más lejos tengamos que llevarla. <br /></div>
+<div>La maquina encargada de realizar esta función se llama transformador. Se estudia en 2º de bachillerato. Básicamente se trata en dos bobinados realizados sobre un núcleo de ferrita, de manera que hay un campo magnético común entre ellos. La tensión en los bobinados es proporcional al número de espiras.</div>
+<div><br /></div>
+<div><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/33/Transformer3d_col3_es.svg/400px-Transformer3d_col3_es.svg.png" alt="transformador" title="transformador" vspace="0" hspace="0" border="0" /></div>Se llama primario al bobinado en el que metemos corriente con la tensión de origen y secundario el bobinado que obtenemos la corriente con la tensión transformada.<br />
+<div> En el caso de corrientes trifásicas, necesitaríamos un sistema de estos para cada fase. <br /></div>
+<div><br /></div> ¿Cómo serán los cables de los bobinados del transformador de una central?]]>
+      </text>
+    </questiontext>
+    <image></image>
+    <generalfeedback>
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1</defaultgrade>
+    <penalty>0.5</penalty>
+    <hidden>0</hidden>
+    <shuffleanswers>1</shuffleanswers>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <correctfeedback>
+      <text></text>
+    </correctfeedback>
+    <partiallycorrectfeedback>
+      <text></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback>
+      <text></text>
+    </incorrectfeedback>
+    <answernumbering>abc</answernumbering>
+    <answer fraction="100">
+      <text>más gruesos en el bobinado primario que en el secundario</text>
+      <feedback>
+        <text>Correcto. En las centrales la electricidad se genera a baja tensión y por tanto con alta intensidad, por eso el primario debe ser grueso, para soportar bien esa alta intensidad</text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text>Más gruesos en el bobinado secundario que en el primario</text>
+      <feedback>
+        <text>No es correcto</text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text>de un grosor similar en ambos bobinados</text>
+      <feedback>
+        <text>No es correcto</text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text>El grosor no tiene importancia</text>
+      <feedback>
+        <text>No es correcto</text>
+      </feedback>
+    </answer>
+  </question>
+  <!-- question: 45483  -->
+  <question type="multichoice">
+    <name>
+      <text>turbinas hidráulicas</text>
+    </name>
+    <questiontext format="html">
+      <text>
+<![CDATA[<div>Hay muchos tipos de turbinas hidráulicas. Las más usadas son la <a href="https://es.wikipedia.org/wiki/Turbina_Francis" target="_blank">francis</a> y la <a href="https://es.wikipedia.org/wiki/Turbina_Pelton" target="_blank">pelton</a>. <br /></div>
+<div>¿Cuál se usa en las centrales de bombeo?<br /> </div>]]>
+      </text>
+    </questiontext>
+    <image></image>
+    <generalfeedback>
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1</defaultgrade>
+    <penalty>1</penalty>
+    <hidden>0</hidden>
+    <shuffleanswers>1</shuffleanswers>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <correctfeedback>
+      <text></text>
+    </correctfeedback>
+    <partiallycorrectfeedback>
+      <text></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback>
+      <text></text>
+    </incorrectfeedback>
+    <answernumbering>abc</answernumbering>
+    <answer fraction="100">
+      <text>La francis</text>
+      <feedback>
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text>la peltón</text>
+      <feedback>
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text>cualquiera de las dos</text>
+      <feedback>
+        <text></text>
+      </feedback>
+    </answer>
+  </question>
+  <!-- question: 0  -->
+  <question type="category">
+    <category>
+      <text>$course$/energia/examen energía</text>
+    </category>
+  </question>
+  <!-- question: 45633  -->
+  <question type="shortanswer">
+    <name>
+      <text>humo torre de refrigeración</text>
+    </name>
+    <questiontext format="html">
+      <text>¿Qué es el humo blanco que sale de las torres de refrigeración de una central térmica?</text>
+    </questiontext>
+    <image></image>
+    <generalfeedback>
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1</defaultgrade>
+    <penalty>0.1</penalty>
+    <hidden>0</hidden>
+    <shuffleanswers>0</shuffleanswers>
+    <usecase>0</usecase>
+    <answer fraction="100">
+      <text>Agua</text>
+      <feedback>
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="100">
+      <text>Vapor de agua</text>
+      <feedback>
+        <text></text>
+      </feedback>
+    </answer>
+  </question>
+  <!-- question: 45635  -->
+  <question type="shortanswer">
+    <name>
+      <text>inversor</text>
+    </name>
+    <questiontext format="html">
+      <text>¿Cómo se llama el elemento que es capaz de transformar corriente continua en corriente alterna?</text>
+    </questiontext>
+    <image></image>
+    <generalfeedback>
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1</defaultgrade>
+    <penalty>0.1</penalty>
+    <hidden>0</hidden>
+    <shuffleanswers>0</shuffleanswers>
+    <usecase>0</usecase>
+    <answer fraction="100">
+      <text>inversor</text>
+      <feedback>
+        <text></text>
+      </feedback>
+    </answer>
+  </question>
+  <!-- question: 0  -->
+  <question type="category">
+    <category>
+      <text>$course$/energia/leccion_energia</text>
+    </category>
+  </question>
+  <!-- question: 45445  -->
+  <question type="shortanswer">
+    <name>
+      <text>Julio</text>
+    </name>
+    <questiontext format="html">
+      <text>¿Cuál es la unidad de energía en el sistema internacional?</text>
+    </questiontext>
+    <image></image>
+    <generalfeedback>
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1</defaultgrade>
+    <penalty>0.5</penalty>
+    <hidden>0</hidden>
+    <shuffleanswers>0</shuffleanswers>
+    <usecase>0</usecase>
+    <answer fraction="100">
+      <text>julio</text>
+      <feedback>
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="100">
+      <text>el julio</text>
+      <feedback>
+        <text></text>
+      </feedback>
+    </answer>
+  </question>
+  <!-- question: 0  -->
+  <question type="category">
+    <category>
+      <text>$course$/energia/examen energía</text>
+    </category>
+  </question>
+  <!-- question: 45636  -->
+  <question type="shortanswer">
+    <name>
+      <text>transformador</text>
+    </name>
+    <questiontext format="html">
+      <text>¿Cómo se llama la máquina que es capaz de cambiar la tensión de una corriente alterna?</text>
+    </questiontext>
+    <image></image>
+    <generalfeedback>
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1</defaultgrade>
+    <penalty>0.1</penalty>
+    <hidden>0</hidden>
+    <shuffleanswers>0</shuffleanswers>
+    <usecase>0</usecase>
+    <answer fraction="100">
+      <text>transformador</text>
+      <feedback>
+        <text></text>
+      </feedback>
+    </answer>
+  </question>
+  <!-- question: 0  -->
+  <question type="category">
+    <category>
+      <text>$course$/energia/centrales</text>
+    </category>
+  </question>
+  <!-- question: 45482  -->
+  <question type="shortanswer">
+    <name>
+      <text>turbina de vapor</text>
+    </name>
+    <questiontext format="html">
+      <text>
+<![CDATA[<br />
+<div><iframe src="https://www.youtube.com/embed/M2bjwjgWHEs" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" width="560" height="315" frameborder="0"></iframe> </div>
+<div><br /></div>
+<div>¿ Cómo se llaman las palas de las turbinas de vapor?</div>]]>
+      </text>
+    </questiontext>
+    <image></image>
+    <generalfeedback>
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1</defaultgrade>
+    <penalty>0.5</penalty>
+    <hidden>0</hidden>
+    <shuffleanswers>0</shuffleanswers>
+    <usecase>0</usecase>
+    <answer fraction="100">
+      <text>álabes</text>
+      <feedback>
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="80">
+      <text>alabes</text>
+      <feedback>
+        <text></text>
+      </feedback>
+    </answer>
+  </question>
+</quiz>
